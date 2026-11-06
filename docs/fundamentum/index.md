@@ -7,6 +7,13 @@ stats and events work together instead of each mod rolling its own. Nearly every
 
 **Requires:** Curios. **Optional:** JEI (shows portal crafting recipes).
 
+## Mods that use Fundamentum
+
+??? note "Mods that require Fundamentum (1)"
+
+    - [Ostentum](../ostentum/index.md): weapons, relics and summons built on Fundamentum's wings, mounts, hooks,
+      summons and whips.
+
 ## For players
 
 - **Wings** in their own Curios slot (with a cosmetic twin). Hold jump to fly, then glide. No fall damage while flying.
