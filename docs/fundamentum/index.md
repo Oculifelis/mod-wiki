@@ -58,11 +58,16 @@ Both are in the Fundamentum key category.
 
 | Mod | What Fundamentum adds | Needed? |
 |---|---|---|
-| [Jade](https://modrinth.com/mod/jade) | looking at a playing jukebox shows the disc, a progress bar and "1:12 / 3:05"; toggle it in Jade's plugin settings ("Jukebox song progress"); 26.1.2 for now | optional |
+| [Jade](https://modrinth.com/mod/jade) | looking at a playing jukebox shows the disc, a progress bar and "1:12 / 3:05"; works for every disc, modded ones too; toggle it in Jade's plugin settings ("Jukebox song progress") | optional |
 | [JEI](https://modrinth.com/mod/jei) | portal crafting recipes | optional |
 
 Item tooltips: other mods' lines added through Fundamentum fold behind Shift too. Tag items `#fundamentum:tooltip_always`
 to keep their text open, or `#fundamentum:tooltip_fold` to fold a short one.
+
+## Shaders
+
+With Iris and a shader pack, moon and night-event sky tints, whip cords and glowing item faces still show (26.1.2,
+from 1.25.4). The Psychedelic Moon's fractal sky doesn't show under packs that draw their own sky, such as Complementary.
 
 ## Pages
 
