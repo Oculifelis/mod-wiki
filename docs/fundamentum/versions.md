@@ -2,10 +2,11 @@
 
 | Minecraft | Loader | Fundamentum | Notes |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.25.1 | the main line: everything on this wiki |
-| 1.21.1 | NeoForge 21.1 | 1.25.0 | everything except a few parts that need newer Minecraft (below) |
-| 26.2 | NeoForge | 1.14.1 | older: no whips, elements, portal crafting, fractal skies, glow or curves |
-| 1.20.1 | Forge 47 | 1.14.1 | older still: also no summons, damage classes, shared damage types, poses or triggers |
+| 26.1.2 | NeoForge | 1.25.3 | the main line: everything on this wiki |
+| 1.21.1 | NeoForge 21.1 | 1.25.3 | everything except a few parts that need newer Minecraft (below); no Jade line yet |
+| 26.2 | NeoForge 26.2 | 1.25.2 | the same as 26.1.2 at 1.25.2 (no Shift tooltips or Jade line yet) |
+| 26.3 | NeoForge 26.3 | 1.25.2 | the same as 26.2 |
+| 1.20.1 | Forge 47 | 1.25.2 | the same as 1.21.1 at 1.25.2, with the same parts left out |
 
 ## What 1.21.1 leaves out
 

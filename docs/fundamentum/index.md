@@ -48,10 +48,21 @@ Both are in the Fundamentum key category.
 | File | Option | Default | Meaning |
 |---|---|---|---|
 | `config/fundamentum-client.toml` | `whips.flatHandles` | false | flat whip handles in hand instead of 3D ones |
+| `config/fundamentum-client.toml` | `tooltips.shiftForDetails` | true | item descriptions and stats fold behind "Hold [Shift] for details"; false always shows them |
 | `config/fundamentum-sky-client.toml` | `sky.fractalSkies` | true | draw fractal skies |
 | | `sky.melt` | true | the melting-vision effect |
 | | `sky.meltIntensity` | 0.5 | 0 to 1 |
 | `config/fundamentum-common.toml` | `moons.psychedelicMoon` | false | lets the Psychedelic Moon roll (3% of nights, never a full moon) |
+
+## Compatibility
+
+| Mod | What Fundamentum adds | Needed? |
+|---|---|---|
+| [Jade](https://modrinth.com/mod/jade) | looking at a playing jukebox shows the disc, a progress bar and "1:12 / 3:05"; toggle it in Jade's plugin settings ("Jukebox song progress"); 26.1.2 for now | optional |
+| [JEI](https://modrinth.com/mod/jei) | portal crafting recipes | optional |
+
+Item tooltips: other mods' lines added through Fundamentum fold behind Shift too. Tag items `#fundamentum:tooltip_always`
+to keep their text open, or `#fundamentum:tooltip_fold` to fold a short one.
 
 ## Pages
 
