@@ -8,6 +8,6 @@ One site for all of Oculifelis's Minecraft mods: Fundamentum and Ostentum so far
 
 To add a mod, see `docs/adding-a-mod.md`.
 
-Publishing: turn on GitHub Pages with "GitHub Actions" as the source, then run the "Publish wiki" workflow.
+Publishing: every push to main builds the site and deploys it to GitHub Pages (source: GitHub Actions).
 
 By Oculifelis.
