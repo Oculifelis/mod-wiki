@@ -1,0 +1,62 @@
+site_name: Oculifelis's Mods
+site_description: Guides for Oculifelis's Minecraft mods
+site_author: Oculifelis
+copyright: Made by Oculifelis
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle: {icon: material/weather-sunny, name: Light mode}
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc: {permalink: true}
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+nav:
+  - Home: index.md
+  - Fundamentum:
+      - fundamentum/index.md
+      - Versions: fundamentum/versions.md
+      - Datapacks:
+          - fundamentum/datapack/index.md
+          - Wings: fundamentum/datapack/wings.md
+          - Mounts: fundamentum/datapack/mounts.md
+          - Hooks: fundamentum/datapack/hooks.md
+          - Summons: fundamentum/datapack/summons.md
+          - Whips: fundamentum/datapack/whips.md
+          - Moons: fundamentum/datapack/moons.md
+          - Night events: fundamentum/datapack/night-events.md
+          - Fractal skies: fundamentum/datapack/fractal-skies.md
+          - Elements: fundamentum/datapack/elements.md
+          - Creature types: fundamentum/datapack/creatures.md
+          - Use sickness: fundamentum/datapack/sickness.md
+          - Portal crafting: fundamentum/datapack/portal-crafting.md
+          - Tags and slots: fundamentum/datapack/tags.md
+          - Player poses: fundamentum/datapack/poses.md
+      - KubeJS: fundamentum/kubejs.md
+      - API: fundamentum/api.md
+      - Commands: fundamentum/commands.md
+  - Ostentum:
+      - ostentum/index.md
+      - Items: ostentum/items.md
+      - Config: ostentum/config.md
+  - Adding a mod: adding-a-mod.md
