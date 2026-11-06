@@ -93,13 +93,13 @@ Each has one trick of its own; the tooltip says what.
 | Weapon | Trick | How to get it |
 |---|---|---|
 | Weathervane Spear | sprinting builds static that the next jab discharges; jabs power redstone | ordinary trial chamber vaults (5%) |
-| Pathfinder's Glaive | plant it as a waypoint, see a beam to it through walls, call it back | crafted |
-| Duelist's Saber | parry with use; a riposte right after is a guaranteed crit | sold by master weaponsmiths |
+| Pathfinder's Glaive | plant it as a waypoint: a gold beacon beam to the sky marks it from any distance; call it back | crafted |
+| Duelist's Saber | hold use to guard (hits from the front are halved); the first half second is a perfect parry, and a riposte right after is a guaranteed crit; a guard that blocks nothing has a short cooldown | sold by master weaponsmiths |
 | Hearthblade (and Soul Hearthblade) | kills cook their drops and store food to eat later | find a Cold Hearthblade brushing trail ruins (8%), then set it on a lit campfire (a soul campfire makes the soul one) |
 | Echo Blade | every hit echoes 1.5 s later for half | smithing: netherite sword, Resonant Hilt (ancient city chests, 8%), echo shard |
-| Frostbite Hatchet | thrown as a returning boomerang; freezes water and mobs | crafted |
+| Frostbite Hatchet | thrown as a returning boomerang that comes back to the slot it left; freezes water and mobs | crafted |
 | Bloom Bow | arrows bonemeal where they land and heal your pets | crafted |
-| Voidstring Bow | arrows fly straight and curve to mobs; a full draw swaps places with the target | crafted |
+| Voidstring Bow | arrows fly straight and curve to mobs; a full draw swaps places with the target (players too, under the server's PvP rules), and a fully drawn kill takes you to where it fell; recipe uses an ender pearl | crafted |
 | Engineer's Crossbow | rope mode strings a zipline; combat mode is a 5-bolt magazine | crafted |
 | Bastion Crossbow | fast, three bolts, can fire flame bolts; piglins don't mind it | bastion treasure chests (20%) |
 | Fisher King's Trident | thrown into water it fishes; bonus damage to aquatic mobs | crafted |

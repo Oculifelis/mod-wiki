@@ -11,6 +11,20 @@ These come from Fundamentum and affect Ostentum's items (see [Fundamentum's conf
 | `fundamentum-client.toml` | `whips.flatHandles` | false | true draws whips in hand as flat icons instead of 3D handles |
 | `fundamentum-sky-client.toml` | `sky.fractalSkies`, `sky.melt` | true | Ostentum's moons don't use fractal skies, so these only matter for other mods' moons |
 
+## Game rule
+
+| Rule | Default | Effect |
+|---|---|---|
+| `ostentum:voidstring_affects_players` (1.21.1: `ostentum:voidstringAffectsPlayers`) | true | false: the Voidstring Bow's swap and pull skip players, who take plain arrow damage. With it on, the server's PvP setting and team friendly fire still apply, and the shooter is never affected. |
+
+Set it with `/gamerule ostentum:voidstring_affects_players false`.
+
+## Tags
+
+| Tag | Default | Effect |
+|---|---|---|
+| `#ostentum:voidstring_immune` (entity type) | wither, ender dragon, warden, elder guardian | the Voidstring Bow never swaps places with or pulls these; add a mod's bosses here |
+
 ## Datapacks
 
 Almost everything in Ostentum is Fundamentum data under `data/ostentum/fundamentum/`, so a datapack can change it by
