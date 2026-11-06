@@ -1,0 +1,151 @@
+/* Solarized (Ethan Schoonover's palette). Dark is the default scheme. */
+:root {
+  --sol-base03: #002b36;
+  --sol-base02: #073642;
+  --sol-base01: #586e75;
+  --sol-base00: #657b83;
+  --sol-base0: #839496;
+  --sol-base1: #93a1a1;
+  --sol-base2: #eee8d5;
+  --sol-base3: #fdf6e3;
+  --sol-yellow: #b58900;
+  --sol-orange: #cb4b16;
+  --sol-red: #dc322f;
+  --sol-magenta: #d33682;
+  --sol-violet: #6c71c4;
+  --sol-blue: #268bd2;
+  --sol-cyan: #2aa198;
+  --sol-green: #859900;
+}
+
+[data-md-color-scheme="solarized-dark"] {
+  color-scheme: dark;
+  --md-hue: 192;
+
+  --md-default-bg-color: var(--sol-base03);
+  --md-default-bg-color--light: rgba(0, 43, 54, 0.54);
+  --md-default-bg-color--lighter: rgba(0, 43, 54, 0.26);
+  --md-default-bg-color--lightest: rgba(0, 43, 54, 0.07);
+  --md-default-fg-color: var(--sol-base1);
+  --md-default-fg-color--light: var(--sol-base0);
+  --md-default-fg-color--lighter: var(--sol-base01);
+  --md-default-fg-color--lightest: rgba(88, 110, 117, 0.3);
+
+  --md-primary-fg-color: var(--sol-base02);
+  --md-primary-fg-color--light: var(--sol-base02);
+  --md-primary-fg-color--dark: var(--sol-base03);
+  --md-primary-bg-color: var(--sol-base1);
+  --md-primary-bg-color--light: var(--sol-base0);
+
+  --md-accent-fg-color: var(--sol-yellow);
+  --md-accent-fg-color--transparent: rgba(181, 137, 0, 0.1);
+  --md-accent-bg-color: var(--sol-base03);
+
+  --md-typeset-color: var(--sol-base0);
+  --md-typeset-a-color: var(--sol-blue);
+  --md-typeset-mark-color: rgba(181, 137, 0, 0.3);
+  --md-typeset-table-color: rgba(88, 110, 117, 0.35);
+  --md-typeset-table-color--light: rgba(7, 54, 66, 0.6);
+
+  --md-code-bg-color: var(--sol-base02);
+  --md-code-fg-color: var(--sol-base0);
+  --md-code-hl-color: rgba(181, 137, 0, 0.15);
+  --md-code-hl-number-color: var(--sol-magenta);
+  --md-code-hl-special-color: var(--sol-red);
+  --md-code-hl-function-color: var(--sol-blue);
+  --md-code-hl-constant-color: var(--sol-violet);
+  --md-code-hl-keyword-color: var(--sol-green);
+  --md-code-hl-string-color: var(--sol-cyan);
+  --md-code-hl-name-color: var(--sol-base0);
+  --md-code-hl-operator-color: var(--sol-base01);
+  --md-code-hl-punctuation-color: var(--sol-base01);
+  --md-code-hl-comment-color: var(--sol-base01);
+  --md-code-hl-generic-color: var(--sol-base01);
+  --md-code-hl-variable-color: var(--sol-yellow);
+
+  --md-footer-bg-color: var(--sol-base02);
+  --md-footer-bg-color--dark: var(--sol-base03);
+  --md-footer-fg-color: var(--sol-base1);
+  --md-footer-fg-color--light: var(--sol-base0);
+  --md-footer-fg-color--lighter: var(--sol-base01);
+
+  --md-admonition-bg-color: var(--sol-base02);
+  --md-admonition-fg-color: var(--sol-base0);
+  --md-shadow-z1: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+[data-md-color-scheme="solarized-light"] {
+  color-scheme: light;
+  --md-default-bg-color: var(--sol-base3);
+  --md-default-fg-color: var(--sol-base01);
+  --md-default-fg-color--light: var(--sol-base00);
+  --md-default-fg-color--lighter: var(--sol-base1);
+  --md-default-fg-color--lightest: rgba(147, 161, 161, 0.3);
+
+  --md-primary-fg-color: var(--sol-base2);
+  --md-primary-fg-color--light: var(--sol-base2);
+  --md-primary-fg-color--dark: var(--sol-base2);
+  --md-primary-bg-color: var(--sol-base01);
+  --md-primary-bg-color--light: var(--sol-base00);
+
+  --md-accent-fg-color: var(--sol-orange);
+  --md-accent-fg-color--transparent: rgba(203, 75, 22, 0.1);
+
+  --md-typeset-color: var(--sol-base00);
+  --md-typeset-a-color: var(--sol-blue);
+  --md-typeset-mark-color: rgba(181, 137, 0, 0.25);
+
+  --md-code-bg-color: var(--sol-base2);
+  --md-code-fg-color: var(--sol-base00);
+  --md-code-hl-number-color: var(--sol-magenta);
+  --md-code-hl-special-color: var(--sol-red);
+  --md-code-hl-function-color: var(--sol-blue);
+  --md-code-hl-constant-color: var(--sol-violet);
+  --md-code-hl-keyword-color: var(--sol-green);
+  --md-code-hl-string-color: var(--sol-cyan);
+  --md-code-hl-name-color: var(--sol-base00);
+  --md-code-hl-operator-color: var(--sol-base1);
+  --md-code-hl-punctuation-color: var(--sol-base1);
+  --md-code-hl-comment-color: var(--sol-base1);
+  --md-code-hl-variable-color: var(--sol-yellow);
+
+  --md-footer-bg-color: var(--sol-base2);
+  --md-footer-bg-color--dark: var(--sol-base2);
+  --md-footer-fg-color: var(--sol-base01);
+  --md-footer-fg-color--light: var(--sol-base00);
+  --md-footer-fg-color--lighter: var(--sol-base1);
+}
+
+/* Headings in base1 (light: base01), inline code in cyan, table headers on the panel colour. */
+[data-md-color-scheme="solarized-dark"] .md-typeset h1,
+[data-md-color-scheme="solarized-dark"] .md-typeset h2,
+[data-md-color-scheme="solarized-dark"] .md-typeset h3,
+[data-md-color-scheme="solarized-dark"] .md-typeset h4 {
+  color: var(--sol-base1);
+}
+[data-md-color-scheme="solarized-dark"] .md-typeset :not(pre) > code {
+  color: var(--sol-cyan);
+}
+[data-md-color-scheme="solarized-dark"] .md-typeset table:not([class]) th {
+  background-color: var(--sol-base02);
+  color: var(--sol-base1);
+}
+[data-md-color-scheme="solarized-dark"] .md-typeset table:not([class]) {
+  background-color: var(--sol-base03);
+}
+[data-md-color-scheme="solarized-dark"] .md-search__input {
+  background-color: var(--sol-base03);
+  color: var(--sol-base1);
+}
+[data-md-color-scheme="solarized-dark"] .md-tabs {
+  background-color: var(--sol-base02);
+}
+[data-md-color-scheme="solarized-dark"] .md-nav__link--active,
+[data-md-color-scheme="solarized-dark"] .md-nav__item .md-nav__link--active {
+  color: var(--sol-yellow);
+}
+[data-md-color-scheme="solarized-dark"] .md-typeset .grid.cards > ul > li,
+[data-md-color-scheme="solarized-dark"] .md-typeset .grid > .card {
+  background-color: var(--sol-base02);
+  border-color: var(--sol-base01);
+}

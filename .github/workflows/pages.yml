@@ -1,7 +1,8 @@
-# Builds the site and publishes it to GitHub Pages. Run by hand (Actions tab) once Pages is turned on
-# with "GitHub Actions" as its source.
+# Builds the site and publishes it to GitHub Pages on every push to main (Pages source: GitHub Actions).
 name: Publish wiki
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
