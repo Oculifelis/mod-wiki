@@ -1,6 +1,6 @@
 # Orbis Novus
 
-![Green Vale](img/terrain_green_vale.jpg)
+![Green Vale](img/terrain_green_vale.png)
 
 *A new world, and things to find in it.*
 
