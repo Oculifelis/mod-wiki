@@ -15,12 +15,12 @@ brews and info pages.
 Every creature, herb, weapon and charm belongs to one of four herb families. Each family takes full damage from one
 kind of damage, and half from every other kind. Untyped damage, such as fire and falling, is not scaled.
 
-| Family | Herb | Weak to | Weapon line |
-|---|---|---|---|
-| **Pulse** | Pulseroot | ranged | seed guns |
-| **Dusk** | Duskpetal | magic | sceptres |
-| **Moon** | Moonwisp | summons | whips |
-| **Mire** | Mirecap | melee | cleavers |
+| | Family | Herb | Weak to | Weapon line |
+|---|---|---|---|---|
+| ![Pulseroot](img/pulseroot.png){ .mc-icon } | **Pulse** | Pulseroot | ranged | seed guns |
+| ![Duskpetal](img/duskpetal.png){ .mc-icon } | **Dusk** | Duskpetal | magic | sceptres |
+| ![Moonwisp](img/moonwisp.png){ .mc-icon } | **Moon** | Moonwisp | summons | whips |
+| ![Mirecap](img/mirecap.png){ .mc-icon } | **Mire** | Mirecap | melee | cleavers |
 
 The [bestiary](bestiary.md) lists every creature with its family, stats, moves and drops.
 
@@ -29,14 +29,14 @@ The [bestiary](bestiary.md) lists every creature with its family, stats, moves a
 1. **Pick a flower.** Picking a sunflower (Pulse), a rose, poppy, peony or pink tulip (Dusk), a blue orchid or
    cornflower (Moon), or a lily pad, moss or mangrove propagule (Mire) has a 1 in 6 chance of waking that family's
    first monster.
-2. **Splice a herb.** At the **Grafting Bench**, splice wheat seeds with that flower to get the family's herb seeds.
-   Splice those with an **Ember Graft** for the burning strain, then with a **Rime Graft** for the frozen strain.
+2. **Splice a herb.** At the ![Grafting Bench](img/grafting_bench.png){ .mc-icon .mc-inline } **Grafting Bench**, splice wheat seeds with that flower to get the family's herb seeds.
+   Splice those with an ![Ember Graft](img/ember_graft.png){ .mc-icon .mc-inline } **Ember Graft** for the burning strain, then with a ![Rime Graft](img/rime_graft.png){ .mc-icon .mc-inline } **Rime Graft** for the frozen strain.
 3. **Grow and pick it.** Herbs grow on farmland like any crop. Picking a grown herb always wakes a monster: the common
    herb wakes its family's first monster, and the burning and frozen strains wake the [hunters](bestiary.md#the-hunters).
 4. **Spend the drops.** Tokens, trophies and grafts buy and craft better gear.
 
 The **Weedwarden** is a villager who works at the Grafting Bench. She trades seeds, grafts, pellets, charms and weapons
-for tokens and trophies. The three **Grower's Almanac** books explain each step: the first is crafted, and the
+for tokens and trophies. The three ![Grower's Almanac I](img/growers_almanac_1.png){ .mc-icon .mc-inline }![Grower's Almanac II](img/growers_almanac_2.png){ .mc-icon .mc-inline }![Grower's Almanac III](img/growers_almanac_3.png){ .mc-icon .mc-inline } **Grower's Almanac** books explain each step: the first is crafted, and the
 Weedwarden sells the other two.
 
 ## Brewing
@@ -50,13 +50,13 @@ resistance, and the frozen strains add one more effect.
 Every weapon line has three tiers: a plain one, a burning one that sets targets alight, and a frozen one that slows
 and chills them. Each later tier is crafted from the one before, with herbs, a graft and the family's trophy.
 
-- **Cleavers (melee):** right click sends a slash flying a few blocks.
-- **Sceptres (magic):** left click casts petal bolts. Right click is the tier's support: Dusk Bloom heals you and allies
+- ![Mirecap Cleaver](img/mirecap_cleaver.png){ .mc-icon .mc-inline }![Flare Cleaver](img/flare_cleaver.png){ .mc-icon .mc-inline }![Rime Cleaver](img/rime_cleaver.png){ .mc-icon .mc-inline } **Cleavers (melee):** right click sends a slash flying a few blocks.
+- ![Dusk Sceptre](img/dusk_sceptre.png){ .mc-icon .mc-inline }![Ember Sceptre](img/ember_sceptre.png){ .mc-icon .mc-inline }![Rime Sceptre](img/rime_sceptre.png){ .mc-icon .mc-inline } **Sceptres (magic):** left click casts petal bolts. Right click is the tier's support: Dusk Bloom heals you and allies
   within 4 blocks, Ember Ward rings you in fire and makes you fireproof, Rime Shell gives Resistance and Absorption and
   freezes hostiles near you.
-- **Seed guns (ranged):** one-handed pistols that fire heart-shaped seed pellets, on left or right click. They have
+- ![Pulse Pistol](img/pulse_pistol.png){ .mc-icon .mc-inline }![Scorch Spitter](img/scorch_spitter.png){ .mc-icon .mc-inline }![Rime Repeater](img/rime_repeater.png){ .mc-icon .mc-inline } **Seed guns (ranged):** one-handed pistols that fire heart-shaped seed pellets, on left or right click. They have
   their own enchantments: Heartsight, Seed Hopper, Weedkiller, Quickdraw, Bloom Shot, Heartmend and Infinity.
-- **Whips (summon):** Fundamentum cord whips. Your pets attack whatever the whip hits.
+- ![Moonwisp Whip](img/moonwisp_whip.png){ .mc-icon .mc-inline }![Moonflare Whip](img/moonflare_whip.png){ .mc-icon .mc-inline }![Moonrime Whip](img/moonrime_whip.png){ .mc-icon .mc-inline } **Whips (summon):** Fundamentum cord whips. Your pets attack whatever the whip hits.
 - **Grappling hooks:** one for every weapon, worn in the hook slot and fired with H. Mire grapples pull hardest, Dusk
   tendrils hang in the air on a miss, Pulse hooks reach furthest, Moon grapnels hold you still.
 - **Wings:** Leafwing, Emberwing and Rimewing, each flying further than the last.

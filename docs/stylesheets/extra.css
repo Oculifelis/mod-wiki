@@ -169,3 +169,12 @@
   white-space: nowrap;
   padding-right: 0.4em;
 }
+/* 3D in-hand renders beside the icon: smooth, since they're drawn at an angle rather than on the texel grid. */
+.md-typeset img.mc-3d {
+  width: 64px;
+  height: 64px;
+  vertical-align: middle;
+}
+.md-typeset td:has(> img.mc-3d) {
+  white-space: nowrap;
+}

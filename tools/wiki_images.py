@@ -45,6 +45,16 @@ MODS = {
         # music discs and relics
         "music_disc_harvest_moon", "music_disc_enchanted_moon", "music_disc_glimmer_moon", "music_disc_fundamentum",
         "wither_relic", "elder_guardian_relic", "warden_relic", "dragon_relic",
+        # records
+        "record_shelf", "chiseled_record_shelf", "record_pendant",
+    ]),
+    "floraferox": (MODDING + "/ViolentVerdure/src/main/resources/assets", "minecraft_26.1.2_client.jar", [
+        # herbs, grafting and the almanacs
+        "pulseroot", "duskpetal", "moonwisp", "mirecap", "grafting_bench", "ember_graft", "rime_graft",
+        "growers_almanac_1", "growers_almanac_2", "growers_almanac_3",
+        # each weapon line's three tiers
+        "mirecap_cleaver", "flare_cleaver", "rime_cleaver", "dusk_sceptre", "ember_sceptre", "rime_sceptre",
+        "pulse_pistol", "scorch_spitter", "rime_repeater", "moonwisp_whip", "moonflare_whip", "moonrime_whip",
     ]),
 }
 
@@ -81,6 +91,20 @@ def picture(assets, ns, item):
     return im
 
 
+# 3D in-hand models (whip handles, tridents) drawn by H:/AI_MC_Modding/_toolkit/wikirender at the inventory block
+# angle; see its README to redraw them. They are copied here at 128 px as docs/<mod>/img/<id>_3d.png.
+# mod -> (renders folder, {item id: render name})
+RENDERS = MODDING + "/_toolkit/wikirender/renders"
+THREE_D = {
+    "ostentum": (RENDERS, dict({w: w for w in [
+        "leather_whip", "vine_whip", "weeping_vine_whip", "twisting_vine_whip", "glow_berry_whip", "silk_whip",
+        "chain_whip", "golden_heavy_whip", "thunderstorm_whip", "diamond_whip", "emerald_whip", "amethyst_whip",
+        "royal_slime_whip", "blaze_whip", "untamed_sea_whip", "destruction_whip", "breeze_whip", "ender_whip",
+        "fisher_kings_trident", "coral_trident", "abyssal_trident"]},
+        end_rift_whip="ender_whip")),  # the End Rift Whip uses the Ender Whip's models
+}
+
+
 def main():
     for mod, (assets, jar, items) in MODS.items():
         mr.setup([assets], os.path.join(JARS, jar))
@@ -89,6 +113,12 @@ def main():
         for item in items:
             picture(assets, mod, item).save(os.path.join(out, item + ".png"), optimize=True)
         print("%s: %d pictures in %s" % (mod, len(items), os.path.relpath(out, WIKI)))
+        src, renders = THREE_D.get(mod, (None, {}))
+        for item, name in renders.items():
+            im = Image.open(os.path.join(src, name + "_3d.png")).convert("RGBA")
+            im.resize((SIZE, SIZE), Image.LANCZOS).save(os.path.join(out, item + "_3d.png"), optimize=True)
+        if renders:
+            print("%s: %d 3D renders" % (mod, len(renders)))
 
 
 if __name__ == "__main__":
