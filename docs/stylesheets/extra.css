@@ -149,3 +149,23 @@
   background-color: var(--sol-base02);
   border-color: var(--sol-base01);
 }
+
+/* Item pictures (tools/wiki_images.py): 128 px pixel art shown at whole multiples of its 16 texels, kept crisp. */
+.md-typeset img.mc-icon {
+  width: 48px;
+  height: 48px;
+  image-rendering: pixelated;
+  vertical-align: middle;
+  margin-right: 0.2em;
+}
+.md-typeset img.mc-icon.mc-inline {
+  width: 32px;
+  height: 32px;
+}
+.md-typeset tr:has(img.mc-icon) td {
+  vertical-align: middle;
+}
+.md-typeset td:has(> img.mc-icon:not(.mc-inline)) {
+  white-space: nowrap;
+  padding-right: 0.4em;
+}

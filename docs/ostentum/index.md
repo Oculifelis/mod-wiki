@@ -17,14 +17,14 @@ those creatures don't exist on 1.21.1.)
 
 ## What's in it
 
-- **[Summoning saddles](items.md#summoning-saddles)** for twelve vanilla mounts, in the Curios mount slot.
-- **[Grappling hooks](items.md#grappling-hooks)**, from amethyst to the Stillwind Hook.
-- **[Summons](items.md#summons)**: wolves, a baby iron golem, a chibi ender dragon, a flying pink dolphin and more.
-- **[Whips](items.md#whips)**: real cord whips, from the Leather Whip to the Destruction Whip.
-- **[Special weapons](items.md#special-weapons)**, each with one trick of its own.
-- **[Moons and the siege](items.md#moons-and-the-siege)**: the Harvest, Enchanted and Glimmer Moons, and the Pillager
+- ![](img/horse_saddle.png){ .mc-icon .mc-inline } **[Summoning saddles](items.md#summoning-saddles)** for twelve vanilla mounts, in the Curios mount slot.
+- ![](img/stillwind_hook.png){ .mc-icon .mc-inline } **[Grappling hooks](items.md#grappling-hooks)**, from amethyst to the Stillwind Hook.
+- ![](img/bottled_dragonling.png){ .mc-icon .mc-inline } **[Summons](items.md#summons)**: wolves, a baby iron golem, a chibi ender dragon, a flying pink dolphin and more.
+- ![](img/leather_whip.png){ .mc-icon .mc-inline } **[Whips](items.md#whips)**: real cord whips, from the Leather Whip to the Destruction Whip.
+- ![](img/echo_blade.png){ .mc-icon .mc-inline } **[Special weapons](items.md#special-weapons)**, each with one trick of its own.
+- ![](img/music_disc_harvest_moon.png){ .mc-icon .mc-inline } **[Moons and the siege](items.md#moons-and-the-siege)**: the Harvest, Enchanted and Glimmer Moons, and the Pillager
   Siege, each with its own music track and disc.
-- **[Boss relics](items.md#boss-relics)**: a gold likeness of each boss on a pedestal.
+- ![](img/wither_relic.png){ .mc-icon .mc-inline } **[Boss relics](items.md#boss-relics)**: a gold likeness of each boss on a pedestal.
 - **Small changes:** pickaxes hit iron, snow and copper golems for 1.5x; an enchanted golden apple gives a minute of
   use sickness; Fire Aspect weapons hit as fire, snowballs as ice and tridents as water, and netherite armour resists
   a little fire per piece.
