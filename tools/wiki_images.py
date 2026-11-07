@@ -4,6 +4,8 @@ Each picture is what the inventory shows: the shared model renderer (H:/AI_MC_Mo
 block or 3D model in the inventory's isometric view, and a flat icon scaled up nearest-neighbour, all 128 px square
 on a transparent background. The model shown is the one the item's assets/<ns>/items/<id>.json picks for the GUI.
 Pictures go to docs/<mod>/img/<id>.png. Re-run after textures change:  python tools/wiki_images.py
+
+The bestiary's creatures are drawn from their entity models by tools/entity_render.py (offline, no game client), 256 px.
 """
 import json
 import os
@@ -14,6 +16,7 @@ from PIL import Image
 MODDING = "H:/AI_MC_Modding"
 sys.path.insert(0, MODDING + "/_toolkit/modelrender")
 import modelrender as mr  # noqa: E402
+import entity_render as er  # noqa: E402
 
 WIKI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 JARS = os.path.join(os.path.expanduser("~"), ".gradle", "caches", "neoformruntime", "artifacts")
@@ -105,6 +108,33 @@ THREE_D = {
 }
 
 
+# Entity models: mod -> (the generated Java holding every mob's ModelSpec, entity textures, renderer folder, mob ids).
+# Each mob's picture is docs/<mod>/img/<id>.png, from textures/entity/<id>.png and its _glow.png.
+VERDURE = MODDING + "/ViolentVerdure"
+ENTITIES = {
+    "floraferox": (VERDURE + "/src/main/java/com/floraferox/VerdureModels.java",
+                   VERDURE + "/src/main/resources/assets/floraferox/textures/entity", VERDURE + "/tools/gen", [
+        "pulse_gnat", "dusk_sprig", "moon_tick", "mire_ghast",
+        "snap_drake", "burr_crawler", "lantern_leech", "orchid_mantis", "reed_wretch", "dew_crab",
+        "thorn_hopper", "pollen_puff", "thorn_matriarch", "graft_twin", "root_grub", "bell_stalker", "briar_king",
+        "pitcher_spitter", "carrion_bloom",
+        "wartback", "nylium_lurker", "soulwick", "cinder_thistle", "warped_stilt", "lanternpuff", "crimson_behemoth",
+        "pearl_pod", "void_jelly", "rift_narwhal",
+    ]),
+}
+
+
+def entities():
+    for mod, (java, textures, gen, mobs) in ENTITIES.items():
+        br = er.boxrender(gen)
+        models = er.load_specs(java)
+        out = os.path.join(WIKI, "docs", mod, "img")
+        for mob in mobs:
+            tex = os.path.join(textures, mob)
+            er.picture(br, models[mob], tex + ".png", tex + "_glow.png").save(os.path.join(out, mob + ".png"), optimize=True)
+        print("%s: %d creatures" % (mod, len(mobs)))
+
+
 def main():
     for mod, (assets, jar, items) in MODS.items():
         mr.setup([assets], os.path.join(JARS, jar))
@@ -119,6 +149,7 @@ def main():
             im.resize((SIZE, SIZE), Image.LANCZOS).save(os.path.join(out, item + "_3d.png"), optimize=True)
         if renders:
             print("%s: %d 3D renders" % (mod, len(renders)))
+    entities()
 
 
 if __name__ == "__main__":
