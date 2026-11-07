@@ -119,8 +119,9 @@ The Patience Pottery Sherd also turns up now and then in trail ruins and desert 
 
 If you have Patchouli, a book and a clay ball make A Slow Almanac, which covers everything in the mod.
 
-<details>
-<summary>Other mods</summary>
+## Other mods
+
+<div class="spoiler" markdown="1">
 
 ![Preserves, cured meats and teas for Twilight Forest, The Undergarden and The Aether](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/compat.png)
 
@@ -138,10 +139,11 @@ None of these are required. Each bit only loads when its mod is installed, and t
 - Patchouli: A Slow Almanac.
 - KubeJS: add and remove ageing recipes from scripts (see below).
 
-</details>
+</div>
 
-<details>
-<summary>For pack makers</summary>
+## For pack makers
+
+<div class="spoiler" markdown="1">
 
 Every kiln recipe is data. There's one recipe type, `slowlight:ageing`:
 
@@ -164,7 +166,7 @@ Drop a recipe into `data/<your pack>/recipe/` and the kiln can make it.
 
 With KubeJS, `event.custom({...})` works, and so does `event.recipes.slowlight.ageing('4x minecraft:bone_meal', 'minecraft:rotten_flesh', 2)`. Slowlight doesn't depend on KubeJS, so nothing breaks without it.
 
-</details>
+</div>
 
 ---
 
