@@ -6,7 +6,7 @@ Dungeons, castles, villages and walled citadels, all generated in new chunks. Th
 pieces, so no two are laid out the same. They're built in vanilla blocks, and they also use the blocks of any
 building mods you have.
 
-![A stone citadel](img/citadel_stone.jpg)
+![A stone citadel](img/citadel_stone.png)
 
 To find one, use `/locate structure`, for example `/locate structure orbisnovus_dungeons:crypt`. The other namespaces
 are `orbisnovus_settlements:`, `orbisnovus_castles:` and `orbisnovus_citadels:` (for instance
