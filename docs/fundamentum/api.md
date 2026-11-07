@@ -37,9 +37,10 @@ Everything is under `com.fundamentum`. Register things while your mod is constru
 | `attribute.StatAttributes` | shared attributes on every living entity: `crit_chance`, `crit_damage`, `ranged_damage`, `fire_rate`, `reload_speed`, `ammo_conservation`, `armor_pierce`, `blast_radius`, `blast_self_damage`, `projectile_speed`, `spread`, `sickness_duration`, `wing_flight_time`. Fundamentum holds them; the mod that fires or explodes reads and applies them |
 | `attribute.HealthCap` | max health up to 1,000,000 |
 | `creature.CreatureTypes` | creature type tags and damage rules |
-| `damage.Elements` | the ten elements, `<e>_damage` and `<e>_resistance` attributes; `Elements.add`, `Elements.registerClassifier` for hits no tag can catch |
+| `damage.Elements` | the elements, `<e>_damage` and `<e>_resistance` attributes; `Elements.add`, `Elements.variant(id, parent, ...)` for a variant that counts as its parent (soul fire is fire; `Element.parent()`, `isA`), `Elements.registerClassifier` for hits no tag can catch |
+| `api.SoulFire` | soul burning: `SoulFire.ignite(entity, ticks)`, `isSoulBurning(entity)`, `clear(entity)`; the tags `SOURCES`, `PROJECTILES`, `WEAPONS`. Call on the server; see [soul fire](datapack/elements.md#soul-fire) |
 | `damage.DamageClasses` | melee, ranger, marksman, mage; `<c>_damage` attributes; `DamageClasses.add` |
-| `damage.SharedDamage` | shared damage types (`fundamentum:fire` ... `arcane`, `fundamentum:bullet`); `SharedDamage.source(level, HOLY, projectile, shooter)` |
+| `damage.SharedDamage` | shared damage types (`fundamentum:fire`, `soul_fire` ... `arcane`, `fundamentum:bullet`); `SharedDamage.source(level, HOLY, projectile, shooter)` |
 | `element.ElementAuras`, `ElementAffinities`, `ElementReactions`, `ElementRef` | auras on a creature, resolved affinities, the loaded reactions, parsing element strings |
 | `element.ElementEvents` | events on `NeoForge.EVENT_BUS`: `Reaction` (cancellable, change the damage), `Reacted` (after it fired), `Affinity` (add resistance from code), `AuraApply` (cancellable) |
 | `sickness.Sickness` | `isBlocked` and `trigger` for items with their own use logic |
