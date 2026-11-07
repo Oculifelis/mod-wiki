@@ -63,3 +63,10 @@ nav:
   - Flora Ferox:
       - floraferox/index.md
       - Bestiary: floraferox/bestiary.md
+  - Slowlight:
+      - slowlight/index.md
+      - Kilns: slowlight/kilns.md
+      - Kiln recipes: slowlight/recipes.md
+      - Items: slowlight/items.md
+      - For pack makers: slowlight/packs.md
+      - Versions: slowlight/versions.md
