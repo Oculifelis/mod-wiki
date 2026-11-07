@@ -176,4 +176,3 @@ Made by Oculifelis.
 
 The Pressed Flower petal shapes are cut from vanilla Pink Petals and Wildflowers, Lithoform's wisteria petals and petal litter (Apache-2.0), World of Wonder's mellow petals (LGPL-3.0), and Cosmopolitan's and Maple's petals (MIT).
 
-AI disclosure: an AI coding agent wrote most of the code and drew the textures from vanilla and credited donor art. Oculifelis directed it and reviewed every texture.
