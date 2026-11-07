@@ -2,8 +2,8 @@
 
 | Minecraft | Loader | Fundamentum | Notes |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.25.5 | the main line: everything on this wiki; works under Iris shader packs |
-| 1.21.1 | NeoForge 21.1 | 1.25.5 | everything except a few parts that need newer Minecraft (below) |
+| 26.1.2 | NeoForge | 1.25.6 | the main line: everything on this wiki; works under Iris shader packs |
+| 1.21.1 | NeoForge 21.1 | 1.25.6 | everything except a few parts that need newer Minecraft (below) |
 | 26.2 | NeoForge 26.2 | 1.25.2 | the same as 26.1.2 at 1.25.2 (no Shift tooltips or Jade line yet) |
 | 26.3 | NeoForge 26.3 | 1.25.2 | the same as 26.2 |
 | 1.20.1 | Forge 47 | 1.25.2 | the same as 1.21.1 at 1.25.2, with the same parts left out |
