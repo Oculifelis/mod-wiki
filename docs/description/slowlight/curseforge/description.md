@@ -125,19 +125,29 @@ If you have Patchouli, a book and a clay ball make A Slow Almanac, which covers 
 
 ![Preserves, cured meats and teas for Twilight Forest, The Undergarden and The Aether](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/compat.png)
 
-None of these are required. Each bit only loads when its mod is installed, and the foods only show in the creative tab when their mod is there.
+You don't need any of these. If you have one installed, the kilns learn recipes for its stuff, and those foods only show up in the creative tab when that mod is there. The days below are for the Patient Kiln. The Long Kiln takes three times as long but does a whole stack.
 
-- Twilight Forest: preserves for all its berries and the torchberry, a cured hydra chop, jerky, and mossy castle brick, underbrick and mazestone brick.
-- The Undergarden: cured gwibling, dweller steak and gloomper leg, ditchbulb preserve, candied droopfruit, dried glitterkelp, blisterberries that rot, and depthrock and shiverstone bricks that crack.
-- The Aether: white apple cider, blue berry and enchanted berry preserves, and aechor petal tea for a moment of slow falling.
-- Aerial Hell: stellar cobblestone, mud bricks and shadow catacomb bricks go mossy.
-- Rechiseled: its chisel cuts the shard blocks and Gloamwood planks. Without it the stonecutter does.
-- Chipped: the carpenter's table turns the Gloamwood Bookshelf into Gloamwood versions of all 33 Chipped bookshelves.
-- Create: funnels and belts work with the kilns like hoppers do.
-- JEI: shows every ageing recipe with its days and weather.
-- Jade: kilns, the Sandglass and the Keepsake Urn show how long they have left.
-- Patchouli: A Slow Almanac.
-- KubeJS: add and remove ageing recipes from scripts (see below).
+With Twilight Forest, any of its berries (raspberries, blueberries, torchberries and the rest) come out as a jar of preserve after 4 days. Cooked meat, pufferfish and tropical fish turn into Twilight Forest's own jerky in 3 days, a hydra chop cures in 5, and castle brick, underbrick and mazestone brick go mossy in 4 or 5.
+
+With The Undergarden, dweller steak, gloomper legs and cooked gwibling cure in 3 or 4 days, ditchbulbs become preserve, droopfruit gets candied and glitterkelp dries out. Blisterberries go rotten after 2 days, and depthrock and shiverstone bricks crack after 3.
+
+With The Aether, white apples become cider and blue or enchanted berries become preserve after 4 days. Aechor petals steep into a tea in 2 days, and drinking it gives you 30 seconds of slow falling.
+
+With Aerial Hell, its berries and shadow fruit make preserve in 4 days, cooked phantom and turtle meat cure in 4, stellar bread becomes rusk and stellar sugar cane becomes rock sugar. Rotten leather and venomous snake skin turn into normal leather, and stellar cobblestone, mud bricks and shadow catacomb bricks go mossy.
+
+Rechiseled's chisel can cut the shard blocks and Gloamwood planks into their other designs. Without it, the stonecutter does the same job.
+
+Chipped's carpenter's table turns a Gloamwood Bookshelf into a Gloamwood version of any of Chipped's 33 bookshelves.
+
+Create's funnels and belts can load and empty the kilns the same way hoppers do.
+
+JEI shows what every item turns into in a kiln, how many days it takes and what weather it needs.
+
+Jade shows how long a kiln, the Sandglass or the Keepsake Urn has left when you look at it.
+
+Patchouli lets you craft A Slow Almanac from a book and a clay ball. It's an in-game guide to the whole mod.
+
+KubeJS lets pack makers add or remove kiln recipes from scripts. There's an example in the next section.
 
 </div>
 
