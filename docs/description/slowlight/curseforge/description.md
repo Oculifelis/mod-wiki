@@ -1,212 +1,149 @@
 ![Slowlight](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/banner.png)
 
-<p align="center"><i>Some things are better left to take their time.</i></p>
+Slowlight adds kilns that take days to finish instead of seconds.
 
----
+There's no fuel and no menu. You drop something in, close the lid and go do something else. Come back a day or a week later and it's done. The timer runs on the world clock, so sleeping doesn't skip it and leaving the area doesn't pause it. The kiln just catches up the next time it ticks.
 
-Kilns that count in days, not seconds, and everything that comes out of them: ciders, preserves and cured food, mossy stone and green copper, three music discs, a lantern that's brightest at night, a sandglass that measures days, pressed flowers, wood that silvers in the weather, and a Potter villager with old ruins to find.
+The fun part is coming home to it. Set up a row of kilns, go off mining for a few days, and when you get back there's cider and mossy bricks waiting for you.
 
-Its kilns burn no fuel. They have no screen and no progress bar. You put something in, shut the lid and walk away, and when you come back, a day or a week later, it's done. The wait runs on the world's own clock. Sleeping through the night won't hurry it, and leaving the chunk won't lose it: the kiln finds, the next time it ticks, that its days have gone by without it.
+The rest of the mod is built around the same idea: a lantern that's brighter at night, an hourglass that counts days, flowers you press over three days, wood that goes grey in the weather, three music discs, and a Potter villager with old ruined yards to find.
 
-Everything else follows from that: a lantern that keeps the opposite hours to everyone else, a sandglass that measures days, flowers pressed over three of them, wood that silvers in the weather, and a few records that take longer to press than to play.
-
----
-
-<details>
-<summary><b>The Kilns</b> · where the waiting happens</summary>
+## Kilns
 
 ![The Patient Kiln, the Long Kiln and the Ember Kiln](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/kilns.png)
 
-**Patient Kiln.** One thing at a time. Put it in, close the lid, come back another day. It takes items from any side but the bottom and gives its finished work out below, so a hopper or a Create funnel can tend it. A comparator reads how far along it is.
+The Patient Kiln holds one item. Put it in, close it, wait. Hoppers and Create funnels can feed it from the sides and pull the result out the bottom, and a comparator shows how far along it is.
 
-**Long Kiln.** The Patient Kiln's slower sibling. It takes a whole stack, bricks its door shut and finishes all of it at once, in three times the wait of one. It seals when it's full, or once nothing more has gone in for ten seconds.
+The Long Kiln takes a whole stack and bricks itself shut. It takes three times as long, but does the whole stack at once. It seals when it's full, or 10 seconds after you stop adding things.
 
-**Ember Kiln.** A kiln of blackstone, for the Nether. It only works where the world itself is hot, and there it works in half the days. Anywhere cooler, it holds what it's given and waits for the heat.
+The Ember Kiln is the Nether one. It only works somewhere hot, and there it's twice as fast. Anywhere cooler it just holds your stuff and waits.
 
 ![A sealed Patient Kiln, with its days shown by Jade](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/shot_kiln_jade.jpg)
 
 ![Long Kilns, bricked shut](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/shot_long_kilns.jpg)
 
-</details>
-
-<details>
-<summary><b>What Time Makes</b> · food, drink, and the things time does anyway</summary>
+## What comes out
 
 ![Amber Draught, ciders, preserves, cured fish, Duskbloom tea and jam, Lanternfruit and Lanternwine](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/time_makes.png)
 
-- **To drink:** Amber Draught from a bottle of honey. Cider from apples, and Dusk Cider with dried Duskbloom petals stirred in. Duskbloom Tea, for a minute of night vision. Lanternwine, from Lanternfruit must.
-- **To eat:** Preserved Berries and Duskbloom Jam, cured cod and salmon that keep you fed longer, and Lanternfruit preserve and candied peel.
-- **What time does anyway:**
-  - String gathers into cobweb.
-  - Coarse dirt settles into podzol.
-  - Cobblestone and stone bricks go mossy. In the Nether, cobblestone turns to blackstone instead.
-  - A honey block crystallises into sugar.
-  - Cornflowers ferment into a deeper blue dye.
-  - Copper weathers, one stage at a time, all the way to green.
-  - Rotten flesh, left long enough, becomes leather.
+Drinks: Amber Draught from honey, cider, Dusk Cider, Duskbloom Tea (a minute of night vision) and Lanternwine.
 
-**Some things wait for the right weather.**
-- Dirt turns to mud, and a sponge soaks up water, only in the rain.
-- Kelp and wet sponges dry only by day under a clear sky.
-- Ink takes on its glow only under the night sky.
+Food: preserved berries, Duskbloom Jam, cured cod and salmon that keep you fed longer, Lanternfruit preserve and candied peel.
 
-While the weather is wrong the wait stands still, keeping the days it already has, and the kiln tells you what it's waiting for.
+Then there's the stuff time does on its own. String turns into cobweb. Coarse dirt turns into podzol. Cobblestone and stone bricks go mossy, except in the Nether, where cobble turns into blackstone. Honey blocks crystallise into sugar. Cornflowers ferment into a darker blue dye. Copper oxidises one stage at a time. Rotten flesh eventually becomes leather.
 
-**Old things wake.** The sniffer's ancient seeds open in a kiln: torchflower seeds in two days, a pitcher pod in three. Gravel or sand left a week comes back *suspicious*. Place it, brush it, and find what settled into it while it waited: flint, bones and nuggets mostly, and now and then an emerald, a shard or a pottery sherd.
+Some recipes need the right weather. Dirt only turns into mud in the rain, and sponges only soak up water in the rain. Kelp and wet sponges only dry on clear days. Ink only gets its glow under the night sky. If the weather's wrong the timer pauses, and the kiln tells you what it's waiting for.
+
+You can hatch the sniffer's old seeds too: torchflower seeds take 2 days and pitcher pods take 3. Leave gravel or sand in for a week and it comes out suspicious. Place it and brush it for flint, bones and nuggets, and sometimes an emerald, a shard or a pottery sherd.
 
 ![JEI shows every ageing recipe, with its days and the weather it needs](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/shot_jei.jpg)
 
-</details>
-
-<details>
-<summary><b>Three Records</b> · rather shorter than the wait for them</summary>
+## Music discs
 
 ![Patient Light, Lantern Hours and A Week In](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/records.png)
 
-Each is pressed slowly out of a vanilla disc in the kiln:
-- **Patient Light,** from *mellohi*, over four days.
-- **Lantern Hours,** from *stal*, over five.
-- **A Week In,** from *far*, over (as you might expect) seven.
+Three new discs, made by leaving a vanilla disc in the kiln:
+- Patient Light, from mellohi (4 days)
+- Lantern Hours, from stal (5 days)
+- A Week In, from far (7 days, obviously)
 
-They play in any jukebox.
-
-</details>
-
-<details>
-<summary><b>Light That Keeps Its Own Hours</b> · the lantern and the shards</summary>
+## The lantern and the shards
 
 ![The Slowlight Lantern, Slowlight and Still Shards, their clusters, and the Patience trim](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/light.png)
 
-**Slowlight Lantern.** Dim through the day, bright from dusk to dawn. Underground, where the sky never brightens, it simply stays up.
+The Slowlight Lantern is dim during the day and bright from dusk to dawn. Underground it just stays bright.
 
-**Slowlight Shard.** An amethyst shard left a week in a kiln. The lantern is built around one. Sniffers now and then dig one up too, an amethyst shard that waited underground on its own.
+Slowlight Shards come from leaving an amethyst shard in a kiln for a week. Sniffers dig them up sometimes too. The lantern needs one.
 
-**Still Shard.** The End has no day and no weather, only an empty sky. Leave an ender pearl ten days in a kiln with nothing above it there, and it goes quiet and still. In the same place, obsidian weeps into crying obsidian and chorus fruit pops.
+Still Shards are an End thing. Leave an ender pearl in a kiln under open sky in the End for 10 days. While you're out there, obsidian turns into crying obsidian and chorus fruit pops.
 
-**Sulfur cubes** (26.2 and later). A sulfur cube that swallows a Slowlight Shard block drifts: it falls at a fifth of the usual speed and floats down. One that swallows a Still Shard block hangs where it is, and stops dead in the air when hit.
+On 26.2 and up, a sulfur cube that eats a Slowlight Shard block falls at a fifth of normal speed. One that eats a Still Shard block hangs in the air and stops dead when you hit it.
 
-**Patience.** Both shards trim armour, and the Patience trim template stamps an hourglass on it.
+Both shards work as armour trim materials, and there's a Patience trim template with an hourglass on it.
 
 ![The Slowlight Lantern at night](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/shot_lantern_at_night.jpg)
 
-</details>
-
-<details>
-<summary><b>Growing Things</b> · Duskbloom and Gloamwood</summary>
+## Duskbloom and Gloamwood
 
 ![Duskbloom seeds, plant and petals; Gloamwood sapling, log, leaves and planks; Lanternfruit; Gloamwood boats](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/growing.png)
 
-**Duskbloom.** A crop the sniffer digs up, that grows only at night. Ripe, it glows faintly and gives petals:
-- light blue dye
-- dried in the sun for Duskbloom Tea
-- stirred into Preserved Berries for Duskbloom Jam
-- left two weeks under the night sky to harden into a Slowlight Shard
+Duskbloom is a crop the sniffer digs up. It only grows at night and glows a little when it's ripe. The petals make light blue dye, and they go into tea and jam. Leave them under the night sky for two weeks and they harden into a Slowlight Shard.
 
-**Gloamwood.** A blue-grey tree with a full set of wood: planks, stairs, slabs, doors, signs, hanging signs and boats. **Lanternfruit** hangs under its leaves and glows from within when ripe, and its peel wraps a torch into a Lanternfruit Lamp.
+Gloamwood is a blue-grey tree with the full wood set, boats and hanging signs included. Lanternfruit hangs under its leaves and glows when it's ripe. Wrap its peel round a torch for a Lanternfruit Lamp.
 
-</details>
-
-<details>
-<summary><b>Measuring Time</b> · the Sandglass, the Sundial and the Keepsake Urn</summary>
+## Keeping time
 
 ![The Sundial and the Keepsake Urn](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/measuring.png)
 
-**Sandglass.** An hourglass that measures days. Click it to set from one to seven. The shard sand runs down over those days. When the last grain falls it gives one redstone pulse and turns itself over. A comparator reads how much sand is left. In the Nether and the End it can't find the time, and the sand never settles.
+The Sandglass is an hourglass that counts days. Click it to set anywhere from 1 to 7. When the sand runs out it sends one redstone pulse and flips itself over. A comparator reads how much sand is left. It doesn't work in the Nether or the End.
 
-**Sundial.** Where the Sandglass counts days, the Sundial tells the hours of one. Under open sky a comparator reads its shadow: nothing all night, full strength at noon. Roofed over, no shadow falls.
+The Sundial gives a comparator signal from the time of day: nothing at night, full strength at noon. It needs open sky.
 
-**Keepsake Urn.** Nine slots for putting things away for later. Choose from one day to thirty, then seal it with a honeycomb. Until the days are up it won't open, not for you and not for a hopper. Break it early and it cracks, and everything spills out.
+The Keepsake Urn is a 9-slot time capsule. Pick 1 to 30 days and seal it with a honeycomb. It won't open until then, not for you and not for hoppers. Break it early and it cracks and spills everything.
 
-</details>
-
-<details>
-<summary><b>Slow Crafts</b> · weathered wood, pressed flowers, a candle that takes four days</summary>
+## Slow crafts
 
 ![Gloamwood planks fading, weathering and silvering; the Slow Candle](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/crafts.png)
 
-**Weathering Gloamwood.** Gloamwood left under open sky fades, then weathers, then silvers, in patchy steps, the way copper does. Honeycomb waxes it where it is, and an axe scrapes it back.
+Gloamwood left out in the open slowly fades to silver in patchy steps, a bit like copper. Wax it with honeycomb to keep it, or scrape it back with an axe.
 
-**Flower Press and Pressed Flowers.** The press takes any flower, modded ones too, and over three days gives back a Pressed Flower. Lay them on the ground, up to four to a block like Pink Petals, or on a wall. Each one is drawn in its own flower's colours, in one of 47 petal shapes chosen by the size of the bloom and whether it has a second colour. A flower that glows still glows when it's pressed.
+The Flower Press turns any flower, modded ones too, into a Pressed Flower over three days. You can lay them on the ground, up to four per block like Pink Petals, or put them on walls. Each one uses its own flower's colours, in one of 47 petal shapes. Glowing flowers still glow once pressed.
 
-**Slow Candle.** Burns down over four lit days.
+The Slow Candle burns for four days.
 
 ![Pressed Flowers on the ground](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/shot_pressed_flowers.jpg)
 
 ![The Flower Press, Slow Candles and weathered Gloamwood](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/shot_crafts.jpg)
 
-</details>
-
-<details>
-<summary><b>To Build With</b> · shard blocks, patterned planks, bookshelves and the Lapse Block</summary>
+## Building blocks
 
 ![Shard blocks, patterned Gloamwood planks, Gloamwood bookshelves and the Lapse Block](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/building.png)
 
-- **Slowlight Shard and Still Shard blocks,** each in eleven cut and tiled designs, with stairs and slabs, and shard clusters.
-- **Gloamwood planks** in nineteen patterns, with stairs and slabs.
-- **The Gloamwood Bookshelf,** which powers enchanting. With Chipped installed it comes in 33 designs.
-- **The Lapse Block.** Powered, it steps out of the world for three seconds, its red ring fading to a green trace, and takes every Lapse Block it touches with it.
+Slowlight Shard and Still Shard blocks come in 11 designs each, with stairs, slabs and clusters. Gloamwood planks come in 19 patterns. The Gloamwood Bookshelf powers enchanting, and with Chipped it comes in 33 versions.
 
-</details>
+Then there's the Lapse Block. Power it and it disappears for three seconds, along with every Lapse Block touching it.
 
-<details>
-<summary><b>Potters and Old Yards</b> · villagers, ruins and a sherd</summary>
+## Potters and ruins
 
 ![The Patience sherd, the Patience trim and the Patient Kiln](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/villagers.png)
 
-**The Potter.** A villager with no job takes a Patient Kiln as a workstation and becomes a Potter. Potters buy clay, honey and Duskbloom petals, and sell bricks, terracotta and aged goods. A master Potter parts, at a price, with the Patience sherd and the Patience trim.
+A villager without a job will take a Patient Kiln as a workstation and become a Potter. Potters buy clay, honey and Duskbloom petals, and sell bricks, terracotta and aged goods. Master Potters will sell you the Patience sherd and trim.
 
-**Old potters' yards.** Out on the plains, the savanna and the badlands there are ruins of old potters' yards. Each is a ring of broken brick round a hearth, with a Patient Kiln someone sealed long ago and never came back for. Its batch is long done. Brush the gravel nearby.
+Out on plains, savannas and badlands you can find old potters' yards: a ring of broken brick round a hearth, with a Patient Kiln someone sealed ages ago and never came back for. Whatever's inside is long done. Brush the gravel nearby too.
 
-**The Patience Pottery Sherd** stamps an hourglass on a decorated pot. It turns up, rarely, in trail ruins and desert wells.
+The Patience Pottery Sherd also turns up now and then in trail ruins and desert wells.
 
-</details>
-
-<details>
-<summary><b>A Slow Almanac</b> · the guide, with Patchouli</summary>
+## Guide book
 
 ![A Slow Almanac](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/shot_almanac.jpg)
 
-With Patchouli installed, a book and a clay ball make *A Slow Almanac*. It's a guide to everything here: notes on kilns that count in days, the weather some things wait for, and a lantern that keeps its own hours.
-
-</details>
+If you have Patchouli, a book and a clay ball make A Slow Almanac, which covers everything in the mod.
 
 <details>
-<summary><b>Other Mods</b> · what Slowlight does when they're there</summary>
+<summary>Other mods</summary>
 
 ![Preserves, cured meats and teas for Twilight Forest, The Undergarden and The Aether](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/compat.png)
 
-Each of these loads only when its mod is installed. Nothing here is required.
+None of these are required. Each bit only loads when its mod is installed, and the foods only show in the creative tab when their mod is there.
 
-- **Twilight Forest:**
-  - preserves for all eight of its berries and the torchberry
-  - a cured hydra chop
-  - jerky from venison, meef and vanilla's cooked meats
-  - moss on castle brick, underbrick and mazestone brick
-- **The Undergarden:**
-  - cured gwibling, dweller steak and gloomper leg
-  - ditchbulb preserve, candied droopfruit and dried glitterkelp
-  - blisterberries that rot, and depthrock and shiverstone bricks that crack
-- **The Aether:**
-  - white apple cider
-  - blue berry and enchanted berry preserves
-  - aechor petal tea, for a moment of slow falling
-- **Aerial Hell:** stellar cobblestone, mud bricks and shadow catacomb bricks grow moss.
-- **Rechiseled:** its chisel cuts the shard blocks and Gloamwood planks into their variants. Without it, the stonecutter does.
-- **Chipped:** the carpenter's table turns the Gloamwood Bookshelf into Gloamwood versions of all 33 of Chipped's bookshelves.
-- **Create:** funnels and belts tend the kilns like any hopper.
-- **JEI:** every ageing recipe, with its days, its weather and its Long Kiln wait.
-- **Jade:** a kiln, Sandglass or Keepsake Urn tells you how long it has left.
-- **Patchouli:** *A Slow Almanac*.
-- **KubeJS:** add and remove ageing recipes from scripts (see below).
-
-The foods from other mods show in the creative tab only when their mod is there.
+- Twilight Forest: preserves for all its berries and the torchberry, a cured hydra chop, jerky, and mossy castle brick, underbrick and mazestone brick.
+- The Undergarden: cured gwibling, dweller steak and gloomper leg, ditchbulb preserve, candied droopfruit, dried glitterkelp, blisterberries that rot, and depthrock and shiverstone bricks that crack.
+- The Aether: white apple cider, blue berry and enchanted berry preserves, and aechor petal tea for a moment of slow falling.
+- Aerial Hell: stellar cobblestone, mud bricks and shadow catacomb bricks go mossy.
+- Rechiseled: its chisel cuts the shard blocks and Gloamwood planks. Without it the stonecutter does.
+- Chipped: the carpenter's table turns the Gloamwood Bookshelf into Gloamwood versions of all 33 Chipped bookshelves.
+- Create: funnels and belts work with the kilns like hoppers do.
+- JEI: shows every ageing recipe with its days and weather.
+- Jade: kilns, the Sandglass and the Keepsake Urn show how long they have left.
+- Patchouli: A Slow Almanac.
+- KubeJS: add and remove ageing recipes from scripts (see below).
 
 </details>
 
 <details>
-<summary><b>For Pack Makers</b> · everything is data</summary>
+<summary>For pack makers</summary>
 
-The kiln has no recipe list in its code. There's one recipe type, `slowlight:ageing`:
+Every kiln recipe is data. There's one recipe type, `slowlight:ageing`:
 
 ```json
 {
@@ -217,32 +154,22 @@ The kiln has no recipe list in its code. There's one recipe type, `slowlight:age
 }
 ```
 
-Two fields are optional:
-- **`long_days`** sets the Long Kiln's own wait.
-- **`condition`** makes the days count only in the right weather:
-  - `sky`: `open` or `covered`
-  - `weather`: `clear`, `rain` or `thunder`
-  - `time`: `day` or `night`
-  - `dimension`: a recipe that names a dimension exists only there, and wins over one that names none. That's how cobblestone turns mossy in the Overworld but to blackstone in the Nether.
+`long_days` is optional and sets the Long Kiln's wait. `condition` is optional too and makes the days only count in the right conditions:
+- `sky`: `open` or `covered`
+- `weather`: `clear`, `rain` or `thunder`
+- `time`: `day` or `night`
+- `dimension`: a recipe that names a dimension only exists there, and beats one that doesn't. That's how cobblestone goes mossy in the Overworld but turns to blackstone in the Nether.
 
 Drop a recipe into `data/<your pack>/recipe/` and the kiln can make it.
 
-With **KubeJS**, `event.custom({...})` works because the recipe type has a codec. `event.recipes.slowlight.ageing('4x minecraft:bone_meal', 'minecraft:rotten_flesh', 2)` works too, because a schema ships as a data file. Slowlight has no compile-time dependency on KubeJS and nothing to go wrong without it.
+With KubeJS, `event.custom({...})` works, and so does `event.recipes.slowlight.ageing('4x minecraft:bone_meal', 'minecraft:rotten_flesh', 2)`. Slowlight doesn't depend on KubeJS, so nothing breaks without it.
 
 </details>
 
 ---
 
-### Credits
+Made by Oculifelis.
 
-By **Oculifelis**.
+The Pressed Flower petal shapes are cut from vanilla Pink Petals and Wildflowers, Lithoform's wisteria petals and petal litter (Apache-2.0), World of Wonder's mellow petals (LGPL-3.0), and Cosmopolitan's and Maple's petals (MIT).
 
-The Pressed Flower petal shapes are cut from:
-- vanilla Pink Petals and Wildflowers
-- Lithoform's wisteria petals and petal litter (Apache-2.0)
-- World of Wonder's mellow petals (LGPL-3.0)
-- Cosmopolitan's and Maple's petals (MIT)
-
-### AI disclosure
-
-Made with AI assistance: an AI coding agent wrote most of the code and drew the textures from vanilla and credited donor art, under the direction of Oculifelis, who reviewed every texture.
+AI disclosure: an AI coding agent wrote most of the code and drew the textures from vanilla and credited donor art. Oculifelis directed it and reviewed every texture.
