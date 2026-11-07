@@ -70,3 +70,8 @@ nav:
       - Items: slowlight/items.md
       - For pack makers: slowlight/packs.md
       - Versions: slowlight/versions.md
+  - Orbis Novus:
+      - orbisnovus/index.md
+      - Terrain: orbisnovus/terrain.md
+      - Dungeons: orbisnovus/dungeons.md
+      - Lite datapack: orbisnovus/lite.md
