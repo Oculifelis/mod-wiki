@@ -7,8 +7,10 @@ Pictures go to docs/<mod>/img/<id>.png. Re-run after textures change:  python to
 
 The bestiary's creatures are drawn from their entity models by tools/entity_render.py (offline, no game client), 256 px.
 """
+import io
 import json
 import os
+import subprocess
 import sys
 
 from PIL import Image
@@ -21,6 +23,14 @@ import entity_render as er  # noqa: E402
 WIKI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 JARS = os.path.join(os.path.expanduser("~"), ".gradle", "caches", "neoformruntime", "artifacts")
 SIZE = 128
+
+SHARD_CUTS = ["", "_chiseled", "_chiseled_cubes", "_diagonal_tiles", "_grid", "_jewel_block", "_polished", "_rhombuses",
+              "_shiny", "_shiny_bordered", "_small_tiles", "_smooth"]
+PLANK_PATTERNS = ["beams", "brick_pattern", "brick_paving", "bricks", "crate", "diagonal_stripes", "diagonal_tiles",
+                  "dotted", "flooring", "large_tiles", "mosaic", "pattern", "rotated_bricks", "small_bricks",
+                  "small_tiles", "squares", "tiles", "wavy", "woven"]
+AERIAL_RECOLOURS = ["candied_glowing_stick_fruit", "stellar_rock_sugar", "cured_phantom_meat", "cured_turtle_meat",
+                    "stellar_rusk"]
 
 # mod -> (assets folder in its repo, client jar for vanilla parents, item ids shown on the wiki)
 MODS = {
@@ -59,7 +69,42 @@ MODS = {
         "mirecap_cleaver", "flare_cleaver", "rime_cleaver", "dusk_sceptre", "ember_sceptre", "rime_sceptre",
         "pulse_pistol", "scorch_spitter", "rime_repeater", "moonwisp_whip", "moonflare_whip", "moonrime_whip",
     ]),
+    "slowlight": (MODDING + "/Slowlight/src/main/resources/assets", "minecraft_1.21.1_client.jar", [
+        # kilns, light and measuring
+        "patient_kiln", "long_kiln", "ember_kiln", "slowlight_lantern", "slowlight_shard", "still_shard",
+        "slowlight_shard_cluster", "still_shard_cluster", "patience_armor_trim_smithing_template",
+        "patience_pottery_sherd", "sandglass", "sundial", "keepsake_urn",
+        # food and drink
+        "mead", "preserved_berries", "cider", "dusk_cider", "cured_cod", "cured_salmon", "duskbloom_tea",
+        "duskbloom_jam", "candied_lanternfruit", "lanternfruit_preserve", "lanternfruit_must", "lanternwine",
+        "music_disc_patient_light", "music_disc_lantern_hours", "music_disc_a_week_in",
+        # Duskbloom, Gloamwood and Lanternfruit
+        "duskbloom_seeds", "duskbloom_petals", "dried_duskbloom_petals", "gloamwood_sapling", "gloamwood_log",
+        "gloamwood_wood", "stripped_gloamwood_log", "stripped_gloamwood_wood", "gloamwood_planks", "gloamwood_stairs",
+        "gloamwood_slab", "gloamwood_fence", "gloamwood_fence_gate", "gloamwood_door", "gloamwood_trapdoor",
+        "gloamwood_button", "gloamwood_pressure_plate", "gloamwood_sign", "gloamwood_hanging_sign", "gloamwood_leaves",
+        "gloamwood_boat", "gloamwood_chest_boat", "lanternfruit", "lanternfruit_seeds", "lanternfruit_peel",
+        "lanternfruit_lamp",
+        # slow crafts
+        "faded_gloamwood_planks", "weathered_gloamwood_planks", "silvered_gloamwood_planks", "flower_press",
+        "slow_candle",
+        # to build with
+        "gloamwood_bookshelf", "lapse_block",
+    ] + [s + "_shard_block" + v for s in ("slowlight", "still") for v in SHARD_CUTS]
+      + ["gloamwood_planks_" + v for v in PLANK_PATTERNS] + [
+        # foods for other mods
+        "torchberry_preserve", "blue_berry_preserve", "raspberry_preserve", "twilight_blueberry_preserve",
+        "blackberry_preserve", "maloberry_preserve", "blightberry_preserve", "duskberry_preserve", "skyberry_preserve",
+        "stingberry_preserve", "cured_hydra_chop", "cured_gwibling", "cured_dweller_steak", "cured_gloomper_leg",
+        "ditchbulb_preserve", "candied_droopfruit", "dried_glitterkelp", "white_apple_cider",
+        "enchanted_berry_preserve", "aechor_petal_tea", "aerial_berry_preserve", "ruby_aerial_berry_preserve",
+        "volucite_aerial_berry_preserve", "vibrant_aerial_berry_preserve", "shadow_fruit_preserve",
+    ] + AERIAL_RECOLOURS),
 }
+
+# Icons the game builds at load by recolouring Aerial Hell's own textures, so the repo has no PNG for them: the wiki
+# uses the approved recolours from the commit before they moved into the game (Slowlight 40c9e8e).
+AERIAL_COMMIT = "40c9e8e"
 
 
 def gui_model(node):
@@ -86,6 +131,10 @@ def gui_model(node):
 
 
 def picture(assets, ns, item):
+    if ns == "slowlight" and item in AERIAL_RECOLOURS:
+        png = subprocess.run(["git", "-C", MODDING + "/Slowlight", "show", "%s:src/main/resources/assets/slowlight/"
+                              "textures/item/%s.png" % (AERIAL_COMMIT, item)], capture_output=True, check=True).stdout
+        return Image.open(io.BytesIO(png)).convert("RGBA").resize((SIZE, SIZE), Image.NEAREST)
     path = os.path.join(assets, ns, "items", item + ".json")
     ref = gui_model(json.load(open(path))["model"]) if os.path.exists(path) else "%s:item/%s" % (ns, item)
     im = mr.render(ref, SIZE // 32)
