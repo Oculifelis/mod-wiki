@@ -119,7 +119,7 @@ The Patience Pottery Sherd also turns up now and then in trail ruins and desert 
 
 If you have Patchouli, a book and a clay ball make A Slow Almanac, which covers everything in the mod.
 
-## Other mods
+## Mod compat
 
 <div class="spoiler" markdown="1">
 
@@ -127,27 +127,27 @@ If you have Patchouli, a book and a clay ball make A Slow Almanac, which covers 
 
 You don't need any of these. If you have one installed, the kilns learn recipes for its stuff, and those foods only show up in the creative tab when that mod is there. The days below are for the Patient Kiln. The Long Kiln takes three times as long but does a whole stack.
 
-With Twilight Forest, any of its berries (raspberries, blueberries, torchberries and the rest) come out as a jar of preserve after 4 days. Cooked meat, pufferfish and tropical fish turn into Twilight Forest's own jerky in 3 days, a hydra chop cures in 5, and castle brick, underbrick and mazestone brick go mossy in 4 or 5.
+With [Twilight Forest](https://www.curseforge.com/projects/227639), any of its berries (raspberries, blueberries, torchberries and the rest) come out as a jar of preserve after 4 days. Cooked meat, pufferfish and tropical fish turn into Twilight Forest's own jerky in 3 days, a hydra chop cures in 5, and castle brick, underbrick and mazestone brick go mossy in 4 or 5.
 
-With The Undergarden, dweller steak, gloomper legs and cooked gwibling cure in 3 or 4 days, ditchbulbs become preserve, droopfruit gets candied and glitterkelp dries out. Blisterberries go rotten after 2 days, and depthrock and shiverstone bricks crack after 3.
+With [The Undergarden](https://www.curseforge.com/projects/379849), dweller steak, gloomper legs and cooked gwibling cure in 3 or 4 days, ditchbulbs become preserve, droopfruit gets candied and glitterkelp dries out. Blisterberries go rotten after 2 days, and depthrock and shiverstone bricks crack after 3.
 
-With The Aether, white apples become cider and blue or enchanted berries become preserve after 4 days. Aechor petals steep into a tea in 2 days, and drinking it gives you 30 seconds of slow falling.
+With [The Aether](https://www.curseforge.com/projects/255308), white apples become cider and blue or enchanted berries become preserve after 4 days. Aechor petals steep into a tea in 2 days, and drinking it gives you 30 seconds of slow falling.
 
-With Aerial Hell, its berries and shadow fruit make preserve in 4 days, cooked phantom and turtle meat cure in 4, stellar bread becomes rusk and stellar sugar cane becomes rock sugar. Rotten leather and venomous snake skin turn into normal leather, and stellar cobblestone, mud bricks and shadow catacomb bricks go mossy.
+With [Aerial Hell](https://www.curseforge.com/projects/674630), its berries and shadow fruit make preserve in 4 days, cooked phantom and turtle meat cure in 4, stellar bread becomes rusk and stellar sugar cane becomes rock sugar. Rotten leather and venomous snake skin turn into normal leather, and stellar cobblestone, mud bricks and shadow catacomb bricks go mossy.
 
-Rechiseled's chisel can cut the shard blocks and Gloamwood planks into their other designs. Without it, the stonecutter does the same job.
+[Rechiseled](https://www.curseforge.com/projects/558998)'s chisel can cut the shard blocks and Gloamwood planks into their other designs. Without it, the stonecutter does the same job.
 
-Chipped's carpenter's table turns a Gloamwood Bookshelf into a Gloamwood version of any of Chipped's 33 bookshelves.
+[Chipped](https://www.curseforge.com/projects/456956)'s carpenter's table turns a Gloamwood Bookshelf into a Gloamwood version of any of Chipped's 33 bookshelves.
 
-Create's funnels and belts can load and empty the kilns the same way hoppers do.
+[Create](https://www.curseforge.com/projects/328085)'s funnels and belts can load and empty the kilns the same way hoppers do.
 
-JEI shows what every item turns into in a kiln, how many days it takes and what weather it needs.
+[JEI](https://www.curseforge.com/projects/238222) shows what every item turns into in a kiln, how many days it takes and what weather it needs.
 
-Jade shows how long a kiln, the Sandglass or the Keepsake Urn has left when you look at it.
+[Jade](https://www.curseforge.com/projects/324717) shows how long a kiln, the Sandglass or the Keepsake Urn has left when you look at it.
 
-Patchouli lets you craft A Slow Almanac from a book and a clay ball. It's an in-game guide to the whole mod.
+[Patchouli](https://www.curseforge.com/projects/306770) lets you craft A Slow Almanac from a book and a clay ball. It's an in-game guide to the whole mod.
 
-KubeJS lets pack makers add or remove kiln recipes from scripts. There's an example in the next section.
+[KubeJS](https://www.curseforge.com/projects/238086) lets pack makers add or remove kiln recipes from scripts. There's an example in the next section.
 
 </div>
 
