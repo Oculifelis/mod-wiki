@@ -60,3 +60,6 @@ nav:
       - ostentum/index.md
       - Items: ostentum/items.md
       - Config: ostentum/config.md
+  - Flora Ferox:
+      - floraferox/index.md
+      - Bestiary: floraferox/bestiary.md

@@ -52,6 +52,11 @@ Both are in the Fundamentum key category.
 | `config/fundamentum-sky-client.toml` | `sky.fractalSkies` | true | draw fractal skies |
 | | `sky.melt` | true | the melting-vision effect |
 | | `sky.meltIntensity` | 0.5 | 0 to 1 |
+| `config/fundamentum-hud-client.toml` | `itemHud.enabled` | true | the item HUD: a few lines beside the hotbar for held items that have one, like Ostentum's Engineer's Crossbow |
+| | `itemHud.anchor`, `itemHud.x`, `itemHud.y` | HOTBAR_RIGHT, 0, 0 | where it sits (beside the hotbar, a corner or an edge) and the offset in GUI pixels |
+| | `itemHud.scale` | 1.0 | 0.25 to 4; 1 is the game's own text |
+| | `itemHud.textColor`, `itemHud.textOpacity`, `itemHud.shadow` | #FFFFFF, 1.0, true | text that doesn't set its own colour |
+| | `itemHud.background`, `itemHud.backgroundOpacity` | false, 0.35 | a dark backdrop, as chat and subtitles have |
 | `config/fundamentum-common.toml` | `moons.psychedelicMoon` | false | lets the Psychedelic Moon roll (3% of nights, never a full moon) |
 
 ## Compatibility
