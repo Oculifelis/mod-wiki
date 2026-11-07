@@ -1,6 +1,26 @@
 # Config
 
-**Ostentum has no config file of its own.** What you can change:
+Ostentum has one client config file, for the Now Playing HUD. Everything else is set through Fundamentum, a game rule,
+tags and datapacks.
+
+## Client config
+
+`config/ostentum-client.toml`, section `nowPlayingHud`, or Mods, Ostentum, Config in game. The HUD shows what the
+nearest jukebox you can hear is playing while you wear the [Record Pendant](items.md#records).
+
+| Option | Meaning |
+|---|---|
+| `enabled` | show the HUD at all |
+| `withoutPendant` | show it without wearing the pendant |
+| `anchor`, `x`, `y` | which corner or edge it sits against, and the offset from there in GUI pixels (default top left, 4, 4) |
+| `scale` | size; 1 is the game's own text |
+| `showIcon`, `showTitle`, `showTime`, `showBar` | the playing disc, the song, "1:32 / 3:05" and the progress bar |
+| `barWidth`, `maxTitleWidth` | the bar's length and where a long title is cut |
+| `background`, `backgroundOpacity` | a faint backdrop like subtitles have, and how dark |
+| `textColor`, `textOpacity` | text colour and opacity |
+
+The Engineer's Crossbow's readout is Fundamentum's item HUD, placed and styled in Fundamentum's
+`fundamentum-hud-client.toml` (see [Fundamentum's config](../fundamentum/index.md#config)).
 
 ## Fundamentum's options
 
@@ -10,6 +30,7 @@ These come from Fundamentum and affect Ostentum's items (see [Fundamentum's conf
 |---|---|---|---|
 | `fundamentum-client.toml` | `whips.flatHandles` | false | true draws whips in hand as flat icons instead of 3D handles |
 | `fundamentum-sky-client.toml` | `sky.fractalSkies`, `sky.melt` | true | Ostentum's moons don't use fractal skies, so these only matter for other mods' moons |
+| `fundamentum-hud-client.toml` | `itemHud.*` | | where and how the Engineer's Crossbow's mode and ammo readout is drawn |
 
 ## Game rule
 

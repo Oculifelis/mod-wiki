@@ -24,6 +24,8 @@ those creatures don't exist on 1.21.1.)
 - ![](img/echo_blade.png){ .mc-icon .mc-inline } **[Special weapons](items.md#special-weapons)**, each with one trick of its own.
 - ![](img/music_disc_harvest_moon.png){ .mc-icon .mc-inline } **[Moons and the siege](items.md#moons-and-the-siege)**: the Harvest, Enchanted and Glimmer Moons, and the Pillager
   Siege, each with its own music track and disc.
+- ![](img/record_pendant.png){ .mc-icon .mc-inline } **[Records](items.md#records)**: record shelves, and the Record Pendant,
+  which shows what the nearest jukebox is playing.
 - ![](img/wither_relic.png){ .mc-icon .mc-inline } **[Boss relics](items.md#boss-relics)**: a gold likeness of each boss on a pedestal.
 - **Small changes:** pickaxes hit iron, snow and copper golems for 1.5x; an enchanted golden apple gives a minute of
   use sickness; Fire Aspect weapons hit as fire, snowballs as ice and tridents as water, and netherite armour resists

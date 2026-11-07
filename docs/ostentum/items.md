@@ -100,7 +100,7 @@ Each has one trick of its own; the tooltip says what.
 | ![Frostbite Hatchet](img/frostbite_hatchet.png){ .mc-icon } | Frostbite Hatchet | thrown as a returning boomerang that comes back to the slot it left; freezes water and mobs | crafted |
 | ![Bloom Bow](img/bloom_bow.png){ .mc-icon } | Bloom Bow | arrows bonemeal where they land and heal your pets | crafted |
 | ![Voidstring Bow](img/voidstring_bow.png){ .mc-icon } | Voidstring Bow | arrows fly straight and curve to mobs; a full draw swaps places with the target (players too, under the server's PvP rules), and a fully drawn kill takes you to where it fell; recipe uses an ender pearl | crafted |
-| ![Engineer's Crossbow](img/engineers_crossbow.png){ .mc-icon } | Engineer's Crossbow | rope mode strings a zipline; combat mode is a 5-bolt magazine | crafted |
+| ![Engineer's Crossbow](img/engineers_crossbow.png){ .mc-icon } | Engineer's Crossbow | rope mode strings a zipline; combat mode is a 5-bolt magazine; while held, beside the hotbar it shows the mode, bolts loaded and arrows carried ("Combat 3/5", "Arrow x23"; in rope mode whether the first anchor is set) | crafted |
 | ![Bastion Crossbow](img/bastion_crossbow.png){ .mc-icon } | Bastion Crossbow | fast, three bolts, can fire flame bolts; piglins don't mind it | bastion treasure chests (20%) |
 | ![Fisher King's Trident](img/fisher_kings_trident.png){ .mc-icon } | Fisher King's Trident | thrown into water it fishes; bonus damage to aquatic mobs | crafted |
 | ![Coral Trident](img/coral_trident.png){ .mc-icon } | Coral Trident | leaves a whirlpool underwater that pulls you in | crafted |
@@ -119,7 +119,8 @@ Each has one trick of its own; the tooltip says what.
 | Glimmer Moon | about one full moon in six | mobs and ores drop twice their experience |
 | Pillager Siege | 5% of nights from day 10, at least 5 nights apart, never with a special moon | pillagers and vindicators come at players near a village in up to six waves; win to get Hero of the Village |
 
-Each has its own music track while it's up.
+Each has its own music while it's up. The Glimmer Moon has three tracks (Moonlit Lullaby, Teal Tide, Starwater Dance),
+and one is picked at random each time, on its disc too.
 
 ### Music discs
 
@@ -127,6 +128,14 @@ Each has its own music track while it's up.
 |---|---|---|
 | ![Harvest Moon disc](img/music_disc_harvest_moon.png){ .mc-icon } ![Enchanted Moon disc](img/music_disc_enchanted_moon.png){ .mc-icon } ![Glimmer Moon disc](img/music_disc_glimmer_moon.png){ .mc-icon } | Harvest Moon, Enchanted Moon, Glimmer Moon | 2% from a hostile mob a player kills under that moon |
 | ![Fundamentum disc](img/music_disc_fundamentum.png){ .mc-icon } | Fundamentum | 25% from the siege's captain, who leads the last wave |
+
+## Records
+
+|  | Item | What it does | How to get it |
+|---|---|---|---|
+| ![Record Shelf](img/record_shelf.png){ .mc-icon } | Record Shelf | a bookshelf of record sleeves; powers an enchanting table like a bookshelf | crafted |
+| ![Chiseled Record Shelf](img/chiseled_record_shelf.png){ .mc-icon } | Chiseled Record Shelf | holds six music discs, clicked in and out like a chiseled bookshelf; a comparator reads the last slot used; powers an enchanting table while it holds three discs or more; the discs drop when it's broken | crafted |
+| ![Record Pendant](img/record_pendant.png){ .mc-icon } | Record Pendant | a Curios necklace: shows what the nearest jukebox you can hear is playing, as one line top left with the time and a thin progress bar ("C418 - cat  1:32 / 3:05"); hidden with F1; placed and styled in the [config](config.md#client-config) | crafted: string, any music disc, a gold nugget |
 
 ## Boss relics
 

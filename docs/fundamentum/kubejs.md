@@ -42,5 +42,12 @@ KubeJS's tag events like any other, e.g. `ServerEvents.tags('item', e => e.add('
 'mymod:soul_blade'))`. To test a tag from a script with the Java tag keys (`SoulFire.WEAPONS`), name the overload, since
 Rhino can't choose between `is(TagKey)` and `is(HolderSet)`: `stack['is(net.minecraft.tags.TagKey)'](SoulFire.WEAPONS)`.
 
+**The item HUD** (1.25.7) works from client scripts too: lines beside the hotbar while an item is held.
+
+```js
+const ItemHud = Java.loadClass('com.fundamentum.api.ItemHud')
+ItemHud.registerItem(Item.of('minecraft:bow').item, (player, stack) => [Text.of('Bow')])
+```
+
 What needs Java: reacting to a moon rising or a night event ending, custom element reactions in code, new whip
 styles, mount and summon behaviour beyond the JSON fields. See the [API](api.md).

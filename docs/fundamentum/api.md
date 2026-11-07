@@ -76,6 +76,7 @@ Everything is under `com.fundamentum`. Register things while your mod is constru
 | `pose.FirstPersonHands` | first-person arms; register a `Frame` if you draw the item yourself |
 | `glow.Glows` | `Glows.apply(target, rgb, ticks)`: a coloured glowing outline |
 | `curve.Curve`, `curve.client.TubeMesh` | smooth curves between two ends, and textured tubes along them |
+| `api.ItemHud` | `registerItem(item, (player, stack) -> lines)` or `register(predicate, provider)`: text lines drawn beside the hotbar while the item is held, placed and styled by the player's `fundamentum-hud-client.toml`. Asked once a client tick, never per frame; main hand first, then the off hand (1.25.7) |
 | `client.Tooltips` | any item shows its lang lines `<item key>.desc`, `.desc2` and `.desc3` under its name |
 
 `command.Tps` and `command.Showcase` are the [commands](commands.md). Not every package is on every version; see
