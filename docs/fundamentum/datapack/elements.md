@@ -10,9 +10,49 @@ An element **is a damage type or a damage type tag**. Wherever a field takes ele
 | `"#minecraft:is_fire"` | hits of any damage type in that tag |
 | `"#fundamentum:element/fire"` | the same, and also hits that are fire through their weapon (a weapon in the item tag `#fundamentum:element/fire`) |
 
-Fundamentum's ten elements are fire, ice, water, electric, earth, air, poison, holy, shadow and arcane. Each is a damage
-type tag `#fundamentum:element/<e>` and a shared damage type `fundamentum:<e>` that any mod can deal. Names shown in
-game come from lang keys `element.<ns>.<path>` with `/` as `.` (`element.fundamentum.element.fire`).
+Fundamentum's elements are fire, soul fire, ice, water, electric, earth, air, poison, holy, shadow and arcane. Each is a
+damage type tag `#fundamentum:element/<e>` and a shared damage type `fundamentum:<e>` that any mod can deal.
+
+| Element | Tags | Shared damage type | Variant of |
+|---|---|---|---|
+| fire | `#fundamentum:element/fire` | `fundamentum:fire` | |
+| soul fire | `#fundamentum:element/soul_fire` | `fundamentum:soul_fire` (burn ticks: `fundamentum:on_soul_fire`) | fire |
+| ice, water, electric, earth, air, poison, holy, shadow, arcane | `#fundamentum:element/<e>` | `fundamentum:<e>` | |
+
+Names shown in game come from lang keys `element.<ns>.<path>` with `/` as `.` (`element.fundamentum.element.fire`).
+
+## Variants: soul fire is fire
+
+An element can be a **variant** of another (its *parent*). Every hit of the variant also counts as the parent, so
+anything that checks the parent covers it; the variant only adds to it. Soul fire is a variant of fire: fire
+resistance, fire-immune mobs, water and frost putting it out, fire auras and every fire reaction apply to soul fire
+unchanged. On top of that, soul fire sets what it hits burning with blue soul flames (2 HP a second instead of 1),
+and has its own reaction and affinities below.
+
+For damage types the variant's tag sits inside its parent's: the damage type tag `#fundamentum:element/fire` lists
+`#fundamentum:element/soul_fire`, and `fundamentum:soul_fire` and `fundamentum:on_soul_fire` are in `#minecraft:is_fire`,
+so anything that checks those tags counts soul fire hits too. The item tags are separate: the item tag
+`#fundamentum:element/fire` does not list the soul fire one. A weapon in the item tag `#fundamentum:element/soul_fire`
+still counts as fire, because Fundamentum's element check (`Element.matches`) covers a parent's variants in code. Code
+adds a variant with `Elements.variant(id, parent, damage, resistance)` (see the [API](../api.md)).
+
+### Soul fire
+
+- **Burning blue.** An entity set on fire by a soul source burns with vanilla's soul fire sprites (third person and
+  the first-person screen fire, the same render path as vanilla fire, so shaders treat it the same). It goes back to
+  orange or out when the fire ends, when it touches ordinary fire or lava, or when something non-soul sets it alight.
+- **Sources:** blocks in `#fundamentum:soul_fire_sources` (soul fire and soul campfires), projectiles in
+  `#fundamentum:soul_fire_projectiles` and melee weapons in `#fundamentum:soul_fire_weapons` that set targets on fire
+  (Fire Aspect, flaming arrows), and every hit of the soul fire element (it sets the target soul-burning for 4 s).
+- **Damage:** 2 HP a second while soul-burning, the vanilla soul fire block's contact damage. Config
+  `config/fundamentum-soulfire.toml`: `soulFireBurnDamage` (default 2.0) and `soulFireHitIgniteTicks` (default 80).
+- **A soul weapon, data only:** put the item in `#fundamentum:element/soul_fire` and its hits are soul fire (and so
+  fire). To keep a weapon's hits as they are and only turn the fire it sets blue, use `#fundamentum:soul_fire_weapons`
+  instead. For example `data/fundamentum/tags/item/element/soul_fire.json`:
+
+    ```json
+    {"values": ["mymod:soul_blade"]}
+    ```
 
 ## Auras
 
@@ -119,8 +159,12 @@ A built-in datapack, **Fundamentum: vanilla elements**, is on by default. Turn i
 | shatter | explosion on ice | x1.5, turned into magic damage |
 | blight | shadow on arcane | x1.25, Weakness 5 s |
 | smother | water or drowning on fire | puts the fire out |
+| soul_rend | soul fire on shadow | x1.5, soul particles |
 
-Its affinities: undead resist shadow and are weak to holy; blazes take double water; endermen take more water;
+Soul fire also sets off every fire reaction above (melt, quench, vaporize, overload, detonate, smother), because it is fire.
+
+Its affinities: undead resist shadow and are weak to holy and soul fire (-0.25); vexes and allays resist soul fire
+(0.5); the Warden is weak to it (-0.5); blazes take double water; endermen take more water;
 guardians take more electric; polar bears resist ice; snow golems are immune to ice and weak to fire.
 
 Test with `/fundamentum element` (see [Commands](../commands.md)).
