@@ -66,25 +66,25 @@ a crafting table.
 
 |  | Whip | What it does | How to get it |
 |---|---|---|---|
-| ![Leather Whip](img/leather_whip.png){ .mc-icon } | Leather Whip | the plain whip the others are made from | leather, string, sticks |
-| ![Vine Whip](img/vine_whip.png){ .mc-icon } | Vine Whip | a tip hit yanks the target toward you | vines and sticks |
-| ![Weeping Vine Whip](img/weeping_vine_whip.png){ .mc-icon } | Weeping Vine Whip | every hit heals you half a heart (a tip hit a full heart) | Vine Whip, 3 weeping vines, crimson stem, crimson fungus |
-| ![Twisting Vine Whip](img/twisting_vine_whip.png){ .mc-icon } | Twisting Vine Whip | a tip hit throws the target into the air | Vine Whip, 3 twisting vines, warped stem, warped fungus |
-| ![Glow Berry Whip](img/glow_berry_whip.png){ .mc-icon } | Glow Berry Whip | outlines what it hits in glow-berry orange | Vine Whip, 3 glow berries, moss block, glow lichen |
-| ![Spider Silk Whip](img/silk_whip.png){ .mc-icon } | Spider Silk Whip | three wisps, each going for its own hostile; hits slow | string, cobweb, stick, spider eye |
-| ![Chain Whip](img/chain_whip.png){ .mc-icon } | Chain Whip | a tip hit wraps the target in chain (Slowness II) | Leather Whip, iron chains, iron ingot |
-| ![Golden Heavy Whip](img/golden_heavy_whip.png){ .mc-icon } | Golden Heavy Whip | the slowest, hardest-hitting swing; knocks hard | Leather Whip, gold ingots, gold blocks |
-| ![Thunderstorm Whip](img/thunderstorm_whip.png){ .mc-icon } | Thunderstorm Whip | a tip hit arcs to five more hostiles and stuns each | lightning striking a dropped Golden Heavy Whip |
-| ![Diamond Whip](img/diamond_whip.png){ .mc-icon } | Diamond Whip | light cord, a bladed tip that hits hard | Leather Whip, diamonds, obsidian |
-| ![Emerald Whip](img/emerald_whip.png){ .mc-icon } | Emerald Whip | each crack fires three homing emerald bolts | Leather Whip, emeralds, gold ingot |
-| ![Amethyst Whip](img/amethyst_whip.png){ .mc-icon } | Amethyst Whip | a tip hit shatters into five shards that fly on | Leather Whip, amethyst shards, amethyst cluster |
-| ![Royal Slime Whip](img/royal_slime_whip.png){ .mc-icon } | Royal Slime Whip | bounces what it hits; quick hits stack and shorten the cooldown | Leather Whip, slime balls, slime block, gold block |
-| ![Blaze Whip](img/blaze_whip.png){ .mc-icon } | Blaze Whip | sets targets on fire and cuts deeper into burning foes; lights campfires and candles | Leather Whip, blaze rods, blaze powder, magma cream |
-| ![Untamed Sea Whip](img/untamed_sea_whip.png){ .mc-icon } | Untamed Sea Whip | hits soak and slow; hold use to charge a crashing wave | Leather Whip, prismarine shards, heart of the sea, nautilus shell |
-| ![Destruction Whip](img/destruction_whip.png){ .mc-icon } | Destruction Whip | each crack fires four lasers at nearby hostiles | Chain Whip, netherite ingots, TNT, blaze rod |
-| ![Breeze Whip](img/breeze_whip.png){ .mc-icon } | Breeze Whip | the fastest whip; hits blow targets away, a tip hit bursts like a wind charge | trial chamber vaults only (4%, ominous 15%) |
-| ![Ender Whip](img/ender_whip.png){ .mc-icon } | Ender Whip | homes in on the hostile nearest your crosshair; hits levitate | End city ship chests only (30%) |
-| ![End Rift Whip](img/end_rift_whip.png){ .mc-icon } | End Rift Whip | the Ender Whip with its cord drawn through the End | throw an Ender Whip into an End portal (enchantments kept) |
+| ![Leather Whip](img/leather_whip.png){ .mc-icon } ![Leather Whip in hand](img/leather_whip_3d.png){ .mc-3d } | Leather Whip | the plain whip the others are made from | leather, string, sticks |
+| ![Vine Whip](img/vine_whip.png){ .mc-icon } ![Vine Whip in hand](img/vine_whip_3d.png){ .mc-3d } | Vine Whip | a tip hit yanks the target toward you | vines and sticks |
+| ![Weeping Vine Whip](img/weeping_vine_whip.png){ .mc-icon } ![Weeping Vine Whip in hand](img/weeping_vine_whip_3d.png){ .mc-3d } | Weeping Vine Whip | every hit heals you half a heart (a tip hit a full heart) | Vine Whip, 3 weeping vines, crimson stem, crimson fungus |
+| ![Twisting Vine Whip](img/twisting_vine_whip.png){ .mc-icon } ![Twisting Vine Whip in hand](img/twisting_vine_whip_3d.png){ .mc-3d } | Twisting Vine Whip | a tip hit throws the target into the air | Vine Whip, 3 twisting vines, warped stem, warped fungus |
+| ![Glow Berry Whip](img/glow_berry_whip.png){ .mc-icon } ![Glow Berry Whip in hand](img/glow_berry_whip_3d.png){ .mc-3d } | Glow Berry Whip | outlines what it hits in glow-berry orange | Vine Whip, 3 glow berries, moss block, glow lichen |
+| ![Spider Silk Whip](img/silk_whip.png){ .mc-icon } ![Spider Silk Whip in hand](img/silk_whip_3d.png){ .mc-3d } | Spider Silk Whip | three wisps, each going for its own hostile; hits slow | string, cobweb, stick, spider eye |
+| ![Chain Whip](img/chain_whip.png){ .mc-icon } ![Chain Whip in hand](img/chain_whip_3d.png){ .mc-3d } | Chain Whip | a tip hit wraps the target in chain (Slowness II) | Leather Whip, iron chains, iron ingot |
+| ![Golden Heavy Whip](img/golden_heavy_whip.png){ .mc-icon } ![Golden Heavy Whip in hand](img/golden_heavy_whip_3d.png){ .mc-3d } | Golden Heavy Whip | the slowest, hardest-hitting swing; knocks hard | Leather Whip, gold ingots, gold blocks |
+| ![Thunderstorm Whip](img/thunderstorm_whip.png){ .mc-icon } ![Thunderstorm Whip in hand](img/thunderstorm_whip_3d.png){ .mc-3d } | Thunderstorm Whip | a tip hit arcs to five more hostiles and stuns each | lightning striking a dropped Golden Heavy Whip |
+| ![Diamond Whip](img/diamond_whip.png){ .mc-icon } ![Diamond Whip in hand](img/diamond_whip_3d.png){ .mc-3d } | Diamond Whip | light cord, a bladed tip that hits hard | Leather Whip, diamonds, obsidian |
+| ![Emerald Whip](img/emerald_whip.png){ .mc-icon } ![Emerald Whip in hand](img/emerald_whip_3d.png){ .mc-3d } | Emerald Whip | each crack fires three homing emerald bolts | Leather Whip, emeralds, gold ingot |
+| ![Amethyst Whip](img/amethyst_whip.png){ .mc-icon } ![Amethyst Whip in hand](img/amethyst_whip_3d.png){ .mc-3d } | Amethyst Whip | a tip hit shatters into five shards that fly on | Leather Whip, amethyst shards, amethyst cluster |
+| ![Royal Slime Whip](img/royal_slime_whip.png){ .mc-icon } ![Royal Slime Whip in hand](img/royal_slime_whip_3d.png){ .mc-3d } | Royal Slime Whip | bounces what it hits; quick hits stack and shorten the cooldown | Leather Whip, slime balls, slime block, gold block |
+| ![Blaze Whip](img/blaze_whip.png){ .mc-icon } ![Blaze Whip in hand](img/blaze_whip_3d.png){ .mc-3d } | Blaze Whip | sets targets on fire and cuts deeper into burning foes; lights campfires and candles | Leather Whip, blaze rods, blaze powder, magma cream |
+| ![Untamed Sea Whip](img/untamed_sea_whip.png){ .mc-icon } ![Untamed Sea Whip in hand](img/untamed_sea_whip_3d.png){ .mc-3d } | Untamed Sea Whip | hits soak and slow; hold use to charge a crashing wave | Leather Whip, prismarine shards, heart of the sea, nautilus shell |
+| ![Destruction Whip](img/destruction_whip.png){ .mc-icon } ![Destruction Whip in hand](img/destruction_whip_3d.png){ .mc-3d } | Destruction Whip | each crack fires four lasers at nearby hostiles | Chain Whip, netherite ingots, TNT, blaze rod |
+| ![Breeze Whip](img/breeze_whip.png){ .mc-icon } ![Breeze Whip in hand](img/breeze_whip_3d.png){ .mc-3d } | Breeze Whip | the fastest whip; hits blow targets away, a tip hit bursts like a wind charge | trial chamber vaults only (4%, ominous 15%) |
+| ![Ender Whip](img/ender_whip.png){ .mc-icon } ![Ender Whip in hand](img/ender_whip_3d.png){ .mc-3d } | Ender Whip | homes in on the hostile nearest your crosshair; hits levitate | End city ship chests only (30%) |
+| ![End Rift Whip](img/end_rift_whip.png){ .mc-icon } ![End Rift Whip in hand](img/end_rift_whip_3d.png){ .mc-3d } | End Rift Whip | the Ender Whip with its cord drawn through the End | throw an Ender Whip into an End portal (enchantments kept) |
 
 ## Special weapons
 
@@ -102,9 +102,9 @@ Each has one trick of its own; the tooltip says what.
 | ![Voidstring Bow](img/voidstring_bow.png){ .mc-icon } | Voidstring Bow | arrows fly straight and curve to mobs; a full draw swaps places with the target (players too, under the server's PvP rules), and a fully drawn kill takes you to where it fell; recipe uses an ender pearl | crafted |
 | ![Engineer's Crossbow](img/engineers_crossbow.png){ .mc-icon } | Engineer's Crossbow | rope mode strings a zipline; combat mode is a 5-bolt magazine; while held, beside the hotbar it shows the mode, bolts loaded and arrows carried ("Combat 3/5", "Arrow x23"; in rope mode whether the first anchor is set) | crafted |
 | ![Bastion Crossbow](img/bastion_crossbow.png){ .mc-icon } | Bastion Crossbow | fast, three bolts, can fire flame bolts; piglins don't mind it | bastion treasure chests (20%) |
-| ![Fisher King's Trident](img/fisher_kings_trident.png){ .mc-icon } | Fisher King's Trident | thrown into water it fishes; bonus damage to aquatic mobs | crafted |
-| ![Coral Trident](img/coral_trident.png){ .mc-icon } | Coral Trident | leaves a whirlpool underwater that pulls you in | crafted |
-| ![Abyssal Trident](img/abyssal_trident.png){ .mc-icon } | Abyssal Trident | leaves a drowning field, even on land | crafted |
+| ![Fisher King's Trident](img/fisher_kings_trident.png){ .mc-icon } ![Fisher King's Trident in hand](img/fisher_kings_trident_3d.png){ .mc-3d } | Fisher King's Trident | thrown into water it fishes; bonus damage to aquatic mobs | crafted |
+| ![Coral Trident](img/coral_trident.png){ .mc-icon } ![Coral Trident in hand](img/coral_trident_3d.png){ .mc-3d } | Coral Trident | leaves a whirlpool underwater that pulls you in | crafted |
+| ![Abyssal Trident](img/abyssal_trident.png){ .mc-icon } ![Abyssal Trident in hand](img/abyssal_trident_3d.png){ .mc-3d } | Abyssal Trident | leaves a drowning field, even on land | crafted |
 | ![Quake Hammer](img/quake_hammer.png){ .mc-icon } | Quake Hammer | sneak and attack the ground to send a fissure 8 blocks forward | crafted |
 | ![Delver's Pick](img/delvers_pick.png){ .mc-icon } | Delver's Pick | mines a 1x3 line (sneak for one block) | a ![Rusted Delver's Head](img/rusted_delvers_head.png){ .mc-icon .mc-inline } Rusted Delver's Head from mineshaft chest minecarts, smithed onto a diamond pickaxe (![Dormant Delver's Pick](img/dormant_delvers_pick.png){ .mc-icon .mc-inline } Dormant Delver's Pick), then thrown through a Nether portal |
 | ![Recall Chime](img/recall_chime.png){ .mc-icon } | Recall Chime | ring to set a mark, ring again to be pulled back to it | End city chests (8%) |
