@@ -56,8 +56,8 @@ and chills them. Each later tier is crafted from the one before, with herbs, a g
   freezes hostiles near you.
 - ![Pulse Pistol](img/pulse_pistol.png){ .mc-icon .mc-inline }![Scorch Spitter](img/scorch_spitter.png){ .mc-icon .mc-inline }![Rime Repeater](img/rime_repeater.png){ .mc-icon .mc-inline } **Seed guns (magic):** one-handed pistols that fire bolts of seed magic, using Seed Pellets, on left or right click. They have
   their own enchantments: Heartsight, Seed Hopper, Weedkiller, Quickdraw, Bloom Shot, Heartmend and Infinity.
-- ![Moonwisp Whip](img/moonwisp_whip.png){ .mc-icon .mc-inline }![Moonflare Whip](img/moonflare_whip.png){ .mc-icon .mc-inline }![Moonrime Whip](img/moonrime_whip.png){ .mc-icon .mc-inline } **Whips (summon or ranged):** Fundamentum cord whips. Your pets attack whatever the whip hits. A whip hit counts as
-  summon or ranged, never both at once.
+- ![Moonwisp Whip](img/moonwisp_whip.png){ .mc-icon .mc-inline }![Moonflare Whip](img/moonflare_whip.png){ .mc-icon .mc-inline }![Moonrime Whip](img/moonrime_whip.png){ .mc-icon .mc-inline } **Whips (summon or melee):** Fundamentum cord whips. Your pets attack whatever the whip hits. A whip hit counts as
+  summon or melee, never both at once.
 - ![Heartstring Bow](img/heartstring_bow.png){ .mc-icon .mc-inline }![Scorchstring Bow](img/scorchstring_bow.png){ .mc-icon .mc-inline }![Rimestring Bow](img/rimestring_bow.png){ .mc-icon .mc-inline } **Bows (ranged):** Heartstring, Scorchstring and Rimestring. A full draw leaves a heart
   seed in what it hits, which bursts 0.75 seconds later for 4, 5 or 6 damage within 2.5 blocks. The Scorchstring's
   burst sets things alight, the Rimestring's slows and chills them.
