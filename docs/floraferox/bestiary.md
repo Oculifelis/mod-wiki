@@ -1,6 +1,6 @@
 # Bestiary
 
-All 29 Flora Ferox creatures, grouped by where they live. Stats are health / attack / armour. Each creature takes full
+All 29 Flora Ferox creatures, grouped by where they live. Stats are ♥ health, ⚔ attack and ◈ armour. Each creature takes full
 damage from its family's weakness and half from everything else:
 
 - **Pulse:** weak to ranged.
@@ -16,41 +16,73 @@ noted, every creature drops its family token (50%) and seeds (30%).
 
 The four creatures that wake from picked flowers and common herbs. All four are 24 / 4 / 4.
 
-??? note "Pulse Gnat · Pulse · by day"
-    ![Pulse Gnat](img/pulse_gnat.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** plains, sunflower plains, meadow, flower forest, cherry grove.
+<div class="mob-card mob-pulse" markdown>
 
-    Flutters about, then darts at you in a heart-shaped dive.
+![Pulse Gnat](img/pulse_gnat.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** pink dye (30%).
+### Pulse Gnat
 
-??? note "Dusk Sprig · Dusk · at night"
-    ![Dusk Sprig](img/dusk_sprig.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Pulse</span> <span class="mob-tag">by day</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
 
-    **Spawns:** plains, sunflower plains, forest, birch forest, flower forest, meadow.
+**Spawns:** plains, sunflower plains, meadow, flower forest, cherry grove.
 
-    Lunges and bites. In daylight it roots itself in place.
+Flutters about, then darts at you in a heart-shaped dive.
 
-    **Drops:** yellow dye (30%).
+**Drops:** pink dye (30%).
 
-??? note "Moon Tick · Moon · at night"
-    ![Moon Tick](img/moon_tick.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** plains, snowy plains, taiga, snowy taiga, meadow, sunflower plains. Twice as common under a full moon.
+<div class="mob-card mob-dusk" markdown>
 
-    Hops at you in long bounds.
+![Dusk Sprig](img/dusk_sprig.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** light blue dye (30%), amethyst shard (15%).
+### Dusk Sprig
 
-??? note "Mire Ghast · Mire · by day"
-    ![Mire Ghast](img/mire_ghast.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Dusk</span> <span class="mob-tag">at night</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
 
-    **Spawns:** swamp, mangrove swamp.
+**Spawns:** plains, sunflower plains, forest, birch forest, flower forest, meadow.
 
-    Walks up and slams you with its arms.
+Lunges and bites. In daylight it roots itself in place.
 
-    **Drops:** mud (50%), sticks (50%).
+**Drops:** yellow dye (30%).
+
+</div>
+
+<div class="mob-card mob-moon" markdown>
+
+![Moon Tick](img/moon_tick.png){ .mc-3d .mc-mob loading=lazy }
+
+### Moon Tick
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Moon</span> <span class="mob-tag">at night</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
+
+**Spawns:** plains, snowy plains, taiga, snowy taiga, meadow, sunflower plains. Twice as common under a full moon.
+
+Hops at you in long bounds.
+
+**Drops:** light blue dye (30%), amethyst shard (15%).
+
+</div>
+
+<div class="mob-card mob-mire" markdown>
+
+![Mire Ghast](img/mire_ghast.png){ .mc-3d .mc-mob loading=lazy }
+
+### Mire Ghast
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag">by day</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
+
+**Spawns:** swamp, mangrove swamp.
+
+Walks up and slams you with its arms.
+
+**Drops:** mud (50%), sticks (50%).
+
+</div>
+
+</div>
 
 ## The hunters
 
@@ -68,251 +100,454 @@ Each drops its **trophy** (35%, plus 10% per level of Looting). Killed by a play
 burning seeds (10%), an Ember Graft (4%) or a Rime Graft (2%). A trophy crafts into its charm, and every trophy charm
 also gives its family +15% damage.
 
-??? note "Snap Drake · Dusk"
-    ![Snap Drake](img/snap_drake.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** flower forest, meadow, cherry grove.
+<div class="mob-card mob-dusk" markdown>
 
-    Its snap carries it forward, and it snaps twice.
+![Snap Drake](img/snap_drake.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Trophy:** Snapjaw Petal. **Snapjaw Charm:** 15% chance that a magic hit does 1.5x damage.
+### Snap Drake
 
-??? note "Burr Crawler · Pulse"
-    ![Burr Crawler](img/burr_crawler.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Dusk</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
 
-    **Spawns:** forest, birch forests, savanna.
+**Spawns:** flower forest, meadow, cherry grove.
 
-    Its hooks slow you. From 3.5 to 9 blocks away it throws burrs.
+Its snap carries it forward, and it snaps twice.
 
-    **Trophy:** Hookburr, which also makes Burr Pellets. **Hookburr Charm:** your ranged hits slow.
+**Trophy:** Snapjaw Petal. **Snapjaw Charm:** 15% chance that a magic hit does 1.5x damage.
 
-??? note "Lantern Leech · Moon · at night"
-    ![Lantern Leech](img/lantern_leech.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** dark forest, forest.
+<div class="mob-card mob-pulse" markdown>
 
-    Floats. Its bite heals it by 3, and then it backs off.
+![Burr Crawler](img/burr_crawler.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Trophy:** Lantern Husk. **Lantern Charm:** your summons' hits heal you by 1.
+### Burr Crawler
 
-??? note "Orchid Mantis · Moon"
-    ![Orchid Mantis](img/orchid_mantis.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Pulse</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
 
-    **Spawns:** jungles.
+**Spawns:** forest, birch forests, savanna.
 
-    Stands still and passes for a flower, then slashes twice.
+Its hooks slow you. From 3.5 to 9 blocks away it throws burrs.
 
-    **Trophy:** Orchid Blade. **Orchid Charm:** whips recover 25% sooner, and your pets get Speed.
+**Trophy:** Hookburr, which also makes Burr Pellets. **Hookburr Charm:** your ranged hits slow.
 
-??? note "Reed Wretch · Mire"
-    ![Reed Wretch](img/reed_wretch.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** swamp, mangrove swamp, river.
+<div class="mob-card mob-moon" markdown>
 
-    Its scythe sweeps a wide arc in front of it.
+![Lantern Leech](img/lantern_leech.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Trophy:** Cattail Fluff. **Cattail Charm:** slow falling while you sneak in the air.
+### Lantern Leech
 
-??? note "Dew Crab · Mire · neutral"
-    ![Dew Crab](img/dew_crab.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Moon</span> <span class="mob-tag">at night</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
 
-    **Spawns:** swamp, mangrove swamp.
+**Spawns:** dark forest, forest.
 
-    Sidles round you. Its grip gives Slowness III.
+Floats. Its bite heals it by 3, and then it backs off.
 
-    **Trophy:** Sundew Glue. **Sundew Charm:** your melee hits slow.
+**Trophy:** Lantern Husk. **Lantern Charm:** your summons' hits heal you by 1.
+
+</div>
+
+<div class="mob-card mob-moon" markdown>
+
+![Orchid Mantis](img/orchid_mantis.png){ .mc-3d .mc-mob loading=lazy }
+
+### Orchid Mantis
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Moon</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
+
+**Spawns:** jungles.
+
+Stands still and passes for a flower, then slashes twice.
+
+**Trophy:** Orchid Blade. **Orchid Charm:** whips recover 25% sooner, and your pets get Speed.
+
+</div>
+
+<div class="mob-card mob-mire" markdown>
+
+![Reed Wretch](img/reed_wretch.png){ .mc-3d .mc-mob loading=lazy }
+
+### Reed Wretch
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
+
+**Spawns:** swamp, mangrove swamp, river.
+
+Its scythe sweeps a wide arc in front of it.
+
+**Trophy:** Cattail Fluff. **Cattail Charm:** slow falling while you sneak in the air.
+
+</div>
+
+<div class="mob-card mob-mire" markdown>
+
+![Dew Crab](img/dew_crab.png){ .mc-3d .mc-mob loading=lazy }
+
+### Dew Crab
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag">neutral</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 24 · ⚔ 4 · ◈ 4</span></p>
+
+**Spawns:** swamp, mangrove swamp.
+
+Sidles round you. Its grip gives Slowness III.
+
+**Trophy:** Sundew Glue. **Sundew Charm:** your melee hits slow.
+
+</div>
+
+</div>
 
 ## Plains, meadows and flower forests
 
-??? note "Thorn Hopper · Pulse · 20 / 4 / 2"
-    ![Thorn Hopper](img/thorn_hopper.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** only from a **Thorn Hopper Den**, a bramble burrow ringed with sweet berry bushes in about one chunk in
-    40 of plains, sunflower plains, meadow and flower forest. By day a den sends out one or two while fewer than 3 are
-    near, and they stay within 10 blocks of it. With Silk Touch the den drops itself.
+<div class="mob-card mob-pulse" markdown>
 
-    Leaps and bites, then springs away.
+![Thorn Hopper](img/thorn_hopper.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** sweet berries (40%).
+### Thorn Hopper
 
-??? note "Pollen Puff · Dusk · neutral · 14 / 3 / 0"
-    ![Pollen Puff](img/pollen_puff.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Pulse</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 20 · ⚔ 4 · ◈ 2</span></p>
 
-    **Spawns:** flower forest, meadow, sunflower plains, cherry grove.
+**Spawns:** only from a **Thorn Hopper Den**, a bramble burrow ringed with sweet berry bushes in about one chunk in
+40 of plains, sunflower plains, meadow and flower forest. By day a den sends out one or two while fewer than 3 are
+near, and they stay within 10 blocks of it. With Silk Touch the den drops itself.
 
-    Flies. Its pollen burst gives Weakness, and then it drifts off.
+Leaps and bites, then springs away.
 
-    **Drops:** yellow dye (40%).
+**Drops:** sweet berries (40%).
 
-??? warning "Thorn Matriarch · Pulse · miniboss · 120 / 8 / 6"
-    ![Thorn Matriarch](img/thorn_matriarch.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** plains, meadow, flower forest (rare).
+<div class="mob-card mob-dusk" markdown>
 
-    Her leap lands in a shockwave. At two thirds and one third health she calls two Thorn Hoppers.
+![Pollen Puff](img/pollen_puff.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** sweet berries (1–6), rose bush (50%), token and seeds (1–3 each), grafts when killed by a player.
+### Pollen Puff
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Dusk</span> <span class="mob-tag">neutral</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 14 · ⚔ 3 · ◈ 0</span></p>
+
+**Spawns:** flower forest, meadow, sunflower plains, cherry grove.
+
+Flies. Its pollen burst gives Weakness, and then it drifts off.
+
+**Drops:** yellow dye (40%).
+
+</div>
+
+<div class="mob-card mob-pulse mob-boss" markdown>
+
+![Thorn Matriarch](img/thorn_matriarch.png){ .mc-3d .mc-mob loading=lazy }
+
+### Thorn Matriarch
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Pulse</span> <span class="mob-tag mob-mini">miniboss</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 120 · ⚔ 8 · ◈ 6</span></p>
+
+**Spawns:** plains, meadow, flower forest (rare).
+
+Her leap lands in a shockwave. At two thirds and one third health she calls two Thorn Hoppers.
+
+**Drops:** sweet berries (1–6), rose bush (50%), token and seeds (1–3 each), grafts when killed by a player.
+
+</div>
+
+</div>
 
 ## Forests and taigas
 
-??? note "Graft Twin · Moon · 26 / 4 / 4"
-    ![Graft Twin](img/graft_twin.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** forest, birch forest, flower forest.
+<div class="mob-card mob-moon" markdown>
 
-    Keeps its distance and shoots flame, then frost. Every third volley fires both.
+![Graft Twin](img/graft_twin.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** blaze powder (15%), snowball (40%).
+### Graft Twin
 
-??? note "Root Grub · Mire · at night · 22 / 5 / 4"
-    ![Root Grub](img/root_grub.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Moon</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 26 · ⚔ 4 · ◈ 4</span></p>
 
-    **Spawns:** forest, dark forest, taiga, old growth spruce taiga.
+**Spawns:** forest, birch forest, flower forest.
 
-    When you're more than 5 blocks away it burrows, then erupts under your feet and flings you up.
+Keeps its distance and shoots flame, then frost. Every third volley fires both.
 
-    **Drops:** hanging roots (40%).
+**Drops:** blaze powder (15%), snowball (40%).
 
-??? note "Bell Stalker · Moon · at night · 22 / 5 / 2"
-    ![Bell Stalker](img/bell_stalker.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** dark forest, birch forests, flower forest.
+<div class="mob-card mob-mire" markdown>
 
-    Moves only while you aren't looking at it. Its toll does damage and gives Slowness and Darkness.
+![Root Grub](img/root_grub.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** amethyst shard (25%), string (40%).
+### Root Grub
 
-??? warning "Briar King · Mire · miniboss · at night · 140 / 9 / 8"
-    ![Briar King](img/briar_king.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag">at night</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 22 · ⚔ 5 · ◈ 4</span></p>
 
-    **Spawns:** dark forest, forest.
+**Spawns:** forest, dark forest, taiga, old growth spruce taiga.
 
-    Charges from 6 to 16 blocks away, trampling whatever is in the way. Under half health, its thorns hurt anything that
-    hits it.
+When you're more than 5 blocks away it burrows, then erupts under your feet and flings you up.
 
-    **Drops:** rose bush, oak log, token and seeds (1–3 each), grafts when killed by a player.
+**Drops:** hanging roots (40%).
+
+</div>
+
+<div class="mob-card mob-moon" markdown>
+
+![Bell Stalker](img/bell_stalker.png){ .mc-3d .mc-mob loading=lazy }
+
+### Bell Stalker
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Moon</span> <span class="mob-tag">at night</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 22 · ⚔ 5 · ◈ 2</span></p>
+
+**Spawns:** dark forest, birch forests, flower forest.
+
+Moves only while you aren't looking at it. Its toll does damage and gives Slowness and Darkness.
+
+**Drops:** amethyst shard (25%), string (40%).
+
+</div>
+
+<div class="mob-card mob-mire mob-boss" markdown>
+
+![Briar King](img/briar_king.png){ .mc-3d .mc-mob loading=lazy }
+
+### Briar King
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag mob-mini">miniboss</span> <span class="mob-tag">at night</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 140 · ⚔ 9 · ◈ 8</span></p>
+
+**Spawns:** dark forest, forest.
+
+Charges from 6 to 16 blocks away, trampling whatever is in the way. Under half health, its thorns hurt anything that
+hits it.
+
+**Drops:** rose bush, oak log, token and seeds (1–3 each), grafts when killed by a player.
+
+</div>
+
+</div>
 
 ## Swamps and jungles
 
-??? note "Pitcher Spitter · Mire · 22 / 3 / 4"
-    ![Pitcher Spitter](img/pitcher_spitter.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** jungles, swamps.
+<div class="mob-card mob-mire" markdown>
 
-    Spits nectar that gives Slowness. Up close it gulps you, with Nausea.
+![Pitcher Spitter](img/pitcher_spitter.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** pitcher pod (10%), honey bottle (10%).
+### Pitcher Spitter
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 22 · ⚔ 3 · ◈ 4</span></p>
+
+**Spawns:** jungles, swamps.
+
+Spits nectar that gives Slowness. Up close it gulps you, with Nausea.
+
+**Drops:** pitcher pod (10%), honey bottle (10%).
+
+</div>
+
+</div>
 
 ## Lush caves
 
-??? warning "Carrion Bloom · Mire · miniboss · 100 / 7 / 6"
-    ![Carrion Bloom](img/carrion_bloom.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** lush caves.
+<div class="mob-card mob-mire mob-boss" markdown>
 
-    Rooted in place. Every 5 seconds it pulls you in from up to 10 blocks, and its spores poison.
+![Carrion Bloom](img/carrion_bloom.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** spore blossom, glow berries, moss.
+### Carrion Bloom
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag mob-mini">miniboss</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 100 · ⚔ 7 · ◈ 6</span></p>
+
+**Spawns:** lush caves.
+
+Rooted in place. Every 5 seconds it pulls you in from up to 10 blocks, and its spores poison.
+
+**Drops:** spore blossom, glow berries, moss.
+
+</div>
+
+</div>
 
 ## The Nether
 
 Every Nether creature is fireproof.
 
-??? note "Wartback · Mire · 26 / 5 / 4"
-    ![Wartback](img/wartback.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** crimson forest, nether wastes.
+<div class="mob-card mob-mire" markdown>
 
-    Lunges and tosses you on its tusks.
+![Wartback](img/wartback.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** nether wart (50%).
+### Wartback
 
-??? note "Nylium Lurker · Mire · 22 / 5 / 4"
-    ![Nylium Lurker](img/nylium_lurker.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 26 · ⚔ 5 · ◈ 4</span></p>
 
-    **Spawns:** crimson forest, warped forest.
+**Spawns:** crimson forest, nether wastes.
 
-    Waits in its lair. When you come within 6 blocks it lunges; its jaws give Slowness IV. Then it goes back to its
-    lair.
+Lunges and tosses you on its tusks.
 
-    **Drops:** crimson roots (50%).
+**Drops:** nether wart (50%).
 
-??? note "Soulwick · Pulse · 20 / 4 / 2"
-    ![Soulwick](img/soulwick.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** soul sand valley.
+<div class="mob-card mob-mire" markdown>
 
-    Leaps and burns. Near death it lets out one ring of soul fire.
+![Nylium Lurker](img/nylium_lurker.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** soul torch (30%), bone meal (40%).
+### Nylium Lurker
 
-??? note "Cinder Thistle · Pulse · 18 / 4 / 2"
-    ![Cinder Thistle](img/cinder_thistle.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 22 · ⚔ 5 · ◈ 4</span></p>
 
-    **Spawns:** basalt deltas, nether wastes.
+**Spawns:** crimson forest, warped forest.
 
-    Fires a fan of three burning spikes, then backs off.
+Waits in its lair. When you come within 6 blocks it lunges; its jaws give Slowness IV. Then it goes back to its
+lair.
 
-    **Drops:** blaze powder (25%), coal (40%).
+**Drops:** crimson roots (50%).
 
-??? note "Warped Stilt · Dusk · neutral · 22 / 3 / 2"
-    ![Warped Stilt](img/warped_stilt.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** warped forest.
+<div class="mob-card mob-pulse" markdown>
 
-    Its spore burst gives Poison and Nausea.
+![Soulwick](img/soulwick.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** warped fungus (40%).
+### Soulwick
 
-??? note "Lanternpuff · Moon · neutral · 16 / 3 / 0"
-    ![Lanternpuff](img/lanternpuff.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Pulse</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 20 · ⚔ 4 · ◈ 2</span></p>
 
-    **Spawns:** crimson forest, nether wastes, basalt deltas.
+**Spawns:** soul sand valley.
 
-    Shoots embers. When struck, it blinds you.
+Leaps and burns. Near death it lets out one ring of soul fire.
 
-    **Drops:** glowstone dust (50%).
+**Drops:** soul torch (30%), bone meal (40%).
 
-??? warning "Crimson Behemoth · Mire · miniboss · 160 / 10 / 10"
-    ![Crimson Behemoth](img/crimson_behemoth.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** crimson forest.
+<div class="mob-card mob-pulse" markdown>
 
-    Stamps the ground in fire and charges. From more than 8 blocks away it throws 3 fireballs.
+![Cinder Thistle](img/cinder_thistle.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** crimson stem, shroomlight, magma cream.
+### Cinder Thistle
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Pulse</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 18 · ⚔ 4 · ◈ 2</span></p>
+
+**Spawns:** basalt deltas, nether wastes.
+
+Fires a fan of three burning spikes, then backs off.
+
+**Drops:** blaze powder (25%), coal (40%).
+
+</div>
+
+<div class="mob-card mob-dusk" markdown>
+
+![Warped Stilt](img/warped_stilt.png){ .mc-3d .mc-mob loading=lazy }
+
+### Warped Stilt
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Dusk</span> <span class="mob-tag">neutral</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 22 · ⚔ 3 · ◈ 2</span></p>
+
+**Spawns:** warped forest.
+
+Its spore burst gives Poison and Nausea.
+
+**Drops:** warped fungus (40%).
+
+</div>
+
+<div class="mob-card mob-moon" markdown>
+
+![Lanternpuff](img/lanternpuff.png){ .mc-3d .mc-mob loading=lazy }
+
+### Lanternpuff
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Moon</span> <span class="mob-tag">neutral</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 16 · ⚔ 3 · ◈ 0</span></p>
+
+**Spawns:** crimson forest, nether wastes, basalt deltas.
+
+Shoots embers. When struck, it blinds you.
+
+**Drops:** glowstone dust (50%).
+
+</div>
+
+<div class="mob-card mob-mire mob-boss" markdown>
+
+![Crimson Behemoth](img/crimson_behemoth.png){ .mc-3d .mc-mob loading=lazy }
+
+### Crimson Behemoth
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Mire</span> <span class="mob-tag mob-mini">miniboss</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 160 · ⚔ 10 · ◈ 10</span></p>
+
+**Spawns:** crimson forest.
+
+Stamps the ground in fire and charges. From more than 8 blocks away it throws 3 fireballs.
+
+**Drops:** crimson stem, shroomlight, magma cream.
+
+</div>
+
+</div>
 
 ## The End
 
-??? note "Pearl Pod · Dusk · 16 / 4 / 2"
-    ![Pearl Pod](img/pearl_pod.png){ .mc-3d .mc-mob loading=lazy }
+<div class="mob-grid" markdown>
 
-    **Spawns:** End highlands, midlands, small End islands, End barrens.
+<div class="mob-card mob-dusk" markdown>
 
-    Bursts, then blinks away. When struck, it blinks half the time.
+![Pearl Pod](img/pearl_pod.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Drops:** ender pearl (35%).
+### Pearl Pod
 
-??? note "Void Jelly · Dusk · 20 / 4 / 0"
-    ![Void Jelly](img/void_jelly.png){ .mc-3d .mc-mob loading=lazy }
+<p class="mob-tags"><span class="mob-tag mob-fam">Dusk</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 16 · ⚔ 4 · ◈ 2</span></p>
 
-    **Spawns:** End highlands, midlands, small End islands, End barrens.
+**Spawns:** End highlands, midlands, small End islands, End barrens.
 
-    Its sting poisons, and every other sting gives Levitation.
+Bursts, then blinks away. When struck, it blinks half the time.
 
-    **Drops:** chorus fruit (50%).
+**Drops:** ender pearl (35%).
 
-??? note "Rift Narwhal · Moon · neutral · 80 / 7 / 6"
-    ![Rift Narwhal](img/rift_narwhal.png){ .mc-3d .mc-mob loading=lazy }
+</div>
 
-    **Spawns:** End highlands, midlands, small End islands.
+<div class="mob-card mob-dusk" markdown>
 
-    Its gore flings you, then it wheels round and charges.
+![Void Jelly](img/void_jelly.png){ .mc-3d .mc-mob loading=lazy }
 
-    **Taming:** feed it chorus fruit (1 chance in 4 each). Ride it with an empty hand: it flies where you look, and
-    jump takes it up.
+### Void Jelly
 
-    **Drops:** chorus fruit (60%), phantom membrane (30%).
+<p class="mob-tags"><span class="mob-tag mob-fam">Dusk</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 20 · ⚔ 4 · ◈ 0</span></p>
+
+**Spawns:** End highlands, midlands, small End islands, End barrens.
+
+Its sting poisons, and every other sting gives Levitation.
+
+**Drops:** chorus fruit (50%).
+
+</div>
+
+<div class="mob-card mob-moon" markdown>
+
+![Rift Narwhal](img/rift_narwhal.png){ .mc-3d .mc-mob loading=lazy }
+
+### Rift Narwhal
+
+<p class="mob-tags"><span class="mob-tag mob-fam">Moon</span> <span class="mob-tag">neutral</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 80 · ⚔ 7 · ◈ 6</span></p>
+
+**Spawns:** End highlands, midlands, small End islands.
+
+Its gore flings you, then it wheels round and charges.
+
+**Taming:** feed it chorus fruit (1 chance in 4 each). Ride it with an empty hand: it flies where you look, and
+jump takes it up.
+
+**Drops:** chorus fruit (60%), phantom membrane (30%).
+
+</div>
+
+</div>
 
 ## Peace Lily Charm
 
