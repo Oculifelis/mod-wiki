@@ -9,8 +9,9 @@ and index.md, listing each file with its GitHub Pages and raw GitHub links. Re-r
 """
 import json
 import os
+import zipfile
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 import wiki_images as wi
 from wiki_images import mr
@@ -45,12 +46,46 @@ PAGES = "https://oculifelis.github.io/mod-wiki/description/slowlight/"
 RAW = "https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/"
 
 BG, PANEL, TEXT, DIM, ACCENT = (24, 22, 34, 255), (36, 33, 50, 255), (236, 230, 214), (170, 162, 150), (242, 196, 110)
-FONT = "C:/Windows/Fonts/"
 WIDTH, PAD = 720, 20
 
 
-def font(name, size):
-    return ImageFont.truetype(FONT + name, size)
+class McFont:
+    """Minecraft's own text: the 8x8 glyphs of the client jar's font/ascii.png, widths measured the way the game does
+    (last lit column + 1, one pixel gap, space 4), scaled by a whole number, with the game's drop shadow."""
+    sheet = None
+
+    def __init__(self, scale):
+        if McFont.sheet is None:
+            with zipfile.ZipFile(os.path.join(wi.JARS, JAR)) as z:
+                with z.open("assets/minecraft/textures/font/ascii.png") as f:
+                    McFont.sheet = Image.open(f).convert("RGBA")
+        self.k = scale
+
+    def glyph(self, ch):
+        n = ord(ch)
+        if ch == " " or n > 255:
+            return None, 4
+        g = McFont.sheet.crop((n % 16 * 8, n // 16 * 8, n % 16 * 8 + 8, n // 16 * 8 + 8))
+        a = g.getchannel("A")
+        cols = [x for x in range(8) if any(a.getpixel((x, y)) for y in range(8))]
+        return g, (cols[-1] + 2 if cols else 4)
+
+    def length(self, text):
+        return sum(self.glyph(c)[1] for c in text) * self.k - self.k
+
+    def draw(self, im, xy, text, fill, anchor="la"):
+        x, y = xy
+        if anchor == "ma":
+            x -= self.length(text) / 2
+        x, y = round(x), round(y)
+        shade = tuple(c // 4 for c in fill[:3])
+        for c in text:
+            g, adv = self.glyph(c)
+            if g is not None:
+                mask = g.getchannel("A").resize((8 * self.k, 8 * self.k), Image.NEAREST)
+                im.paste(Image.new("RGBA", mask.size, shade + (255,)), (x + self.k, y + self.k), mask)
+                im.paste(Image.new("RGBA", mask.size, tuple(fill[:3]) + (255,)), (x, y), mask)
+            x += adv * self.k
 
 
 def name(item):
@@ -78,7 +113,7 @@ def wrap(d, text, f, width):
     lines, line = [], ""
     for word in text.split():
         trial = (line + " " + word).strip()
-        if d.textlength(trial, font=f) <= width or not line:
+        if f.length(trial) <= width or not line:
             line = trial
         else:
             lines.append(line)
@@ -88,7 +123,7 @@ def wrap(d, text, f, width):
 
 def panel(title, blurb, rows, shot=None, caption=None):
     """rows: (heading or None, icon px, [(thing, label or None)], optional columns) in centred rows across the panel."""
-    tf, bf, lf, hf = font("georgiab.ttf", 30), font("georgia.ttf", 17), font("arial.ttf", 13), font("arialbd.ttf", 14)
+    tf, bf, lf, hf = McFont(3), McFont(2), McFont(2), McFont(2)
     scratch = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     inner = WIDTH - 2 * PAD
     blurb_lines = wrap(scratch, blurb, bf, inner)
@@ -96,11 +131,13 @@ def panel(title, blurb, rows, shot=None, caption=None):
     for heading, px, things, *cols in rows:
         labelled = any(label for _, label in things)
         pitch = px + (36 if labelled and px < 100 else 24 if labelled else 12)
+        if labelled:
+            pitch = max(pitch, max(lf.length(w) for _, label in things if label for w in label.split()) + 8)
         per_row = cols[0] if cols else max(1, (inner + pitch - px) // pitch)
         if cols and labelled:  # spread a labelled row across the panel so long names fit on two lines
             pitch = max(pitch, (inner + 24) // cols[0])
-        lines = 2 if labelled else 0
-        cell_h = px + (16 + 16 * lines if labelled else 8)
+        lines = max(len(wrap(scratch, label, lf, pitch - 4)) for _, label in things if label) if labelled else 0
+        cell_h = px + (14 + 20 * lines if labelled else 8)
         n_rows = -(-len(things) // per_row)
         parts.append((heading, px, things, pitch, per_row, cell_h, labelled))
         h += (24 if heading else 0) + n_rows * cell_h + 10
@@ -113,15 +150,15 @@ def panel(title, blurb, rows, shot=None, caption=None):
     im = Image.new("RGBA", (WIDTH, h), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     d.rounded_rectangle((0, 0, WIDTH - 1, h - 1), 18, fill=BG)
-    d.text((PAD, PAD - 4), title, font=tf, fill=ACCENT)
+    tf.draw(im, (PAD, PAD), title, ACCENT)
     y = PAD + 38
     for line in blurb_lines:
-        d.text((PAD, y), line, font=bf, fill=TEXT)
+        bf.draw(im, (PAD, y), line, TEXT)
         y += 24
     y += 12
     for heading, px, things, pitch, per_row, cell_h, labelled in parts:
         if heading:
-            d.text((PAD, y), heading, font=hf, fill=DIM)
+            hf.draw(im, (PAD, y), heading, DIM)
             y += 24
         for i, (thing, label) in enumerate(things):
             used = min(per_row, len(things) - i // per_row * per_row)
@@ -132,15 +169,15 @@ def panel(title, blurb, rows, shot=None, caption=None):
             im.alpha_composite(pic, (cx, cy))
             if label:
                 ly = cy + px + 6
-                for line in wrap(d, label, lf, pitch - 4)[:2]:
-                    d.text((cx + px / 2, ly), line, font=lf, fill=TEXT, anchor="ma")
-                    ly += 16
+                for line in wrap(d, label, lf, pitch - 4):
+                    lf.draw(im, (cx + px / 2, ly), line, TEXT, anchor="ma")
+                    ly += 20
         y += -(-len(things) // per_row) * cell_h + 10
     if shot:
         im.alpha_composite(im_shot, (PAD, y))
         y += im_shot.height
         if caption:
-            d.text((WIDTH / 2, y + 6), caption, font=lf, fill=DIM, anchor="ma")
+            lf.draw(im, (WIDTH / 2, y + 8), caption, DIM, anchor="ma")
     return im
 
 
