@@ -2,7 +2,7 @@
 
 ![Orbis Novus: Dungeons](img/dungeons_logo.png){ width="128" align=right }
 
-Dungeons, castles, villages and walled citadels, all generated in new chunks. The game assembles them from jigsaw
+Dungeons, castles, villages and walled citadels, all placed in new chunks. The game assembles them from jigsaw
 pieces, so no two are laid out the same. They're built in vanilla blocks, and they also use the blocks of any
 building mods you have.
 
@@ -315,7 +315,7 @@ structure sets (spacing), template pools, processor lists and biome tags.
 - **[Orbis Novus: Terrain](terrain.md):** dungeons and settlements generate in its world types.
 - **Other world generation mods** (biome mods, terrain mods): structures follow biome tags, so they place in modded
   biomes that carry the usual `#minecraft:` and `#c:` tags.
-- **Multiplayer:** the structures are generated on the server; install the mod on both sides.
+- **Multiplayer:** the structures are built on the server; install the mod on both sides.
 - Structure mods that change vanilla villages may change how often the added houses appear.
 
 ## Coming in 1.1

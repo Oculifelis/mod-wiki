@@ -74,6 +74,13 @@ to keep their text open, or `#fundamentum:tooltip_fold` to fold a short one.
 With Iris and a shader pack, moon and night-event sky tints, whip cords and glowing item faces still show (26.1.2,
 from 1.25.4). The Psychedelic Moon's fractal sky doesn't show under packs that draw their own sky, such as Complementary.
 
+## Licence
+
+By **Oculifelis**. From 1.25.8, Fundamentum's code and art are open source under the
+[GNU LGPL 3.0 or later](https://www.gnu.org/licenses/lgpl-3.0.html): a mod or pack may depend on it, ship it and build on
+it. Versions before 1.25.8 were All Rights Reserved. The cord whip system is adapted from
+[Better Whips](https://github.com/my2167592261-cell/Better-Whips) (MIT); every texture is Fundamentum's own.
+
 ## Pages
 
 - [Versions](versions.md): what each Minecraft version has.

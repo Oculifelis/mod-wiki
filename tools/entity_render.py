@@ -1,6 +1,6 @@
 """Offline pictures of box-UV entity models, for the bestiary: no game client.
 
-The models are read from the Java the game itself loads (Flora Ferox's generated VerdureModels.java: one ModelSpec per
+The models are read from the Java the game itself loads (Flora Ferox's tool-written VerdureModels.java: one ModelSpec per
 mob, parts with pivots, rotations and box-UV cubes) and drawn at rest in a three-quarter view with the mob's own texture
 and glow sheet, by the software renderer in ViolentVerdure/tools/gen/boxrender.py (z-buffered, Minecraft's box-UV
 mapping and entity lighting). The picture is drawn large and scaled down, so it comes out smooth.
@@ -20,7 +20,7 @@ _SPEC = re.compile(r'static final ModelSpec SPEC = new ModelSpec\("(\w+)", (\d+)
 
 
 def load_specs(java_path):
-    """Every ModelSpec in a generated models file, as {name: model} in boxrender's shape."""
+    """Every ModelSpec in a tool-written models file, as {name: model} in boxrender's shape."""
     models = {}
     for name, tw, th, body in _SPEC.findall(open(java_path, encoding="utf-8").read()):
         parts = []

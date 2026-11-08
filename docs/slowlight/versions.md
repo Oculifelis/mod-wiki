@@ -1,6 +1,6 @@
 # Versions
 
-**1.21.1 NeoForge** is the main version: every feature is made there first. The others are ports, all at 0.8.2. A few
+**1.21.1 NeoForge** is the main version: every feature is made there first. The others are ports: 1.20.1 and 26.1.2 at 0.8.2, 26.2 and 26.3 at 0.8.3. A few
 things are cut or work differently on some of them, and everything that is is listed here.
 
 | Minecraft | Loader | KubeJS | Almanac (Patchouli) | Aerial Hell compat | What differs |
@@ -39,6 +39,8 @@ Everything under 26.1.2 applies, and:
 - **No Patchouli** exists for these versions, so there's no *A Slow Almanac* (its recipe doesn't show).
 - **No KubeJS** build exists yet.
 - **Aerial Hell** has no build for these versions, so its compat has nothing to load with (it's in the jar, ready for when it does).
+- **Sulfur cube types** (0.8.3): these versions have the sulfur cube, and a cube that swallows a Slowlight Shard block
+  drifts while one holding a Still Shard block hangs still. See [To build with](items.md#to-build-with).
 
 ## Testing
 

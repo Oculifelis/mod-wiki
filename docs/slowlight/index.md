@@ -16,8 +16,8 @@ press than to play.
 weather), Jade (how long a kiln, Sandglass or Keepsake Urn has left), Patchouli (*A Slow Almanac*), KubeJS, Create,
 Chipped, Rechiseled, and the mods under [Other mods](items.md#other-mods).
 
-**Versions:** 1.21.1 NeoForge is the main version; there are ports for 1.20.1 Forge and NeoForge 26.1.2, 26.2 and
-26.3, all at 0.8.2. See [Versions](versions.md) for what differs on each.
+**Versions:** 1.21.1 NeoForge is the main version; there are ports for 1.20.1 Forge and NeoForge 26.1.2 (at 0.8.2, like 1.21.1),
+and NeoForge 26.2 and 26.3 (at 0.8.3, which adds sulfur cube types). See [Versions](versions.md) for what differs on each.
 
 ## What's in it
 

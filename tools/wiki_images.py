@@ -68,6 +68,7 @@ MODS = {
         # each weapon line's three tiers
         "mirecap_cleaver", "flare_cleaver", "rime_cleaver", "dusk_sceptre", "ember_sceptre", "rime_sceptre",
         "pulse_pistol", "scorch_spitter", "rime_repeater", "moonwisp_whip", "moonflare_whip", "moonrime_whip",
+        "heartstring_bow", "scorchstring_bow", "rimestring_bow", "pulse_arbalest", "scorch_arbalest", "rime_arbalest",
     ]),
     "slowlight": (MODDING + "/Slowlight/src/main/resources/assets", "minecraft_1.21.1_client.jar", [
         # kilns, light and measuring
@@ -157,7 +158,7 @@ THREE_D = {
 }
 
 
-# Entity models: mod -> (the generated Java holding every mob's ModelSpec, entity textures, renderer folder, mob ids).
+# Entity models: mod -> (the tool-written Java holding every mob's ModelSpec, entity textures, renderer folder, mob ids).
 # Each mob's picture is docs/<mod>/img/<id>.png, from textures/entity/<id>.png and its _glow.png.
 VERDURE = MODDING + "/ViolentVerdure"
 ENTITIES = {

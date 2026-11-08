@@ -41,4 +41,7 @@ By Oculifelis: code, design, music and the hand-drawn art.
 - Rhodox, Painterly: the Delver's Pick head, used with permission.
 - Many item and creature textures are recoloured or reworked from Minecraft's own.
 
-Ostentum is All Rights Reserved.
+From 1.9.8, Ostentum's code and Oculifelis's own art and music are open source under the
+[GNU LGPL 3.0 or later](https://www.gnu.org/licenses/lgpl-3.0.html). Art from others keeps its own licence: the
+Unused Textures art stays CC BY 4.0, the Painterly art is used by permission and isn't covered, and Mojang keeps its
+rights to art reworked from Minecraft. Versions before 1.9.8 were All Rights Reserved.
