@@ -178,7 +178,7 @@
 .md-typeset td:has(> img.mc-3d) {
   white-space: nowrap;
 }
-/* Bestiary (spawn egg icons from tools/wiki_images.py): one always-open card per creature, two to a row on wide screens. */
+/* Bestiary (pictures taken in the game, from _toolkit/mobshots): one always-open card per creature, two to a row on wide screens. */
 .md-typeset .mob-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -237,8 +237,9 @@
 }
 .md-typeset img.mc-icon.mc-mob {
   float: right;
-  width: 64px;
-  height: 64px;
+  width: 96px;
+  height: 96px;
   margin: 0 0 0.3em 0.6em;
+  image-rendering: auto;
 }
 

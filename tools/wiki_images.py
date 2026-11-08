@@ -22,6 +22,9 @@ import modelrender as mr  # noqa: E402
 WIKI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 JARS = os.path.join(os.path.expanduser("~"), ".gradle", "caches", "neoformruntime", "artifacts")
 SIZE = 128
+# pictures taken in the game (_toolkit/mobshots): "<mod>/<name>" lines; never overwritten here
+with open(os.path.join(WIKI, "tools", "game_shots.txt")) as f:
+    GAME_SHOTS = {l.strip() for l in f if l.strip()}
 
 SHARD_CUTS = ["", "_chiseled", "_chiseled_cubes", "_diagonal_tiles", "_grid", "_jewel_block", "_polished", "_rhombuses",
               "_shiny", "_shiny_bordered", "_small_tiles", "_smooth"]
@@ -196,10 +199,12 @@ ENTITIES = {
 
 
 def entities():
-    """Each creature's spawn egg icon, as docs/<mod>/img/<id>.png."""
+    """Each creature's spawn egg icon, as docs/<mod>/img/<id>.png, for creatures with no picture from the game yet."""
     for mod, (textures, mobs) in ENTITIES.items():
         out = os.path.join(WIKI, "docs", mod, "img")
         for mob in mobs:
+            if mod + "/" + mob in GAME_SHOTS:
+                continue
             im = Image.open(os.path.join(textures, mob + "_spawn_egg.png")).convert("RGBA")
             im.resize((SIZE, SIZE), Image.NEAREST).save(os.path.join(out, mob + ".png"), optimize=True)
         print("%s: %d creatures" % (mod, len(mobs)))
@@ -211,6 +216,8 @@ def main():
         out = os.path.join(WIKI, "docs", mod, "img")
         os.makedirs(out, exist_ok=True)
         for item in items:
+            if mod + "/" + item in GAME_SHOTS:
+                continue
             picture(assets, mod, item).save(os.path.join(out, item + ".png"), optimize=True)
         print("%s: %d pictures in %s" % (mod, len(items), os.path.relpath(out, WIKI)))
     entities()
