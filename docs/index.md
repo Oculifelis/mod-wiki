@@ -11,3 +11,5 @@ Guides for the Minecraft mods by Oculifelis. Pick a mod from the tabs at the top
 - ![Slowlight logo](assets/slowlight_logo.png){ width="64" } **[Slowlight](slowlight/index.md)**: kilns that burn no fuel and count in days on the world clock. Age honey into draught, press flowers, weather wood and grow a lantern that keeps the opposite hours. With all [100 kiln recipes](slowlight/recipes.md).
 
 </div>
+
+[Other mods](other/index.md): smaller ones, such as Spartan x Better Combat Unofficial.
