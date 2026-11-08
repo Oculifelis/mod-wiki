@@ -1,11 +1,11 @@
 """Item and block pictures for the wiki, drawn from each mod's own repo.
 
-Each picture is what the inventory shows: the shared model renderer (H:/AI_MC_Modding/_toolkit/modelrender) draws a
-block or 3D model in the inventory's isometric view, and a flat icon scaled up nearest-neighbour, all 128 px square
-on a transparent background. The model shown is the one the item's assets/<ns>/items/<id>.json picks for the GUI.
+Every picture is flat and front-on, straight from the mod's texture files, scaled up nearest-neighbour to 128 px square
+on a transparent background: an item's own icon, or for a block or 3D model its item texture if it has one, else the
+block's front (or side, or only) face. No angled or isometric renders: anything 3D on the wiki is an in-game shot. The model shown is the one the item's assets/<ns>/items/<id>.json picks for the GUI.
 Pictures go to docs/<mod>/img/<id>.png. Re-run after textures change:  python tools/wiki_images.py
 
-The bestiary's creatures are drawn from their entity models by tools/entity_render.py (offline, no game client), 256 px.
+The bestiary shows each creature's spawn egg icon until there are in-game shots of them.
 """
 import io
 import json
@@ -18,7 +18,6 @@ from PIL import Image
 MODDING = "H:/AI_MC_Modding"
 sys.path.insert(0, MODDING + "/_toolkit/modelrender")
 import modelrender as mr  # noqa: E402
-import entity_render as er  # noqa: E402
 
 WIKI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 JARS = os.path.join(os.path.expanduser("~"), ".gradle", "caches", "neoformruntime", "artifacts")
@@ -67,7 +66,7 @@ MODS = {
         "growers_almanac_1", "growers_almanac_2", "growers_almanac_3",
         # each weapon line's three tiers
         "mirecap_cleaver", "flare_cleaver", "rime_cleaver", "dusk_sceptre", "ember_sceptre", "rime_sceptre",
-        "pulse_pistol", "scorch_spitter", "rime_repeater", "moonwisp_whip", "moonflare_whip", "moonrime_whip",
+        "moonwisp_whip", "moonflare_whip", "moonrime_whip",
         "heartstring_bow", "scorchstring_bow", "rimestring_bow", "pulse_arbalest", "scorch_arbalest", "rime_arbalest",
     ]),
     "slowlight": (MODDING + "/Slowlight/src/main/resources/assets", "minecraft_1.21.1_client.jar", [
@@ -131,6 +130,44 @@ def gui_model(node):
     raise ValueError("can't follow item model type " + t)
 
 
+FACES = ["front", "side", "all", "texture", "cross", "plant", "pattern", "wood", "lantern", "candle", "top", "end",
+         "particle"]
+
+
+def face(assets, ns, item, ref):
+    """A block or 3D item seen flat: its own item texture if there is one, else the model's front-most face."""
+    own = os.path.join(assets, ns, "textures", "item", item + ".png")
+    if item and os.path.exists(own):
+        im = Image.open(own).convert("RGBA")
+        return im.crop((0, 0, im.width, im.width))
+    m = mr.model(ref)
+    tex = m["textures"]
+    key = next((k for k in FACES if k in tex), None)
+    if key is None or key == "particle":
+        return front(m)
+    return mr.texture(tex, "#" + key)
+
+
+def front(m):
+    """A model with no plain face texture (a candle, say), seen straight from the front: each element's north face
+    painted where it sits, nearest first on top. Flat, no angle."""
+    out = Image.new("RGBA", (16, 16))
+    for e in sorted(m["elements"], key=lambda e: -e["from"][2]):
+        f = e.get("faces", {}).get("north")
+        if not f:
+            continue
+        t = mr.texture(m["textures"], f["texture"])
+        s = t.width / 16
+        x0, y0, x1, y1 = e["from"][0], 16 - e["to"][1], e["to"][0], 16 - e["from"][1]
+        u = f.get("uv", [x0, y0, x1, y1])
+        w, h = round(x1 - x0), round(y1 - y0)
+        if w < 1 or h < 1:
+            continue
+        crop = t.crop((round(min(u[0], u[2]) * s), round(min(u[1], u[3]) * s), round(max(u[0], u[2]) * s), round(max(u[1], u[3]) * s)))
+        out.alpha_composite(crop.resize((w, h), Image.NEAREST), (round(x0), round(y0)))
+    return out
+
+
 def picture(assets, ns, item):
     if ns == "slowlight" and item in AERIAL_RECOLOURS:
         png = subprocess.run(["git", "-C", MODDING + "/Slowlight", "show", "%s:src/main/resources/assets/slowlight/"
@@ -138,32 +175,16 @@ def picture(assets, ns, item):
         return Image.open(io.BytesIO(png)).convert("RGBA").resize((SIZE, SIZE), Image.NEAREST)
     path = os.path.join(assets, ns, "items", item + ".json")
     ref = gui_model(json.load(open(path))["model"]) if os.path.exists(path) else "%s:item/%s" % (ns, item)
-    im = mr.render(ref, SIZE // 32)
+    im = mr.render(ref, SIZE // 32) if not mr.model(ref)["elements"] else face(assets, ns, item, ref)
     if im.size != (SIZE, SIZE):  # a 32x or 64x icon: bring it to the same size, still whole-pixel
         im = im.resize((SIZE, SIZE), Image.NEAREST)
     return im
 
 
-# 3D in-hand models (whip handles, tridents) drawn by H:/AI_MC_Modding/_toolkit/wikirender at the inventory block
-# angle; see its README to redraw them. They are copied here at 128 px as docs/<mod>/img/<id>_3d.png.
-# mod -> (renders folder, {item id: render name})
-RENDERS = MODDING + "/_toolkit/wikirender/renders"
-THREE_D = {
-    "ostentum": (RENDERS, dict({w: w for w in [
-        "leather_whip", "vine_whip", "weeping_vine_whip", "twisting_vine_whip", "glow_berry_whip", "silk_whip",
-        "chain_whip", "golden_heavy_whip", "thunderstorm_whip", "diamond_whip", "emerald_whip", "amethyst_whip",
-        "royal_slime_whip", "blaze_whip", "untamed_sea_whip", "destruction_whip", "breeze_whip", "ender_whip",
-        "fisher_kings_trident", "coral_trident", "abyssal_trident"]},
-        end_rift_whip="ender_whip")),  # the End Rift Whip uses the Ender Whip's models
-}
-
-
-# Entity models: mod -> (the tool-written Java holding every mob's ModelSpec, entity textures, renderer folder, mob ids).
-# Each mob's picture is docs/<mod>/img/<id>.png, from textures/entity/<id>.png and its _glow.png.
+# Creatures: mod -> (item textures holding <id>_spawn_egg.png, mob ids).
 VERDURE = MODDING + "/ViolentVerdure"
 ENTITIES = {
-    "floraferox": (VERDURE + "/src/main/java/com/floraferox/VerdureModels.java",
-                   VERDURE + "/src/main/resources/assets/floraferox/textures/entity", VERDURE + "/tools/gen", [
+    "floraferox": (VERDURE + "/src/main/resources/assets/floraferox/textures/item", [
         "pulse_gnat", "dusk_sprig", "moon_tick", "mire_ghast",
         "snap_drake", "burr_crawler", "lantern_leech", "orchid_mantis", "reed_wretch", "dew_crab",
         "thorn_hopper", "pollen_puff", "thorn_matriarch", "graft_twin", "root_grub", "bell_stalker", "briar_king",
@@ -175,13 +196,12 @@ ENTITIES = {
 
 
 def entities():
-    for mod, (java, textures, gen, mobs) in ENTITIES.items():
-        br = er.boxrender(gen)
-        models = er.load_specs(java)
+    """Each creature's spawn egg icon, as docs/<mod>/img/<id>.png."""
+    for mod, (textures, mobs) in ENTITIES.items():
         out = os.path.join(WIKI, "docs", mod, "img")
         for mob in mobs:
-            tex = os.path.join(textures, mob)
-            er.picture(br, models[mob], tex + ".png", tex + "_glow.png").save(os.path.join(out, mob + ".png"), optimize=True)
+            im = Image.open(os.path.join(textures, mob + "_spawn_egg.png")).convert("RGBA")
+            im.resize((SIZE, SIZE), Image.NEAREST).save(os.path.join(out, mob + ".png"), optimize=True)
         print("%s: %d creatures" % (mod, len(mobs)))
 
 
@@ -193,12 +213,6 @@ def main():
         for item in items:
             picture(assets, mod, item).save(os.path.join(out, item + ".png"), optimize=True)
         print("%s: %d pictures in %s" % (mod, len(items), os.path.relpath(out, WIKI)))
-        src, renders = THREE_D.get(mod, (None, {}))
-        for item, name in renders.items():
-            im = Image.open(os.path.join(src, name + "_3d.png")).convert("RGBA")
-            im.resize((SIZE, SIZE), Image.LANCZOS).save(os.path.join(out, item + "_3d.png"), optimize=True)
-        if renders:
-            print("%s: %d 3D renders" % (mod, len(renders)))
     entities()
 
 

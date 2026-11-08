@@ -20,7 +20,7 @@ The four creatures that wake from picked flowers and common herbs. All four are 
 
 <div class="mob-card mob-pulse" markdown>
 
-![Pulse Gnat](img/pulse_gnat.png){ .mc-3d .mc-mob loading=lazy }
+![Pulse Gnat](img/pulse_gnat.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Pulse Gnat
 
@@ -36,7 +36,7 @@ Flutters about, then darts at you in a heart-shaped dive.
 
 <div class="mob-card mob-dusk" markdown>
 
-![Dusk Sprig](img/dusk_sprig.png){ .mc-3d .mc-mob loading=lazy }
+![Dusk Sprig](img/dusk_sprig.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Dusk Sprig
 
@@ -52,7 +52,7 @@ Lunges and bites. In daylight it roots itself in place.
 
 <div class="mob-card mob-moon" markdown>
 
-![Moon Tick](img/moon_tick.png){ .mc-3d .mc-mob loading=lazy }
+![Moon Tick](img/moon_tick.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Moon Tick
 
@@ -68,7 +68,7 @@ Hops at you in long bounds.
 
 <div class="mob-card mob-mire" markdown>
 
-![Mire Ghast](img/mire_ghast.png){ .mc-3d .mc-mob loading=lazy }
+![Mire Ghast](img/mire_ghast.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Mire Ghast
 
@@ -104,7 +104,7 @@ also gives its family +15% damage.
 
 <div class="mob-card mob-dusk" markdown>
 
-![Snap Drake](img/snap_drake.png){ .mc-3d .mc-mob loading=lazy }
+![Snap Drake](img/snap_drake.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Snap Drake
 
@@ -120,7 +120,7 @@ Its snap carries it forward, and it snaps twice.
 
 <div class="mob-card mob-pulse" markdown>
 
-![Burr Crawler](img/burr_crawler.png){ .mc-3d .mc-mob loading=lazy }
+![Burr Crawler](img/burr_crawler.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Burr Crawler
 
@@ -136,7 +136,7 @@ Its hooks slow you. From 3.5 to 9 blocks away it throws burrs.
 
 <div class="mob-card mob-moon" markdown>
 
-![Lantern Leech](img/lantern_leech.png){ .mc-3d .mc-mob loading=lazy }
+![Lantern Leech](img/lantern_leech.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Lantern Leech
 
@@ -152,7 +152,7 @@ Floats. Its bite heals it by 3, and then it backs off.
 
 <div class="mob-card mob-moon" markdown>
 
-![Orchid Mantis](img/orchid_mantis.png){ .mc-3d .mc-mob loading=lazy }
+![Orchid Mantis](img/orchid_mantis.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Orchid Mantis
 
@@ -168,7 +168,7 @@ Stands still and passes for a flower, then slashes twice.
 
 <div class="mob-card mob-mire" markdown>
 
-![Reed Wretch](img/reed_wretch.png){ .mc-3d .mc-mob loading=lazy }
+![Reed Wretch](img/reed_wretch.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Reed Wretch
 
@@ -184,7 +184,7 @@ Its scythe sweeps a wide arc in front of it.
 
 <div class="mob-card mob-mire" markdown>
 
-![Dew Crab](img/dew_crab.png){ .mc-3d .mc-mob loading=lazy }
+![Dew Crab](img/dew_crab.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Dew Crab
 
@@ -206,7 +206,7 @@ Sidles round you. Its grip gives Slowness III.
 
 <div class="mob-card mob-pulse" markdown>
 
-![Thorn Hopper](img/thorn_hopper.png){ .mc-3d .mc-mob loading=lazy }
+![Thorn Hopper](img/thorn_hopper.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Thorn Hopper
 
@@ -224,7 +224,7 @@ Leaps and bites, then springs away.
 
 <div class="mob-card mob-dusk" markdown>
 
-![Pollen Puff](img/pollen_puff.png){ .mc-3d .mc-mob loading=lazy }
+![Pollen Puff](img/pollen_puff.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Pollen Puff
 
@@ -240,7 +240,7 @@ Flies. Its pollen burst gives Weakness, and then it drifts off.
 
 <div class="mob-card mob-pulse mob-boss" markdown>
 
-![Thorn Matriarch](img/thorn_matriarch.png){ .mc-3d .mc-mob loading=lazy }
+![Thorn Matriarch](img/thorn_matriarch.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Thorn Matriarch
 
@@ -262,7 +262,7 @@ Her leap lands in a shockwave. At two thirds and one third health she calls two 
 
 <div class="mob-card mob-moon" markdown>
 
-![Graft Twin](img/graft_twin.png){ .mc-3d .mc-mob loading=lazy }
+![Graft Twin](img/graft_twin.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Graft Twin
 
@@ -278,7 +278,7 @@ Keeps its distance and shoots flame, then frost. Every third volley fires both.
 
 <div class="mob-card mob-mire" markdown>
 
-![Root Grub](img/root_grub.png){ .mc-3d .mc-mob loading=lazy }
+![Root Grub](img/root_grub.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Root Grub
 
@@ -294,7 +294,7 @@ When you're more than 5 blocks away it burrows, then erupts under your feet and 
 
 <div class="mob-card mob-moon" markdown>
 
-![Bell Stalker](img/bell_stalker.png){ .mc-3d .mc-mob loading=lazy }
+![Bell Stalker](img/bell_stalker.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Bell Stalker
 
@@ -310,7 +310,7 @@ Moves only while you aren't looking at it. Its toll does damage and gives Slowne
 
 <div class="mob-card mob-mire mob-boss" markdown>
 
-![Briar King](img/briar_king.png){ .mc-3d .mc-mob loading=lazy }
+![Briar King](img/briar_king.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Briar King
 
@@ -333,7 +333,7 @@ hits it.
 
 <div class="mob-card mob-mire" markdown>
 
-![Pitcher Spitter](img/pitcher_spitter.png){ .mc-3d .mc-mob loading=lazy }
+![Pitcher Spitter](img/pitcher_spitter.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Pitcher Spitter
 
@@ -355,7 +355,7 @@ Spits nectar that gives Slowness. Up close it gulps you, with Nausea.
 
 <div class="mob-card mob-mire mob-boss" markdown>
 
-![Carrion Bloom](img/carrion_bloom.png){ .mc-3d .mc-mob loading=lazy }
+![Carrion Bloom](img/carrion_bloom.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Carrion Bloom
 
@@ -379,7 +379,7 @@ Every Nether creature is fireproof.
 
 <div class="mob-card mob-mire" markdown>
 
-![Wartback](img/wartback.png){ .mc-3d .mc-mob loading=lazy }
+![Wartback](img/wartback.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Wartback
 
@@ -395,7 +395,7 @@ Lunges and tosses you on its tusks.
 
 <div class="mob-card mob-mire" markdown>
 
-![Nylium Lurker](img/nylium_lurker.png){ .mc-3d .mc-mob loading=lazy }
+![Nylium Lurker](img/nylium_lurker.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Nylium Lurker
 
@@ -412,7 +412,7 @@ lair.
 
 <div class="mob-card mob-pulse" markdown>
 
-![Soulwick](img/soulwick.png){ .mc-3d .mc-mob loading=lazy }
+![Soulwick](img/soulwick.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Soulwick
 
@@ -428,7 +428,7 @@ Leaps and burns. Near death it lets out one ring of soul fire.
 
 <div class="mob-card mob-pulse" markdown>
 
-![Cinder Thistle](img/cinder_thistle.png){ .mc-3d .mc-mob loading=lazy }
+![Cinder Thistle](img/cinder_thistle.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Cinder Thistle
 
@@ -444,7 +444,7 @@ Fires a fan of three burning spikes, then backs off.
 
 <div class="mob-card mob-dusk" markdown>
 
-![Warped Stilt](img/warped_stilt.png){ .mc-3d .mc-mob loading=lazy }
+![Warped Stilt](img/warped_stilt.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Warped Stilt
 
@@ -460,7 +460,7 @@ Its spore burst gives Poison and Nausea.
 
 <div class="mob-card mob-moon" markdown>
 
-![Lanternpuff](img/lanternpuff.png){ .mc-3d .mc-mob loading=lazy }
+![Lanternpuff](img/lanternpuff.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Lanternpuff
 
@@ -476,7 +476,7 @@ Shoots embers. When struck, it blinds you.
 
 <div class="mob-card mob-mire mob-boss" markdown>
 
-![Crimson Behemoth](img/crimson_behemoth.png){ .mc-3d .mc-mob loading=lazy }
+![Crimson Behemoth](img/crimson_behemoth.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Crimson Behemoth
 
@@ -498,7 +498,7 @@ Stamps the ground in fire and charges. From more than 8 blocks away it throws 3 
 
 <div class="mob-card mob-dusk" markdown>
 
-![Pearl Pod](img/pearl_pod.png){ .mc-3d .mc-mob loading=lazy }
+![Pearl Pod](img/pearl_pod.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Pearl Pod
 
@@ -514,7 +514,7 @@ Bursts, then blinks away. When struck, it blinks half the time.
 
 <div class="mob-card mob-dusk" markdown>
 
-![Void Jelly](img/void_jelly.png){ .mc-3d .mc-mob loading=lazy }
+![Void Jelly](img/void_jelly.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Void Jelly
 
@@ -530,7 +530,7 @@ Its sting poisons, and every other sting gives Levitation.
 
 <div class="mob-card mob-moon" markdown>
 
-![Rift Narwhal](img/rift_narwhal.png){ .mc-3d .mc-mob loading=lazy }
+![Rift Narwhal](img/rift_narwhal.png){ .mc-icon .mc-mob loading=lazy }
 
 ### Rift Narwhal
 

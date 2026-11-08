@@ -2,8 +2,8 @@
 
 Writes docs/description/slowlight/:
   icons/<id>.png    every flat item icon, 256 px, nearest-neighbour, transparent
-  renders/<id>.png  every block and 3D item in the inventory's isometric view, 256 px, transparent, plus a few block
-                    states the inventory doesn't show (sealed kilns, a lit lantern, the candle burning down)
+  renders/<id>.png  every block and 3D item seen flat (its item texture or front face, as tools/wiki_images.py
+                    draws it), 256 px, transparent, plus a few block states (sealed kilns, a lit lantern, the candle burning down)
   features/<name>.png  grouped panels 720 px wide for the description column
 and index.md, listing each file with its GitHub Pages and raw GitHub links. Re-run after textures change:  python tools/slowlight_description.py
 """
@@ -100,7 +100,8 @@ def ref(item):
 def draw(thing, px):
     """An item id or a block model ref, px square (a whole multiple of 32 for a block, of 16 for an icon)."""
     if ":" in thing:
-        return mr.block(thing, px // 32)
+        im = wi.face(ASSETS, "slowlight", thing.rsplit("/", 1)[1], thing)
+        return im.resize((px, px), Image.NEAREST)
     wi.SIZE = px
     return wi.picture(ASSETS, "slowlight", thing)
 
@@ -248,7 +249,7 @@ def index(groups):
           "background. Made by `tools/slowlight_description.py`.", ""]
     heads = {"features": "## Feature panels (720 px wide)",
              "icons": "## Item icons (256 px, nearest-neighbour)",
-             "renders": "## Block and model renders (256 px, isometric)"}
+             "renders": "## Blocks and 3D items, flat (256 px, nearest-neighbour)"}
     for sub, rows in groups:
         md += [heads[sub], "", "| | File | Shows | Links |", "|---|---|---|---|"]
         for fname, shows in rows:

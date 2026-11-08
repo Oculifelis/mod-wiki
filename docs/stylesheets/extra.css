@@ -178,7 +178,7 @@
 .md-typeset td:has(> img.mc-3d) {
   white-space: nowrap;
 }
-/* Bestiary (tools/entity_render.py renders): one always-open card per creature, two to a row on wide screens. */
+/* Bestiary (spawn egg icons from tools/wiki_images.py): one always-open card per creature, two to a row on wide screens. */
 .md-typeset .mob-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -235,18 +235,10 @@
 .md-typeset .mob-tag.mob-stats {
   font-variant-numeric: tabular-nums;
 }
-.md-typeset img.mc-3d.mc-mob {
+.md-typeset img.mc-icon.mc-mob {
   float: right;
-  width: 112px;
-  height: 112px;
-  margin: -0.2em -0.3em 0.3em 0.6em;
-  border-radius: 0.3rem;
-  background: radial-gradient(circle, var(--md-default-fg-color--lightest) 0%, transparent 70%);
-}
-@media screen and (max-width: 30em) {
-  .md-typeset img.mc-3d.mc-mob {
-    width: 96px;
-    height: 96px;
-  }
+  width: 64px;
+  height: 64px;
+  margin: 0 0 0.3em 0.6em;
 }
 

@@ -84,7 +84,7 @@ background. Made by `tools/slowlight_description.py`.
 | ![](icons/cured_turtle_meat.png){ width=48 } | `icons/cured_turtle_meat.png` | Cured Turtle Meat | [Pages](https://oculifelis.github.io/mod-wiki/description/slowlight/icons/cured_turtle_meat.png) / [raw](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/icons/cured_turtle_meat.png) |
 | ![](icons/stellar_rusk.png){ width=48 } | `icons/stellar_rusk.png` | Stellar Rusk | [Pages](https://oculifelis.github.io/mod-wiki/description/slowlight/icons/stellar_rusk.png) / [raw](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/icons/stellar_rusk.png) |
 
-## Block and model renders (256 px, isometric)
+## Blocks and 3D items, flat (256 px, nearest-neighbour)
 
 | | File | Shows | Links |
 |---|---|---|---|

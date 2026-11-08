@@ -2,8 +2,8 @@
 
 Every file in Slowlight's data/slowlight/recipe/ageing (and its compat/<mod> folders) becomes a row: what goes in, what
 comes out, the days and the weather it needs. Names come from Slowlight's and vanilla 1.21.1's lang files; items from
-other mods get their id title-cased. Vanilla items' pictures are drawn into docs/slowlight/img/mc/ by the shared model
-renderer (Slowlight's own come from tools/wiki_images.py). Re-run after recipes change:  python tools/slowlight_recipes.py
+other mods get their id title-cased. Vanilla items' pictures go into docs/slowlight/img/mc/, flat
+as tools/wiki_images.py draws them (Slowlight's own come from that tool). Re-run after recipes change:  python tools/slowlight_recipes.py
 """
 import glob
 import json
@@ -16,6 +16,7 @@ from PIL import Image
 MODDING = "H:/AI_MC_Modding"
 sys.path.insert(0, MODDING + "/_toolkit/modelrender")
 import modelrender as mr  # noqa: E402
+import wiki_images as wi  # noqa: E402
 
 WIKI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 RES = MODDING + "/Slowlight/src/main/resources"
@@ -78,7 +79,8 @@ def icon(ident, alt):
     os.makedirs(mc, exist_ok=True)
     png = os.path.join(mc, path + ".png")
     if not os.path.exists(png):
-        im = mr.render("minecraft:item/" + path, SIZE // 32)
+        ref = "minecraft:item/" + path
+        im = mr.render(ref, SIZE // 32) if not mr.model(ref)["elements"] else wi.face(RES + "/assets", "minecraft", path, ref)
         if im.size != (SIZE, SIZE):
             im = im.resize((SIZE, SIZE), Image.NEAREST)
         im.save(png, optimize=True)

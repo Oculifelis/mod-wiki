@@ -54,7 +54,7 @@ and chills them. Each later tier is crafted from the one before, with herbs, a g
 - ![Dusk Sceptre](img/dusk_sceptre.png){ .mc-icon .mc-inline }![Ember Sceptre](img/ember_sceptre.png){ .mc-icon .mc-inline }![Rime Sceptre](img/rime_sceptre.png){ .mc-icon .mc-inline } **Sceptres (magic):** left click casts petal bolts. Right click is the tier's support: Dusk Bloom heals you and allies
   within 4 blocks, Ember Ward rings you in fire and makes you fireproof, Rime Shell gives Resistance and Absorption and
   freezes hostiles near you.
-- ![Pulse Pistol](img/pulse_pistol.png){ .mc-icon .mc-inline }![Scorch Spitter](img/scorch_spitter.png){ .mc-icon .mc-inline }![Rime Repeater](img/rime_repeater.png){ .mc-icon .mc-inline } **Seed guns (magic):** one-handed pistols that fire bolts of seed magic, using Seed Pellets, on left or right click. They have
+- **Seed guns (magic):** one-handed pistols that fire bolts of seed magic, using Seed Pellets, on left or right click. They have
   their own enchantments: Heartsight, Seed Hopper, Weedkiller, Quickdraw, Bloom Shot, Heartmend and Infinity.
 - ![Moonwisp Whip](img/moonwisp_whip.png){ .mc-icon .mc-inline }![Moonflare Whip](img/moonflare_whip.png){ .mc-icon .mc-inline }![Moonrime Whip](img/moonrime_whip.png){ .mc-icon .mc-inline } **Whips (summon or melee):** Fundamentum cord whips. Your pets attack whatever the whip hits. A whip hit counts as
   summon or melee, never both at once.
