@@ -30,7 +30,7 @@ stats and events work together instead of each mod rolling its own. Nearly every
 - **Special moons and night events** that tint the fog and sky, with their own spawns, effects, loot and messages.
 - **Fractal skies**: a moon, event or dimension can draw a fractal sky with an optional melting-vision effect.
 - **Elements**: hits can be fire, ice, water, electric, earth, air, poison, holy, shadow or arcane, leave auras and
-  set off reactions.
+  set off reactions. A datapack can [add new elements](datapack/elements.md#new-elements) with no code.
 - **Portal crafting**: some items change when thrown through a portal.
 - **Use sickness** for potions and other consumables.
 - **Tooltips** for whips and hooks; any item's `.desc` lang lines show under its name.
