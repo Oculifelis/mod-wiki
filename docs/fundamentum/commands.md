@@ -11,6 +11,7 @@ All under `/fundamentum`, for operators (level 2), except `/fundamentum_sky`, wh
 | `/fundamentum moon raise <id>` / `clear` | raise or clear a moon without changing the time |
 | `/fundamentum event raise <id> [ticks]` / `clear` / `query` | the same for night events |
 | `/fundamentum element help` | the elements manual in chat |
+| `/fundamentum element list` | every element, from code or datapacks, with its tag, parent and attributes (1.26.0) |
 | `/fundamentum element reactions` | every loaded reaction, in order |
 | `/fundamentum element auras <targets>` | the auras on creatures |
 | `/fundamentum element clear <targets>` | removes them |

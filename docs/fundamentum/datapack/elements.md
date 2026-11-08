@@ -1,6 +1,6 @@
 # Elements
 
-*NeoForge 26.1.2 and 1.21.1.*
+*NeoForge 26.1.2, 26.2, 26.3 and 1.21.1.*
 
 An element **is a damage type or a damage type tag**. Wherever a field takes elements, it takes one string or a list:
 
@@ -53,6 +53,90 @@ adds a variant with `Elements.variant(id, parent, damage, resistance)` (see the 
     ```json
     {"values": ["mymod:soul_blade"]}
     ```
+
+## New elements
+
+*From Fundamentum 1.26.0.*
+
+A datapack can add a whole new element, with no code. Each file `data/<ns>/fundamentum/elements/<name>.json` adds the
+element `<ns>:<name>`. It then works everywhere Fundamentum's own elements do: auras, reactions, affinities, weapon
+hits, tooltips, `#tag` element strings and `/fundamentum element`. Every field is optional, so `{}` is a valid file.
+
+| Field | Default | Meaning |
+|---|---|---|
+| `parent` | none | an element id (`fundamentum:fire` or another datapack element); the new one becomes its [variant](#variants-soul-fire-is-fire) |
+| `damage_types` | `#<ns>:element/<name>` | the damage type tag whose hits are this element |
+| `weapons` | `#<ns>:element/<name>` | the item tag whose hits are this element |
+| `name` | `element.<ns>.element.<name>` | the lang key of its name |
+| `color` | none | the name's colour, `"#RRGGBB"` or a number |
+| `damage_attribute` | none | an attribute that scales the attacker's hits of this element (`1` is normal) |
+| `resistance_attribute` | none | an attribute that resists it (`0.5` takes half) |
+
+Attributes come from code, so a datapack can't make new ones. Point the two attribute fields at any attribute that
+already exists (Fundamentum's `fundamentum:<e>_damage` and `fundamentum:<e>_resistance` for its elements), or leave them
+out. With none, creatures still resist or are weak to the element through [affinities](#affinities).
+
+A file whose id is already an element from code (such as `fundamentum:fire`), whose parent isn't an element, or whose
+parents go in a loop, is skipped with a warning in the log. `/fundamentum element list` shows every element loaded,
+where it came from and its parent.
+
+### Example: frost
+
+A frost element that counts as nothing else, with a variant, an aura, a reaction, a weapon and a weak creature. The
+files, all in one datapack:
+
+`data/mypack/fundamentum/elements/frost.json`, the element, using Fundamentum's ice attributes:
+
+```json
+{"color": "#9FE8FF", "damage_attribute": "fundamentum:ice_damage", "resistance_attribute": "fundamentum:ice_resistance"}
+```
+
+`data/mypack/fundamentum/elements/hoarfrost.json`, a variant of it:
+
+```json
+{"parent": "mypack:frost"}
+```
+
+`data/mypack/damage_type/frost.json` and `hoarfrost.json`, damage types to deal it with. `mypack:frost` is the
+element's shared damage type: an element `<ns>:<name>` uses the damage type `<ns>:<name>` for its aura when one exists.
+
+```json
+{"message_id": "mypack.frost", "exhaustion": 0.1, "scaling": "when_caused_by_living_non_player"}
+```
+
+`data/mypack/tags/damage_type/element/frost.json`, the element's damage types (the variant's tag sits inside):
+
+```json
+{"values": ["mypack:frost", "#mypack:element/hoarfrost"]}
+```
+
+`data/mypack/tags/damage_type/element/hoarfrost.json` lists `mypack:hoarfrost` the same way.
+
+`data/mypack/tags/item/element/frost.json`, weapons whose hits are frost:
+
+```json
+{"values": ["minecraft:packed_ice"]}
+```
+
+`data/fundamentum/data_maps/damage_type/element_aura.json`, so a frost hit leaves a frost aura:
+
+```json
+{"values": {"mypack:frost": {"aura": "#mypack:element/frost", "duration": 200, "max_stacks": 2}}}
+```
+
+`data/mypack/fundamentum/element_reaction/flash_freeze.json`, frost on water triples:
+
+```json
+{"trigger": "#mypack:element/frost", "aura": "#fundamentum:element/water", "damage": {"multiplier": 3}}
+```
+
+`data/fundamentum/data_maps/entity_type/element_affinity.json`, sheep take double frost:
+
+```json
+{"values": {"minecraft:sheep": {"resist": {"#mypack:element/frost": -1.0}}}}
+```
+
+And the name in `assets/mypack/lang/en_us.json`: `"element.mypack.element.frost": "Frost"`.
 
 ## Auras
 
