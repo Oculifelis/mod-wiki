@@ -75,10 +75,49 @@ and chills them. Each later tier is crafted from the one before, with herbs, a g
   charms add a small effect too. Worn in a Curios charm slot or carried.
 - **Peace Lily Charm:** every Flora Ferox creature leaves you alone until you strike it.
 
+## Built on Fundamentum
+
+The wings, grappling hooks and whips are [Fundamentum](../fundamentum/index.md)'s, and so are the slots they go in.
+Wings go in the wings slot and lift you for their flight time, then glide. Hooks go in the hook slot and fire with
+**H**. Whips swing Fundamentum's cord, where the tip hits hardest and cracks for a crit. The guns and bows also use
+Fundamentum's poses for how they're held.
+
+| Wings | Flight time | Rise speed | Air speed | Glide fall |
+|---|---|---|---|---|
+| Leafwing | 1.5 s | 0.35 | x1.0 | 0.15 |
+| Emberwing | 2.25 s | 0.42 | x1.15 | 0.12 |
+| Rimewing | 3 s | 0.5 | x1.3 | 0.09 |
+
+| Hook | Family | Range | Pull | Out at once | Special |
+|---|---|---|---|---|---|
+| Pulse Hook | Pulse | 26 | 0.9 | 1 | |
+| Scorch Hook | Pulse | 30 | 1.05 | 1 | |
+| Rime Hook | Pulse | 34 | 1.2 | 1 | |
+| Dusk Tendril | Dusk | 18 | 0.8 | 1 | hangs in the air 1.5 s on a miss |
+| Ember Tendril | Dusk | 22 | 0.95 | 1 | hangs 2 s |
+| Rime Tendril | Dusk | 26 | 1.1 | 1 | hangs 2.5 s |
+| Moonwisp Grapnel | Moon | 18 | 0.75 | 2 | holds you still |
+| Moonflare Grapnel | Moon | 22 | 0.9 | 2 | holds you still |
+| Moonrime Grapnel | Moon | 26 | 1.05 | 2 | holds you still |
+| Mirecap Grapple | Mire | 15 | 1.1 | 3 | |
+| Flare Grapple | Mire | 19 | 1.25 | 3 | |
+| Rime Grapple | Mire | 23 | 1.4 | 3 | |
+
+Fundamentum's `whips.flatHandles` option (`config/fundamentum-client.toml`) draws the whips in hand as flat icons.
+
 ## For pack makers
 
 Creature spawns are standard NeoForge biome modifiers (`data/floraferox/neoforge/biome_modifier/`), so a datapack can
 move or remove them. The chance of a picked flower waking a monster is the config value `verdureHarvestChance`.
+
+The wings and hooks are Fundamentum data, so a datapack can retune them by putting a file at the same path. Fundamentum
+merges files field by field, so a file needs only the fields it changes.
+
+| What | Path | Format |
+|---|---|---|
+| Wings | `data/floraferox/fundamentum/wings/<name>.json` | [Wings](../fundamentum/datapack/wings.md) |
+| Hooks | `data/floraferox/fundamentum/hooks/<name>.json` | [Hooks](../fundamentum/datapack/hooks.md) |
+| Whips | `data/floraferox/fundamentum/whips/<name>.json` (none ship; a file keyed by `item` overrides a whip's tuning) | [Whips](../fundamentum/datapack/whips.md) |
 
 ## Credits
 

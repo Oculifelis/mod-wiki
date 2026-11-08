@@ -9,10 +9,12 @@ stats and events work together instead of each mod rolling its own. Nearly every
 
 ## Mods that use Fundamentum
 
-??? note "Mods that require Fundamentum (1)"
+??? note "Mods that require Fundamentum (2)"
 
     - [Ostentum](../ostentum/index.md): weapons, relics and summons built on Fundamentum's wings, mounts, hooks,
       summons and whips.
+    - [Flora Ferox](../floraferox/index.md): plant monsters, with wings, grappling hooks and whips for each family
+      built on Fundamentum's (see [Built on Fundamentum](../floraferox/index.md#built-on-fundamentum)).
 
 ## For players
 
