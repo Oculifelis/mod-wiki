@@ -43,6 +43,7 @@ MODS = {
                               [FF + "/frameworks/shared/assets", FF + "/shared/assets"],
                               [jar("fieldframe-frameworks"), jar("fieldframe-0"), CLIENT]),
     "fieldframe-transit": (["fieldframe_transit", "fieldframe"], [], [jar("fieldframe-transit"), jar("fieldframe-0"), CLIENT]),
+    "metallurgy": (["metallurgy"], [], [PENDING + "/metallurgy-recast-26.1.2-neoforge-1.4.2.jar", jar("Metallurgy-Reforged"), CLIENT]),
     "mariculture": (["mariculture"], [], [PENDING + "/mariculture-0.5.0+mc26.1.2-neoforge.jar", jar("mariculture"), CLIENT]),
 }
 
@@ -84,14 +85,19 @@ def names(mod):
             if m and not m.group(2).endswith(("desc", "tooltip")) and m.group(1) not in SKIP_KINDS:
                 kind = m.group(1) if m.group(1) in ("block", "entity") else "item"
                 rank = {"block": 3, "entity": 3, "item": 2}.get(m.group(1), 1)
-                key = v.lower()
+                key = re.sub("§.", "", v).lower()
                 if key not in out or rank >= out[key][3]:
                     out[key] = (kind, ns, m.group(2), rank)
     out = {k: v[:3] for k, v in out.items()}
     return out
 
 
+CUR = None
+
+
 def setup(mod):
+    global CUR
+    CUR = mod
     nss, roots, jars = MODS[mod]
     wi.mr.setup(roots, *[j for j in jars if j])
 
@@ -150,7 +156,7 @@ def annotate(mod, path, dry=False, shots=None):
             firsts = [cells(r)[0] for r in rows]
             if PLAIN:
                 firsts = [f if BOLD.match(f) or not resolve(lookup, f) else "**%s**" % f for f in firsts]
-            if rows and not any("![" in r or "<img" in r for r in rows) and sum(bool(BOLD.match(f)) for f in firsts) * 2 >= len(rows):
+            if rows and not any("![" in r or "<img" in r for r in rows) and sum(bool(BOLD.match(f)) for f in firsts) * 2 >= len(rows)                     and any(BOLD.match(f) and resolve(lookup, BOLD.match(f).group(1).strip()) for f in firsts):
                 out.append("|  " + ln)
                 out.append("|---" + lines[i + 1])
                 for r, f in zip(rows, firsts):
@@ -189,9 +195,12 @@ def resolve(lookup, name):
     if isinstance(hit, str):
         ns, ident = hit.split(":")
         return ("block" if any(v[2] == ident and v[0] == "block" for v in lookup.values()) else "item", ns, ident)
-    for n in (name, name[:-1] if name.endswith("s") else None, name[:-2] if name.endswith("es") else None):
+    for n in (name, name[:-1] if name.endswith("s") else None, name[:-2] if name.endswith("es") else None,
+              name + " ingot"):  # a metal's name alone means its ingot
         if n and n.lower() in lookup:
-            return lookup[n.lower()]
+            hit = lookup[n.lower()]
+            if hit[0] == "entity" or not CUR or has_item(CUR, hit[1], hit[2]) or                     read_any(MODS[CUR][1], MODS[CUR][2], "%s/models/block/%s.json" % (hit[1], hit[2])):
+                return hit
     return None
 
 

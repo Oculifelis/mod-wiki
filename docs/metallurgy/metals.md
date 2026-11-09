@@ -9,11 +9,11 @@ Every metal has an ingot, nugget, dust, block, bricks and a molten fluid with it
 
 | Dimension | Ores |
 |---|---|
-| Overworld | Adamantine, Astral Silver, Atlarus, Carmot, Copper, Deep Iron, Infuscolium, Manganese, Mithril, Orichalcum, Osmium, Oureclase, Phosphorite, Platinum, Potash, Prometheum, Rubracium, Silver, Sulfur, Tin, Zinc |
-| Nether | Alduorite, Ceruclase, Ignatius, Kalendrite, Lemurite, Lutetium, Midasium, Sanguinite, Shadow Iron, Vulcanite, Vyroxeres |
-| The End | Eximite, Meutoite |
+| Overworld | ![Adamantine Ore](img/adamantine_ore.png){ .mc-icon .mc-inline } Adamantine, ![Astral Silver Ore](img/astral_silver_ore.png){ .mc-icon .mc-inline } Astral Silver, ![Atlarus Ore](img/atlarus_ore.png){ .mc-icon .mc-inline } Atlarus, ![Carmot Ore](img/carmot_ore.png){ .mc-icon .mc-inline } Carmot, ![Copper Ore](img/copper_ore.png){ .mc-icon .mc-inline } Copper, ![Deep Iron Ore](img/deep_iron_ore.png){ .mc-icon .mc-inline } Deep Iron, ![Infuscolium Ore](img/infuscolium_ore.png){ .mc-icon .mc-inline } Infuscolium, ![Manganese Ore](img/manganese_ore.png){ .mc-icon .mc-inline } Manganese, ![Mithril Ore](img/mithril_ore.png){ .mc-icon .mc-inline } Mithril, ![Orichalcum Ore](img/orichalcum_ore.png){ .mc-icon .mc-inline } Orichalcum, ![Osmium Ore](img/osmium_ore.png){ .mc-icon .mc-inline } Osmium, ![Oureclase Ore](img/oureclase_ore.png){ .mc-icon .mc-inline } Oureclase, ![Phosphorite Ore](img/phosphorite_ore.png){ .mc-icon .mc-inline } Phosphorite, ![Platinum Ore](img/platinum_ore.png){ .mc-icon .mc-inline } Platinum, ![Potash Ore](img/potash_ore.png){ .mc-icon .mc-inline } Potash, ![Prometheum Ore](img/prometheum_ore.png){ .mc-icon .mc-inline } Prometheum, ![Rubracium Ore](img/rubracium_ore.png){ .mc-icon .mc-inline } Rubracium, ![Silver Ore](img/silver_ore.png){ .mc-icon .mc-inline } Silver, ![Sulfur Ore](img/sulfur_ore.png){ .mc-icon .mc-inline } Sulfur, ![Tin Ore](img/tin_ore.png){ .mc-icon .mc-inline } Tin, ![Zinc Ore](img/zinc_ore.png){ .mc-icon .mc-inline } Zinc |
+| Nether | ![Alduorite Ore](img/alduorite_ore.png){ .mc-icon .mc-inline } Alduorite, ![Ceruclase Ore](img/ceruclase_ore.png){ .mc-icon .mc-inline } Ceruclase, ![Ignatius Ore](img/ignatius_ore.png){ .mc-icon .mc-inline } Ignatius, ![Kalendrite Ore](img/kalendrite_ore.png){ .mc-icon .mc-inline } Kalendrite, ![Lemurite Ore](img/lemurite_ore.png){ .mc-icon .mc-inline } Lemurite, ![Lutetium Ore](img/lutetium_ore.png){ .mc-icon .mc-inline } Lutetium, ![Midasium Ore](img/midasium_ore.png){ .mc-icon .mc-inline } Midasium, ![Sanguinite Ore](img/sanguinite_ore.png){ .mc-icon .mc-inline } Sanguinite, ![Shadow Iron Ore](img/shadow_iron_ore.png){ .mc-icon .mc-inline } Shadow Iron, ![Vulcanite Ore](img/vulcanite_ore.png){ .mc-icon .mc-inline } Vulcanite, ![Vyroxeres Ore](img/vyroxeres_ore.png){ .mc-icon .mc-inline } Vyroxeres |
+| The End | ![Eximite Ore](img/eximite_ore.png){ .mc-icon .mc-inline } Eximite, ![Meutoite Ore](img/meutoite_ore.png){ .mc-icon .mc-inline } Meutoite |
 
-**Tar** also spawns in the Overworld, as lakes of Liquid Tar. Tar kept away from other tar cools into Tar Ore. How
+![Tar](img/tar.png){ .mc-icon .mc-inline } **Tar** also spawns in the Overworld, as lakes of Liquid Tar. Tar kept away from other tar cools into Tar Ore. How
 often ores and tar lakes spawn, and which pickaxe tier each ore needs, can be changed in the config.
 
 ![Ignatius, Vyroxeres, Shadow Iron and the other Nether ores](img/05-nether-ores.jpg)
@@ -22,26 +22,26 @@ often ores and tar lakes spawn, and which pickaxe tier each ore needs, can be ch
 
 All made in the Alloyer from ingots or dust.
 
-| Alloy | From | Makes |
-|---|---|---|
-| **Amordrine** | Kalendrite + Platinum | 2 |
-| **Angmallen** | Gold + Iron | 2 |
-| **Black Steel** | 3 Deep Iron + Infuscolium | 4 |
-| **Brass** | 3 Copper + Zinc | 4 |
-| **Bronze** | 3 Copper + Tin | 4 |
-| **Celenegil** | Orichalcum + Platinum | 2 |
-| **Damascus Steel** | Iron + 2 Bronze | 3 |
-| **Desichalkos** | Eximite + Meutoite | 2 |
-| **Electrum** | Silver + Gold | 2 |
-| **Etherium** | Sanguinite + Alduorite | 2 |
-| **Haderoth** | Mithril + 2 Rubracium | 3 |
-| **Hepatizon** | Infuscolium + Steel | 2 |
-| **Inolashite** | Alduorite + Ceruclase | 2 |
-| **Krik** | Lutetium + Osmium | 2 |
-| **Quicksilver** | Silver + Astral Silver | 2 |
-| **Shadow Steel** | 2 Shadow Iron + Lemurite | 3 |
-| **Steel** | Iron + 2 Manganese | 2 |
-| **Tartarite** | Adamantine + Atlarus | 1 |
+|  | Alloy | From | Makes |
+|---|---|---|---|
+| ![Amordrine](img/amordrine_ingot.png){ .mc-icon } | **Amordrine** | Kalendrite + Platinum | 2 |
+| ![Angmallen](img/angmallen_ingot.png){ .mc-icon } | **Angmallen** | Gold + Iron | 2 |
+| ![Black Steel](img/black_steel_ingot.png){ .mc-icon } | **Black Steel** | 3 Deep Iron + Infuscolium | 4 |
+| ![Brass](img/brass_ingot.png){ .mc-icon } | **Brass** | 3 Copper + Zinc | 4 |
+| ![Bronze](img/bronze_ingot.png){ .mc-icon } | **Bronze** | 3 Copper + Tin | 4 |
+| ![Celenegil](img/celenegil_ingot.png){ .mc-icon } | **Celenegil** | Orichalcum + Platinum | 2 |
+| ![Damascus Steel](img/damascus_steel_ingot.png){ .mc-icon } | **Damascus Steel** | Iron + 2 Bronze | 3 |
+| ![Desichalkos](img/desichalkos_ingot.png){ .mc-icon } | **Desichalkos** | Eximite + Meutoite | 2 |
+| ![Electrum](img/electrum_ingot.png){ .mc-icon } | **Electrum** | Silver + Gold | 2 |
+| ![Etherium](img/etherium_ingot.png){ .mc-icon } | **Etherium** | Sanguinite + Alduorite | 2 |
+| ![Haderoth](img/haderoth_ingot.png){ .mc-icon } | **Haderoth** | Mithril + 2 Rubracium | 3 |
+| ![Hepatizon](img/hepatizon_ingot.png){ .mc-icon } | **Hepatizon** | Infuscolium + Steel | 2 |
+| ![Inolashite](img/inolashite_ingot.png){ .mc-icon } | **Inolashite** | Alduorite + Ceruclase | 2 |
+| ![Krik](img/krik_ingot.png){ .mc-icon } | **Krik** | Lutetium + Osmium | 2 |
+| ![Quicksilver](img/quicksilver_ingot.png){ .mc-icon } | **Quicksilver** | Silver + Astral Silver | 2 |
+| ![Shadow Steel](img/shadow_steel_ingot.png){ .mc-icon } | **Shadow Steel** | 2 Shadow Iron + Lemurite | 3 |
+| ![Steel](img/steel_ingot.png){ .mc-icon } | **Steel** | Iron + 2 Manganese | 2 |
+| ![Tartarite](img/tartarite_ingot.png){ .mc-icon } | **Tartarite** | Adamantine + Atlarus | 1 |
 
 **Tartarite**, made from Adamantine and Atlarus, is a living metal: it can absorb the powers of other metals. JEI lists
 every form of absorption.
