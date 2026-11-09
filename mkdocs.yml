@@ -75,4 +75,20 @@ nav:
       - Items: slowlight/items.md
       - For pack makers: slowlight/packs.md
       - Versions: slowlight/versions.md
+  - Mariculture:
+      - mariculture/index.md
+      - Fishing: mariculture/fishing.md
+      - Fish breeding: mariculture/fish.md
+      - Jewelry and magic: mariculture/jewelry.md
+      - Diving: mariculture/diving.md
+      - Workshop and machines: mariculture/workshop.md
+      - For pack makers: mariculture/packs.md
+      - Config: mariculture/config.md
+      - Versions: mariculture/versions.md
+  - Arcana Varia:
+      - arcanavaria/index.md
+      - Towers and labs: arcanavaria/towers-and-labs.md
+      - Thurible, Lens and Lattice: arcanavaria/thaumaturgy.md
+      - Weapons and the Warden: arcanavaria/weapons.md
+      - Versions: arcanavaria/versions.md
   - Other mods: other/index.md

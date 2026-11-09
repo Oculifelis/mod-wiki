@@ -9,6 +9,8 @@ Guides for the Minecraft mods by Oculifelis. Pick a mod from the tabs at the top
 - ![Orbis Novus logo](assets/orbisnovus_logo.png){ width="64" } **[Orbis Novus](orbisnovus/index.md)**: two mods for new worlds. [Terrain](orbisnovus/terrain.md) adds realistic mountains, eroded valleys and rivers in ten styles; [Dungeons](orbisnovus/dungeons.md) adds 23 dungeon kinds, 30 settlements, castles and walled citadels.
 - ![Flora Ferox logo](assets/floraferox_logo.png){ width="64" } **[Flora Ferox](floraferox/index.md)**: 29 plant monsters across the Overworld, Nether and End. Grow and splice herbs, brew from them, and fight back with bows, arbalests, seed guns, whips, sceptres and cleavers. Built on Fundamentum. With a full [bestiary](floraferox/bestiary.md).
 - ![Slowlight logo](assets/slowlight_logo.png){ width="64" } **[Slowlight](slowlight/index.md)**: kilns that burn no fuel and count in days on the world clock. Age honey into draught, press flowers, weather wood and grow a lantern that keeps the opposite hours. With all [100 kiln recipes](slowlight/recipes.md).
+- ![Mariculture logo](assets/mariculture_logo.png){ width="64" } **[Mariculture](mariculture/index.md)**: joshiejack's 1.7.10 sea mod, brought back. Catch and breed more than 60 kinds of fish, grow pearls for magic jewelry, dive in scuba gear and run a workshop of crucibles, vats and machines. For Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2.
+- ![Arcana Varia logo](assets/arcanavaria_logo.png){ width="64" } **[Arcana Varia](arcanavaria/index.md)**: a Thaumaturge addon. Climb sealed wizard towers and break into 40 kinds of ruined lab, then bring home a censer of essentia clouds, a mirroring building lens, glass essentia pipes, scythes, whips and a tree boss.
 
 </div>
 

@@ -1,0 +1,46 @@
+# Arcana Varia
+
+![Arcana Varia](img/banner.png)
+
+*Sealed towers, ruined labs, and the tools you earn from them.*
+
+Arcana Varia is an addon for Thaumaturge. It adds sealed wizard towers and ruined laboratories to find, and the tools
+you bring home from them: a censer that swings clouds of essentia, a building lens that mirrors and copies your builds,
+glass pipes that make compound aspects on their own, scythes, a tree boss and four whips.
+
+It has its own research tab, **Arcana Varia**, which opens with Thaumaturge's Metallurgy research.
+
+**Requires** Thaumaturge 1.1.0 or newer (not 1.0.2), on NeoForge 26.1.2. **Optional:** Fundamentum 1.22.1 or newer
+(the four whips), and about 50 mods whose blocks give towers new palettes, plus 7 dimension mods that get labs of their
+own ([Towers and labs](towers-and-labs.md#other-mods)).
+
+**Versions:** 0.7.3, for NeoForge 26.1.2. See [Versions](versions.md).
+
+## What's in it
+
+| | | |
+|---|---|---|
+| ![Laboratory Journal](img/lab_journal.png){ .mc-icon } | **[Towers and labs](towers-and-labs.md)** | Wizard Towers, 40 kinds of Forsaken Laboratory, their puzzles, wards and guardians |
+| | **[The Thurible](thaumaturgy.md#the-thurible)** | a censer that swings clouds of essentia, and what each aspect does |
+| | **[The Architect's Lens](thaumaturgy.md#the-architects-lens)** | a building tool that mirrors, copies and pastes |
+| | **[The Alembic Lattice](thaumaturgy.md#the-alembic-lattice)** | glass pipes that carry essentia and make compounds |
+| ![Void Scythe](img/void_scythe.png){ .mc-icon } | **[Scythes](weapons.md#scythes)** | three scythes and four enchantments |
+| ![Heartseed](img/heartseed.png){ .mc-icon } | **[The Greatwood Warden](weapons.md#the-greatwood-warden)** | a tree boss and its Amber Heart |
+| ![Elemental Whip](img/elemental_whip.png){ .mc-icon } | **[Whips](weapons.md#whips)** | four whips, with Fundamentum |
+| | **[For pack makers](towers-and-labs.md#for-pack-makers)** | lab bosses, traits and Thurible effects as datapack files |
+
+<!-- TODO: pictures of the Thurible, the Architect's Lens and Blueprint Scrolls, the Alembic Lattice blocks, the Vis
+Lift and Phase Stone go here once their redrawn textures are approved. Screenshots of a tower and a lab are still
+to be taken. -->
+
+## Credits
+
+By **Oculifelis**.
+
+The scythes follow **Scythes Vanilla** by Drift007_: their sprites, in-hand model, sounds, stats and the Soul Devourer,
+Grim Harvest, Eclipse and Reaper's Step enchantments (MIT / CC0). The Warden's Amber Heart sprite is from
+**unused-textures** by Malcolm Riley (CC BY 4.0). **Thaumaturge** is by Leclowndu93150 and contributors, and some of
+this mod's textures are drawn on Thaumaturge's own art.
+
+Arcana Varia's code and Oculifelis's own art are LGPL-3.0-or-later. The Scythes Vanilla parts, the Amber Heart sprite
+and the textures drawn on Thaumaturge's art keep their own licences; `CREDITS.md` in the jar lists each of them.
