@@ -4,7 +4,7 @@ Three tools for a thaumaturge's own work, all researched in the **Arcana Varia**
 
 ## The Thurible
 
-![Thurible](img/thurible.png){ .mc-icon .mc-inline } A censer on a chain that swings clouds of essentia.
+A censer on a chain that swings clouds of essentia.
 
 - **Filling.** It holds up to 64 essentia of one aspect, which you can see through its glass. Right-click a jar with it,
   or hold a filled phial in your other hand and use the Thurible. Sneak and right-click a jar to pour it back.

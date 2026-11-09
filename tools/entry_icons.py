@@ -46,6 +46,7 @@ MODS = {
     "metallurgy": (["metallurgy"], [], [PENDING + "/metallurgy-recast-26.1.2-neoforge-1.4.2.jar", jar("Metallurgy-Reforged"), CLIENT]),
     "floraferox": (["floraferox"], [], [jar("floraferox"), CLIENT]),
     "arcanavaria": (["arcanavaria"], [], [PENDING + "/arcanavaria-26.1.2-0.7.5.jar", jar("arcanavaria"), jar("thaumaturge"), CLIENT]),
+    "netheragriculture": (["netheragriculture"], [MODDING + "/NetherAgriculture/common/src/main/resources/assets"], [CLIENT]),
     "mariculture": (["mariculture"], [], [PENDING + "/mariculture-0.5.0+mc26.1.2-neoforge.jar", jar("mariculture"), CLIENT]),
 }
 
