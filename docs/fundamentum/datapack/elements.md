@@ -38,21 +38,34 @@ adds a variant with `Elements.variant(id, parent, damage, resistance)` (see the 
 
 ### Soul fire
 
-- **Burning blue.** An entity set on fire by a soul source burns with vanilla's soul fire sprites (third person and
-  the first-person screen fire, the same render path as vanilla fire, so shaders treat it the same). It goes back to
-  orange or out when the fire ends, when it touches ordinary fire or lava, or when something non-soul sets it alight.
-- **Sources:** blocks in `#fundamentum:soul_fire_sources` (soul fire and soul campfires), projectiles in
-  `#fundamentum:soul_fire_projectiles` and melee weapons in `#fundamentum:soul_fire_weapons` that set targets on fire
-  (Fire Aspect, flaming arrows), and every hit of the soul fire element (it sets the target soul-burning for 4 s).
-- **Damage:** 2 HP a second while soul-burning, the vanilla soul fire block's contact damage. Config
-  `config/fundamentum-soulfire.toml`: `soulFireBurnDamage` (default 2.0) and `soulFireHitIgniteTicks` (default 80).
-- **A soul weapon, data only:** put the item in `#fundamentum:element/soul_fire` and its hits are soul fire (and so
-  fire). To keep a weapon's hits as they are and only turn the fire it sets blue, use `#fundamentum:soul_fire_weapons`
-  instead. For example `data/fundamentum/tags/item/element/soul_fire.json`:
+**Burning blue.** An entity set on fire by a soul source burns with vanilla's soul fire sprites (third person and the
+first-person screen fire, the same render path as vanilla fire, so shaders treat it the same). It goes back to orange or
+out when the fire ends, when it touches ordinary fire or lava, or when something non-soul sets it alight.
 
-    ```json
-    {"values": ["mymod:soul_blade"]}
-    ```
+**Sources:**
+
+| Source | Tag | What it does |
+|---|---|---|
+| Blocks | `#fundamentum:soul_fire_sources` | Soul fire and soul campfires. |
+| Projectiles | `#fundamentum:soul_fire_projectiles` | Projectiles that set targets on fire (flaming arrows) set them soul-burning. |
+| Melee weapons | `#fundamentum:soul_fire_weapons` | Weapons that set targets on fire (Fire Aspect) set them soul-burning; their hits stay as they are. |
+| The soul fire element | `#fundamentum:element/soul_fire` | Every hit sets the target soul-burning for 4 s. |
+
+**Damage:** 2 HP a second while soul-burning, the vanilla soul fire block's contact damage. Config
+`config/fundamentum-soulfire.toml`:
+
+| Key | Default | What it does |
+|---|---|---|
+| `soulFireBurnDamage` | 2.0 | Damage a second while soul-burning. |
+| `soulFireHitIgniteTicks` | 80 | How long a soul fire hit sets the target soul-burning. |
+
+**A soul weapon, data only:** put the item in `#fundamentum:element/soul_fire` and its hits are soul fire (and so
+fire). To keep a weapon's hits as they are and only turn the fire it sets blue, use `#fundamentum:soul_fire_weapons`
+instead. For example `data/fundamentum/tags/item/element/soul_fire.json`:
+
+```json
+{"values": ["mymod:soul_blade"]}
+```
 
 ## New elements
 
