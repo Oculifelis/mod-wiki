@@ -6,11 +6,11 @@ Every crafting recipe shows in JEI. Kiln recipes are on [their own page](recipes
 
 | | Item | How to get it | What it does |
 |---|---|---|---|
-| ![Slowlight Lantern](img/slowlight_lantern.png){ .mc-icon } | **Slowlight Lantern** | copper ingots, glass panes and a Slowlight Shard | dim through the day, bright from dusk to dawn; underground, where the sky never brightens, it simply stays up |
-| ![Slowlight Shard](img/slowlight_shard.png){ .mc-icon } | **Slowlight Shard** | an amethyst shard, 7 days in a kiln; dried Duskbloom petals, 14 nights under open sky; sometimes dug up by sniffers | the lantern is built around one |
-| ![Still Shard](img/still_shard.png){ .mc-icon } | **Still Shard** | an ender pearl, 10 days in a kiln in the End with nothing above it | the End has no day and no weather, so the pearl goes quiet and still |
-| ![Slowlight Shard Cluster](img/slowlight_shard_cluster.png){ .mc-icon } ![Still Shard Cluster](img/still_shard_cluster.png){ .mc-icon } | **Shard clusters** | | decoration that glows faintly |
-| ![Smithing Template](img/patience_armor_trim_smithing_template.png){ .mc-icon } | **Patience Armor Trim** | a Slowlight Shard, 14 days in a kiln; master Potters | stamps an hourglass on armour; both shards also work as trim materials |
+| ![Slowlight Lantern](img/slowlight_lantern.png){ .mc-icon } | **Slowlight Lantern**{ #slowlight-lantern } | copper ingots, glass panes and a Slowlight Shard | dim through the day, bright from dusk to dawn; underground, where the sky never brightens, it simply stays up |
+| ![Slowlight Shard](img/slowlight_shard.png){ .mc-icon } | **Slowlight Shard**{ #slowlight-shard } | an amethyst shard, 7 days in a kiln; dried Duskbloom petals, 14 nights under open sky; sometimes dug up by sniffers | the lantern is built around one |
+| ![Still Shard](img/still_shard.png){ .mc-icon } | **Still Shard**{ #still-shard } | an ender pearl, 10 days in a kiln in the End with nothing above it | the End has no day and no weather, so the pearl goes quiet and still |
+| ![Slowlight Shard Cluster](img/slowlight_shard_cluster.png){ .mc-icon } ![Still Shard Cluster](img/still_shard_cluster.png){ .mc-icon } | **Shard clusters**{ #shard-clusters } | | decoration that glows faintly |
+| ![Smithing Template](img/patience_armor_trim_smithing_template.png){ .mc-icon } | **Patience Armor Trim**{ #patience-armor-trim } | a Slowlight Shard, 14 days in a kiln; master Potters | stamps an hourglass on armour; both shards also work as trim materials |
 
 ![The Slowlight Lantern at night](img/shots/shot_lantern_at_night.jpg)
 
@@ -21,9 +21,9 @@ for it.
 
 | | Record | Pressed from | Days |
 |---|---|---|---|
-| ![Patient Light](img/music_disc_patient_light.png){ .mc-icon } | **Patient Light** | *mellohi* | 4 |
-| ![Lantern Hours](img/music_disc_lantern_hours.png){ .mc-icon } | **Lantern Hours** | *stal* | 5 |
-| ![A Week In](img/music_disc_a_week_in.png){ .mc-icon } | **A Week In** | *far* | 7 (as you might expect) |
+| ![Patient Light](img/music_disc_patient_light.png){ .mc-icon } | **Patient Light**{ #patient-light } | *mellohi* | 4 |
+| ![Lantern Hours](img/music_disc_lantern_hours.png){ .mc-icon } | **Lantern Hours**{ #lantern-hours } | *stal* | 5 |
+| ![A Week In](img/music_disc_a_week_in.png){ .mc-icon } | **A Week In**{ #a-week-in } | *far* | 7 (as you might expect) |
 
 ## Growing things
 
@@ -31,12 +31,12 @@ for it.
 farmland crop that grows only at night. Ripe, it glows faintly and gives
 ![Duskbloom Petals](img/duskbloom_petals.png){ .mc-icon .mc-inline } Duskbloom Petals, which make:
 
-- light blue dye;
-- ![Dried Duskbloom Petals](img/dried_duskbloom_petals.png){ .mc-icon .mc-inline } dried petals (a day in the sun in a
-  kiln), for ![Duskbloom Tea](img/duskbloom_tea.png){ .mc-icon .mc-inline } Duskbloom Tea and
-  ![Dusk Cider](img/dusk_cider.png){ .mc-icon .mc-inline } Dusk Cider;
-- ![Duskbloom Jam](img/duskbloom_jam.png){ .mc-icon .mc-inline } Duskbloom Jam, stirred into Preserved Berries;
-- a Slowlight Shard, once dried and left two weeks under the night sky.
+| Picture | Makes | How |
+|---|---|---|
+| | light blue dye | |
+| ![Dried Duskbloom Petals](img/dried_duskbloom_petals.png){ .mc-icon } | dried petals | a day in the sun in a kiln; for ![Duskbloom Tea](img/duskbloom_tea.png){ .mc-icon .mc-inline } Duskbloom Tea and ![Dusk Cider](img/dusk_cider.png){ .mc-icon .mc-inline } Dusk Cider |
+| ![Duskbloom Jam](img/duskbloom_jam.png){ .mc-icon } | **Duskbloom Jam**{ #duskbloom-jam } | stirred into Preserved Berries |
+| ![Slowlight Shard](img/slowlight_shard.png){ .mc-icon } | [Slowlight Shard](#slowlight-shard) | once dried and left two weeks under the night sky |
 
 **Gloamwood.** A blue-grey tree with a full set of wood. Its seedling grows from Lanternfruit seeds left a week in a
 kiln.
@@ -56,9 +56,9 @@ seeds, ![Candied Lanternfruit](img/candied_lanternfruit.png){ .mc-icon .mc-inlin
 
 | | Block | Crafted from | What it does |
 |---|---|---|---|
-| ![Sandglass](img/sandglass.png){ .mc-icon } | **Sandglass** | copper ingots, glass and a Slowlight Shard | an hourglass that measures days. Click it to set one to seven; the sand runs down over those days, and when the last grain falls it gives one redstone pulse and turns itself over. A comparator reads how much sand is left. In the Nether and the End it can't find the time, and the sand never settles. |
-| ![Sundial](img/sundial.png){ .mc-icon } | **Sundial** | a copper ingot, a Slowlight Shard and a smooth stone slab | tells the hours of one day. Under open sky a comparator reads its shadow: nothing all night, full strength at noon. Roofed over, no shadow falls. |
-| ![Keepsake Urn](img/keepsake_urn.png){ .mc-icon } | **Keepsake Urn** | terracotta and string | nine slots for putting things away for later. Choose one to thirty days, then seal it with a honeycomb. Until the days are up it won't open, not for you and not for a hopper. Break it early and it cracks, and everything spills out. |
+| ![Sandglass](img/sandglass.png){ .mc-icon } | **Sandglass**{ #sandglass } | copper ingots, glass and a Slowlight Shard | an hourglass that measures days. Click it to set one to seven; the sand runs down over those days, and when the last grain falls it gives one redstone pulse and turns itself over. A comparator reads how much sand is left. In the Nether and the End it can't find the time, and the sand never settles. |
+| ![Sundial](img/sundial.png){ .mc-icon } | **Sundial**{ #sundial } | a copper ingot, a Slowlight Shard and a smooth stone slab | tells the hours of one day. Under open sky a comparator reads its shadow: nothing all night, full strength at noon. Roofed over, no shadow falls. |
+| ![Keepsake Urn](img/keepsake_urn.png){ .mc-icon } | **Keepsake Urn**{ #keepsake-urn } | terracotta and string | nine slots for putting things away for later. Choose one to thirty days, then seal it with a honeycomb. Until the days are up it won't open, not for you and not for a hopper. Break it early and it cracks, and everything spills out. |
 
 ## Slow crafts
 
@@ -97,8 +97,8 @@ into eleven designs, each with stairs and slabs.
 
 | | Block | Crafted from | What it does |
 |---|---|---|---|
-| ![Gloamwood Bookshelf](img/gloamwood_bookshelf.png){ .mc-icon } | **Gloamwood Bookshelf** | Gloamwood slabs and books | powers enchanting. With Chipped installed, the carpenter's table turns it into Gloamwood versions of all 33 of Chipped's bookshelves. |
-| ![Lapse Block](img/lapse_block.png){ .mc-icon } | **Lapse Block** | eight Still Shards round a Slowlight Shard | powered, it steps out of the world for three seconds, its red ring fading to a green trace, and takes every Lapse Block it touches with it |
+| ![Gloamwood Bookshelf](img/gloamwood_bookshelf.png){ .mc-icon } | **Gloamwood Bookshelf**{ #gloamwood-bookshelf } | Gloamwood slabs and books | powers enchanting. With Chipped installed, the carpenter's table turns it into Gloamwood versions of all 33 of Chipped's bookshelves. |
+| ![Lapse Block](img/lapse_block.png){ .mc-icon } | **Lapse Block**{ #lapse-block } | eight Still Shards round a Slowlight Shard | powered, it steps out of the world for three seconds, its red ring fading to a green trace, and takes every Lapse Block it touches with it |
 
 ## Potters and old yards
 
@@ -148,10 +148,12 @@ Flower Press. The game draws five of these icons from Aerial Hell's own textures
 
 ![Aerial Berry Preserve](img/aerial_berry_preserve.png){ .mc-icon title="Aerial Berry Preserve" } ![Ruby Aerial Berry Preserve](img/ruby_aerial_berry_preserve.png){ .mc-icon title="Ruby Aerial Berry Preserve" } ![Volucite Aerial Berry Preserve](img/volucite_aerial_berry_preserve.png){ .mc-icon title="Volucite Aerial Berry Preserve" } ![Vibrant Aerial Berry Preserve](img/vibrant_aerial_berry_preserve.png){ .mc-icon title="Vibrant Aerial Berry Preserve" } ![Shadow Fruit Preserve](img/shadow_fruit_preserve.png){ .mc-icon title="Shadow Fruit Preserve" } ![Candied Glowing Stick Fruit](img/candied_glowing_stick_fruit.png){ .mc-icon title="Candied Glowing Stick Fruit" } ![Stellar Rock Sugar](img/stellar_rock_sugar.png){ .mc-icon title="Stellar Rock Sugar" } ![Cured Phantom Meat](img/cured_phantom_meat.png){ .mc-icon title="Cured Phantom Meat" } ![Cured Turtle Meat](img/cured_turtle_meat.png){ .mc-icon title="Cured Turtle Meat" } ![Stellar Rusk](img/stellar_rusk.png){ .mc-icon title="Stellar Rusk" }
 
-- **Rechiseled:** its chisel cuts the shard blocks and Gloamwood planks into their variants.
-- **Chipped:** 33 Gloamwood bookshelves from the carpenter's table.
-- **Create:** funnels and belts tend the kilns like any hopper.
-- **JEI:** every ageing recipe, with its days, its weather and its Long Kiln wait.
-- **Jade:** a kiln, Sandglass or Keepsake Urn tells you how long it has left.
-- **Patchouli:** *A Slow Almanac*.
-- **KubeJS:** add and remove ageing recipes from scripts; see [For pack makers](packs.md).
+| Mod | How it works |
+|---|---|
+| [Rechiseled](https://www.curseforge.com/projects/558998) | its chisel cuts the shard blocks and Gloamwood planks into their variants |
+| [Chipped](https://www.curseforge.com/projects/456956) | 33 Gloamwood bookshelves from the carpenter's table |
+| [Create](https://www.curseforge.com/projects/328085) | funnels and belts tend the kilns like any hopper |
+| [JEI](https://www.curseforge.com/projects/238222) | every ageing recipe, with its days, its weather and its Long Kiln wait |
+| [Jade](https://www.curseforge.com/projects/324717) | a kiln, Sandglass or Keepsake Urn tells you how long it has left |
+| [Patchouli](https://www.curseforge.com/projects/306770) | *A Slow Almanac* |
+| [KubeJS](https://www.curseforge.com/projects/238086) | add and remove ageing recipes from scripts; see [For pack makers](packs.md) |

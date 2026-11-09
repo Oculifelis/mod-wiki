@@ -19,9 +19,12 @@ ticks to a day), so a slept night doesn't cheat the wait, and nothing is lost wh
 
 Two fields are optional:
 
-- **`long_days`**: the Long Kiln's own wait for a whole stack. Without it the Long Kiln takes `days` × 3. (The Ember
-  Kiln always takes half of `days`.)
-- **`condition`**: the days count only while it holds. Every part of it is optional:
+| Field | What it does |
+|---|---|
+| `long_days` | the Long Kiln's own wait for a whole stack. Without it the Long Kiln takes `days` × 3. (The Ember Kiln always takes half of `days`.) |
+| `condition` | the days count only while it holds. Every part of it is optional, as below. |
+
+The parts of `condition`:
 
 | Field | Values | Notes |
 |---|---|---|
@@ -71,14 +74,15 @@ when it isn't installed.
 
 ## On other versions
 
-- **1.20.1:** recipes go in `data/<your pack>/recipes/` (plural), and results are written `{"item": ..., "count": ...}`
-  (Slowlight's ageing recipes accept `"id"` too). KubeJS 6 has no recipe schemas, so only `event.custom` and
-  `event.remove` work; `event.recipes.slowlight.ageing` doesn't exist there.
-- **26.1.2, 26.2, 26.3:** ingredients can be a plain item id. There's no KubeJS build for 26.2 or 26.3 yet.
+| Version | What differs |
+|---|---|
+| 1.20.1 | recipes go in `data/<your pack>/recipes/` (plural), and results are written `{"item": ..., "count": ...}` (Slowlight's ageing recipes accept `"id"` too). [KubeJS](https://www.curseforge.com/projects/238086) 6 has no recipe schemas, so only `event.custom` and `event.remove` work; `event.recipes.slowlight.ageing` doesn't exist there. |
+| 26.1.2, 26.2, 26.3 | ingredients can be a plain item id. There's no KubeJS build for 26.2 or 26.3 yet. |
 
 See [Versions](versions.md) for everything else that differs.
 
 ## Tags
 
-- `#slowlight:pressable`: what the Flower Press takes. It includes `#minecraft:flowers` and `#c:flowers`, so most
-  modded flowers already work; add to it for anything else.
+| Tag | What it does |
+|---|---|
+| `#slowlight:pressable` | what the Flower Press takes. It includes `#minecraft:flowers` and `#c:flowers`, so most modded flowers already work; add to it for anything else. |
