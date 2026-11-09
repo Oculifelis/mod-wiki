@@ -10,10 +10,10 @@ nearest jukebox you can hear is playing while you wear the [Record Pendant](item
 
 | Option | Meaning |
 |---|---|
-| `enabled` | show the HUD at all |
-| `withoutPendant` | show it without wearing the pendant |
+| `enabled`{ #enabled } | show the HUD at all |
+| `withoutPendant`{ #withoutpendant } | show it without wearing the pendant |
 | `anchor`, `x`, `y` | which corner or edge it sits against, and the offset from there in GUI pixels (default top left, 4, 4) |
-| `scale` | size; 1 is the game's own text |
+| `scale`{ #scale } | size; 1 is the game's own text |
 | `showIcon`, `showTitle`, `showTime`, `showBar` | the playing disc, the song, "1:32 / 3:05" and the progress bar |
 | `barWidth`, `maxTitleWidth` | the bar's length and where a long title is cut |
 | `background`, `backgroundOpacity` | a faint backdrop like subtitles have, and how dark |
@@ -28,7 +28,7 @@ These come from Fundamentum and affect Ostentum's items (see [Fundamentum's conf
 
 | File | Option | Default | Effect on Ostentum |
 |---|---|---|---|
-| `fundamentum-client.toml` | `whips.flatHandles` | false | true draws whips in hand as flat icons instead of 3D handles |
+| `fundamentum-client.toml` | `whips.flatHandles`{ #whips-flathandles } | false | true draws whips in hand as flat icons instead of 3D handles |
 | `fundamentum-sky-client.toml` | `sky.fractalSkies`, `sky.melt` | true | Ostentum's moons don't use fractal skies, so these only matter for other mods' moons |
 | `fundamentum-hud-client.toml` | `itemHud.*` | | where and how the Engineer's Crossbow's mode and ammo readout is drawn |
 
