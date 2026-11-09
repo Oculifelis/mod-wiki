@@ -21,6 +21,7 @@ Other authors' mods, ported to newer versions. Not made or supported by the orig
 | Picture | Mod | What it does |
 |---|---|---|
 | ![Nether Agriculture logo](assets/netheragriculture_logo.png){ width="64" } | **[Nether Agriculture (Unofficial)](netheragriculture/index.md)** | NetherDon's Nether farming mod, ported to 26.1.2, 26.2 and 26.3 on NeoForge and Fabric. Berries, Lothun, Blaze Fruit and Azure Melons, hoglin and strider meat, the Black Furnace and a glowing wood set. |
+| ![Complicated Bees Unofficial logo](assets/complicatedbees_logo.png){ width="64" } | **[Complicated Bees Unofficial](complicatedbees/index.md)** | ACCBDD's Forestry-style bee breeding, ported to 26.1.2 and 26.2 on NeoForge. 59 species, 23 combs, frames, the Mellarium bee house and the Gyrofuge centrifuge. |
 
 ## Other mods
 
@@ -31,3 +32,4 @@ Smaller ones; the full list is on [Other mods](other/index.md).
 | [Spartan x Better Combat Unofficial](other/spartan-bettercombat.md) | gives every [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) melee weapon its own [Better Combat](https://www.curseforge.com/projects/639842) attack animation |
 | [Apiflux](other/apiflux.md) | a [Complicated Bees](https://modrinth.com/mod/complicated-bees) addon for Create rotation |
 | [Manacomb](other/manacomb.md) | a [Complicated Bees](https://modrinth.com/mod/complicated-bees) addon for Botania mana |
+| [Complicated Trees](other/complicated-trees.md) | breed trees with your [Complicated Bees](https://www.curseforge.com/projects/1100137) |
