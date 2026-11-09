@@ -70,69 +70,69 @@ Each of these loads only when its mod is installed.
 
 | In | Out | Days | Long Kiln days | Condition |
 |---|---|---|---|---|
-| ![Steak](img/mc/cooked_beef.png){ .mc-icon .mc-inline } Steak |  Beef Jerky | 3 | 9 |  |
-|  Blackberry | ![Blackberry Preserve](img/blackberry_preserve.png){ .mc-icon .mc-inline } Blackberry Preserve | 4 | 12 |  |
-|  Blightberry | ![Blightberry Preserve](img/blightberry_preserve.png){ .mc-icon .mc-inline } Blightberry Preserve | 4 | 12 |  |
-| ![Cooked Chicken](img/mc/cooked_chicken.png){ .mc-icon .mc-inline } Cooked Chicken |  Chicken Jerky | 3 | 9 |  |
-|  Hydra Chop | ![Cured Hydra Chop](img/cured_hydra_chop.png){ .mc-icon .mc-inline } Cured Hydra Chop | 5 | 15 |  |
-|  Duskberry | ![Duskberry Preserve](img/duskberry_preserve.png){ .mc-icon .mc-inline } Duskberry Preserve | 4 | 12 |  |
-| ![Pufferfish](img/mc/pufferfish.png){ .mc-icon .mc-inline } Pufferfish |  Fugu Jerky | 3 | 9 |  |
-|  Maloberry | ![Maloberry Preserve](img/maloberry_preserve.png){ .mc-icon .mc-inline } Maloberry Preserve | 4 | 12 |  |
-|  Cooked Meef |  Meef Jerky | 3 | 9 |  |
-|  Castle Brick |  Mossy Castle Brick | 5 | 15 |  |
-|  Mazestone Brick |  Mossy Mazestone | 4 | 12 |  |
-|  Underbrick |  Mossy Underbrick | 4 | 12 |  |
-| ![Cooked Mutton](img/mc/cooked_mutton.png){ .mc-icon .mc-inline } Cooked Mutton |  Mutton Jerky | 3 | 9 |  |
-| ![Cooked Porkchop](img/mc/cooked_porkchop.png){ .mc-icon .mc-inline } Cooked Porkchop |  Pork Jerky | 3 | 9 |  |
-| ![Cooked Rabbit](img/mc/cooked_rabbit.png){ .mc-icon .mc-inline } Cooked Rabbit |  Rabbit Jerky | 3 | 9 |  |
-|  Raspberry | ![Raspberry Preserve](img/raspberry_preserve.png){ .mc-icon .mc-inline } Raspberry Preserve | 4 | 12 |  |
-|  Skyberry | ![Skyberry Preserve](img/skyberry_preserve.png){ .mc-icon .mc-inline } Skyberry Preserve | 4 | 12 |  |
-|  Stingberry | ![Stingberry Preserve](img/stingberry_preserve.png){ .mc-icon .mc-inline } Stingberry Preserve | 4 | 12 |  |
-|  Torchberries | ![Torchberry Preserve](img/torchberry_preserve.png){ .mc-icon .mc-inline } Torchberry Preserve | 4 | 12 |  |
-| ![Tropical Fish](img/mc/tropical_fish.png){ .mc-icon .mc-inline } Tropical Fish |  Tropical Fish Jerky | 3 | 9 |  |
-|  Blueberry | ![Twilight Blueberry Preserve](img/twilight_blueberry_preserve.png){ .mc-icon .mc-inline } Twilight Blueberry Preserve | 4 | 12 |  |
-|  Cooked Venison |  Venison Jerky | 3 | 9 |  |
+| ![Steak](img/mc/cooked_beef.png){ .mc-icon .mc-inline } Steak | ![Beef Jerky](img/twilightforest/beef_jerky.png){ .mc-icon .mc-inline } Beef Jerky | 3 | 9 |  |
+| ![Blackberry](img/twilightforest/blackberry.png){ .mc-icon .mc-inline } Blackberry | ![Blackberry Preserve](img/blackberry_preserve.png){ .mc-icon .mc-inline } Blackberry Preserve | 4 | 12 |  |
+| ![Blightberry](img/twilightforest/blightberry.png){ .mc-icon .mc-inline } Blightberry | ![Blightberry Preserve](img/blightberry_preserve.png){ .mc-icon .mc-inline } Blightberry Preserve | 4 | 12 |  |
+| ![Cooked Chicken](img/mc/cooked_chicken.png){ .mc-icon .mc-inline } Cooked Chicken | ![Chicken Jerky](img/twilightforest/chicken_jerky.png){ .mc-icon .mc-inline } Chicken Jerky | 3 | 9 |  |
+| ![Hydra Chop](img/twilightforest/hydra_chop.png){ .mc-icon .mc-inline } Hydra Chop | ![Cured Hydra Chop](img/cured_hydra_chop.png){ .mc-icon .mc-inline } Cured Hydra Chop | 5 | 15 |  |
+| ![Duskberry](img/twilightforest/duskberry.png){ .mc-icon .mc-inline } Duskberry | ![Duskberry Preserve](img/duskberry_preserve.png){ .mc-icon .mc-inline } Duskberry Preserve | 4 | 12 |  |
+| ![Pufferfish](img/mc/pufferfish.png){ .mc-icon .mc-inline } Pufferfish | ![Fugu Jerky](img/twilightforest/fugu_jerky.png){ .mc-icon .mc-inline } Fugu Jerky | 3 | 9 |  |
+| ![Maloberry](img/twilightforest/maloberry.png){ .mc-icon .mc-inline } Maloberry | ![Maloberry Preserve](img/maloberry_preserve.png){ .mc-icon .mc-inline } Maloberry Preserve | 4 | 12 |  |
+| ![Cooked Meef](img/twilightforest/cooked_meef.png){ .mc-icon .mc-inline } Cooked Meef | ![Meef Jerky](img/twilightforest/meef_jerky.png){ .mc-icon .mc-inline } Meef Jerky | 3 | 9 |  |
+| ![Castle Brick](img/twilightforest/castle_brick.png){ .mc-icon .mc-inline } Castle Brick | ![Mossy Castle Brick](img/twilightforest/mossy_castle_brick.png){ .mc-icon .mc-inline } Mossy Castle Brick | 5 | 15 |  |
+| ![Mazestone Brick](img/twilightforest/mazestone_brick.png){ .mc-icon .mc-inline } Mazestone Brick | ![Mossy Mazestone](img/twilightforest/mossy_mazestone.png){ .mc-icon .mc-inline } Mossy Mazestone | 4 | 12 |  |
+| ![Underbrick](img/twilightforest/underbrick.png){ .mc-icon .mc-inline } Underbrick | ![Mossy Underbrick](img/twilightforest/mossy_underbrick.png){ .mc-icon .mc-inline } Mossy Underbrick | 4 | 12 |  |
+| ![Cooked Mutton](img/mc/cooked_mutton.png){ .mc-icon .mc-inline } Cooked Mutton | ![Mutton Jerky](img/twilightforest/mutton_jerky.png){ .mc-icon .mc-inline } Mutton Jerky | 3 | 9 |  |
+| ![Cooked Porkchop](img/mc/cooked_porkchop.png){ .mc-icon .mc-inline } Cooked Porkchop | ![Pork Jerky](img/twilightforest/pork_jerky.png){ .mc-icon .mc-inline } Pork Jerky | 3 | 9 |  |
+| ![Cooked Rabbit](img/mc/cooked_rabbit.png){ .mc-icon .mc-inline } Cooked Rabbit | ![Rabbit Jerky](img/twilightforest/rabbit_jerky.png){ .mc-icon .mc-inline } Rabbit Jerky | 3 | 9 |  |
+| ![Raspberry](img/twilightforest/raspberry.png){ .mc-icon .mc-inline } Raspberry | ![Raspberry Preserve](img/raspberry_preserve.png){ .mc-icon .mc-inline } Raspberry Preserve | 4 | 12 |  |
+| ![Skyberry](img/twilightforest/skyberry.png){ .mc-icon .mc-inline } Skyberry | ![Skyberry Preserve](img/skyberry_preserve.png){ .mc-icon .mc-inline } Skyberry Preserve | 4 | 12 |  |
+| ![Stingberry](img/twilightforest/stingberry.png){ .mc-icon .mc-inline } Stingberry | ![Stingberry Preserve](img/stingberry_preserve.png){ .mc-icon .mc-inline } Stingberry Preserve | 4 | 12 |  |
+| ![Torchberries](img/twilightforest/torchberries.png){ .mc-icon .mc-inline } Torchberries | ![Torchberry Preserve](img/torchberry_preserve.png){ .mc-icon .mc-inline } Torchberry Preserve | 4 | 12 |  |
+| ![Tropical Fish](img/mc/tropical_fish.png){ .mc-icon .mc-inline } Tropical Fish | ![Tropical Fish Jerky](img/twilightforest/tropical_fish_jerky.png){ .mc-icon .mc-inline } Tropical Fish Jerky | 3 | 9 |  |
+| ![Blueberry](img/aether_ii/blueberry.png){ .mc-icon .mc-inline } Blueberry | ![Twilight Blueberry Preserve](img/twilight_blueberry_preserve.png){ .mc-icon .mc-inline } Twilight Blueberry Preserve | 4 | 12 |  |
+| ![Cooked Venison](img/twilightforest/cooked_venison.png){ .mc-icon .mc-inline } Cooked Venison | ![Venison Jerky](img/twilightforest/venison_jerky.png){ .mc-icon .mc-inline } Venison Jerky | 3 | 9 |  |
 
 ### The Undergarden
 
 | In | Out | Days | Long Kiln days | Condition |
 |---|---|---|---|---|
-|  Droopvine Item | ![Candied Droopfruit](img/candied_droopfruit.png){ .mc-icon .mc-inline } Candied Droopfruit | 3 | 9 |  |
-|  Depthrock Bricks |  Cracked Depthrock Bricks | 3 | 9 |  |
-|  Shiverstone Bricks |  Cracked Shiverstone Bricks | 3 | 9 |  |
-|  Dweller Steak | ![Cured Dweller Steak](img/cured_dweller_steak.png){ .mc-icon .mc-inline } Cured Dweller Steak | 4 | 12 |  |
-|  Gloomper Leg | ![Cured Gloomper Leg](img/cured_gloomper_leg.png){ .mc-icon .mc-inline } Cured Gloomper Leg | 4 | 12 |  |
-|  Cooked Gwibling | ![Cured Gwibling](img/cured_gwibling.png){ .mc-icon .mc-inline } Cured Gwibling | 3 | 9 |  |
-|  Ditchbulb | ![Ditchbulb Preserve](img/ditchbulb_preserve.png){ .mc-icon .mc-inline } Ditchbulb Preserve | 4 | 12 |  |
-|  Glitterkelp | ![Dried Glitterkelp](img/dried_glitterkelp.png){ .mc-icon .mc-inline } Dried Glitterkelp | 2 | 6 |  |
-|  Blisterberry |  Rotten Blisterberry | 2 | 6 |  |
+| ![Droopvine Item](img/undergarden/droopvine.png){ .mc-icon .mc-inline } Droopvine Item | ![Candied Droopfruit](img/candied_droopfruit.png){ .mc-icon .mc-inline } Candied Droopfruit | 3 | 9 |  |
+| ![Depthrock Bricks](img/undergarden/depthrock_bricks.png){ .mc-icon .mc-inline } Depthrock Bricks | ![Cracked Depthrock Bricks](img/undergarden/cracked_depthrock_bricks.png){ .mc-icon .mc-inline } Cracked Depthrock Bricks | 3 | 9 |  |
+| ![Shiverstone Bricks](img/undergarden/shiverstone_bricks.png){ .mc-icon .mc-inline } Shiverstone Bricks | ![Cracked Shiverstone Bricks](img/undergarden/cracked_shiverstone_bricks.png){ .mc-icon .mc-inline } Cracked Shiverstone Bricks | 3 | 9 |  |
+| ![Dweller Steak](img/undergarden/dweller_steak.png){ .mc-icon .mc-inline } Dweller Steak | ![Cured Dweller Steak](img/cured_dweller_steak.png){ .mc-icon .mc-inline } Cured Dweller Steak | 4 | 12 |  |
+| ![Gloomper Leg](img/undergarden/gloomper_leg.png){ .mc-icon .mc-inline } Gloomper Leg | ![Cured Gloomper Leg](img/cured_gloomper_leg.png){ .mc-icon .mc-inline } Cured Gloomper Leg | 4 | 12 |  |
+| ![Cooked Gwibling](img/undergarden/cooked_gwibling.png){ .mc-icon .mc-inline } Cooked Gwibling | ![Cured Gwibling](img/cured_gwibling.png){ .mc-icon .mc-inline } Cured Gwibling | 3 | 9 |  |
+| ![Ditchbulb](img/undergarden/ditchbulb.png){ .mc-icon .mc-inline } Ditchbulb | ![Ditchbulb Preserve](img/ditchbulb_preserve.png){ .mc-icon .mc-inline } Ditchbulb Preserve | 4 | 12 |  |
+| ![Glitterkelp](img/undergarden/glitterkelp.png){ .mc-icon .mc-inline } Glitterkelp | ![Dried Glitterkelp](img/dried_glitterkelp.png){ .mc-icon .mc-inline } Dried Glitterkelp | 2 | 6 |  |
+| ![Blisterberry](img/undergarden/blisterberry.png){ .mc-icon .mc-inline } Blisterberry | ![Rotten Blisterberry](img/undergarden/rotten_blisterberry.png){ .mc-icon .mc-inline } Rotten Blisterberry | 2 | 6 |  |
 
 ### The Aether
 
 | In | Out | Days | Long Kiln days | Condition |
 |---|---|---|---|---|
-|  Aechor Petal | ![Aechor Petal Tea](img/aechor_petal_tea.png){ .mc-icon .mc-inline } Aechor Petal Tea | 2 | 6 |  |
-|  Blue Berry | ![Blue Berry Preserve](img/blue_berry_preserve.png){ .mc-icon .mc-inline } Blue Berry Preserve | 4 | 12 |  |
-|  Enchanted Berry | ![Enchanted Berry Preserve](img/enchanted_berry_preserve.png){ .mc-icon .mc-inline } Enchanted Berry Preserve | 4 | 12 |  |
-|  White Apple | ![White Apple Cider](img/white_apple_cider.png){ .mc-icon .mc-inline } White Apple Cider | 4 | 12 |  |
+| ![Aechor Petal](img/aether_ii/aechor_petal.png){ .mc-icon .mc-inline } Aechor Petal | ![Aechor Petal Tea](img/aechor_petal_tea.png){ .mc-icon .mc-inline } Aechor Petal Tea | 2 | 6 |  |
+| ![Blue Berry](img/aether/blue_berry.png){ .mc-icon .mc-inline } Blue Berry | ![Blue Berry Preserve](img/blue_berry_preserve.png){ .mc-icon .mc-inline } Blue Berry Preserve | 4 | 12 |  |
+| ![Enchanted Berry](img/aether/enchanted_berry.png){ .mc-icon .mc-inline } Enchanted Berry | ![Enchanted Berry Preserve](img/enchanted_berry_preserve.png){ .mc-icon .mc-inline } Enchanted Berry Preserve | 4 | 12 |  |
+| ![White Apple](img/aether/white_apple.png){ .mc-icon .mc-inline } White Apple | ![White Apple Cider](img/white_apple_cider.png){ .mc-icon .mc-inline } White Apple Cider | 4 | 12 |  |
 
 ### Aerial Hell
 
 | In | Out | Days | Long Kiln days | Condition |
 |---|---|---|---|---|
-|  Aerial Berry | ![Aerial Berry Preserve](img/aerial_berry_preserve.png){ .mc-icon .mc-inline } Aerial Berry Preserve | 4 | 12 |  |
-|  Glowing Stick Fruit | ![Candied Glowing Stick Fruit](img/candied_glowing_stick_fruit.png){ .mc-icon .mc-inline } Candied Glowing Stick Fruit | 3 | 9 |  |
-|  Cooked Phantom Meat | ![Cured Phantom Meat](img/cured_phantom_meat.png){ .mc-icon .mc-inline } Cured Phantom Meat | 4 | 12 |  |
-|  Cooked Turtle Meat | ![Cured Turtle Meat](img/cured_turtle_meat.png){ .mc-icon .mc-inline } Cured Turtle Meat | 4 | 12 |  |
-|  Rotten Leather | ![Leather](img/mc/leather.png){ .mc-icon .mc-inline } Leather | 4 | 12 |  |
-|  Venomous Snake Skin | ![Leather](img/mc/leather.png){ .mc-icon .mc-inline } Leather | 3 | 9 |  |
-|  Mud Bricks |  Mossy Mud Bricks | 4 | 12 |  |
-|  Shadow Catacombs Bricks |  Mossy Shadow Catacombs Bricks | 5 | 15 |  |
-|  Stellar Cobblestone |  Mossy Stellar Cobblestone | 4 | 12 |  |
-|  Ruby Aerial Berry | ![Ruby Aerial Berry Preserve](img/ruby_aerial_berry_preserve.png){ .mc-icon .mc-inline } Ruby Aerial Berry Preserve | 4 | 12 |  |
-|  Dark Shadow Fruit | ![Shadow Fruit Preserve](img/shadow_fruit_preserve.png){ .mc-icon .mc-inline } Shadow Fruit Preserve | 4 | 12 |  |
-|  Purple Shadow Fruit | ![Shadow Fruit Preserve](img/shadow_fruit_preserve.png){ .mc-icon .mc-inline } Shadow Fruit Preserve | 4 | 12 |  |
-|  Stellar Sugar Cane | ![Stellar Rock Sugar](img/stellar_rock_sugar.png){ .mc-icon .mc-inline } Stellar Rock Sugar | 3 | 9 |  |
-|  Stellar Bread | ![Stellar Rusk](img/stellar_rusk.png){ .mc-icon .mc-inline } Stellar Rusk | 2 | 6 |  |
-|  Vibrant Aerial Berry | ![Vibrant Aerial Berry Preserve](img/vibrant_aerial_berry_preserve.png){ .mc-icon .mc-inline } Vibrant Aerial Berry Preserve | 4 | 12 |  |
-|  Volucite Aerial Berry | ![Volucite Aerial Berry Preserve](img/volucite_aerial_berry_preserve.png){ .mc-icon .mc-inline } Volucite Aerial Berry Preserve | 4 | 12 |  |
+| ![Aerial Berry](img/aerialhell/aerial_berry.png){ .mc-icon .mc-inline } Aerial Berry | ![Aerial Berry Preserve](img/aerial_berry_preserve.png){ .mc-icon .mc-inline } Aerial Berry Preserve | 4 | 12 |  |
+| ![Glowing Stick Fruit](img/aerialhell/glowing_stick_fruit.png){ .mc-icon .mc-inline } Glowing Stick Fruit | ![Candied Glowing Stick Fruit](img/candied_glowing_stick_fruit.png){ .mc-icon .mc-inline } Candied Glowing Stick Fruit | 3 | 9 |  |
+| ![Cooked Phantom Meat](img/aerialhell/cooked_phantom_meat.png){ .mc-icon .mc-inline } Cooked Phantom Meat | ![Cured Phantom Meat](img/cured_phantom_meat.png){ .mc-icon .mc-inline } Cured Phantom Meat | 4 | 12 |  |
+| ![Cooked Turtle Meat](img/aerialhell/cooked_turtle_meat.png){ .mc-icon .mc-inline } Cooked Turtle Meat | ![Cured Turtle Meat](img/cured_turtle_meat.png){ .mc-icon .mc-inline } Cured Turtle Meat | 4 | 12 |  |
+| ![Rotten Leather](img/aerialhell/rotten_leather.png){ .mc-icon .mc-inline } Rotten Leather | ![Leather](img/mc/leather.png){ .mc-icon .mc-inline } Leather | 4 | 12 |  |
+| ![Venomous Snake Skin](img/aerialhell/venomous_snake_skin.png){ .mc-icon .mc-inline } Venomous Snake Skin | ![Leather](img/mc/leather.png){ .mc-icon .mc-inline } Leather | 3 | 9 |  |
+| ![Mud Bricks](img/aerialhell/mud_bricks.png){ .mc-icon .mc-inline } Mud Bricks |  Mossy Mud Bricks | 4 | 12 |  |
+| ![Shadow Catacombs Bricks](img/aerialhell/shadow_catacombs_bricks.png){ .mc-icon .mc-inline } Shadow Catacombs Bricks |  Mossy Shadow Catacombs Bricks | 5 | 15 |  |
+| ![Stellar Cobblestone](img/aerialhell/stellar_cobblestone.png){ .mc-icon .mc-inline } Stellar Cobblestone |  Mossy Stellar Cobblestone | 4 | 12 |  |
+| ![Ruby Aerial Berry](img/aerialhell/ruby_aerial_berry.png){ .mc-icon .mc-inline } Ruby Aerial Berry | ![Ruby Aerial Berry Preserve](img/ruby_aerial_berry_preserve.png){ .mc-icon .mc-inline } Ruby Aerial Berry Preserve | 4 | 12 |  |
+| ![Dark Shadow Fruit](img/aerialhell/dark_shadow_fruit.png){ .mc-icon .mc-inline } Dark Shadow Fruit | ![Shadow Fruit Preserve](img/shadow_fruit_preserve.png){ .mc-icon .mc-inline } Shadow Fruit Preserve | 4 | 12 |  |
+| ![Purple Shadow Fruit](img/aerialhell/purple_shadow_fruit.png){ .mc-icon .mc-inline } Purple Shadow Fruit | ![Shadow Fruit Preserve](img/shadow_fruit_preserve.png){ .mc-icon .mc-inline } Shadow Fruit Preserve | 4 | 12 |  |
+| ![Stellar Sugar Cane](img/aerialhell/stellar_sugar_cane.png){ .mc-icon .mc-inline } Stellar Sugar Cane | ![Stellar Rock Sugar](img/stellar_rock_sugar.png){ .mc-icon .mc-inline } Stellar Rock Sugar | 3 | 9 |  |
+| ![Stellar Bread](img/aerialhell/stellar_bread.png){ .mc-icon .mc-inline } Stellar Bread | ![Stellar Rusk](img/stellar_rusk.png){ .mc-icon .mc-inline } Stellar Rusk | 2 | 6 |  |
+| ![Vibrant Aerial Berry](img/aerialhell/vibrant_aerial_berry.png){ .mc-icon .mc-inline } Vibrant Aerial Berry | ![Vibrant Aerial Berry Preserve](img/vibrant_aerial_berry_preserve.png){ .mc-icon .mc-inline } Vibrant Aerial Berry Preserve | 4 | 12 |  |
+| ![Volucite Aerial Berry](img/aerialhell/volucite_aerial_berry.png){ .mc-icon .mc-inline } Volucite Aerial Berry | ![Volucite Aerial Berry Preserve](img/volucite_aerial_berry_preserve.png){ .mc-icon .mc-inline } Volucite Aerial Berry Preserve | 4 | 12 |  |
