@@ -18,11 +18,11 @@ also go into pearl bricks, and the colour matters for jewelry (below) and the Bu
 
 Rings, bracelets and necklaces are pearls plus a binding:
 
-|  | Piece | Bindings | Shape in the crafting grid |
+| Picture | Piece | Bindings | Shape in the crafting grid |
 |---|---|---|---|
-| ![Ring](img/ring.png){ .mc-icon } | Ring | iron or gold | seven bindings in a ring, the pearl at the top middle |
-| ![Bracelet](img/bracelet.png){ .mc-icon } | Bracelet | string or golden silk | two bindings in the top corners over four pearls in a U |
-| ![Necklace](img/necklace.png){ .mc-icon } | Necklace | wool or golden thread | seven pearls in a ring, the binding at the top middle |
+| ![Ring](img/ring.png){ .mc-icon } | **Ring**{ #ring } | iron or gold | seven bindings in a ring, the pearl at the top middle |
+| ![Bracelet](img/bracelet.png){ .mc-icon } | **Bracelet**{ #bracelet } | string or golden silk | two bindings in the top corners over four pearls in a U |
+| ![Necklace](img/necklace.png){ .mc-icon } | **Necklace**{ #necklace } | wool or golden thread | seven pearls in a ring, the binding at the top middle |
 
 That makes a rough piece. Finish it on the ![Hammer](img/hammer.png){ .mc-icon .mc-inline } **Blacksmith's Anvil** with
 the hammer, or in an ![Autohammer](img/autohammer.png){ .mc-icon .mc-inline } **Autohammer**. Worn jewelry is repaired on the anvil for XP.
@@ -37,11 +37,11 @@ the hammer, or in an ![Autohammer](img/autohammer.png){ .mc-icon .mc-inline } **
 
 Better bindings give a better chance that the enchantments stick.
 
-| | Mirror | |
+| Picture | Name | Lasts |
 |---|---|---|
-| ![Mirror](img/mirror.png){ .mc-icon } | Mirror | 100 uses |
-| ![Magic Mirror](img/magic_mirror.png){ .mc-icon } | Magic Mirror | enchants up to level 30 |
-| ![Celestial Mirror](img/celestial_mirror.png){ .mc-icon } | Celestial Mirror | enchants at levels 31 to 60 |
+| ![Mirror](img/mirror.png){ .mc-icon } | **Mirror**{ #mirror } | 100 uses |
+| ![Magic Mirror](img/magic_mirror.png){ .mc-icon } | **Magic Mirror**{ #magic-mirror } | enchants up to level 30 |
+| ![Celestial Mirror](img/celestial_mirror.png){ .mc-icon } | **Celestial Mirror**{ #celestial-mirror } | enchants at levels 31 to 60 |
 
 ### Jewelry enchantments
 
@@ -85,6 +85,6 @@ How fast Leapfrog, Sonic and Restoration work, and Blink's range and cooldown, a
 
 | | | |
 |---|---|---|
-| ![Mob Magnet](img/mob_magnet.png){ .mc-icon } | **Mob Magnet** | binds to the first kind of mob you kill with it, then pulls that kind to you from 32 blocks; never wears out |
-| ![Hydrophobic Initiator](img/hydrophobic_initiator.png){ .mc-icon } | **Hydrophobic Initiator** | places blocks on water |
-| ![Infinity Water](img/infiwater.png){ .mc-icon } | **Infinity Water** | never runs dry |
+| ![Mob Magnet](img/mob_magnet.png){ .mc-icon } | **Mob Magnet**{ #mob-magnet } | binds to the first kind of mob you kill with it, then pulls that kind to you from 32 blocks; never wears out |
+| ![Hydrophobic Initiator](img/hydrophobic_initiator.png){ .mc-icon } | **Hydrophobic Initiator**{ #hydrophobic-initiator } | places blocks on water |
+| ![Infinity Water](img/infiwater.png){ .mc-icon } | **Infinity Water**{ #infinity-water } | never runs dry |

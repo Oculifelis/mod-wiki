@@ -6,10 +6,10 @@
 
 | | | |
 |---|---|---|
-| ![Bauxite Ore](img/bauxite_ore.png){ .mc-icon } | **Bauxite** | aluminium ore; veins of up to 8 between Y 64 and 255; needs a stone pickaxe |
-| ![Rutile Ore](img/rutile_ore.png){ .mc-icon } | **Rutile** | titanium ore; in the limestone of the sea bed, twice as common under rivers; needs an iron pickaxe |
-| ![Limestone Bricks](img/limestone_brick.png){ .mc-icon } | **Limestone** | the sea bed's stone, with bricks and other building blocks |
-| ![Pearl Bricks](img/pearl_brick_blue.png){ .mc-icon } | **Pearl bricks** | building blocks in each pearl colour |
+| ![Bauxite Ore](img/bauxite_ore.png){ .mc-icon } | **Bauxite**{ #bauxite } | aluminium ore; veins of up to 8 between Y 64 and 255; needs a stone pickaxe |
+| ![Rutile Ore](img/rutile_ore.png){ .mc-icon } | **Rutile**{ #rutile } | titanium ore; in the limestone of the sea bed, twice as common under rivers; needs an iron pickaxe |
+| ![Limestone Bricks](img/limestone_brick.png){ .mc-icon } | **Limestone**{ #limestone } | the sea bed's stone, with bricks and other building blocks |
+| ![Pearl Bricks](img/pearl_brick_blue.png){ .mc-icon } | **Pearl bricks**{ #pearl-bricks } | building blocks in each pearl colour |
 
 **Coral** comes in eight colours. Bleach it in the vat with 50 mB of quicklime; bring it back to life in 100 mB of
 water. ![Ancient Sand](img/ancient_sand.png){ .mc-icon .mc-inline } **Ancient Sand** smelts into Heat Resistant Glass.
@@ -24,11 +24,11 @@ Fluids are kept in tanks:
 
 |  | Tank | Holds |
 |---|---|---|
-| ![Copper tank](img/copper_tank.png){ .mc-icon } | Copper tank | 32,000 mB |
-| ![Aluminium tank](img/aluminum_tank.png){ .mc-icon } | Aluminium tank | 64,000 mB |
-| ![Titanium tank](img/titanium_tank.png){ .mc-icon } | Titanium tank | 128,000 mB |
-| ![Heat Resistant Bottle](img/heat_bottle.png){ .mc-icon } | Heat bottle | 2,000 mB |
-| ![Titanium bucket](img/titanium_bucket.png){ .mc-icon } | Titanium bucket | 16,000 mB |
+| ![Copper tank](img/copper_tank.png){ .mc-icon } | **Copper tank**{ #copper-tank } | 32,000 mB |
+| ![Aluminium tank](img/aluminum_tank.png){ .mc-icon } | **Aluminium tank**{ #aluminium-tank } | 64,000 mB |
+| ![Titanium tank](img/titanium_tank.png){ .mc-icon } | **Titanium tank**{ #titanium-tank } | 128,000 mB |
+| ![Heat Resistant Bottle](img/heat_bottle.png){ .mc-icon } | **Heat bottle**{ #heat-bottle } | 2,000 mB |
+| ![Titanium bucket](img/titanium_bucket.png){ .mc-icon } | **Titanium bucket**{ #titanium-bucket } | 16,000 mB |
 
 ![Anvil](img/anvil.png){ .mc-icon .mc-inline } The **Blacksmith's Anvil** shapes metal with the hammer. The
 ![Autohammer](img/autohammer.png){ .mc-icon .mc-inline } **Autohammer** does it for you.
@@ -67,16 +67,16 @@ the tank holds 512 buckets, the turbine uses 1 mB every quarter-second and makes
 
 | | Machine | |
 |---|---|---|
-| ![Sawmill](img/sawmill.png){ .mc-icon } | **Sawmill** | builds custom blocks from plans, copying the faces of other blocks; the Paintbrush repaints them |
-| ![Sifter](img/sifter.png){ .mc-icon } | **Sifter** | right-click items onto it, then again to sift them; where most bait comes from |
-| ![Autofisher](img/autofisher.png){ .mc-icon } | **Automatic Fisher** | does your fishing for you |
-| | **Fishing Net** | placed on water, slowly catches fish as a Reed Rod would |
-| | **Fish Sorter** | sorts fish by species |
-| | **Unpacker** | unpacks items |
-| | **Automatic Dictionary Converter** | turns items into another mod's version of the same tag; 24 slots, 216 filters |
-| | **Fluid Auto-Dictionary** | the same for fluids |
-| | **Mechanized Sponge** | clears fluid from a 97×97 area, 40 FE per block; needs five more Sponge blocks with it |
-| | **Pressure Vessel** | holds 200 buckets, plus 8 per upgrade |
-| | **Geyser** | pushes entities along, 8 or 16 blocks |
+| ![Sawmill](img/sawmill.png){ .mc-icon } | **Sawmill**{ #sawmill } | builds custom blocks from plans, copying the faces of other blocks; the Paintbrush repaints them |
+| ![Sifter](img/sifter.png){ .mc-icon } | **Sifter**{ #sifter } | right-click items onto it, then again to sift them; where most bait comes from |
+| ![Autofisher](img/autofisher.png){ .mc-icon } | **Automatic Fisher**{ #automatic-fisher } | does your fishing for you |
+| | **Fishing Net**{ #fishing-net } | placed on water, slowly catches fish as a Reed Rod would |
+| | **Fish Sorter**{ #fish-sorter } | sorts fish by species |
+| | **Unpacker**{ #unpacker } | unpacks items |
+| | **Automatic Dictionary Converter**{ #automatic-dictionary-converter } | turns items into another mod's version of the same tag; 24 slots, 216 filters |
+| | **Fluid Auto-Dictionary**{ #fluid-auto-dictionary } | the same for fluids |
+| | **Mechanized Sponge**{ #mechanized-sponge } | clears fluid from a 97×97 area, 40 FE per block; needs five more Sponge blocks with it |
+| | **Pressure Vessel**{ #pressure-vessel } | holds 200 buckets, plus 8 per upgrade |
+| | **Geyser**{ #geyser } | pushes entities along, 8 or 16 blocks |
 
 How fast each machine works is set in the [config](config.md#machines).

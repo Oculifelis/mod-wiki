@@ -10,7 +10,7 @@ from a snorkel up to scuba, and a workshop of vats, crucibles and casters that m
 
 Everything is explained in the Mariculture Compendium, the in-game book.
 
-**Requires** Patchouli. **Optional:** JEI (every machine recipe, fishing loot and jewelry), Jade, KubeJS, CraftTweaker,
+**Requires** [Patchouli](https://www.curseforge.com/projects/306770). **Optional:** [JEI](https://www.curseforge.com/projects/238222) (every machine recipe, fishing loot and jewelry), [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086), [CraftTweaker](https://www.curseforge.com/projects/239197),
 and the mods listed under [For pack makers](packs.md#other-mods).
 
 **Versions:** 0.4.1, for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. See [Versions](versions.md) for what
@@ -18,7 +18,7 @@ differs on each.
 
 ## What's in it
 
-| | | |
+| Picture | Section | What's in it |
 |---|---|---|
 | ![Titanium Fishing Rod](img/titanium_fishing_rod.png){ .mc-icon } | **[Fishing](fishing.md)** | the four rods, bait, salinity and temperature, and where each wild fish bites |
 | ![Goldfish](img/goldfish.png){ .mc-icon } | **[Fish and breeding](fish.md)** | every species, what it makes in a Fish Feeder, traits, hatching and DNA |
@@ -34,5 +34,8 @@ differs on each.
 
 By **Oculifelis**, after the original Mariculture by **joshiejack** (MIT).
 
-Textures after Poppycocks' Mariculture art. Thanks also to SlimeKnights and Team CoFH, whose mods the original
-worked with.
+| By | Work | Used for |
+|---|---|---|
+| joshiejack | the original Mariculture (MIT) | the mod this one follows |
+| Poppycocks | Mariculture art | the textures are drawn after it |
+| SlimeKnights and Team CoFH | their mods | thanks: the original worked with them |

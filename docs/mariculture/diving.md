@@ -4,13 +4,13 @@
 
 Diving gear goes from a snorkel up to full scuba.
 
-| | | |
+| Picture | Name | What it does |
 |---|---|---|
-| ![Snorkel](img/snorkel.png){ .mc-icon } | **Snorkel** | the simplest gear: worn under water it tops up your air now and then, so you stay down far longer |
-| ![Diving Helmet](img/diving_helmet.png){ .mc-icon } | **Diving gear** | Diving Helmet, Diving Air Supply, Diving Suit and Diving Boots; the helmet takes air from a nearby Air Pump |
+| ![Snorkel](img/snorkel.png){ .mc-icon } | **Snorkel**{ #snorkel } | the simplest gear: worn under water it tops up your air now and then, so you stay down far longer |
+| ![Diving Helmet](img/diving_helmet.png){ .mc-icon } | **Diving gear**{ #diving-gear } | Diving Helmet, Diving Air Supply, Diving Suit and Diving Boots; the helmet takes air from a nearby Air Pump |
 | ![Scuba Mask](img/scuba_mask.png){ .mc-icon } | **Scuba Mask** and ![Scuba Tank](img/scuba_tank.png){ .mc-icon .mc-inline } **Scuba Tank** | air you carry with you |
-| ![Swimfins](img/swimfin.png){ .mc-icon } | **Swimfins** | worn on your feet for swimming |
-| ![Buoyancy Aid](img/lifejacket.png){ .mc-icon } | **Buoyancy Aid** | worn in the chest slot, carries you quickly up to the surface |
+| ![Swimfins](img/swimfin.png){ .mc-icon } | **Swimfins**{ #swimfins } | worn on your feet for swimming |
+| ![Buoyancy Aid](img/lifejacket.png){ .mc-icon } | **Buoyancy Aid**{ #buoyancy-aid } | worn in the chest slot, carries you quickly up to the surface |
 
 ## Air
 
@@ -24,10 +24,10 @@ The `hardcore_diving` setting in the [config](config.md#general) makes your air 
 
 ## Getting around
 
-| | | |
+| Picture | Name | What it does |
 |---|---|---|
-| ![F.L.U.D.D.](img/fludd.png){ .mc-icon } | **F.L.U.D.D.** | a water pack: holds 20,000 units of water, filled in a Pressure Vessel's special slot or on its stand |
-| ![Speed Boat](img/speed_boat.png){ .mc-icon } | **Speed Boat** | about 7 blocks a second on water |
+| ![F.L.U.D.D.](img/fludd.png){ .mc-icon } | **F.L.U.D.D.**{ #fludd } | a water pack: holds 20,000 units of water, filled in a Pressure Vessel's special slot or on its stand |
+| ![Speed Boat](img/speed_boat.png){ .mc-icon } | **Speed Boat**{ #speed-boat } | about 7 blocks a second on water |
 
 ### F.L.U.D.D. modes
 
