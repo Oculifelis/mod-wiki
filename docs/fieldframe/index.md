@@ -13,26 +13,27 @@ factory is just machines standing next to each other.
 
 ![An ore line, a generator and a steam loop, three modules each](img/machines.png)
 
-**Requires** Metallurgy: Recast, for its metals, ores and dusts ([wiki](../metallurgy/index.md)). **Optional:** JEI,
-Jade, KubeJS.
+**Requires** [Metallurgy: Recast](../metallurgy/index.md), for its metals, ores and dusts. **Optional:** [JEI](https://www.curseforge.com/projects/238222),
+[Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
 **Versions:** 0.3.3 for NeoForge 26.1.2; 0.1.1 for NeoForge 1.21.1 and Forge 1.20.1. See [Versions](versions.md).
 
 ## What's in it
 
-| | |
+| Section | What's in it |
 |---|---|
 | **[Machines](machines.md)** | how a chassis works, tiers, upgrades, overclocking, Bolted Chassis and Blueprints |
 | **[Modules](modules.md)** | all 77 modules, by kind |
 | **[The Controller Plate](machines.md#the-controller-plate)** | small state programs, and Program Cards to copy them |
-| **[Gear](machines.md#gear)** | Fluid Armor, the Arc and Tesla Whips and the Graviton Hook |
+| **[Gear](machines.md#gear)** | [Fluid Armor](machines.md#fluid-armor), the [Arc](machines.md#arc-whip) and [Tesla Whips](machines.md#tesla-whip) and the [Graviton Hook](machines.md#graviton-hook) |
 | **[For pack makers](pack-makers.md)** | datapacks, KubeJS and the Java API |
 
 ## Addons
 
-- **[Fieldframe Frameworks](../fieldframe-frameworks/index.md)**: big multiblock frames, a Foundry, an Arc Furnace, a
-  Gantry and the Starcore fusion reactor.
-- **[Fieldframe Transit](../fieldframe-transit/index.md)**: glass tubes you ride from one mouth to another.
+| Addon | What it adds |
+|---|---|
+| **[Fieldframe Frameworks](../fieldframe-frameworks/index.md)** | big multiblock frames, a [Foundry](../fieldframe-frameworks/index.md#foundry), an [Arc Furnace](../fieldframe-frameworks/index.md#arc-furnace), a [Gantry](../fieldframe-frameworks/index.md#gantry) and the [Starcore](../fieldframe-frameworks/index.md#starcore) fusion reactor |
+| **[Fieldframe Transit](../fieldframe-transit/index.md)** | glass tubes you ride from one mouth to another |
 
 ## The manual
 

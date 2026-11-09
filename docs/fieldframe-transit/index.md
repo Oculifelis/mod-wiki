@@ -18,6 +18,12 @@ or later (which needs [Curios](https://www.curseforge.com/projects/309927)).
 A ![Tube Drive](img/tube_drive.png){ .mc-icon .mc-inline } **Tube Drive** module on a chassis next to the entrance pays for each trip in RF: 200 RF plus 20 RF per block of tube.
 Tubes carry players and mobs only, never items, fluids or power.
 
+| Picture | Block | What it does |
+|---|---|---|
+| ![Transit Tube](img/transit_tube.png){ .mc-icon } | **[Transit Tube](#the-tubes)** | laid in smooth curves between mouths; eight come from brass and glass |
+| ![Tube Mouth](img/tube_mouth.png){ .mc-icon } | **[Tube Mouth](#mouths-and-the-drive)** | opens on its front and takes a tube at its back; every mouth is an exit |
+| ![Tube Drive](img/tube_drive.png){ .mc-icon } | **[Tube Drive](#mouths-and-the-drive)** | a module on a chassis next to the entrance that pays for each trip in RF |
+
 ## The tubes
 
 ![A Tube Mouth, the side of a Tube Mouth, a Transit Tube from the side and from the end, and the Tube Drive module](img/tubes.png)
@@ -47,7 +53,7 @@ trip puts you at the exit.
 ## For pack makers
 
 Every number is a Tube Drive tunable, set with Fieldframe's tuning data (`data/<ns>/fieldframe/tuning/*.json`) or
-KubeJS `FieldframeEvents.tuning`:
+[KubeJS](https://www.curseforge.com/projects/238086) `FieldframeEvents.tuning`:
 
 | Tunable | Default |
 |---|---|

@@ -8,9 +8,11 @@ a Power Terminal pays out from.
 
 Three machines from the manual:
 
-- **Ore line:** Heater, Crusher and Item Port.
-- **Generator:** Solar Collector, Fuel Engine and Power Terminal.
-- **Steam loop:** Boiler, Condenser and Steam Turbine.
+| Machine | Modules |
+|---|---|
+| **Ore line** | [Heater](modules.md#heater), [Crusher](modules.md#crusher) and [Item Port](modules.md#item-port) |
+| **Generator** | [Solar Collector](modules.md#solar-collector), [Fuel Engine](modules.md#fuel-engine) and [Power Terminal](modules.md#power-terminal) |
+| **Steam loop** | [Boiler](modules.md#boiler), [Condenser](modules.md#condenser) and [Steam Turbine](modules.md#steam-turbine) |
 
 Faceplates light up while a module is working, and each machine sounds like what it's doing.
 
@@ -40,12 +42,12 @@ it in the air to wipe it.
 
 ## Gear
 
-- ![Fluid Armor](img/gold_fluid_chestplate.png){ .mc-icon .mc-inline } **Fluid Armor** in copper, iron, gold and Ender Alloy. Fill it with a fluid and the fluid gives you an effect.
-- ![Arc Whip](img/arc_whip.png){ .mc-icon .mc-inline } **Arc Whip:** a copper lash fed from a cell in the grip. Charged tip cracks shock and stagger. Each swing costs RF;
-  charge it in an Item Charger.
-- ![Tesla Whip](img/tesla_whip.png){ .mc-icon .mc-inline } **Tesla Whip:** a reinforced Arc Whip. Charged cracks arc on to up to four more hostiles and stun the first.
-- ![Graviton Hook](img/graviton_hook.png){ .mc-icon .mc-inline } **Graviton Hook:** three hooks. While one holds and it has charge, gravity lets go of you: fly where you look, sneak
-  to sink. Wear it in the hook slot.
+| Picture | Name | What it does |
+|---|---|---|
+| ![Fluid Armor](img/gold_fluid_chestplate.png){ .mc-icon } | **Fluid Armor**{ #fluid-armor } | in copper, iron, gold and Ender Alloy. Fill it with a fluid and the fluid gives you an effect. |
+| ![Arc Whip](img/arc_whip.png){ .mc-icon } | **Arc Whip**{ #arc-whip } | a copper lash fed from a cell in the grip. Charged tip cracks shock and stagger. Each swing costs RF; charge it in an [Item Charger](modules.md#item-charger). |
+| ![Tesla Whip](img/tesla_whip.png){ .mc-icon } | **Tesla Whip**{ #tesla-whip } | a reinforced [Arc Whip](#arc-whip). Charged cracks arc on to up to four more hostiles and stun the first. |
+| ![Graviton Hook](img/graviton_hook.png){ .mc-icon } | **Graviton Hook**{ #graviton-hook } | three hooks. While one holds and it has charge, gravity lets go of you: fly where you look, sneak to sink. Wear it in the hook slot. |
 
 ![JEI showing Alloy Smelter recipes](img/09-jei-alloy-smelter.png)
 

@@ -10,8 +10,8 @@ and drive it, the same way they drive a single chassis. Still no pipes and no ca
 
 ![Frame Casing, Frame Core, Vault, Tank, Cell, Crucible, Arc Electrode and Cooling Fin; Gantry Controller, Head and Rail, Containment Coil, Field Magnet, Plasma Injector and Plasma Probe](img/blocks.png)
 
-**Requires** [Fieldframe](../fieldframe/index.md) and [Metallurgy: Recast](../metallurgy/index.md). **Optional:** JEI,
-Jade, KubeJS.
+**Requires** [Fieldframe](../fieldframe/index.md) and [Metallurgy: Recast](../metallurgy/index.md). **Optional:** [JEI](https://www.curseforge.com/projects/238222),
+[Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
 **Versions:** 0.1.3 for NeoForge 26.1.2; 0.1.2 for NeoForge 1.21.1 and Forge 1.20.1 ([Versions](../fieldframe/versions.md)).
 
@@ -52,11 +52,13 @@ Fluid Pump pumps.
 The Starcore is a fusion reactor inside ![Containment Coils](img/starcore_coil.png){ .mc-icon .mc-inline } **Containment Coils**. Its plasma never settles on its own. You build a control
 circuit to hold it, and if your program lets it drift, it goes out. Lighting it takes 5,000,000 RF.
 
-- ![Field Magnet](img/field_magnet.png){ .mc-icon .mc-inline } **Field Magnet:** 2 field per signal level, at 40 RF/t per level. A coil holds 60.
-- ![Plasma Injector](img/plasma_injector.png){ .mc-icon .mc-inline } **Plasma Injector:** feeds deuterium, up to 1 mB a tick, and one Ender Alloy dust per 250 mB.
-- ![Plasma Probe](img/plasma_probe.png){ .mc-icon .mc-inline } **Plasma Probe:** reports pressure (0 to 15) and temperature (20 MK a level) as signals.
+| Picture | Part | What it does |
+|---|---|---|
+| ![Field Magnet](img/field_magnet.png){ .mc-icon } | **Field Magnet**{ #field-magnet } | 2 field per signal level, at 40 RF/t per level. A coil holds 60. |
+| ![Plasma Injector](img/plasma_injector.png){ .mc-icon } | **Plasma Injector**{ #plasma-injector } | feeds deuterium, up to 1 mB a tick, and one Ender Alloy dust per 250 mB. |
+| ![Plasma Probe](img/plasma_probe.png){ .mc-icon } | **Plasma Probe**{ #plasma-probe } | reports pressure (0 to 15) and temperature (20 MK a level) as signals. |
 
-Deuterium comes from Fieldframe's Centrifuge: 1,000 mB of water makes 100 mB. Reactor explosions are a server setting
+Deuterium comes from Fieldframe's [Centrifuge](../fieldframe/modules.md#centrifuge): 1,000 mB of water makes 100 mB. Reactor explosions are a server setting
 in `fieldframe_frameworks-server.toml`, off by default.
 
 ## For pack makers
