@@ -54,5 +54,7 @@ are metal lamps ![Phosphorus Lantern](img/phosphorus_lamp.png){ .mc-icon .mc-inl
 
 ## Metallurgy Chests
 
+![Brass Chest](img/brass_chest.png){ .mc-icon } ![Silver Chest](img/silver_chest.png){ .mc-icon } ![Electrum Chest](img/electrum_chest.png){ .mc-icon } ![Rubracium Chest](img/rubracium_chest.png){ .mc-icon } ![Platinum Chest](img/platinum_chest.png){ .mc-icon }
+
 Five chest tiers, merged in from Metallurgy Chests: Brass (54 slots), Silver (72), Electrum (81), Rubracium (90) and
 Platinum (108).
