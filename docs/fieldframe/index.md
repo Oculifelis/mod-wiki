@@ -1,0 +1,47 @@
+# Fieldframe
+
+![Fieldframe](img/banner.png)
+
+*Build each machine from parts: a chassis with a module on every side.*
+
+Fieldframe is a tech mod where you build each machine yourself. You place a chassis and put a module on each of its six
+sides, and those six modules are the machine. A Heater, a Crusher and an Item Port make an ore line. Swap the Heater for
+a Fuel Engine and it's something else.
+
+There are no pipes, cables or wireless links. A machine works with what's inside it and the blocks it touches, so a
+factory is just machines standing next to each other.
+
+![An ore line, a generator and a steam loop, three modules each](img/machines.png)
+
+**Requires** Metallurgy: Recast, for its metals, ores and dusts ([wiki](../metallurgy/index.md)). **Optional:** JEI,
+Jade, KubeJS.
+
+**Versions:** 0.3.3 for NeoForge 26.1.2; 0.1.1 for NeoForge 1.21.1 and Forge 1.20.1. See [Versions](versions.md).
+
+## What's in it
+
+| | |
+|---|---|
+| **[Machines](machines.md)** | how a chassis works, tiers, upgrades, overclocking, Bolted Chassis and Blueprints |
+| **[Modules](modules.md)** | all 77 modules, by kind |
+| **[The Controller Plate](machines.md#the-controller-plate)** | small state programs, and Program Cards to copy them |
+| **[Gear](machines.md#gear)** | Fluid Armor, the Arc and Tesla Whips and the Graviton Hook |
+| **[For pack makers](pack-makers.md)** | datapacks, KubeJS and the Java API |
+
+## Addons
+
+- **[Fieldframe Frameworks](../fieldframe-frameworks/index.md)**: big multiblock frames, a Foundry, an Arc Furnace, a
+  Gantry and the Starcore fusion reactor.
+- **[Fieldframe Transit](../fieldframe-transit/index.md)**: glass tubes you ride from one mouth to another.
+
+## The manual
+
+The **Engineering Field Manual** is built in, so you don't need a guidebook mod. It shows each module's live numbers,
+its recipes and a checklist for your first machine.
+
+![The manual's first-machine page](img/07-manual-first-machine.png)
+
+## Credits
+
+By **Oculifelis**. Inspired by Emasher's Engineer's Toolbox, with none of its code or art. The classic EnderTech and
+FLORA textures, the Painterly item templates and the NeoVitae armor art are credited in `CREDITS.md` in the jar.

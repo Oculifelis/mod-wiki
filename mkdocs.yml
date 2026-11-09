@@ -95,4 +95,18 @@ nav:
       - netheragriculture/index.md
       - Items: netheragriculture/items.md
       - Config: netheragriculture/config.md
+  - "Metallurgy: Recast":
+      - metallurgy/index.md
+      - Ores and alloys: metallurgy/metals.md
+      - Metal effects: metallurgy/effects.md
+      - Machines and gear: metallurgy/machines.md
+      - Versions: metallurgy/versions.md
+  - Fieldframe:
+      - fieldframe/index.md
+      - Machines: fieldframe/machines.md
+      - Modules: fieldframe/modules.md
+      - For pack makers: fieldframe/pack-makers.md
+      - Versions: fieldframe/versions.md
+  - Fieldframe Frameworks: fieldframe-frameworks/index.md
+  - Fieldframe Transit: fieldframe-transit/index.md
   - Other mods: other/index.md
