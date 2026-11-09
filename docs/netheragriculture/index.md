@@ -14,7 +14,8 @@ in Nether Agriculture 2.1-beta2 for 1.21.1: ids, textures, recipes, loot and con
 **Requires** nothing on NeoForge. On Fabric: [Fabric API](https://www.curseforge.com/projects/306612) and
 [Forge Config API Port](https://www.curseforge.com/projects/547434). **Optional:** [JEI](https://www.curseforge.com/projects/238222)
 (the Black Furnace's Nether Cooking recipes), Farmer's Delight and My Nether's Delight (extra cooking and cutting
-recipes).
+recipes; on Fabric their Refabricated builds), [Cloth Config API](https://www.curseforge.com/projects/348521) (the
+in-game config screen) and, on Fabric, [Mod Menu](https://www.curseforge.com/projects/308702).
 
 **Versions:** NeoForge and Fabric for Minecraft 26.1.2, 26.2 and 26.3, all at 2.1.1. The original's EMI plugin is left
 out because EMI has no 26.x build yet.
