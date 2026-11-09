@@ -19,13 +19,12 @@ A tower is a climb from the door to the top. It comes in four shapes: **classic*
 **shattered**. It is built from one of over 200 palettes: 10 vanilla ones, and the rest from about 50 other mods, used
 only when that mod is installed.
 
-- **The ward.** Step inside and the ward seals behind you. While it is sealed you can't leave, fly, glide or teleport.
-  Ender pearls, chorus fruit and other mods' teleports are turned aside. The walls can't be broken or built on, and
-  explosions spare them. You can still place and take torches, lattice parts and essentia jars.
-- **Floors.** Each floor is a fight, a puzzle or a parkour run, with a warded hatch to the next one.
-- **The top.** A guardian waits at the top. When it dies the ward falls for good and the vault opens.
-- **Dying.** You wake outside the tower. Once nobody is left inside (all died, or gone for a minute) the tower resets:
-  the locks re-arm, the guardian goes back to sleep and the ward waits for the next climber.
+| Part | How it works |
+|---|---|
+| **The ward**{ #the-ward } | Step inside and the ward seals behind you. While it is sealed you can't leave, fly, glide or teleport. Ender pearls, chorus fruit and other mods' teleports are turned aside. The walls can't be broken or built on, and explosions spare them. You can still place and take torches, lattice parts and essentia jars. |
+| **Floors**{ #floors } | Each floor is a fight, a puzzle or a parkour run, with a warded hatch to the next one. |
+| **The top**{ #the-top } | A guardian waits at the top. When it dies the ward falls for good and the vault opens. |
+| **Dying**{ #dying } | You wake outside the tower. Once nobody is left inside (all died, or gone for a minute) the tower resets: the locks re-arm, the guardian goes back to sleep and the ward waits for the next climber. |
 
 ## Forsaken Laboratories
 
@@ -42,13 +41,13 @@ The other 23 are built for dimension mods and load only when that mod is install
 
 | Mod | Labs |
 |---|---|
-| Twilight Forest | aurora, castle, dark tower, labyrinth, naga |
-| The Undergarden | depthrock, shiverstone, tremblecrust |
-| The Aether II | agiosite, holystone, icestone, sentry |
-| Aerial Hell | catacombs, golden, lunatic, mud |
-| Stellaris | crater, forest |
-| Tropicraft | mangrove, tiki, volcano |
-| Voidscape | thunder, void |
+| [Twilight Forest](https://www.curseforge.com/projects/227639) | aurora, castle, dark tower, labyrinth, naga |
+| [The Undergarden](https://www.curseforge.com/projects/379849) | depthrock, shiverstone, tremblecrust |
+| [The Aether II](https://www.curseforge.com/projects/223796) | agiosite, holystone, icestone, sentry |
+| [Aerial Hell](https://www.curseforge.com/projects/674630) | catacombs, golden, lunatic, mud |
+| [Stellaris](https://www.curseforge.com/projects/1036270) | crater, forest |
+| [Tropicraft](https://www.curseforge.com/projects/254794) | mangrove, tiki, volcano |
+| [Voidscape](https://www.curseforge.com/projects/251730) | thunder, void |
 
 Wizard Tower palettes come from about 50 more mods in the same way.
 
@@ -78,39 +77,37 @@ the kind and every trait it has. Killing it drops the altar's reward and, in a t
 
 | Guardian | Body | Health | Damage | Armor |
 |---|---|---|---|---|
-| Blighted Beast | ravager | 260 | 10 | 8 |
-| Brass Colossus | iron golem | 320 | 14 | 12 |
-| Drowned Thaumaturge | drowned, with a trident | 210 | 8 | 6 |
-| Hellforged Fiend | piglin brute, with a golden axe | 240 | 11 | 10 |
-| Hollow Magus | wither skeleton | 200 | 9 | 8 |
-| Twisted Archmage | evoker | 220 | 6 | 6 |
-| Void Stalker | enderman | 200 | 10 | 4 |
+| **Blighted Beast**{ #blighted-beast } | ravager | 260 | 10 | 8 |
+| **Brass Colossus**{ #brass-colossus } | iron golem | 320 | 14 | 12 |
+| **Drowned Thaumaturge**{ #drowned-thaumaturge } | drowned, with a trident | 210 | 8 | 6 |
+| **Hellforged Fiend**{ #hellforged-fiend } | piglin brute, with a golden axe | 240 | 11 | 10 |
+| **Hollow Magus**{ #hollow-magus } | wither skeleton | 200 | 9 | 8 |
+| **Twisted Archmage**{ #twisted-archmage } | evoker | 220 | 6 | 6 |
+| **Void Stalker**{ #void-stalker } | enderman | 200 | 10 | 4 |
 
 | Trait | What it does |
 |---|---|
-| Blazing | fire resistance; hits set you alight; throws fire volleys |
-| Blinking | teleports around the room |
-| Eldritch | an aura of Darkness |
-| Mighty | hits harder and knocks you back |
-| Sickening | an aura of Weakness |
-| Spined | hurts whoever hits it |
-| Stoneskin | tougher armor; can't be knocked back |
-| Summoner | calls up pairs of vexes |
-| Swift | moves faster |
-| Undying | heals itself every 10 seconds |
-| Vampiric | heals from the damage it deals |
-| Venomous | hits poison |
-| Warded | more armor; pushes you away with a pulse |
+| **Blazing**{ #blazing } | fire resistance; hits set you alight; throws fire volleys |
+| **Blinking**{ #blinking } | teleports around the room |
+| **Eldritch**{ #eldritch } | an aura of Darkness |
+| **Mighty**{ #mighty } | hits harder and knocks you back |
+| **Sickening**{ #sickening } | an aura of Weakness |
+| **Spined**{ #spined } | hurts whoever hits it |
+| **Stoneskin**{ #stoneskin } | tougher armor; can't be knocked back |
+| **Summoner**{ #summoner } | calls up pairs of vexes |
+| **Swift**{ #swift } | moves faster |
+| **Undying**{ #undying } | heals itself every 10 seconds |
+| **Vampiric**{ #vampiric } | heals from the damage it deals |
+| **Venomous**{ #venomous } | hits poison |
+| **Warded**{ #warded } | more armor; pushes you away with a pulse |
 
 ## What you find
 
-- **Journals.** Lab studies hold journals that unlock hidden research: *Locks of the Thaumaturges*, *Notes on the
-  Failed Experiments* and *The Architect's Diary*.
-  ![Laboratory Journal](img/lab_journal.png){ .mc-icon .mc-inline }
-- **Chests.** Materials, [lattice](thaumaturgy.md#the-alembic-lattice) parts and
-  [Thurible blueprints](thaumaturgy.md#blueprints). Studies sometimes hold a written Blueprint Scroll (a stair, an arch
-  or a bench) for the [Architect's Lens](thaumaturgy.md#the-architects-lens).
-- **Tower vaults.** One at the top of each tower: blueprints, scrolls, lattice parts and a journal.
+| Find | Where and what |
+|---|---|
+| **Journals**{ #journals } | Lab studies hold journals that unlock hidden research: *Locks of the Thaumaturges*, *Notes on the Failed Experiments* and *The Architect's Diary*. ![Laboratory Journal](img/lab_journal.png){ .mc-icon .mc-inline } |
+| **Chests**{ #chests } | Materials, [lattice](thaumaturgy.md#the-alembic-lattice) parts and [Thurible blueprints](thaumaturgy.md#blueprints). Studies sometimes hold a written Blueprint Scroll (a stair, an arch or a bench) for the [Architect's Lens](thaumaturgy.md#the-architects-lens). |
+| **Tower vaults**{ #tower-vaults } | One at the top of each tower: blueprints, scrolls, lattice parts and a journal. |
 
 ## For pack makers
 
