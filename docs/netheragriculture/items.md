@@ -6,19 +6,19 @@ Every item and block in Nether Agriculture (Unofficial), with how to get it. Ids
 
 Crops grow on **Crimson Farmland** and **Warped Farmland**: till crimson or warped nylium with a hoe.
 
-|  | Plant | Where it comes from |
+| Picture | Plant | Where it comes from |
 |---|---|---|
-| ![Crimson Berry](img/crimson_berry.png){ .mc-icon } | Crimson Berry (Crimson Berry Roots, Sprouts, Seeds) | Crimson Berry Sprouts generate in crimson forests; seeds from piglin bartering and nether fortress chests |
-| ![Warped Berry](img/warped_berry.png){ .mc-icon } | Warped Berry (Warped Berry Roots, Sprouts, Seeds) | Warped Berry Sprouts generate in warped forests; seeds from nether fortress chests |
-| ![Lothun](img/lothun.png){ .mc-icon } | Lothun | Wild Lothun generates in warped forests; Lothun from nether fortress chests |
-| ![Sinful Eyes](img/sinful_eyes.png){ .mc-icon } | Sinful Eyes | Wild Sinful Eyes generate in crimson forests; also from piglin bartering and nether fortress chests |
-| ![Blaze Fruit](img/blaze_fruit.png){ .mc-icon } | Blaze Fruit (Blaze Fruit Seed) | seeds and fruit from nether fortress chests |
-| ![Azure Melon](img/azure_melon_slice.png){ .mc-icon } | Azure Melon (stem, slice, seeds) | Azure Melons generate in warped forests; seeds from nether fortress chests |
-| ![Mortofruct](img/mortofruct_half.png){ .mc-icon } | Mortofruct (Mortofruct Half) | generates in crimson forests, hung with Dead Vines; halves from piglin bartering |
-| ![Dead Vines](img/dead_vines.png){ .mc-icon } | Dead Vines | grow on Mortofruct; also from piglin bartering |
-| ![Nether Roots](img/nether_roots.png){ .mc-icon } | Nether Roots | generate in nether wastes |
-| ![Tall Crimson Roots](img/tall_crimson_roots.png){ .mc-icon } | Tall Crimson Roots, Tall Warped Roots | generate in crimson and warped forests |
-| ![Glowing Fungus](img/glowing_fungus.png){ .mc-icon } | Glowing Fungus | mixed into crimson and warped forest vegetation, and grows from bonemeal on nylium |
+| ![Crimson Berry](img/crimson_berry.png){ .mc-icon } | **Crimson Berry**{ #crimson-berry } (Crimson Berry Roots, Sprouts, Seeds) | Crimson Berry Sprouts generate in crimson forests; seeds from piglin bartering and nether fortress chests |
+| ![Warped Berry](img/warped_berry.png){ .mc-icon } | **Warped Berry**{ #warped-berry } (Warped Berry Roots, Sprouts, Seeds) | Warped Berry Sprouts generate in warped forests; seeds from nether fortress chests |
+| ![Lothun](img/lothun.png){ .mc-icon } | **Lothun**{ #lothun } | Wild Lothun generates in warped forests; Lothun from nether fortress chests |
+| ![Sinful Eyes](img/sinful_eyes.png){ .mc-icon } | **Sinful Eyes**{ #sinful-eyes } | Wild Sinful Eyes generate in crimson forests; also from piglin bartering and nether fortress chests |
+| ![Blaze Fruit](img/blaze_fruit.png){ .mc-icon } | **Blaze Fruit**{ #blaze-fruit } (Blaze Fruit Seed) | seeds and fruit from nether fortress chests |
+| ![Azure Melon](img/azure_melon_slice.png){ .mc-icon } | **Azure Melon**{ #azure-melon } (stem, slice, seeds) | Azure Melons generate in warped forests; seeds from nether fortress chests |
+| ![Mortofruct](img/mortofruct_half.png){ .mc-icon } | **Mortofruct**{ #mortofruct } (Mortofruct Half) | generates in crimson forests, hung with Dead Vines; halves from piglin bartering |
+| ![Dead Vines](img/dead_vines.png){ .mc-icon } | **Dead Vines**{ #dead-vines } | grow on Mortofruct; also from piglin bartering |
+| ![Nether Roots](img/nether_roots.png){ .mc-icon } | **Nether Roots**{ #nether-roots } | generate in nether wastes |
+| ![Tall Crimson Roots](img/tall_crimson_roots.png){ .mc-icon } | **Tall Crimson Roots**{ #tall-crimson-roots }, Tall Warped Roots | generate in crimson and warped forests |
+| ![Glowing Fungus](img/glowing_fungus.png){ .mc-icon } | **Glowing Fungus**{ #glowing-fungus-plant } | mixed into crimson and warped forest vegetation, and grows from bonemeal on nylium |
 
 Roots can be crushed into ![Crushed Nether Roots](img/crushed_nether_roots.png){ .mc-icon .mc-inline } **Crushed Nether Roots**, ![Crushed Crimson Roots](img/crushed_crimson_roots.png){ .mc-icon .mc-inline } **Crushed Crimson Roots** and ![Crushed Warped Roots](img/crushed_warped_roots.png){ .mc-icon .mc-inline } **Crushed Warped Roots**.
 
@@ -38,17 +38,17 @@ Barbecue on a Stick, ![Blazing Blend](img/blazing_blend.png){ .mc-icon .mc-inlin
 The ![Strider Treat](img/strider_treat.png){ .mc-icon .mc-inline } **Strider Treat** is fed to a strider: for 5 minutes it gets Internal Heat, Long Legs, Speed and Resistance.
 
 With [JEI](https://www.curseforge.com/projects/238222) installed, the Black Furnace's recipes show under
-*Nether Cooking*. With Farmer's Delight or My Nether's Delight, the food joins their cooking pot, cutting board and
+*Nether Cooking*. With [Farmer's Delight](https://www.curseforge.com/projects/398521) or [My Nether's Delight](https://www.curseforge.com/projects/1003673), the food joins their cooking pot, cutting board and
 Nether cooking recipes.
 
 ## Effects
 
-|  | Effect | What it does |
+| Picture | Effect | What it does |
 |---|---|---|
-| ![Blaze Flight](img/effect_blaze_flight.png){ .mc-icon } | Blaze Flight | lets a player fly, and sets them on fire while flying |
-| ![Warp](img/effect_warp.png){ .mc-icon } | Warp | a small chance to spawn an Endermite; endermen turn hostile to the one affected |
-| ![Internal Heat](img/effect_internal_heat.png){ .mc-icon } | Internal Heat | a strider with it doesn't shiver away from lava and other heat |
-| ![Long Legs](img/effect_long_legs.png){ .mc-icon } | Long Legs | slightly raises step height |
+| ![Blaze Flight](img/effect_blaze_flight.png){ .mc-icon } | **Blaze Flight**{ #blaze-flight } | lets a player fly, and sets them on fire while flying |
+| ![Warp](img/effect_warp.png){ .mc-icon } | **Warp**{ #warp } | a small chance to spawn an Endermite; endermen turn hostile to the one affected |
+| ![Internal Heat](img/effect_internal_heat.png){ .mc-icon } | **Internal Heat**{ #internal-heat } | a strider with it doesn't shiver away from lava and other heat |
+| ![Long Legs](img/effect_long_legs.png){ .mc-icon } | **Long Legs**{ #long-legs } | slightly raises step height |
 
 Blaze Flight and Warp also come as potions, splash and lingering potions, and tipped arrows.
 

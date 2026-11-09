@@ -13,7 +13,7 @@ in Nether Agriculture 2.1-beta2 for 1.21.1: ids, textures, recipes, loot and con
 
 **Requires** nothing on NeoForge. On Fabric: [Fabric API](https://www.curseforge.com/projects/306612) and
 [Forge Config API Port](https://www.curseforge.com/projects/547434). **Optional:** [JEI](https://www.curseforge.com/projects/238222)
-(the Black Furnace's Nether Cooking recipes), Farmer's Delight and My Nether's Delight (extra cooking and cutting
+(the Black Furnace's Nether Cooking recipes), [Farmer's Delight](https://www.curseforge.com/projects/398521) and [My Nether's Delight](https://www.curseforge.com/projects/1003673) (extra cooking and cutting
 recipes; on Fabric their Refabricated builds), [Cloth Config API](https://www.curseforge.com/projects/348521) (the
 in-game config screen) and, on Fabric, [Mod Menu](https://www.curseforge.com/projects/308702).
 
@@ -24,7 +24,7 @@ out because EMI has no 26.x build yet.
 
 ## What's in it
 
-| | |
+| Section | What's in it |
 |---|---|
 | **[Crops and plants](items.md#crops-and-plants)** | what grows, where it generates and how to get the seeds |
 | **[Meat and cooking](items.md#meat-and-cooking)** | hoglin and strider meat, the Black Furnace and every dish |
@@ -37,7 +37,7 @@ out because EMI has no 26.x build yet.
 
 ## Credits
 
-Nether Agriculture, its code and textures are by **NetherDon**
-([GitHub](https://github.com/NetherDonMC/NetherAgriculture)), under the LGPL-3.0, and the two screenshots on this page
-are theirs. The port is by **Oculifelis**, a fork of that repository under the same licence:
-[source](https://github.com/Oculifelis/NetherAgriculture).
+| By | Work | Licence |
+|---|---|---|
+| **NetherDon** | Nether Agriculture, its code and textures ([GitHub](https://github.com/NetherDonMC/NetherAgriculture)), and the two screenshots on this page | LGPL-3.0 |
+| **Oculifelis** | the port, a fork of that repository ([source](https://github.com/Oculifelis/NetherAgriculture)) | LGPL-3.0 |
