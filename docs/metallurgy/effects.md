@@ -4,7 +4,7 @@ Most metals give their gear an effect. *Weapon* effects work on that metal's swo
 *Armour* while you wear the full set, and *Everything* on any piece made from it. The names and descriptions are the
 in-game tooltips.
 
-|  | Metal | On | Effect | What it does |
+| Picture | Metal | On | Effect | What it does |
 |---|---|---|---|---|
 | ![Adamantine](img/adamantine_chestplate.png){ .mc-icon } | **Adamantine**{ #adamantine } | Armour (full set) | **Symbiosis** | Receiving fatal damage will cause one of the armor pieces to sacrifice itself. Every Armor piece will increase the chance of surviving death by 25% (with a maximum of 100% when wearing full set) |
 | ![Adamantine](img/adamantine_ingot.png){ .mc-icon } | Adamantine | Everything | **Inclusions** | Eating food regenerates equipment durability, not eating any food slowly destroys equipment. Durability repair amount depends on how many food points the item gives. Durability decreases with a frequence of 1 to 6 seconds depending on how hungry the player is |

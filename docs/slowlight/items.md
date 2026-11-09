@@ -4,7 +4,7 @@ Every crafting recipe shows in JEI. Kiln recipes are on [their own page](recipes
 
 ## Light that keeps its own hours
 
-| | Item | How to get it | What it does |
+| Picture | Item | How to get it | What it does |
 |---|---|---|---|
 | ![Slowlight Lantern](img/slowlight_lantern.png){ .mc-icon } | **Slowlight Lantern**{ #slowlight-lantern } | copper ingots, glass panes and a Slowlight Shard | dim through the day, bright from dusk to dawn; underground, where the sky never brightens, it simply stays up |
 | ![Slowlight Shard](img/slowlight_shard.png){ .mc-icon } | **Slowlight Shard**{ #slowlight-shard } | an amethyst shard, 7 days in a kiln; dried Duskbloom petals, 14 nights under open sky; sometimes dug up by sniffers | the lantern is built around one |
@@ -19,7 +19,7 @@ Every crafting recipe shows in JEI. Kiln recipes are on [their own page](recipes
 Each is pressed slowly out of a vanilla disc in the kiln, and plays in any jukebox. Each is rather shorter than the wait
 for it.
 
-| | Record | Pressed from | Days |
+| Picture | Record | Pressed from | Days |
 |---|---|---|---|
 | ![Patient Light](img/music_disc_patient_light.png){ .mc-icon } | **Patient Light**{ #patient-light } | *mellohi* | 4 |
 | ![Lantern Hours](img/music_disc_lantern_hours.png){ .mc-icon } | **Lantern Hours**{ #lantern-hours } | *stal* | 5 |
@@ -54,7 +54,7 @@ seeds, ![Candied Lanternfruit](img/candied_lanternfruit.png){ .mc-icon .mc-inlin
 
 ## Measuring time
 
-| | Block | Crafted from | What it does |
+| Picture | Block | Crafted from | What it does |
 |---|---|---|---|
 | ![Sandglass](img/sandglass.png){ .mc-icon } | **Sandglass**{ #sandglass } | copper ingots, glass and a Slowlight Shard | an hourglass that measures days. Click it to set one to seven; the sand runs down over those days, and when the last grain falls it gives one redstone pulse and turns itself over. A comparator reads how much sand is left. In the Nether and the End it can't find the time, and the sand never settles. |
 | ![Sundial](img/sundial.png){ .mc-icon } | **Sundial**{ #sundial } | a copper ingot, a Slowlight Shard and a smooth stone slab | tells the hours of one day. Under open sky a comparator reads its shadow: nothing all night, full strength at noon. Roofed over, no shadow falls. |
@@ -95,7 +95,7 @@ into eleven designs, each with stairs and slabs.
 
 ![Beams Gloamwood Planks](img/gloamwood_planks_beams.png){ .mc-icon title="Beams Gloamwood Planks" } ![Brick Pattern Gloamwood Planks](img/gloamwood_planks_brick_pattern.png){ .mc-icon title="Brick Pattern Gloamwood Planks" } ![Brick Paving Gloamwood Planks](img/gloamwood_planks_brick_paving.png){ .mc-icon title="Brick Paving Gloamwood Planks" } ![Bricks Gloamwood Planks](img/gloamwood_planks_bricks.png){ .mc-icon title="Bricks Gloamwood Planks" } ![Crate Gloamwood Planks](img/gloamwood_planks_crate.png){ .mc-icon title="Crate Gloamwood Planks" } ![Diagonal Stripes Gloamwood Planks](img/gloamwood_planks_diagonal_stripes.png){ .mc-icon title="Diagonal Stripes Gloamwood Planks" } ![Diagonal Tiles Gloamwood Planks](img/gloamwood_planks_diagonal_tiles.png){ .mc-icon title="Diagonal Tiles Gloamwood Planks" } ![Dotted Gloamwood Planks](img/gloamwood_planks_dotted.png){ .mc-icon title="Dotted Gloamwood Planks" } ![Flooring Gloamwood Planks](img/gloamwood_planks_flooring.png){ .mc-icon title="Flooring Gloamwood Planks" } ![Large Tiles Gloamwood Planks](img/gloamwood_planks_large_tiles.png){ .mc-icon title="Large Tiles Gloamwood Planks" } ![Mosaic Gloamwood Planks](img/gloamwood_planks_mosaic.png){ .mc-icon title="Mosaic Gloamwood Planks" } ![Pattern Gloamwood Planks](img/gloamwood_planks_pattern.png){ .mc-icon title="Pattern Gloamwood Planks" } ![Rotated Bricks Gloamwood Planks](img/gloamwood_planks_rotated_bricks.png){ .mc-icon title="Rotated Bricks Gloamwood Planks" } ![Small Bricks Gloamwood Planks](img/gloamwood_planks_small_bricks.png){ .mc-icon title="Small Bricks Gloamwood Planks" } ![Small Tiles Gloamwood Planks](img/gloamwood_planks_small_tiles.png){ .mc-icon title="Small Tiles Gloamwood Planks" } ![Squares Gloamwood Planks](img/gloamwood_planks_squares.png){ .mc-icon title="Squares Gloamwood Planks" } ![Tiles Gloamwood Planks](img/gloamwood_planks_tiles.png){ .mc-icon title="Tiles Gloamwood Planks" } ![Wavy Gloamwood Planks](img/gloamwood_planks_wavy.png){ .mc-icon title="Wavy Gloamwood Planks" } ![Woven Gloamwood Planks](img/gloamwood_planks_woven.png){ .mc-icon title="Woven Gloamwood Planks" }
 
-| | Block | Crafted from | What it does |
+| Picture | Block | Crafted from | What it does |
 |---|---|---|---|
 | ![Gloamwood Bookshelf](img/gloamwood_bookshelf.png){ .mc-icon } | **Gloamwood Bookshelf**{ #gloamwood-bookshelf } | Gloamwood slabs and books | powers enchanting. With Chipped installed, the carpenter's table turns it into Gloamwood versions of all 33 of Chipped's bookshelves. |
 | ![Lapse Block](img/lapse_block.png){ .mc-icon } | **Lapse Block**{ #lapse-block } | eight Still Shards round a Slowlight Shard | powered, it steps out of the world for three seconds, its red ring fading to a green trace, and takes every Lapse Block it touches with it |

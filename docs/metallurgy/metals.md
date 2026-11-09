@@ -22,7 +22,7 @@ often ores and tar lakes spawn, and which pickaxe tier each ore needs, can be ch
 
 All made in the Alloyer from ingots or dust.
 
-|  | Alloy | From | Makes |
+| Picture | Alloy | From | Makes |
 |---|---|---|---|
 | ![Amordrine](img/amordrine_ingot.png){ .mc-icon } | **Amordrine**{ #amordrine } | Kalendrite + Platinum | 2 |
 | ![Angmallen](img/angmallen_ingot.png){ .mc-icon } | **Angmallen**{ #angmallen } | Gold + Iron | 2 |

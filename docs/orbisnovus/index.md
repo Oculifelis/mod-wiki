@@ -6,7 +6,7 @@
 
 Orbis Novus is two mods that work alone or together:
 
-| | | |
+| Picture | Part | What it does |
 |---|---|---|
 | ![Orbis Novus: Terrain](img/terrain_logo.png){ width="96" } | **[Orbis Novus: Terrain](terrain.md)** | realistic mountains, eroded valleys and river networks. One new world type, Orbis Novus, with ten [terrain styles](terrain.md#the-styles), a [Custom Mix](terrain.md#custom-mix) of any of them, and a Customize screen. |
 | ![Orbis Novus: Dungeons](img/dungeons_logo.png){ width="96" } | **[Orbis Novus: Dungeons](dungeons.md)** | 23 dungeon kinds, 30 settlements and landmarks, extra village houses, castles in three styles and walled castle towns, built from the blocks of whatever building mods you have. |

@@ -41,7 +41,7 @@ Pack makers can change or add these: see [For pack makers](towers-and-labs.md#fo
 
 Three blueprints turn up in lab chests and tower vaults. Hold the Thurible in your other hand and use one to fit it.
 
-|  | Blueprint | What it fits |
+| Picture | Blueprint | What it fits |
 |---|---|---|
 | ![Blueprint: Thurible Chain](img/thurible_blueprint_chain.png){ .mc-icon } | **Blueprint: Thurible Chain**{ #blueprint-thurible-chain } | a long chain: the cloud lands further away |
 | ![Blueprint: Thurible Bowl](img/thurible_blueprint_cloud.png){ .mc-icon } | **Blueprint: Thurible Bowl**{ #blueprint-thurible-bowl } | a wide bowl: bigger clouds |
@@ -80,7 +80,7 @@ Lab studies and tower vaults sometimes hold written scrolls: a Spiral Stair, a D
 Glass pipes that carry essentia one mote at a time, so it can be counted, timed and mixed. Each mote glows in its
 aspect's colour and moves one block every half second.
 
-|  | Block | What it does |
+| Picture | Block | What it does |
 |---|---|---|
 | ![Lattice Intake](img/lattice_intake.png){ .mc-icon } | **Lattice Intake**{ #lattice-intake } | set against a jar, draws one mote a second. Use it with an empty hand to change the pace, down to one mote per redstone pulse; otherwise a redstone signal stops it |
 | ![Alembic Pipe](img/lattice_pipe.png){ .mc-icon } | **Alembic Pipe**{ #alembic-pipe } | carries motes straight on where it can, and takes turns at forks |

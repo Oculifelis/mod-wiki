@@ -4,7 +4,7 @@
 
 ## Ores and the sea floor
 
-| | | |
+| Picture | Block | What it is |
 |---|---|---|
 | ![Bauxite Ore](img/bauxite_ore.png){ .mc-icon } | **Bauxite**{ #bauxite } | aluminium ore; veins of up to 8 between Y 64 and 255; needs a stone pickaxe |
 | ![Rutile Ore](img/rutile_ore.png){ .mc-icon } | **Rutile**{ #rutile } | titanium ore; in the limestone of the sea bed, twice as common under rivers; needs an iron pickaxe |
@@ -22,7 +22,7 @@ ingots, nuggets and blocks.
 
 Fluids are kept in tanks:
 
-|  | Tank | Holds |
+| Picture | Tank | Holds |
 |---|---|---|
 | ![Copper tank](img/copper_tank.png){ .mc-icon } | **Copper tank**{ #copper-tank } | 32,000 mB |
 | ![Aluminium tank](img/aluminum_tank.png){ .mc-icon } | **Aluminium tank**{ #aluminium-tank } | 64,000 mB |
@@ -65,7 +65,7 @@ the tank holds 512 buckets, the turbine uses 1 mB every quarter-second and makes
 
 ## Machines
 
-| | Machine | |
+| Picture | Machine | What it does |
 |---|---|---|
 | ![Sawmill](img/sawmill.png){ .mc-icon } | **Sawmill**{ #sawmill } | builds custom blocks from plans, copying the faces of other blocks; the Paintbrush repaints them |
 | ![Sifter](img/sifter.png){ .mc-icon } | **Sifter**{ #sifter } | right-click items onto it, then again to sift them; where most bait comes from |

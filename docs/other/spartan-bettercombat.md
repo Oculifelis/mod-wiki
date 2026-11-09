@@ -18,7 +18,7 @@ It's data only, with no code. Damage, speed and reach stay as Spartan sets them.
 
 **Versions:** NeoForge 1.21.1. [On CurseForge](https://www.curseforge.com/projects/1786749).
 
-|  | Spartan weapon | Better Combat animation | Hands | Combo hits |
+| Picture | Spartan weapon | Better Combat animation | Hands | Combo hits |
 |---|---|---|---|---|
 | ![Dagger](img/spartan_dagger.png){ .mc-icon .mc-inline } ![Parrying Dagger](img/spartan_parrying_dagger.png){ .mc-icon .mc-inline } | Dagger, Parrying Dagger | Dagger | One | 3 |
 | ![Longsword](img/spartan_longsword.png){ .mc-icon .mc-inline } | Longsword | Sword | One | 3 |

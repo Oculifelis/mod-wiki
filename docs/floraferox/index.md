@@ -15,7 +15,7 @@ brews and info pages.
 Every creature, herb, weapon and charm belongs to one of four herb families. Each family takes full damage from one
 kind of damage, and half from every other kind. Untyped damage, such as fire and falling, is not scaled.
 
-| | Family | Herb | Weak to | Weapon line |
+| Picture | Family | Herb | Weak to | Weapon line |
 |---|---|---|---|---|
 | ![Pulseroot](img/pulseroot.png){ .mc-icon } | **Pulse**{ #pulse } | Pulseroot | ranged | bows and arbalests |
 | ![Duskpetal](img/duskpetal.png){ .mc-icon } | **Dusk**{ #dusk } | Duskpetal | magic | sceptres |
@@ -71,13 +71,13 @@ Wings go in the wings slot and lift you for their flight time, then glide. Hooks
 **H**. Whips swing Fundamentum's cord, where the tip hits hardest and cracks for a crit. The guns and bows also use
 Fundamentum's poses for how they're held.
 
-|  | Wings | Flight time | Rise speed | Air speed | Glide fall |
+| Picture | Wings | Flight time | Rise speed | Air speed | Glide fall |
 |---|---|---|---|---|---|
 | ![Leafwing](img/leafwing.png){ .mc-icon } | **Leafwing**{ #leafwing } | 1.5 s | 0.35 | x1.0 | 0.15 |
 | ![Emberwing](img/emberwing.png){ .mc-icon } | **Emberwing**{ #emberwing } | 2.25 s | 0.42 | x1.15 | 0.12 |
 | ![Rimewing](img/rimewing.png){ .mc-icon } | **Rimewing**{ #rimewing } | 3 s | 0.5 | x1.3 | 0.09 |
 
-|  | Hook | Family | Range | Pull | Out at once | Special |
+| Picture | Hook | Family | Range | Pull | Out at once | Special |
 |---|---|---|---|---|---|---|
 | ![Pulse Hook](img/pulse_hook.png){ .mc-icon } | **Pulse Hook**{ #pulse-hook } | Pulse | 26 | 0.9 | 1 | |
 | ![Scorch Hook](img/scorch_hook.png){ .mc-icon } | **Scorch Hook**{ #scorch-hook } | Pulse | 30 | 1.05 | 1 | |

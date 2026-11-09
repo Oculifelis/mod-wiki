@@ -7,7 +7,7 @@ Every crafted item's recipe shows in JEI. Items found in loot list where and how
 Wear one in the Curios **mount** slot and press **V** to call the creature and ride it; press V again or get off and
 it goes away. Each is a saddle plus the creature's item, shapeless:
 
-|  | Saddle | Plus |
+| Picture | Saddle | Plus |
 |---|---|---|
 | ![Horse](img/horse_saddle.png){ .mc-icon } | **Horse**{ #horse } | golden carrot |
 | ![Donkey](img/donkey_saddle.png){ .mc-icon } ![Mule](img/mule_saddle.png){ .mc-icon } | **Donkey / Mule**{ #donkey-mule } | chest |
@@ -28,7 +28,7 @@ The pig is slowed to about a sprinting player; its speed is the `speed` field of
 
 Wear one in the Curios **hook** slot and press **H** to fire it. Jump to let go.
 
-|  | Hook | Range | Hooks out | How to get it |
+| Picture | Hook | Range | Hooks out | How to get it |
 |---|---|---|---|---|
 | ![Amethyst Hook](img/amethyst_hook.png){ .mc-icon } | **Amethyst Hook**{ #amethyst-hook } | 14 | 1 | tripwire hook, iron chain, 3 amethyst shards; 3 s of Slow Falling when it lets go |
 | ![Diamond Hook](img/diamond_hook.png){ .mc-icon } | **Diamond Hook**{ #diamond-hook } | 20 | 1 | tripwire hook, iron chain, 3 diamonds |
@@ -44,7 +44,7 @@ a block anchors on the wind there for four seconds.
 Wear them in the Curios **summon** slot. Minions follow you and fight what you fight, and never hurt you or each other.
 All are shapeless recipes.
 
-|  | Item | Calls |
+| Picture | Item | Calls |
 |---|---|---|
 | ![Bone Whistle](img/bone_whistle.png){ .mc-icon } | **Bone Whistle**{ #bone-whistle } | 2 wolves |
 | ![Golem Heart](img/golem_heart.png){ .mc-icon } | **Golem Heart**{ #golem-heart } | a baby iron golem |
@@ -64,7 +64,7 @@ Left click to swing. The whole cord hits as it swings, the tip hits hardest, and
 take Sharpness, Smite, Bane of Arthropods, Fire Aspect and Curse of Vanishing. Most are a **Leather Whip** upgraded at
 a crafting table.
 
-|  | Whip | What it does | How to get it |
+| Picture | Whip | What it does | How to get it |
 |---|---|---|---|
 | ![Leather Whip](img/leather_whip.png){ .mc-icon } | **Leather Whip**{ #leather-whip } | the plain whip the others are made from | leather, string, sticks |
 | ![Vine Whip](img/vine_whip.png){ .mc-icon } | **Vine Whip**{ #vine-whip } | a tip hit yanks the target toward you | vines and sticks |
@@ -90,7 +90,7 @@ a crafting table.
 
 Each has one trick of its own; the tooltip says what.
 
-|  | Weapon | Trick | How to get it |
+| Picture | Weapon | Trick | How to get it |
 |---|---|---|---|
 | ![Weathervane Spear](img/weathervane_spear.png){ .mc-icon } | **Weathervane Spear**{ #weathervane-spear } | sprinting builds static that the next jab discharges; jabs power redstone | ordinary trial chamber vaults (5%) |
 | ![Pathfinder's Glaive](img/pathfinders_glaive.png){ .mc-icon } | **Pathfinder's Glaive**{ #pathfinders-glaive } | plant it as a waypoint: a gold beacon beam to the sky marks it from any distance; call it back | crafted |
@@ -124,14 +124,14 @@ and one is picked at random each time, on its disc too.
 
 ### Music discs
 
-|  | Disc | How to get it |
+| Picture | Disc | How to get it |
 |---|---|---|
 | ![Harvest Moon disc](img/music_disc_harvest_moon.png){ .mc-icon } ![Enchanted Moon disc](img/music_disc_enchanted_moon.png){ .mc-icon } ![Glimmer Moon disc](img/music_disc_glimmer_moon.png){ .mc-icon } | Harvest Moon, Enchanted Moon, Glimmer Moon | 2% from a hostile mob a player kills under that moon |
 | ![Fundamentum disc](img/music_disc_fundamentum.png){ .mc-icon } | **Fundamentum**{ #fundamentum } | 25% from the siege's captain, who leads the last wave |
 
 ## Records
 
-|  | Item | What it does | How to get it |
+| Picture | Item | What it does | How to get it |
 |---|---|---|---|
 | ![Record Shelf](img/record_shelf.png){ .mc-icon } | **Record Shelf**{ #record-shelf } | a bookshelf of record sleeves; powers an enchanting table like a bookshelf | crafted |
 | ![Chiseled Record Shelf](img/chiseled_record_shelf.png){ .mc-icon } | **Chiseled Record Shelf**{ #chiseled-record-shelf } | holds six music discs, clicked in and out like a chiseled bookshelf; a comparator reads the last slot used; powers an enchanting table while it holds three discs or more; the discs drop when it's broken | crafted |
@@ -141,7 +141,7 @@ and one is picked at random each time, on its disc too.
 
 A gold likeness of the boss floating over a gold pedestal, glowing in the boss's colour.
 
-|  | Relic | How to get it |
+| Picture | Relic | How to get it |
 |---|---|---|
 | ![Wither Relic](img/wither_relic.png){ .mc-icon } | **Wither Relic**{ #wither-relic } | drops on every Wither kill |
 | ![Elder Guardian Relic](img/elder_guardian_relic.png){ .mc-icon } | **Elder Guardian Relic**{ #elder-guardian-relic } | drops on every Elder Guardian kill |

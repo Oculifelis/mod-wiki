@@ -8,7 +8,7 @@
 Three scythes on Thaumaturge's metals, after Scythes Vanilla by Drift007_. They have their own research tab entry,
 **Scythes**.
 
-|  | Scythe | Damage | Speed | Sweep | Reach | How you get it | Extra |
+| Picture | Scythe | Damage | Speed | Sweep | Reach | How you get it | Extra |
 |---|---|---|---|---|---|---|---|
 | ![Thaumium Scythe](img/thaumium_scythe.png){ .mc-icon } | **Thaumium Scythe**{ #thaumium-scythe } | 7 | 1.2 | 40% | +1 | crafted | |
 | ![Void Scythe](img/void_scythe.png){ .mc-icon } | **Void Scythe**{ #void-scythe } | 8 | 1.2 | 55% | +1 | crafted (void metal) | repairs itself, hits give Weakness, warp 1 |
@@ -48,7 +48,7 @@ Warden wakes from the ground. Only one Warden guards a grove at a time.
 Four whips on Fundamentum's whip system. They need **Fundamentum 1.22.1 or newer**. Without it, Arcana Varia loads as
 normal and the whips, their recipes and their research stay hidden.
 
-|  | Whip | Reach | Tip damage | How you get it | Extra |
+| Picture | Whip | Reach | Tip damage | How you get it | Extra |
 |---|---|---|---|---|---|
 | ![Thaumium Whip](img/thaumium_whip.png){ .mc-icon } | **Thaumium Whip**{ #thaumium-whip } | 5 | 6.5 | crafted | marks targets for your summons |
 | ![Void Whip](img/void_whip.png){ .mc-icon } | **Void Whip**{ #void-whip } | 5.5 | 8 | crafted (void metal), warp 1 | hits weaken; a cracking tip heals you 1 heart |

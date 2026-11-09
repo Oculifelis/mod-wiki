@@ -21,7 +21,7 @@ and NeoForge 26.2 and 26.3 (at 0.8.3, which adds sulfur cube types). See [Versio
 
 ## What's in it
 
-| | | |
+| Picture | Section | What's in it |
 |---|---|---|
 | ![Patient Kiln](img/patient_kiln.png){ .mc-icon } | **[The kilns](kilns.md)** | the Patient, Long and Ember Kilns, and how the wait works |
 | ![Amber Draught](img/mead.png){ .mc-icon } | **[Kiln recipes](recipes.md)** | all 100 ageing recipes, with their days and weather |

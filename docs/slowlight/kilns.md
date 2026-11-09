@@ -3,7 +3,7 @@
 None of the kilns burns fuel or has a screen. You put something in, close it, and come back once its days have passed.
 Every recipe and its wait is on the [Kiln recipes](recipes.md) page, and in JEI.
 
-| | Kiln | Crafted from | Holds | Wait |
+| Picture | Kiln | Crafted from | Holds | Wait |
 |---|---|---|---|---|
 | ![Patient Kiln](img/patient_kiln.png){ .mc-icon } | **Patient Kiln**{ #patient-kiln } | 8 bricks in a ring | one item | the recipe's days |
 | ![Long Kiln](img/long_kiln.png){ .mc-icon } | **Long Kiln**{ #long-kiln } | bricks top and bottom; a mud brick between two Patient Kilns | a whole stack | three times the days, for all of it at once |

@@ -83,7 +83,7 @@ How fast Leapfrog, Sonic and Restoration work, and Blink's range and cooldown, a
 
 ## Magical tools
 
-| | | |
+| Picture | Name | What it does |
 |---|---|---|
 | ![Mob Magnet](img/mob_magnet.png){ .mc-icon } | **Mob Magnet**{ #mob-magnet } | binds to the first kind of mob you kill with it, then pulls that kind to you from 32 blocks; never wears out |
 | ![Hydrophobic Initiator](img/hydrophobic_initiator.png){ .mc-icon } | **Hydrophobic Initiator**{ #hydrophobic-initiator } | places blocks on water |

@@ -9,7 +9,7 @@ channels. Names and descriptions are the in-game ones; the manual has each modul
 
 Turn one thing into another, using items, fluids and RF from the chassis. 24 modules.
 
-|  | Module | What it does |
+| Picture | Module | What it does |
 |---|---|---|
 | ![Alloy Smelter](img/alloy_smelter.png){ .mc-icon } | **Alloy Smelter**{ #alloy-smelter } | Melts metals together into alloys: bronze, invar, electrum and more (Induction Smelter). |
 | ![Armor Infuser](img/armor_infuser.png){ .mc-icon } | **Armor Infuser**{ #armor-infuser } | Fills fluid armor in a lane with effect fluid from a reservoir (FLORA's Fluidic Armor Infuser). |
@@ -40,7 +40,7 @@ Turn one thing into another, using items, fluids and RF from the chassis. 24 mod
 
 Make RF into the chassis buffer. 22 modules.
 
-|  | Module | What it does |
+| Picture | Module | What it does |
 |---|---|---|
 | ![Arcane Engine](img/arcane_engine.png){ .mc-icon } | **Arcane Engine**{ #arcane-engine } | Consumes enchanted items for RF by their enchantment levels (Disenchantment Dynamo). |
 | ![Blast Damper](img/blast_damper.png){ .mc-icon } | **Blast Damper**{ #blast-damper } | Cancels explosions within 6 blocks and stores their energy (a creeper: 31,500 RF). On a Reinforced chassis it also detonates TNT from Purple storage. |
@@ -69,7 +69,7 @@ Make RF into the chassis buffer. 22 modules.
 
 Work on the blocks and mobs in front of them. 12 modules.
 
-|  | Module | What it does |
+| Picture | Module | What it does |
 |---|---|---|
 | ![Aura Chamber](img/aura_chamber.png){ .mc-icon } | **Aura Chamber**{ #aura-chamber } | Takes a batch of metal blocks and surrounds nearby players with that metal's effect while it runs on RF (Metallurgy's chamber). |
 | ![Block Breaker](img/block_breaker.png){ .mc-icon } | **Block Breaker**{ #block-breaker } | Breaks the block in front with a real tool and collects the real drops. |
@@ -88,7 +88,7 @@ Work on the blocks and mobs in front of them. 12 modules.
 
 Move items, fluids and power in and out of the chassis. 11 modules.
 
-|  | Module | What it does |
+| Picture | Module | What it does |
 |---|---|---|
 | ![Combined Service Port](img/combined_service_port.png){ .mc-icon } | **Combined Service Port**{ #combined-service-port } | Item, fluid and RF access through one face, each with its own per-tick limit. |
 | ![Drop Collector](img/drop_collector.png){ .mc-icon } | **Drop Collector**{ #drop-collector } | Picks up dropped items from a small area in front of the face. |
@@ -106,7 +106,7 @@ Move items, fluids and power in and out of the chassis. 11 modules.
 
 Read and write the eight signal channels. 7 modules.
 
-|  | Module | What it does |
+| Picture | Module | What it does |
 |---|---|---|
 | ![Controller Plate](img/controller_plate.png){ .mc-icon } | **Controller Plate**{ #controller-plate } | Runs a small rule program over lanes, RF, channels, registers and states. |
 | ![Environment Sensor](img/environment_sensor.png){ .mc-icon } | **Environment Sensor**{ #environment-sensor } | Signals daylight, rain or open sky. |
@@ -120,6 +120,6 @@ Read and write the eight signal channels. 7 modules.
 
 Show what is going on. 1 modules.
 
-|  | Module | What it does |
+| Picture | Module | What it does |
 |---|---|---|
 | ![Indicator Panel](img/indicator_panel.png){ .mc-icon } | **Indicator Panel**{ #indicator-panel } | Shows a channel on its face: the green lamp lights when it is on, amber from 8, red at 15, and the bar fills with the level. |

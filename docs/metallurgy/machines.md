@@ -12,7 +12,7 @@
 
 ![Sublimation Chamber](img/sublimation_chamber.png){ .mc-icon .mc-inline } Burns blocks of metal into an aura: every player nearby gets the effect.
 
-|  | Metal | Uses | Effect | Lasts |
+| Picture | Metal | Uses | Effect | Lasts |
 |---|---|---|---|---|
 | ![Adamantine](img/adamantine_ingot.png){ .mc-icon } | **Adamantine**{ #adamantine } | 3 blocks | Health Boost IV | 15 min |
 | ![Amordrine](img/amordrine_ingot.png){ .mc-icon } | **Amordrine**{ #amordrine } | 3 blocks | Jump Boost | 15 min |
