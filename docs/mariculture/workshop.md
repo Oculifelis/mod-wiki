@@ -12,26 +12,26 @@
 | ![Pearl Bricks](img/pearl_brick_blue.png){ .mc-icon } | **Pearl bricks** | building blocks in each pearl colour |
 
 **Coral** comes in eight colours. Bleach it in the vat with 50 mB of quicklime; bring it back to life in 100 mB of
-water. **Ancient Sand** smelts into Heat Resistant Glass.
+water. ![Ancient Sand](img/ancient_sand.png){ .mc-icon .mc-inline } **Ancient Sand** smelts into Heat Resistant Glass.
 
 ## The crucible and casting
 
 ![Crucible Furnace](img/crucible.png){ .mc-icon .mc-inline } The **Crucible Furnace** melts ores, metals and fish
-into fluids. Ores melt for up to twice the metal of smelting. Pour with the **Ladle** (244 mB) or cast the fluid into
+into fluids. Ores melt for up to twice the metal of smelting. Pour with the ![Ladle](img/ladle.png){ .mc-icon .mc-inline } **Ladle** (244 mB) or cast the fluid into
 ingots, nuggets and blocks.
 
 Fluids are kept in tanks:
 
-| Tank | Holds |
-|---|---|
-| Copper tank | 32,000 mB |
-| Aluminium tank | 64,000 mB |
-| Titanium tank | 128,000 mB |
-| Heat bottle | 2,000 mB |
-| Titanium bucket | 16,000 mB |
+|  | Tank | Holds |
+|---|---|---|
+| ![Copper tank](img/copper_tank.png){ .mc-icon } | Copper tank | 32,000 mB |
+| ![Aluminium tank](img/aluminum_tank.png){ .mc-icon } | Aluminium tank | 64,000 mB |
+| ![Titanium tank](img/titanium_tank.png){ .mc-icon } | Titanium tank | 128,000 mB |
+| ![Heat Resistant Bottle](img/heat_bottle.png){ .mc-icon } | Heat bottle | 2,000 mB |
+| ![Titanium bucket](img/titanium_bucket.png){ .mc-icon } | Titanium bucket | 16,000 mB |
 
 ![Anvil](img/anvil.png){ .mc-icon .mc-inline } The **Blacksmith's Anvil** shapes metal with the hammer. The
-**Autohammer** does it for you.
+![Autohammer](img/autohammer.png){ .mc-icon .mc-inline } **Autohammer** does it for you.
 
 ## The vat
 
@@ -41,14 +41,14 @@ Fluids are kept in tanks:
 | Makes | From | Time |
 |---|---|---|
 | ![Titanium Ingot](img/titanium_ingot.png){ .mc-icon .mc-inline } Molten titanium | molten magnesium + molten rutile | 1 s |
-| Molten magnesium (144 mB) | 3,000 mB quicklime + 1,000 mB water | 5 s |
-| Burnt Brick | brick + 250 mB lava | 5 s |
-| Burnt Brick | nether brick + 100 mB lava | 3 s |
-| Heat Resistant Glass | glass + 1 nugget of molten aluminium + 900 mB quicklime | 15 s |
-| Polished Stick | stick + 5,000 mB fish oil | 15 s |
-| Polished Titanium Rod | titanium rod + 6,500 mB fish oil | 30 s |
-| Polished Planks | planks + 10,000 mB fish oil | 30 s |
-| Polished Log | log + 30,000 mB fish oil | 45 s |
+| ![Molten Magnesium](img/molten_magnesium_bucket.png){ .mc-icon .mc-inline } Molten magnesium (144 mB) | 3,000 mB quicklime + 1,000 mB water | 5 s |
+| ![Burnt Brick](img/burnt_brick.png){ .mc-icon .mc-inline } Burnt Brick | brick + 250 mB lava | 5 s |
+| ![Burnt Brick](img/burnt_brick.png){ .mc-icon .mc-inline } Burnt Brick | nether brick + 100 mB lava | 3 s |
+| ![Heat Resistant Glass](img/heat_glass.png){ .mc-icon .mc-inline } Heat Resistant Glass | glass + 1 nugget of molten aluminium + 900 mB quicklime | 15 s |
+| ![Polished Stick](img/polished_stick.png){ .mc-icon .mc-inline } Polished Stick | stick + 5,000 mB fish oil | 15 s |
+| ![Polished Titanium Rod](img/polished_titanium.png){ .mc-icon .mc-inline } Polished Titanium Rod | titanium rod + 6,500 mB fish oil | 30 s |
+| ![Polished Planks](img/polished_planks.png){ .mc-icon .mc-inline } Polished Planks | planks + 10,000 mB fish oil | 30 s |
+| ![Polished Log](img/polished_log.png){ .mc-icon .mc-inline } Polished Log | log + 30,000 mB fish oil | 45 s |
 | ![Bucket Hat](img/bucket_hat.png){ .mc-icon .mc-inline } Bucket Hat | leather cap + 16,000 mB fish oil | 25 s |
 
 Fish oil comes from melting fish in the Crucible Furnace.
@@ -59,7 +59,7 @@ gold for junk and treasure, purple for enchanted catches, blue for males, pink f
 
 ## Power
 
-Mariculture makes FE from water. **Sluices** pour water onto **rotors** on a water turbine; rotors come in copper
+Mariculture makes FE from water. ![Sluices](img/sluice.png){ .mc-icon .mc-inline } **Sluices** pour water onto **rotors** on a water turbine; rotors come in copper
 (×1), aluminium (×2) and titanium (×5). The **Gas Turbine** runs on natural gas pumped into its tank by an air pump:
 the tank holds 512 buckets, the turbine uses 1 mB every quarter-second and makes 5,000 power.
 

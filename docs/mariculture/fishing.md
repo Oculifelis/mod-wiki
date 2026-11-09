@@ -54,18 +54,18 @@ The Aquatic Environment Analyser shows both where you stand.
 
 These bite in the wild. Every other species has to be [bred](fish.md#breeding).
 
-| Fish | Water | Height | Temperature (°C) |
-|---|---|---|---|
-| Minnow | fresh | Y 70 and up | -1 to 45 |
-| Cod | saline | any | -3 to 20 |
-| Sting Ray | brackish | any | 19 to 29 |
-| Squid | saline | any | 3 to 20 |
-| Damselfish | fresh | any | 22 to 27 |
-| Neon Tetra | fresh | any | 20 to 28 |
-| Spiderfish | fresh | below Y -48 | -5 to 20 |
-| Silver-Stripe Blaasop | saline | below Y -16 | -3 to 5 |
-| Netherfish | the Nether | any | 45 to 100 |
-| Nightfish | the End, or at night | any | -10 to 66 |
+|  | Fish | Water | Height | Temperature (°C) |
+|---|---|---|---|---|
+| ![Minnow](img/minnow.png){ .mc-icon } | Minnow | fresh | Y 70 and up | -1 to 45 |
+| ![Cod](img/cod.png){ .mc-icon } | Cod | saline | any | -3 to 20 |
+| ![Sting Ray](img/sting_ray.png){ .mc-icon } | Sting Ray | brackish | any | 19 to 29 |
+| ![Squid](img/squid.png){ .mc-icon } | Squid | saline | any | 3 to 20 |
+| ![Damselfish](img/damselfish.png){ .mc-icon } | Damselfish | fresh | any | 22 to 27 |
+| ![Neon Tetra](img/neon_tetra.png){ .mc-icon } | Neon Tetra | fresh | any | 20 to 28 |
+| ![Spiderfish](img/spiderfish.png){ .mc-icon } | Spiderfish | fresh | below Y -48 | -5 to 20 |
+| ![Silver-Stripe Blaasop](img/blaasop.png){ .mc-icon } | Silver-Stripe Blaasop | saline | below Y -16 | -3 to 5 |
+| ![Netherfish](img/netherfish.png){ .mc-icon } | Netherfish | the Nether | any | 45 to 100 |
+| ![Nightfish](img/nightfish.png){ .mc-icon } | Nightfish | the End, or at night | any | -10 to 66 |
 
 Goldfish, Cod, Walleye and the other wild species in the [species table](fish.md#species) bite wherever their water
 suits them.
@@ -73,4 +73,4 @@ suits them.
 ## Odd catches
 
 - **Zombies** sometimes spawn with a fishing rod or a bucket hat and can drop them.
-- **Rockhoppers** are penguins on cold shores. Feed them fish to tame them; it works about one time in three.
+- ![Rockhoppers](img/rockhopper.png){ .mc-icon .mc-inline } **Rockhoppers** are penguins on cold shores. Feed them fish to tame them; it works about one time in three.

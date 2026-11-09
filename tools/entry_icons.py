@@ -34,6 +34,7 @@ def jar(prefix):
 
 
 FF = MODDING + "/Fieldframe"
+PENDING = MODDING + "/_handoff/pending-install"
 # mod -> namespaces, asset folders (newest first), jars searched after them
 MODS = {
     "fieldframe": (["fieldframe"], [FF + "/shared/assets", FF + "/neoforge-26.1.2/src/main/resources/assets"],
@@ -42,6 +43,7 @@ MODS = {
                               [FF + "/frameworks/shared/assets", FF + "/shared/assets"],
                               [jar("fieldframe-frameworks"), jar("fieldframe-0"), CLIENT]),
     "fieldframe-transit": (["fieldframe_transit", "fieldframe"], [], [jar("fieldframe-transit"), jar("fieldframe-0"), CLIENT]),
+    "mariculture": (["mariculture"], [], [PENDING + "/mariculture-0.5.0+mc26.1.2-neoforge.jar", jar("mariculture"), CLIENT]),
 }
 
 # page name -> "ns:id" where the page's wording isn't the lang name
@@ -65,6 +67,10 @@ def read_any(roots, jars, rel):
     return None
 
 
+SKIP_KINDS = {"enchantment", "effect", "container", "gui", "death", "advancements", "advancement", "jei", "tooltip", "key",
+              "subtitles", "biome", "attribute", "config", "itemGroup", "creativetab", "fluid_type", "message", "command"}
+
+
 def names(mod):
     """lower-case display name -> (kind, ns, id), items before blocks so a block's own item name wins either way."""
     nss, roots, jars = MODS[mod]
@@ -75,7 +81,7 @@ def names(mod):
             continue
         for k, v in json.loads(raw).items():
             m = re.match(r"([a-z_]+)\.%s\.([a-z0-9_/]+)$" % ns, k)
-            if m and not m.group(2).endswith(("desc", "tooltip")):
+            if m and not m.group(2).endswith(("desc", "tooltip")) and m.group(1) not in SKIP_KINDS:
                 kind = m.group(1) if m.group(1) in ("block", "entity") else "item"
                 rank = {"block": 3, "entity": 3, "item": 2}.get(m.group(1), 1)
                 key = v.lower()
@@ -142,6 +148,8 @@ def annotate(mod, path, dry=False, shots=None):
                 j += 1
             rows = lines[i + 2:j]
             firsts = [cells(r)[0] for r in rows]
+            if PLAIN:
+                firsts = [f if BOLD.match(f) or not resolve(lookup, f) else "**%s**" % f for f in firsts]
             if rows and not any("![" in r or "<img" in r for r in rows) and sum(bool(BOLD.match(f)) for f in firsts) * 2 >= len(rows):
                 out.append("|  " + ln)
                 out.append("|---" + lines[i + 1])
@@ -150,11 +158,7 @@ def annotate(mod, path, dry=False, shots=None):
                     pic = ""
                     if m:
                         name = m.group(1).strip()
-                        hit = ALIASES.get(name) or lookup.get(name.lower())
-                        if isinstance(hit, str):
-                            k = "block" if lookup.get(name.lower(), ("item",))[0] == "block" else "item"
-                            ns, ident = hit.split(":")
-                            hit = (k, ns, ident)
+                        hit = resolve(lookup, name)
                         if hit:
                             kind, ns, ident = hit
                             p = None if dry else make(mod, kind, ns, ident)
@@ -215,6 +219,9 @@ def prose(mod, path, dry=False, shots=None):
     for kind, ns, ident in sorted(used):
         if kind != "item" and shots is not None:
             shots.append("%s %s:%s" % ("mob" if kind == "entity" else "block", ns, ident))
+
+
+PLAIN = "--plain" in sys.argv  # also plain (not bold) first cells that name a known thing
 
 
 def main():

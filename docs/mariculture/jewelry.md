@@ -18,14 +18,14 @@ also go into pearl bricks, and the colour matters for jewelry (below) and the Bu
 
 Rings, bracelets and necklaces are pearls plus a binding:
 
-| Piece | Bindings | Shape in the crafting grid |
-|---|---|---|
-| Ring | iron or gold | seven bindings in a ring, the pearl at the top middle |
-| Bracelet | string or golden silk | two bindings in the top corners over four pearls in a U |
-| Necklace | wool or golden thread | seven pearls in a ring, the binding at the top middle |
+|  | Piece | Bindings | Shape in the crafting grid |
+|---|---|---|---|
+| ![Ring](img/ring.png){ .mc-icon } | Ring | iron or gold | seven bindings in a ring, the pearl at the top middle |
+| ![Bracelet](img/bracelet.png){ .mc-icon } | Bracelet | string or golden silk | two bindings in the top corners over four pearls in a U |
+| ![Necklace](img/necklace.png){ .mc-icon } | Necklace | wool or golden thread | seven pearls in a ring, the binding at the top middle |
 
 That makes a rough piece. Finish it on the ![Hammer](img/hammer.png){ .mc-icon .mc-inline } **Blacksmith's Anvil** with
-the hammer, or in an **Autohammer**. Worn jewelry is repaired on the anvil for XP.
+the hammer, or in an ![Autohammer](img/autohammer.png){ .mc-icon .mc-inline } **Autohammer**. Worn jewelry is repaired on the anvil for XP.
 
 ## Enchanting
 

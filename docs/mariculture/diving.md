@@ -17,7 +17,7 @@ Diving gear goes from a snorkel up to full scuba.
 ![Air Pump](img/air_pump.png){ .mc-icon .mc-inline } The **Air Pump** feeds a Diving Helmet within 64 blocks across and
 128 blocks up and down. It uses 100 FE every 15 seconds.
 
-The **Air Compressor** fills scuba tanks: 1,000 FE for each unit of air, holding up to 480. A Scuba Tank holds 240 and
+The ![Air Compressor](img/air_compressor.png){ .mc-icon .mc-inline } **Air Compressor** fills scuba tanks: 1,000 FE for each unit of air, holding up to 480. A Scuba Tank holds 240 and
 uses one unit every 7.5 seconds.
 
 The `hardcore_diving` setting in the [config](config.md#general) makes your air run out faster under water.

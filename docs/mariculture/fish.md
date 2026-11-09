@@ -9,8 +9,8 @@ with fish food. While they live they work through their lives making things, fro
 dragon eggs. Build a tank of water around the feeder: each fish wants a tank of its own size, and the right salt and
 heat ([Fishing](fishing.md#salt-and-heat)).
 
-When a female dies she leaves **Fish Eggs**. Hatch them in a ![Hatchery](img/hatchery.png){ .mc-icon .mc-inline }
-**Hatchery**, or in an **Incubator** (runs on FE, nine stacks at a time). Eggs from two different species can hatch into
+When a female dies she leaves ![Fish Eggs](img/fish_eggs.png){ .mc-icon .mc-inline } **Fish Eggs**. Hatch them in a ![Hatchery](img/hatchery.png){ .mc-icon .mc-inline }
+**Hatchery**, or in an ![Incubator](img/incubator.png){ .mc-icon .mc-inline } **Incubator** (runs on FE, nine stacks at a time). Eggs from two different species can hatch into
 a third: that is how every fish that isn't wild is first made.
 
 ### Traits
@@ -28,7 +28,7 @@ Every fish carries genes for:
 | Area | how far its effect reaches |
 
 ![DNA Extractor](img/dna_extractor.png){ .mc-icon .mc-inline } The **DNA Extractor** (10,000 mB of fish oil) copies one
-trait from a fish onto a DNA sample. The **DNA Injector** (5,000 mB of blood, plus power) writes it into another fish.
+trait from a fish onto a DNA sample. The ![DNA Injector](img/dna_injector.png){ .mc-icon .mc-inline } **DNA Injector** (5,000 mB of blood, plus power) writes it into another fish.
 Each sample lasts 32 uses.
 
 ### Upgrades
@@ -43,58 +43,58 @@ other dimensions; the Eternal upgrades keep that fish alive. In a Hatchery, Puri
 
 The lowest rod that can catch it, and what it does. "RF" means the Flux Rod.
 
-| Fish | Wild | Lowest rod | Specialty |
-|---|---|---|---|
-| Goldfish | yes | Fishing Rod | gold nuggets when melted |
-| Minnow | yes | Fishing Rod | good bait |
-| Silver-Stripe Blaasop | yes | Fishing Rod | withers and confuses |
-| Cod | yes | Fishing Rod | leather when melted |
-| Squid | yes | Fishing Rod | ink sacs |
-| Sting Ray | yes | Fishing Rod | poisons in its water |
-| Neon Tetra | yes | Fishing Rod | neon lamps |
-| Walleye | yes | Fishing Rod | zoom when eaten raw |
-| Nightfish | yes | Reed | strength at night |
-| Netherfish | yes | Reed | burns as fuel |
-| Anglerfish | no | Wooden | light |
-| Stickleback | no | Wooden | kelp |
-| Man O' War | no | Reed | blinds and confuses |
-| Tuna | no | Reed | speed |
-| Salmon | no | Fishing Rod | leather |
-| Lungfish | no | Reed | water breathing |
-| Pufferfish | no | Fishing Rod | nothing |
-| Bowfin | no | Wooden | arrows |
-| Northern Pike | no | Wooden | flint |
-| Manta Ray | no | Wooden | heals |
-| Piranha | no | Wooden | attacks |
-| Red Shroom Fish | no | Fishing Rod | mycelium and red mushrooms |
-| Brown Shroom Fish | no | Fishing Rod | mycelium and brown mushrooms |
-| Chub | no | Wooden | restores hunger |
-| Angelfish | no | Wooden | moves items |
-| Butterflyfish | no | Wooden | feathers |
-| Rainbow Trout | no | Reed | +10 attack, dyes |
-| Jellyfish | no | Reed | slimeballs |
-| Bass | no | Reed | thrown like dynamite |
-| Whitemargin Stargazer | no | Wooden | stops mob spawns within 16 blocks (8 up and down) |
-| Perch | no | Reed | bats |
-| Spiderfish | no | Titanium | spiders |
-| Glowfish | no | Titanium | turns stone to glowstone |
-| Undead Fish | no | Titanium | zombies |
-| Siamese Fightin' Fish | no | Titanium | attacks anything but players |
-| Pupfish | no | Reed | wolves |
-| Catfish | no | Reed | ocelots |
-| Damselfish | no | Reed | animals breed |
-| Blue Tang | no | RF | lapis |
-| Pickerel | no | Reed | harvests crops |
-| Lamprey | no | Titanium | wither; makes wither skeletons |
-| Red Herring | no | RF | redstone |
-| Electric Ray | no | RF | 200 RF/s from each side of the feeder |
-| Clownfish | no | Titanium | cows, chickens, sheep and pigs |
-| Blazefish | no | RF | blazes |
-| Enderfish | no | Titanium | endermen |
-| Boneless Fish | no | RF | skeletons |
-| Dragonfish | no | RF | dragon eggs |
-| Koi | no | RF | dungeon and ocean loot |
-| Minecraft Fish | no | Reed | XP |
+|  | Fish | Wild | Lowest rod | Specialty |
+|---|---|---|---|---|
+| ![Goldfish](img/goldfish.png){ .mc-icon } | Goldfish | yes | Fishing Rod | gold nuggets when melted |
+| ![Minnow](img/minnow.png){ .mc-icon } | Minnow | yes | Fishing Rod | good bait |
+| ![Silver-Stripe Blaasop](img/blaasop.png){ .mc-icon } | Silver-Stripe Blaasop | yes | Fishing Rod | withers and confuses |
+| ![Cod](img/cod.png){ .mc-icon } | Cod | yes | Fishing Rod | leather when melted |
+| ![Squid](img/squid.png){ .mc-icon } | Squid | yes | Fishing Rod | ink sacs |
+| ![Sting Ray](img/sting_ray.png){ .mc-icon } | Sting Ray | yes | Fishing Rod | poisons in its water |
+| ![Neon Tetra](img/neon_tetra.png){ .mc-icon } | Neon Tetra | yes | Fishing Rod | neon lamps |
+| ![Walleye](img/walleye.png){ .mc-icon } | Walleye | yes | Fishing Rod | zoom when eaten raw |
+| ![Nightfish](img/nightfish.png){ .mc-icon } | Nightfish | yes | Reed | strength at night |
+| ![Netherfish](img/netherfish.png){ .mc-icon } | Netherfish | yes | Reed | burns as fuel |
+| ![Anglerfish](img/anglerfish.png){ .mc-icon } | Anglerfish | no | Wooden | light |
+| ![Stickleback](img/stickleback.png){ .mc-icon } | Stickleback | no | Wooden | kelp |
+| ![Man O' War](img/man_o_war.png){ .mc-icon } | Man O' War | no | Reed | blinds and confuses |
+| ![Tuna](img/tuna.png){ .mc-icon } | Tuna | no | Reed | speed |
+| ![Salmon](img/salmon.png){ .mc-icon } | Salmon | no | Fishing Rod | leather |
+| ![Lungfish](img/lungfish.png){ .mc-icon } | Lungfish | no | Reed | water breathing |
+| ![Pufferfish](img/pufferfish.png){ .mc-icon } | Pufferfish | no | Fishing Rod | nothing |
+| ![Bowfin](img/bowfin.png){ .mc-icon } | Bowfin | no | Wooden | arrows |
+| ![Northern Pike](img/northern_pike.png){ .mc-icon } | Northern Pike | no | Wooden | flint |
+| ![Manta Ray](img/manta_ray.png){ .mc-icon } | Manta Ray | no | Wooden | heals |
+| ![Piranha](img/piranha.png){ .mc-icon } | Piranha | no | Wooden | attacks |
+| ![Red Shroom Fish](img/red_shroom_fish.png){ .mc-icon } | Red Shroom Fish | no | Fishing Rod | mycelium and red mushrooms |
+| ![Brown Shroom Fish](img/brown_shroom_fish.png){ .mc-icon } | Brown Shroom Fish | no | Fishing Rod | mycelium and brown mushrooms |
+| ![Chub](img/chub.png){ .mc-icon } | Chub | no | Wooden | restores hunger |
+| ![Angelfish](img/angelfish.png){ .mc-icon } | Angelfish | no | Wooden | moves items |
+| ![Butterflyfish](img/butterflyfish.png){ .mc-icon } | Butterflyfish | no | Wooden | feathers |
+| ![Rainbow Trout](img/rainbow_trout.png){ .mc-icon } | Rainbow Trout | no | Reed | +10 attack, dyes |
+| ![Jellyfish](img/jellyfish.png){ .mc-icon } | Jellyfish | no | Reed | slimeballs |
+| ![Bass](img/bass.png){ .mc-icon } | Bass | no | Reed | thrown like dynamite |
+| ![Whitemargin Stargazer](img/stargazer.png){ .mc-icon } | Whitemargin Stargazer | no | Wooden | stops mob spawns within 16 blocks (8 up and down) |
+| ![Perch](img/perch.png){ .mc-icon } | Perch | no | Reed | bats |
+| ![Spiderfish](img/spiderfish.png){ .mc-icon } | Spiderfish | no | Titanium | spiders |
+| ![Glowfish](img/glowfish.png){ .mc-icon } | Glowfish | no | Titanium | turns stone to glowstone |
+| ![Undead Fish](img/undead_fish.png){ .mc-icon } | Undead Fish | no | Titanium | zombies |
+| ![Siamese Fightin' Fish](img/siamese_fighting_fish.png){ .mc-icon } | Siamese Fightin' Fish | no | Titanium | attacks anything but players |
+| ![Pupfish](img/pupfish.png){ .mc-icon } | Pupfish | no | Reed | wolves |
+| ![Catfish](img/catfish.png){ .mc-icon } | Catfish | no | Reed | ocelots |
+| ![Damselfish](img/damselfish.png){ .mc-icon } | Damselfish | no | Reed | animals breed |
+| ![Blue Tang](img/blue_tang.png){ .mc-icon } | Blue Tang | no | RF | lapis |
+| ![Pickerel](img/pickerel.png){ .mc-icon } | Pickerel | no | Reed | harvests crops |
+| ![Lamprey](img/lamprey.png){ .mc-icon } | Lamprey | no | Titanium | wither; makes wither skeletons |
+| ![Red Herring](img/red_herring.png){ .mc-icon } | Red Herring | no | RF | redstone |
+| ![Electric Ray](img/electric_ray.png){ .mc-icon } | Electric Ray | no | RF | 200 RF/s from each side of the feeder |
+| ![Clownfish](img/clownfish.png){ .mc-icon } | Clownfish | no | Titanium | cows, chickens, sheep and pigs |
+| ![Blazefish](img/blazefish.png){ .mc-icon } | Blazefish | no | RF | blazes |
+| ![Enderfish](img/enderfish.png){ .mc-icon } | Enderfish | no | Titanium | endermen |
+| ![Boneless Fish](img/boneless_fish.png){ .mc-icon } | Boneless Fish | no | RF | skeletons |
+| ![Dragonfish](img/dragonfish.png){ .mc-icon } | Dragonfish | no | RF | dragon eggs |
+| ![Koi](img/koi.png){ .mc-icon } | Koi | no | RF | dungeon and ocean loot |
+| ![Minecraft Fish](img/minecraft_fish.png){ .mc-icon } | Minecraft Fish | no | Reed | XP |
 
 The Stargazer's spawn block can be turned off with `stargazer_prevents_spawns` in the [config](config.md#fishery).
 
