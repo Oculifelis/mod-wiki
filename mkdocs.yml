@@ -113,4 +113,8 @@ nav:
           - Config: mariculture/config.md
           - Versions: mariculture/versions.md
       # More ports (such as the bee ports) go here as their own sections; they join the Ports dropdown by themselves.
-  - Other mods: other/index.md
+  - Other mods:
+      - other/index.md
+      - Spartan x Better Combat: other/spartan-bettercombat.md
+      - Apiflux: other/apiflux.md
+      - Manacomb: other/manacomb.md

@@ -1,0 +1,38 @@
+# Manacomb
+
+An addon for [Complicated Bees](https://modrinth.com/mod/complicated-bees) that makes the same four FE machines
+[Botania](https://www.curseforge.com/projects/225643) **mana** receivers. No new block. Its sister mod is
+[Apiflux](apiflux.md), for Create rotation.
+
+## How mana gets in
+
+| Way | What it does |
+|---|---|
+| **Mana Spreader** | Aim it at the machine. A spreader stops firing at a full machine. |
+| **Mana Spark** | Put it on top to draw from pool sparks of the same colour, like a Terrestrial Agglomeration Plate. |
+
+**10 FE per mana** by default: a full 160-mana burst is 1600 FE, which runs a Centrifuge (20 FE/t) for 80 ticks.
+Mana turns into FE as it arrives.
+
+## Config
+
+`serverconfig/manacomb-server.toml`:
+
+| Key | Default | What it does |
+|---|---|---|
+| `rfInputDisabled` | `false` | The "Instead of RF" switch: `true` lets only mana in. With [Apiflux](apiflux.md) installed, use Apiflux's switch instead; it covers both. |
+| `manaEnabled` | | Turns mana input on or off. |
+
+The rate, and which machines take mana, are data maps a datapack can change.
+
+## Compatibility
+
+| Mod | What it does |
+|---|---|
+| [Complicated Bees](https://modrinth.com/mod/complicated-bees) | Required, 3.6 or later. |
+| [Botania](https://www.curseforge.com/projects/225643) | Required. |
+| [Apiflux](apiflux.md) | Works side by side. |
+| [Jade](https://www.curseforge.com/projects/324717) | Shows "Runs on mana: 1 mana = 10 FE" on a machine. |
+| [JEI](https://www.curseforge.com/projects/238222) | An info page on the four machines. |
+
+**Versions:** 0.1.0, NeoForge 1.21.1 (21.1.229 or later). [On CurseForge](https://www.curseforge.com/projects/1793766).
