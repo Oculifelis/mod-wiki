@@ -25,5 +25,14 @@ texture, scaled up nearest-neighbour; blocks and mobs are real in-game cut-outs 
 Never use angled or isometric renders made outside the game. `python tools/entry_icons.py <mod> docs/<mod>/items.md --prose`
 adds the pictures to tables and bold names; picture whatever it reports as missing by hand.
 
+**Tables, not lists.** Any set of things (items, blocks, mobs, recipes, machines, configs, versions, compatible mods)
+goes in a table, never a comma list or a bullet list of names. Entries are rows: **Picture | Name | What it does** for
+items, blocks and mobs, plus columns such as How to get it where they help. A comma list is fine only for a short
+mention inside a sentence. Numbered steps and the change notes under a version stay as lists.
+
+**Link everything.** Every name of something that has its own page or table row on the wiki links there: items,
+blocks, mobs, mods, addons and config options, in tables and in text. Other mods without a wiki page link to their
+CurseForge or Modrinth page. Link each name at its first mention in a section.
+
 Field tables use the columns **Field | Default | Meaning**. Every JSON example should be one that loads; check it against
 the mod's code, not against memory.
