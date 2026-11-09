@@ -17,247 +17,84 @@ blocks, but their chests come up empty.
 
 ## Dungeons
 
-There are 23 kinds, each in three sizes: small, medium and large.
+There are 23 kinds, each in three sizes: small, medium and large. Nine are hand-made; fourteen are re-dressed, each
+with its own materials, lights, decay, biomes, mobs and loot. The pictures are cutaways: the ground round each dungeon
+is cleared so you can see its layout.
 
-- **Nine hand-made kinds:** crypt, arcane vault, desert tomb, dwarven forge (deep), frozen tomb, infernal keep (in the
-  Nether), old vanilla (deep, cobblestone and moss), sunken ruin (on the sea floor) and overgrown.
-- **Fourteen re-dressed kinds.** Each has its own materials, lights, decay, biomes, mobs and loot: copper works, deep
-  mine, sculk sanctum, calcite cloister, mud ziggurat, badlands tomb, tuff barrow, amethyst grotto, frost hall,
-  flooded cistern, spider den, witch hollow, and two more in the Nether, basalt bastion and soul crypt.
-
-The pictures below are cutaways: the ground round each dungeon is cleared so you can see its layout.
-
-<div class="grid cards" markdown>
-
-- ![Crypt](img/shots/dungeon-crypt.jpg)
-
-    **Crypt**: hand-made
-
-- ![Arcane Vault](img/shots/dungeon-arcane_vault.jpg)
-
-    **Arcane Vault**: hand-made
-
-- ![Desert Tomb](img/shots/dungeon-desert_tomb.jpg)
-
-    **Desert Tomb**: hand-made
-
-- ![Dwarven Forge](img/shots/dungeon-dwarven_forge.jpg)
-
-    **Dwarven Forge**: hand-made, deep
-
-- ![Frozen Tomb](img/shots/dungeon-frozen_tomb.jpg)
-
-    **Frozen Tomb**: hand-made
-
-- ![Old Vanilla](img/shots/dungeon-old_vanilla.jpg)
-
-    **Old Vanilla**: hand-made, deep cobblestone and moss
-
-- ![Sunken Ruin](img/shots/dungeon-sunken_ruin.jpg)
-
-    **Sunken Ruin**: hand-made, on the sea floor
-
-- ![Overgrown](img/shots/dungeon-overgrown.jpg)
-
-    **Overgrown**: hand-made
-
-- ![Copper Works](img/shots/dungeon-copper_works.jpg)
-
-    **Copper Works**
-
-- ![Deep Mine](img/shots/dungeon-deep_mine.jpg)
-
-    **Deep Mine**
-
-- ![Sculk Sanctum](img/shots/dungeon-sculk_sanctum.jpg)
-
-    **Sculk Sanctum**
-
-- ![Calcite Cloister](img/shots/dungeon-calcite_cloister.jpg)
-
-    **Calcite Cloister**
-
-- ![Mud Ziggurat](img/shots/dungeon-mud_ziggurat.jpg)
-
-    **Mud Ziggurat**
-
-- ![Badlands Tomb](img/shots/dungeon-badlands_tomb.jpg)
-
-    **Badlands Tomb**
-
-- ![Tuff Barrow](img/shots/dungeon-tuff_barrow.jpg)
-
-    **Tuff Barrow**
-
-- ![Amethyst Grotto](img/shots/dungeon-amethyst_grotto.jpg)
-
-    **Amethyst Grotto**
-
-- ![Frost Hall](img/shots/dungeon-frost_hall.jpg)
-
-    **Frost Hall**
-
-- ![Flooded Cistern](img/shots/dungeon-flooded_cistern.jpg)
-
-    **Flooded Cistern**
-
-- ![Spider Den](img/shots/dungeon-spider_den.jpg)
-
-    **Spider Den**
-
-- ![Witch Hollow](img/shots/dungeon-witch_hollow.jpg)
-
-    **Witch Hollow**
-
-</div>
+| Picture | Dungeon | Kind | Where |
+|---|---|---|---|
+| ![Crypt](img/shots/dungeon-crypt.jpg){ width="200" } | **Crypt** | Hand-made |  |
+| ![Arcane Vault](img/shots/dungeon-arcane_vault.jpg){ width="200" } | **Arcane Vault** | Hand-made |  |
+| ![Desert Tomb](img/shots/dungeon-desert_tomb.jpg){ width="200" } | **Desert Tomb** | Hand-made |  |
+| ![Dwarven Forge](img/shots/dungeon-dwarven_forge.jpg){ width="200" } | **Dwarven Forge** | Hand-made | deep |
+| ![Frozen Tomb](img/shots/dungeon-frozen_tomb.jpg){ width="200" } | **Frozen Tomb** | Hand-made |  |
+|  | **Infernal Keep** | Hand-made | the Nether |
+| ![Old Vanilla](img/shots/dungeon-old_vanilla.jpg){ width="200" } | **Old Vanilla** | Hand-made | deep; cobblestone and moss |
+| ![Sunken Ruin](img/shots/dungeon-sunken_ruin.jpg){ width="200" } | **Sunken Ruin** | Hand-made | on the sea floor |
+| ![Overgrown](img/shots/dungeon-overgrown.jpg){ width="200" } | **Overgrown** | Hand-made |  |
+| ![Copper Works](img/shots/dungeon-copper_works.jpg){ width="200" } | **Copper Works** | Re-dressed |  |
+| ![Deep Mine](img/shots/dungeon-deep_mine.jpg){ width="200" } | **Deep Mine** | Re-dressed |  |
+| ![Sculk Sanctum](img/shots/dungeon-sculk_sanctum.jpg){ width="200" } | **Sculk Sanctum** | Re-dressed |  |
+| ![Calcite Cloister](img/shots/dungeon-calcite_cloister.jpg){ width="200" } | **Calcite Cloister** | Re-dressed |  |
+| ![Mud Ziggurat](img/shots/dungeon-mud_ziggurat.jpg){ width="200" } | **Mud Ziggurat** | Re-dressed |  |
+| ![Badlands Tomb](img/shots/dungeon-badlands_tomb.jpg){ width="200" } | **Badlands Tomb** | Re-dressed |  |
+| ![Tuff Barrow](img/shots/dungeon-tuff_barrow.jpg){ width="200" } | **Tuff Barrow** | Re-dressed |  |
+| ![Amethyst Grotto](img/shots/dungeon-amethyst_grotto.jpg){ width="200" } | **Amethyst Grotto** | Re-dressed |  |
+| ![Frost Hall](img/shots/dungeon-frost_hall.jpg){ width="200" } | **Frost Hall** | Re-dressed |  |
+| ![Flooded Cistern](img/shots/dungeon-flooded_cistern.jpg){ width="200" } | **Flooded Cistern** | Re-dressed |  |
+| ![Spider Den](img/shots/dungeon-spider_den.jpg){ width="200" } | **Spider Den** | Re-dressed |  |
+| ![Witch Hollow](img/shots/dungeon-witch_hollow.jpg){ width="200" } | **Witch Hollow** | Re-dressed |  |
+|  | **Basalt Bastion** | Re-dressed | the Nether |
+|  | **Soul Crypt** | Re-dressed | the Nether |
 
 ## Settlements and landmarks
 
 There are 30 of these on the surface: farm buildings, temples, monuments, ruins and forts. Dungeons also adds extra
 houses to vanilla villages.
 
-<div class="grid cards" markdown>
-
-- ![Barn](img/shots/settlement-barn.jpg)
-
-    **Barn**: farm
-
-- ![Windmill](img/shots/settlement-windmill.jpg)
-
-    **Windmill**: farm
-
-- ![Field](img/shots/settlement-field.jpg)
-
-    **Field**: farm
-
-- ![Orchard](img/shots/settlement-orchard.jpg)
-
-    **Orchard**: farm
-
-- ![Pasture](img/shots/settlement-pasture.jpg)
-
-    **Pasture**: farm
-
-- ![Sun Temple](img/shots/settlement-sun_temple.jpg)
-
-    **Sun Temple**: temple
-
-- ![Jungle Pyramid](img/shots/settlement-jungle_pyramid.jpg)
-
-    **Jungle Pyramid**: temple
-
-- ![Sunken Temple](img/shots/settlement-sunken_temple.jpg)
-
-    **Sunken Temple**: temple
-
-- ![Forest Shrine](img/shots/settlement-forest_shrine.jpg)
-
-    **Forest Shrine**: temple
-
-- ![Monastery](img/shots/settlement-monastery.jpg)
-
-    **Monastery**: temple
-
-- ![Fantasy Temple](img/shots/settlement-fantasy_temple.jpg)
-
-    **Fantasy Temple**: temple
-
-- ![Alien Temple](img/shots/settlement-alien_temple.jpg)
-
-    **Alien Temple**: temple
-
-- ![Abstract Temple](img/shots/settlement-abstract_temple.jpg)
-
-    **Abstract Temple**: temple
-
-- ![Arch](img/shots/settlement-arch.jpg)
-
-    **Arch**: monument
-
-- ![Obelisk](img/shots/settlement-obelisk.jpg)
-
-    **Obelisk**: monument
-
-- ![Monolith](img/shots/settlement-monolith.jpg)
-
-    **Monolith**: monument
-
-- ![Statue](img/shots/settlement-statue.jpg)
-
-    **Statue**: monument
-
-- ![Giant Hand](img/shots/settlement-giant_hand.jpg)
-
-    **Giant Hand**: monument
-
-- ![Giant Head](img/shots/settlement-giant_head.jpg)
-
-    **Giant Head**: monument
-
-- ![Stone Circle](img/shots/settlement-stone_circle.jpg)
-
-    **Stone Circle**: monument
-
-- ![Lighthouse](img/shots/settlement-lighthouse.jpg)
-
-    **Lighthouse**: monument
-
-- ![Ruined House](img/shots/settlement-ruin_house.jpg)
-
-    **Ruined House**: ruin
-
-- ![Ruined Tower](img/shots/settlement-ruin_tower.jpg)
-
-    **Ruined Tower**: ruin
-
-- ![Castle Ruin](img/shots/settlement-castle_ruin.jpg)
-
-    **Castle Ruin**: ruin
-
-- ![Ruin Field](img/shots/settlement-ruin_field.jpg)
-
-    **Ruin Field**: ruin
-
-- ![Mausoleum](img/shots/settlement-mausoleum.jpg)
-
-    **Mausoleum**: ruin
-
-- ![Hill Fort](img/shots/settlement-hill_fort.jpg)
-
-    **Hill Fort**: fort
-
-- ![Motte](img/shots/settlement-motte.jpg)
-
-    **Motte**: fort
-
-- ![Courtyard Keep](img/shots/settlement-courtyard_keep.jpg)
-
-    **Courtyard Keep**: fort
-
-</div>
-
-*(Not pictured: the Nether temple.)*
+| Picture | Structure | Type |
+|---|---|---|
+| ![Barn](img/shots/settlement-barn.jpg){ width="200" } | **Barn** | Farm |
+| ![Windmill](img/shots/settlement-windmill.jpg){ width="200" } | **Windmill** | Farm |
+| ![Field](img/shots/settlement-field.jpg){ width="200" } | **Field** | Farm |
+| ![Orchard](img/shots/settlement-orchard.jpg){ width="200" } | **Orchard** | Farm |
+| ![Pasture](img/shots/settlement-pasture.jpg){ width="200" } | **Pasture** | Farm |
+| ![Sun Temple](img/shots/settlement-sun_temple.jpg){ width="200" } | **Sun Temple** | Temple |
+| ![Jungle Pyramid](img/shots/settlement-jungle_pyramid.jpg){ width="200" } | **Jungle Pyramid** | Temple |
+| ![Sunken Temple](img/shots/settlement-sunken_temple.jpg){ width="200" } | **Sunken Temple** | Temple |
+| ![Forest Shrine](img/shots/settlement-forest_shrine.jpg){ width="200" } | **Forest Shrine** | Temple |
+| ![Monastery](img/shots/settlement-monastery.jpg){ width="200" } | **Monastery** | Temple |
+| ![Fantasy Temple](img/shots/settlement-fantasy_temple.jpg){ width="200" } | **Fantasy Temple** | Temple |
+| ![Alien Temple](img/shots/settlement-alien_temple.jpg){ width="200" } | **Alien Temple** | Temple |
+| ![Abstract Temple](img/shots/settlement-abstract_temple.jpg){ width="200" } | **Abstract Temple** | Temple |
+| ![Arch](img/shots/settlement-arch.jpg){ width="200" } | **Arch** | Monument |
+| ![Obelisk](img/shots/settlement-obelisk.jpg){ width="200" } | **Obelisk** | Monument |
+| ![Monolith](img/shots/settlement-monolith.jpg){ width="200" } | **Monolith** | Monument |
+| ![Statue](img/shots/settlement-statue.jpg){ width="200" } | **Statue** | Monument |
+| ![Giant Hand](img/shots/settlement-giant_hand.jpg){ width="200" } | **Giant Hand** | Monument |
+| ![Giant Head](img/shots/settlement-giant_head.jpg){ width="200" } | **Giant Head** | Monument |
+| ![Stone Circle](img/shots/settlement-stone_circle.jpg){ width="200" } | **Stone Circle** | Monument |
+| ![Lighthouse](img/shots/settlement-lighthouse.jpg){ width="200" } | **Lighthouse** | Monument |
+| ![Ruined House](img/shots/settlement-ruin_house.jpg){ width="200" } | **Ruined House** | Ruin |
+| ![Ruined Tower](img/shots/settlement-ruin_tower.jpg){ width="200" } | **Ruined Tower** | Ruin |
+| ![Castle Ruin](img/shots/settlement-castle_ruin.jpg){ width="200" } | **Castle Ruin** | Ruin |
+| ![Ruin Field](img/shots/settlement-ruin_field.jpg){ width="200" } | **Ruin Field** | Ruin |
+| ![Mausoleum](img/shots/settlement-mausoleum.jpg){ width="200" } | **Mausoleum** | Ruin |
+| ![Hill Fort](img/shots/settlement-hill_fort.jpg){ width="200" } | **Hill Fort** | Fort |
+| ![Motte](img/shots/settlement-motte.jpg){ width="200" } | **Motte** | Fort |
+| ![Courtyard Keep](img/shots/settlement-courtyard_keep.jpg){ width="200" } | **Courtyard Keep** | Fort |
+|  | **Nether Temple** | Temple, in the Nether |
 
 ## Castles and citadels
 
 **Castles** come in three styles: stone, sand and dark. Each is a keep inside a curtain wall, with turrets, a wall walk
 and a gate.
 
-<div class="grid cards" markdown>
-
-- ![Stone castle](img/shots/castle-castle_stone.jpg)
-
-    **Stone castle**
-
-- ![Sand castle](img/shots/castle-castle_sand.jpg)
-
-    **Sand castle**
-
-- ![Dark castle](img/shots/castle-castle_dark.jpg)
-
-    **Dark castle**
-
-</div>
+| Picture | Castle | Style |
+|---|---|---|
+| ![Stone castle](img/shots/castle-castle_stone.jpg){ width="200" } | **Stone castle** | Stone |
+| ![Sand castle](img/shots/castle-castle_sand.jpg){ width="200" } | **Sand castle** | Sand |
+| ![Dark castle](img/shots/castle-castle_dark.jpg){ width="200" } | **Dark castle** | Dark |
 
 **Citadels** are walled castle towns about 180 blocks across, in the same three styles, fitted to the ground they land
 on. They're rare, roughly one per 1,500 blocks.
@@ -275,21 +112,29 @@ Each material (wall, floor, trim, pillar, ceiling and accents) draws one block, 
 positions, so walls and floors mix two blocks. The world's seed drives the draw, so a dungeon is consistent inside and
 comes out the same in the same world.
 
-The library knows blocks from 33 mods, including Quark, Create, Create Deco, Biomes O' Plenty, Regions Unexplored,
-Twilight Forest, Tinkers' Construct, Ars Nouveau, Malum, Occultism, The Undergarden, Upgrade Aquatic, The Aether,
-Tropicraft and Rechiseled. It only names their block ids; nothing from those mods is copied or bundled. A block set is
-used only when its mod is loaded and every block it names exists, so the mod is safe with any mix of mods, or none.
+The library knows blocks from 33 mods. It only names their block ids; nothing from those mods is copied or bundled. A
+block set is used only when its mod is loaded and every block it names exists, so the mod is safe with any mix of mods,
+or none. Among them:
+
+| Mod | Mod |
+|---|---|
+| [Quark](https://www.curseforge.com/projects/243121) | [Malum](https://www.curseforge.com/projects/484064) |
+| [Create](https://www.curseforge.com/projects/328085) | [Occultism](https://www.curseforge.com/projects/361026) |
+| [Create Deco](https://www.curseforge.com/projects/509285) | [The Undergarden](https://www.curseforge.com/projects/379849) |
+| [Biomes O' Plenty](https://www.curseforge.com/projects/220318) | [Upgrade Aquatic](https://www.curseforge.com/projects/326895) |
+| [Regions Unexplored](https://www.curseforge.com/projects/659110) | [The Aether](https://www.curseforge.com/projects/255308) |
+| [Twilight Forest](https://www.curseforge.com/projects/227639) | [Tropicraft](https://www.curseforge.com/projects/254794) |
+| [Tinkers' Construct](https://www.curseforge.com/projects/74072) | [Rechiseled](https://www.curseforge.com/projects/558998) |
+| [Ars Nouveau](https://www.curseforge.com/projects/401955) |  |
 
 ## Loot and spawners
 
-- **Chests** keep the kind of room they were built for: armoury, library, shrine, treasure, tomb, hoard and so on.
-  Their loot tables are layered, from `orbisnovus:chests/<type>/<family>/<name>/<room>` down to
-  `orbisnovus:chests/<room>`. Override one level in a datapack to change every chest below it.
-- **Barrels** are loot barrels (`orbisnovus:barrels/...`).
-- **Spawners** take their mob from entity type tags: `orbisnovus:spawner/<type>/<family>/<name>`, then the family,
-  then the type. An empty tag removes the spawner. Spawners appear only in dead or deserted places: dungeons, ruins
-  and the mausoleum. Lived-in castles, citadels, villages and temples have none.
-- **Structure tags:** `#orbisnovus:type/<type>` and `#orbisnovus:family/<type>/<family>`.
+| Thing | Table or tag | How it works |
+|---|---|---|
+| **Chests** | `orbisnovus:chests/<type>/<family>/<name>/<room>` down to `orbisnovus:chests/<room>` | Keep the kind of room they were built for: armoury, library, shrine, treasure, tomb, hoard and so on. The loot tables are layered; override one level in a datapack to change every chest below it. |
+| **Barrels** | `orbisnovus:barrels/...` | Loot barrels. |
+| **Spawners** | Entity type tags `orbisnovus:spawner/<type>/<family>/<name>`, then the family, then the type | An empty tag removes the spawner. Spawners appear only in dead or deserted places: [dungeons](#dungeons), ruins and the [mausoleum](#settlements-and-landmarks). Lived-in castles, citadels, villages and temples have none. |
+| **Structure tags** | `#orbisnovus:type/<type>` and `#orbisnovus:family/<type>/<family>` | |
 
 ## Config
 
@@ -310,24 +155,25 @@ structure sets (spacing), template pools, processor lists and biome tags.
 
 ## Compatibility
 
-- **Lootr:** works. Every chest and barrel holds only a loot table, with nothing pre-filled, so Lootr turns them into
-  per-player containers just as it does vanilla's.
-- **[Orbis Novus: Terrain](terrain.md):** dungeons and settlements generate in its world types.
-- **Other world generation mods** (biome mods, terrain mods): structures follow biome tags, so they place in modded
-  biomes that carry the usual `#minecraft:` and `#c:` tags.
-- **Multiplayer:** the structures are built on the server; install the mod on both sides.
-- Structure mods that change vanilla villages may change how often the added houses appear.
+| Mod | How it works |
+|---|---|
+| [Lootr](https://www.curseforge.com/projects/361276) | Works. Every chest and barrel holds only a loot table, with nothing pre-filled, so Lootr turns them into per-player containers just as it does vanilla's. |
+| [Orbis Novus: Terrain](terrain.md) | Dungeons and settlements generate in its world types. |
+| Other world generation mods (biome mods, terrain mods) | Structures follow biome tags, so they place in modded biomes that carry the usual `#minecraft:` and `#c:` tags. |
+| Structure mods that change vanilla villages | May change how often the added houses appear. |
+
+**Multiplayer:** the structures are built on the server; install the mod on both sides.
 
 ## Coming in 1.1
 
 Seven wonders, one-off structures you find with `/locate structure orbisnovus_wonders:<name>`:
 
-- **Clockwork Labyrinth:** a buried maze whose ceiling and floor gates swap on a redstone clock, with a vault in the
-  middle.
-- **Inverted Spire:** a tower hanging point-down under a floating rock. The best loot is in the tip.
-- **Living Barrow:** a mound of root tunnels, moss, mud and sculk round a heart room with a big slime.
-- **Bottled Ship:** a galleon in a glass bottle, buried in desert or beach sand.
-- **Hall of Echoes:** seven deep-dark rooms, all alike but one. Only the odd room's door leads to the vault.
-- **Giant's Desk:** a desk ruin at ten times scale, with book stacks, an ink pot, a quill bridge, a giant candle and a
-  drawer full of spiders.
-- **Upside-down Village:** houses hanging from a cave roof over a lava lake, joined by chain walkways.
+| Wonder | What it is |
+|---|---|
+| **Clockwork Labyrinth** | A buried maze whose ceiling and floor gates swap on a redstone clock, with a vault in the middle. |
+| **Inverted Spire** | A tower hanging point-down under a floating rock. The best loot is in the tip. |
+| **Living Barrow** | A mound of root tunnels, moss, mud and sculk round a heart room with a big slime. |
+| **Bottled Ship** | A galleon in a glass bottle, buried in desert or beach sand. |
+| **Hall of Echoes** | Seven deep-dark rooms, all alike but one. Only the odd room's door leads to the vault. |
+| **Giant's Desk** | A desk ruin at ten times scale, with book stacks, an ink pot, a quill bridge, a giant candle and a drawer full of spiders. |
+| **Upside-down Village** | Houses hanging from a cave roof over a lava lake, joined by chain walkways. |

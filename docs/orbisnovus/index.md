@@ -8,7 +8,7 @@ Orbis Novus is two mods that work alone or together:
 
 | | | |
 |---|---|---|
-| ![Orbis Novus: Terrain](img/terrain_logo.png){ width="96" } | **[Orbis Novus: Terrain](terrain.md)** | realistic mountains, eroded valleys and river networks. One new world type, Orbis Novus, with ten terrain styles, a Custom Mix of any of them, and a Customize screen. |
+| ![Orbis Novus: Terrain](img/terrain_logo.png){ width="96" } | **[Orbis Novus: Terrain](terrain.md)** | realistic mountains, eroded valleys and river networks. One new world type, Orbis Novus, with ten [terrain styles](terrain.md#the-styles), a [Custom Mix](terrain.md#custom-mix) of any of them, and a Customize screen. |
 | ![Orbis Novus: Dungeons](img/dungeons_logo.png){ width="96" } | **[Orbis Novus: Dungeons](dungeons.md)** | 23 dungeon kinds, 30 settlements and landmarks, extra village houses, castles in three styles and walled castle towns, built from the blocks of whatever building mods you have. |
 
 Together, Dungeons' structures generate in every Terrain world type. Apart, Terrain's worlds keep vanilla's and other
@@ -35,10 +35,10 @@ stones, sea stacks, hot springs, waterfalls). The 1.21.1 build doesn't have them
 
 ## Coming in 1.1
 
-- **Terrain:** six new styles (Folded World, Tidal Continents, Shattered Plates, Sinkhole Karst, Ribbon Rivers and The
-  Bowl), and three new options for every style: Latitude Bands, Erosion Age and Ruins.
-- **Dungeons:** seven wonders, one-off structures such as a galleon in a glass bottle buried in the sand and a
-  village hanging upside down from a cave roof.
+| Mod | Coming |
+|---|---|
+| [Terrain](terrain.md) | Six new [styles](terrain.md#coming-in-11) (Folded World, Tidal Continents, Shattered Plates, Sinkhole Karst, Ribbon Rivers and The Bowl), and three new options for every style: Latitude Bands, Erosion Age and Ruins. |
+| [Dungeons](dungeons.md) | Seven [wonders](dungeons.md#coming-in-11), one-off structures such as a galleon in a glass bottle buried in the sand and a village hanging upside down from a cave roof. |
 
 See the [Terrain](terrain.md#coming-in-11) and [Dungeons](dungeons.md#coming-in-11) pages for more.
 
