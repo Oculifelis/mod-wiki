@@ -17,44 +17,44 @@ Jade, KubeJS.
 
 ## The Grand Frame
 
-A hollow box of **Frame Casing**, anywhere from 5 to 9 blocks a side, with a **Frame Core** in the shell. Every wall
-casing can take a Fieldframe module, and all of them share one machine. **Frame Vaults**, **Frame Tanks** and **Frame
-Cells** inside add room for items, fluids and power. Every frame shows its state on its core, and the Engineering Field
+A hollow box of ![Frame Casing](img/frame_casing.png){ .mc-icon .mc-inline } **Frame Casing**, anywhere from 5 to 9 blocks a side, with a ![Frame Core](img/frame_core.png){ .mc-icon .mc-inline } **Frame Core** in the shell. Every wall
+casing can take a Fieldframe module, and all of them share one machine. ![Frame Vaults](img/frame_vault.png){ .mc-icon .mc-inline } **Frame Vaults**, ![Frame Tanks](img/frame_tank.png){ .mc-icon .mc-inline } **Frame Tanks** and ![Frame Cells](img/frame_cell.png){ .mc-icon .mc-inline } **Frame Cells**
+inside add room for items, fluids and power. Every frame shows its state on its core, and the Engineering Field
 Manual has pages for all of them.
 
 ![JEI's Frame Core page](img/04-jei-frame-core.png)
 
 ## Foundry
 
-Put **Frame Crucibles** inside a frame and it becomes a Foundry. They melt metals into one pool, mix them into alloys
+Put ![Frame Crucibles](img/frame_crucible.png){ .mc-icon .mc-inline } **Frame Crucibles** inside a frame and it becomes a Foundry. They melt metals into one pool, mix them into alloys
 and pour the result into a tank.
 
 ![JEI's Foundry alloys page](img/03-jei-foundry-alloys.png)
 
 ## Arc Furnace
 
-**Arc Electrodes** make the frame an Arc Furnace instead. Every second each electrode fires a burst of 40,000 RF that
+![Arc Electrodes](img/arc_electrode.png){ .mc-icon .mc-inline } **Arc Electrodes** make the frame an Arc Furnace instead. Every second each electrode fires a burst of 40,000 RF that
 smelts up to 16 items, and it makes steel, damascus steel, hepatizon and tartarite. A Storm Coil on the roof charges it
 from lightning: 200,000 RF a strike.
 
 ## Cooling Tower
 
-**Cooling Fins** turn the frame's steam back into water, so the water goes round again and a steam loop closes.
+![Cooling Fins](img/cooling_fin.png){ .mc-icon .mc-inline } **Cooling Fins** turn the frame's steam back into water, so the water goes round again and a steam loop closes.
 
 ## Gantry
 
-A **Gantry Controller** sits in a ring of **Gantry Rails**, from 3 up to 64 blocks a side, and moves a **Gantry Head**
+A ![Gantry Controller](img/gantry_controller.png){ .mc-icon .mc-inline } **Gantry Controller** sits in a ring of ![Gantry Rails](img/gantry_rail.png){ .mc-icon .mc-inline } **Gantry Rails**, from 3 up to 64 blocks a side, and moves a ![Gantry Head](img/gantry_head.png){ .mc-icon .mc-inline } **Gantry Head**
 over the whole area. The module on the head decides the job: a Block Breaker quarries, a Crop Tender farms, a World
 Fluid Pump pumps.
 
 ## Starcore
 
-The Starcore is a fusion reactor inside **Containment Coils**. Its plasma never settles on its own. You build a control
+The Starcore is a fusion reactor inside ![Containment Coils](img/starcore_coil.png){ .mc-icon .mc-inline } **Containment Coils**. Its plasma never settles on its own. You build a control
 circuit to hold it, and if your program lets it drift, it goes out. Lighting it takes 5,000,000 RF.
 
-- **Field Magnet:** 2 field per signal level, at 40 RF/t per level. A coil holds 60.
-- **Plasma Injector:** feeds deuterium, up to 1 mB a tick, and one Ender Alloy dust per 250 mB.
-- **Plasma Probe:** reports pressure (0 to 15) and temperature (20 MK a level) as signals.
+- ![Field Magnet](img/field_magnet.png){ .mc-icon .mc-inline } **Field Magnet:** 2 field per signal level, at 40 RF/t per level. A coil holds 60.
+- ![Plasma Injector](img/plasma_injector.png){ .mc-icon .mc-inline } **Plasma Injector:** feeds deuterium, up to 1 mB a tick, and one Ender Alloy dust per 250 mB.
+- ![Plasma Probe](img/plasma_probe.png){ .mc-icon .mc-inline } **Plasma Probe:** reports pressure (0 to 15) and temperature (20 MK a level) as signals.
 
 Deuterium comes from Fieldframe's Centrifuge: 1,000 mB of water makes 100 mB. Reactor explosions are a server setting
 in `fieldframe_frameworks-server.toml`, off by default.

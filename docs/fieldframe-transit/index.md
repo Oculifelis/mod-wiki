@@ -15,14 +15,14 @@ or later (which needs [Curios](https://www.curseforge.com/projects/309927)).
 
 **Versions:** 0.2.0, for NeoForge 26.1.2 ([Versions](../fieldframe/versions.md)).
 
-A **Tube Drive** module on a chassis next to the entrance pays for each trip in RF: 200 RF plus 20 RF per block of tube.
+A ![Tube Drive](img/tube_drive.png){ .mc-icon .mc-inline } **Tube Drive** module on a chassis next to the entrance pays for each trip in RF: 200 RF plus 20 RF per block of tube.
 Tubes carry players and mobs only, never items, fluids or power.
 
 ## The tubes
 
 ![A Tube Mouth, the side of a Tube Mouth, a Transit Tube from the side and from the end, and the Tube Drive module](img/tubes.png)
 
-Place a **Transit Tube** on a block and it becomes a straight one-block node. Right-click one of its free ends with
+Place a ![Transit Tube](img/transit_tube.png){ .mc-icon .mc-inline } **Transit Tube** on a block and it becomes a straight one-block node. Right-click one of its free ends with
 tubes in hand, then right-click another free end, or any block to put a new node there. A glowing preview shows the
 curve, green when it fits and red with the reason when it doesn't. The tube bends between the ends in a smooth curve
 that leaves and enters each end straight, and you keep laying from the far end. Sneak-right-click stops.
@@ -35,7 +35,7 @@ Eight tubes come from brass and glass.
 
 ## Mouths and the drive
 
-A **Tube Mouth** opens on its front and takes a tube at its back. Every mouth is an exit. An entrance takes in mobs that
+A ![Tube Mouth](img/tube_mouth.png){ .mc-icon .mc-inline } **Tube Mouth** opens on its front and takes a tube at its back. Every mouth is an exit. An entrance takes in mobs that
 step in front of it and players who walk in looking at it or right-click it. Sneaking never goes in, and a redstone
 signal locks the entrance.
 
