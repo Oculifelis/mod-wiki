@@ -59,11 +59,11 @@ Every puzzle block gives a redstone signal when it is solved, so it can open a d
 | Block | How it works |
 |---|---|
 | ![Aspect Lock](img/aspect_lock.png){ .mc-icon } **Aspect Lock** | wants a set amount of one aspect, poured from a phial, a Thurible, a lattice outlet or a tube |
-| ![Rune Stone](img/rune_stone.png){ .mc-icon } **Rune Stone** and **Rune Lock** | press the stones in the right order; the clue is somewhere in the room, and a wrong rune starts it over |
-| **Sun Lens, Beam Mirror and Beam Receptor** | the lens throws a beam up to 32 blocks; right-click mirrors to turn it until it reaches the receptor |
-| **Vis Lift** | lifts whoever stands on it, up to 16 blocks; some run only once a lock is open |
-| **Phase Stone** | solid for 2 seconds of every 4; rows of them make a wave to run along |
-| **Warded hatch** | the way between tower floors |
+| ![Rune Stone](img/rune_stone.png){ .mc-icon } **Rune Stone** and ![Rune Lock](img/rune_lock.png){ .mc-icon } **Rune Lock** | press the stones in the right order; the clue is somewhere in the room, and a wrong rune starts it over |
+| ![Sun Lens](img/beam_emitter.png){ .mc-icon } ![Beam Mirror](img/beam_mirror.png){ .mc-icon } ![Beam Receptor](img/beam_receptor.png){ .mc-icon } **Sun Lens, Beam Mirror and Beam Receptor** | the lens throws a beam up to 32 blocks; right-click mirrors to turn it until it reaches the receptor |
+| ![Vis Lift](img/vis_lift.png){ .mc-icon } **Vis Lift** | lifts whoever stands on it, up to 16 blocks; some run only once a lock is open |
+| ![Phase Stone](img/phase_block.png){ .mc-icon } **Phase Stone** | solid for 2 seconds of every 4; rows of them make a wave to run along |
+| ![Warded hatch](img/floor_gate.png){ .mc-icon } **Warded hatch** | the way between tower floors |
 
 A lab's lattice floors use the [Alembic Lattice](thaumaturgy.md#the-alembic-lattice): make the right compound and
 bring it to the lock.

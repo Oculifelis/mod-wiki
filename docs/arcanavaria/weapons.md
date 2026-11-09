@@ -8,11 +8,11 @@
 Three scythes on Thaumaturge's metals, after Scythes Vanilla by Drift007_. They have their own research tab entry,
 **Scythes**.
 
-| Scythe | Damage | Speed | Sweep | Reach | How you get it | Extra |
-|---|---|---|---|---|---|---|
-| Thaumium Scythe | 7 | 1.2 | 40% | +1 | crafted | |
-| Void Scythe | 8 | 1.2 | 55% | +1 | crafted (void metal) | repairs itself, hits give Weakness, warp 1 |
-| Elemental Scythe | 8.5 | 1.2 | 75% | +1 | infused from the Thaumium Scythe | Arcing II, like the elemental sword |
+|  | Scythe | Damage | Speed | Sweep | Reach | How you get it | Extra |
+|---|---|---|---|---|---|---|---|
+| ![Thaumium Scythe](img/thaumium_scythe.png){ .mc-icon } | Thaumium Scythe | 7 | 1.2 | 40% | +1 | crafted | |
+| ![Void Scythe](img/void_scythe.png){ .mc-icon } | Void Scythe | 8 | 1.2 | 55% | +1 | crafted (void metal) | repairs itself, hits give Weakness, warp 1 |
+| ![Elemental Scythe](img/elemental_scythe.png){ .mc-icon } | Elemental Scythe | 8.5 | 1.2 | 75% | +1 | infused from the Thaumium Scythe | Arcing II, like the elemental sword |
 
 All three sweep like swords (built in, so Sweeping Edge isn't offered) and cut leaves, crops and grass quickly. They
 take the sword enchantments, plus four of their own:
@@ -46,11 +46,11 @@ Warden wakes from the ground. Only one Warden guards a grove at a time.
 Four whips on Fundamentum's whip system. They need **Fundamentum 1.22.1 or newer**. Without it, Arcana Varia loads as
 normal and the whips, their recipes and their research stay hidden.
 
-| Whip | Reach | Tip damage | How you get it | Extra |
-|---|---|---|---|---|
-| Thaumium Whip | 5 | 6.5 | crafted | marks targets for your summons |
-| Void Whip | 5.5 | 8 | crafted (void metal), warp 1 | hits weaken; a cracking tip heals you 1 heart |
-| Elemental Whip | 6 | 8.5 | infused from the Thaumium Whip | each hit carries a primal: lift, burn, slow, shove, glow or wither |
-| Amberbark Lash | 5 | 4 | crafted (greatwood and amber) | a summoner's whip: a 15-second mark that makes your summons hit far harder; a crack roots the target |
+|  | Whip | Reach | Tip damage | How you get it | Extra |
+|---|---|---|---|---|---|
+| ![Thaumium Whip](img/thaumium_whip.png){ .mc-icon } | Thaumium Whip | 5 | 6.5 | crafted | marks targets for your summons |
+| ![Void Whip](img/void_whip.png){ .mc-icon } | Void Whip | 5.5 | 8 | crafted (void metal), warp 1 | hits weaken; a cracking tip heals you 1 heart |
+| ![Elemental Whip](img/elemental_whip.png){ .mc-icon } | Elemental Whip | 6 | 8.5 | infused from the Thaumium Whip | each hit carries a primal: lift, burn, slow, shove, glow or wither |
+| ![Amberbark Lash](img/amberbark_lash.png){ .mc-icon } | Amberbark Lash | 5 | 4 | crafted (greatwood and amber) | a summoner's whip: a 15-second mark that makes your summons hit far harder; a crack roots the target |
 
 In hand they show a 3D handle. Turn on Fundamentum's `whips.flatHandles` setting to show the flat sprite instead.
