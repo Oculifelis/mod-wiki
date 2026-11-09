@@ -26,6 +26,8 @@ take the sword enchantments, plus four of their own:
 
 ## The Greatwood Warden
 
+![The Greatwood Warden](img/greatwood_warden.png){ .mc-icon .mc-mob }
+
 ![Heartseed](img/heartseed.png){ .mc-icon } ![Warden's Amber Heart](img/warden_amber_heart.png){ .mc-icon }
 
 A tree boss. Craft a **Heartseed** from amber, a greatwood sapling and a greatwood log, plant it, and the Greatwood

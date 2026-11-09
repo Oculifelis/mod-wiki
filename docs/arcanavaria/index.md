@@ -21,7 +21,7 @@ own ([Towers and labs](towers-and-labs.md#other-mods)).
 | | | |
 |---|---|---|
 | ![Laboratory Journal](img/lab_journal.png){ .mc-icon } | **[Towers and labs](towers-and-labs.md)** | Wizard Towers, 40 kinds of Forsaken Laboratory, their puzzles, wards and guardians |
-| | **[The Thurible](thaumaturgy.md#the-thurible)** | a censer that swings clouds of essentia, and what each aspect does |
+| ![Thurible](img/thurible.png){ .mc-icon } | **[The Thurible](thaumaturgy.md#the-thurible)** | a censer that swings clouds of essentia, and what each aspect does |
 | | **[The Architect's Lens](thaumaturgy.md#the-architects-lens)** | a building tool that mirrors, copies and pastes |
 | | **[The Alembic Lattice](thaumaturgy.md#the-alembic-lattice)** | glass pipes that carry essentia and make compounds |
 | ![Void Scythe](img/void_scythe.png){ .mc-icon } | **[Scythes](weapons.md#scythes)** | three scythes and four enchantments |
