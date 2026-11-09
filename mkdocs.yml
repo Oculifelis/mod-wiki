@@ -4,6 +4,7 @@ site_author: Oculifelis
 copyright: Made by Oculifelis
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -56,10 +57,10 @@ nav:
       - KubeJS: fundamentum/kubejs.md
       - API: fundamentum/api.md
       - Commands: fundamentum/commands.md
-  - Ostentum:
-      - ostentum/index.md
-      - Items: ostentum/items.md
-      - Config: ostentum/config.md
+      - Ostentum:
+          - ostentum/index.md
+          - Items: ostentum/items.md
+          - Config: ostentum/config.md
   - Orbis Novus:
       - orbisnovus/index.md
       - Terrain: orbisnovus/terrain.md
@@ -75,40 +76,41 @@ nav:
       - Items: slowlight/items.md
       - For pack makers: slowlight/packs.md
       - Versions: slowlight/versions.md
-  - Mariculture:
-      - mariculture/index.md
-      - Fishing: mariculture/fishing.md
-      - Fish breeding: mariculture/fish.md
-      - Jewelry and magic: mariculture/jewelry.md
-      - Diving: mariculture/diving.md
-      - Workshop and machines: mariculture/workshop.md
-      - For pack makers: mariculture/packs.md
-      - Config: mariculture/config.md
-      - Versions: mariculture/versions.md
   - Arcana Varia:
       - arcanavaria/index.md
       - Towers and labs: arcanavaria/towers-and-labs.md
       - Thurible, Lens and Lattice: arcanavaria/thaumaturgy.md
       - Weapons and the Warden: arcanavaria/weapons.md
       - Versions: arcanavaria/versions.md
-  - "Metallurgy: Recast":
-      - metallurgy/index.md
-      - Ores and alloys: metallurgy/metals.md
-      - Metal effects: metallurgy/effects.md
-      - Machines and gear: metallurgy/machines.md
-      - Versions: metallurgy/versions.md
   - Fieldframe:
       - fieldframe/index.md
       - Machines: fieldframe/machines.md
       - Modules: fieldframe/modules.md
       - For pack makers: fieldframe/pack-makers.md
       - Versions: fieldframe/versions.md
-  - Fieldframe Frameworks: fieldframe-frameworks/index.md
-  - Fieldframe Transit: fieldframe-transit/index.md
+      - Fieldframe Frameworks: fieldframe-frameworks/index.md
+      - Fieldframe Transit: fieldframe-transit/index.md
   - Ports:
       - ports/index.md
       - Nether Agriculture (Unofficial):
           - netheragriculture/index.md
           - Items: netheragriculture/items.md
           - Config: netheragriculture/config.md
+      - "Metallurgy: Recast":
+          - metallurgy/index.md
+          - Ores and alloys: metallurgy/metals.md
+          - Metal effects: metallurgy/effects.md
+          - Machines and gear: metallurgy/machines.md
+          - Versions: metallurgy/versions.md
+      - Mariculture:
+          - mariculture/index.md
+          - Fishing: mariculture/fishing.md
+          - Fish breeding: mariculture/fish.md
+          - Jewelry and magic: mariculture/jewelry.md
+          - Diving: mariculture/diving.md
+          - Workshop and machines: mariculture/workshop.md
+          - For pack makers: mariculture/packs.md
+          - Config: mariculture/config.md
+          - Versions: mariculture/versions.md
+      # More ports (such as the bee ports) go here as their own sections; they join the Ports dropdown by themselves.
   - Other mods: other/index.md

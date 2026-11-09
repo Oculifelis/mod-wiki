@@ -243,3 +243,18 @@
   image-rendering: auto;
 }
 
+
+/* Tabs with sub-mods (overrides/partials/tabs-item.html): the sub-mods drop down on hover or keyboard focus. */
+.md-tabs, .md-tabs__list { overflow: visible; contain: none; }
+.md-tabs__item--drop { position: relative; }
+.md-tabs__item--drop > .md-tabs__link::after { content: " \25BE"; font-size: .6rem; }
+.md-tabs__drop {
+  display: none; position: absolute; top: 100%; left: 0; z-index: 10; min-width: 13rem; margin: 0; padding: .3rem 0;
+  list-style: none; background: var(--md-primary-fg-color); box-shadow: var(--md-shadow-z2); border-radius: 0 0 .2rem .2rem;
+}
+.md-tabs__item--drop:hover > .md-tabs__drop, .md-tabs__item--drop:focus-within > .md-tabs__drop { display: block; }
+.md-tabs__drop li { margin: 0; padding: 0; }
+.md-tabs__drop a {
+  display: block; padding: .35rem .9rem; font-size: .7rem; white-space: nowrap; color: var(--md-primary-bg-color); opacity: .75;
+}
+.md-tabs__drop a:hover, .md-tabs__drop a:focus, .md-tabs__drop .md-tabs__drop--active { opacity: 1; }
