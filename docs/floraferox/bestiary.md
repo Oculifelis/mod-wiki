@@ -114,7 +114,7 @@ also gives its family +15% damage.
 
 Its snap carries it forward, and it snaps twice.
 
-**Trophy:** Snapjaw Petal. **Snapjaw Charm:** 15% chance that a magic hit does 1.5x damage.
+**Trophy:** Snapjaw Petal. ![Snapjaw Charm](img/snapjaw_charm.png){ .mc-icon .mc-inline } **Snapjaw Charm:** 15% chance that a magic hit does 1.5x damage.
 
 </div>
 
@@ -130,7 +130,7 @@ Its snap carries it forward, and it snaps twice.
 
 Its hooks slow you. From 3.5 to 9 blocks away it throws burrs.
 
-**Trophy:** Hookburr, which also makes Burr Pellets. **Hookburr Charm:** your ranged hits slow.
+**Trophy:** Hookburr, which also makes Burr Pellets. ![Hookburr Charm](img/hookburr_charm.png){ .mc-icon .mc-inline } **Hookburr Charm:** your ranged hits slow.
 
 </div>
 
@@ -146,7 +146,7 @@ Its hooks slow you. From 3.5 to 9 blocks away it throws burrs.
 
 Floats. Its bite heals it by 3, and then it backs off.
 
-**Trophy:** Lantern Husk. **Lantern Charm:** your summons' hits heal you by 1.
+**Trophy:** Lantern Husk. ![Lantern Charm](img/lantern_charm.png){ .mc-icon .mc-inline } **Lantern Charm:** your summons' hits heal you by 1.
 
 </div>
 
@@ -162,7 +162,7 @@ Floats. Its bite heals it by 3, and then it backs off.
 
 Stands still and passes for a flower, then slashes twice.
 
-**Trophy:** Orchid Blade. **Orchid Charm:** whips recover 25% sooner, and your pets get Speed.
+**Trophy:** Orchid Blade. ![Orchid Charm](img/orchid_charm.png){ .mc-icon .mc-inline } **Orchid Charm:** whips recover 25% sooner, and your pets get Speed.
 
 </div>
 
@@ -178,7 +178,7 @@ Stands still and passes for a flower, then slashes twice.
 
 Its scythe sweeps a wide arc in front of it.
 
-**Trophy:** Cattail Fluff. **Cattail Charm:** slow falling while you sneak in the air.
+**Trophy:** Cattail Fluff. ![Cattail Charm](img/cattail_charm.png){ .mc-icon .mc-inline } **Cattail Charm:** slow falling while you sneak in the air.
 
 </div>
 
@@ -194,7 +194,7 @@ Its scythe sweeps a wide arc in front of it.
 
 Sidles round you. Its grip gives Slowness III.
 
-**Trophy:** Sundew Glue. **Sundew Charm:** your melee hits slow.
+**Trophy:** Sundew Glue. ![Sundew Charm](img/sundew_charm.png){ .mc-icon .mc-inline } **Sundew Charm:** your melee hits slow.
 
 </div>
 
@@ -212,7 +212,7 @@ Sidles round you. Its grip gives Slowness III.
 
 <p class="mob-tags"><span class="mob-tag mob-fam">Pulse</span> <span class="mob-tag mob-stats" title="health / attack / armour">♥ 20 · ⚔ 4 · ◈ 2</span></p>
 
-**Spawns:** only from a **Thorn Hopper Den**, a bramble burrow ringed with sweet berry bushes in about one chunk in
+**Spawns:** only from a ![Thorn Hopper Den](img/thorn_hopper_den.png){ .mc-icon .mc-inline } **Thorn Hopper Den**, a bramble burrow ringed with sweet berry bushes in about one chunk in
 40 of plains, sunflower plains, meadow and flower forest. By day a den sends out one or two while fewer than 3 are
 near, and they stay within 10 blocks of it. With Silk Touch the den drops itself.
 

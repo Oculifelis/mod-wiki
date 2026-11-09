@@ -54,7 +54,7 @@ and chills them. Each later tier is crafted from the one before, with herbs, a g
 - ![Dusk Sceptre](img/dusk_sceptre.png){ .mc-icon .mc-inline }![Ember Sceptre](img/ember_sceptre.png){ .mc-icon .mc-inline }![Rime Sceptre](img/rime_sceptre.png){ .mc-icon .mc-inline } **Sceptres (magic):** left click casts petal bolts. Right click is the tier's support: Dusk Bloom heals you and allies
   within 4 blocks, Ember Ward rings you in fire and makes you fireproof, Rime Shell gives Resistance and Absorption and
   freezes hostiles near you.
-- **Seed guns (magic):** one-handed pistols that fire bolts of seed magic, using Seed Pellets, on left or right click. They have
+- ![Pulse Pistol](img/pulse_pistol.png){ .mc-icon .mc-inline }![Seed Pellet](img/seed_pellet.png){ .mc-icon .mc-inline } **Seed guns (magic):** one-handed pistols that fire bolts of seed magic, using Seed Pellets, on left or right click. They have
   their own enchantments: Heartsight, Seed Hopper, Weedkiller, Quickdraw, Bloom Shot, Heartmend and Infinity.
 - ![Moonwisp Whip](img/moonwisp_whip.png){ .mc-icon .mc-inline }![Moonflare Whip](img/moonflare_whip.png){ .mc-icon .mc-inline }![Moonrime Whip](img/moonrime_whip.png){ .mc-icon .mc-inline } **Whips (summon or melee):** Fundamentum cord whips. Your pets attack whatever the whip hits. A whip hit counts as
   summon or melee, never both at once.
@@ -63,17 +63,17 @@ and chills them. Each later tier is crafted from the one before, with herbs, a g
   burst sets things alight, the Rimestring's slows and chills them.
 - ![Pulse Arbalest](img/pulse_arbalest.png){ .mc-icon .mc-inline }![Scorch Arbalest](img/scorch_arbalest.png){ .mc-icon .mc-inline }![Rime Arbalest](img/rime_arbalest.png){ .mc-icon .mc-inline } **Arbalests (ranged):** crossbows whose bolt pierces one mob and roots the first it hits.
   The Scorch Arbalest sets the rooted mob alight, the Rime Arbalest slows and chills it.
-- **Grappling hooks:** one for every weapon, worn in the hook slot and fired with H. Mire grapples pull hardest, Dusk
+- ![Mirecap Grapple](img/mirecap_grapple.png){ .mc-icon .mc-inline }![Dusk Tendril](img/dusk_tendril.png){ .mc-icon .mc-inline }![Pulse Hook](img/pulse_hook.png){ .mc-icon .mc-inline }![Moonwisp Grapnel](img/moonwisp_grapnel.png){ .mc-icon .mc-inline } **Grappling hooks:** one for every weapon, worn in the hook slot and fired with H. Mire grapples pull hardest, Dusk
   tendrils hang in the air on a miss, Pulse hooks reach furthest, Moon grapnels hold you still.
-- **Wings:** Leafwing, Emberwing and Rimewing, each flying further than the last.
-- **Armour:** Leafguard, Emberbark and Rimebark. Each set has four helmets, one per damage type. Sets add no damage or
+- ![Leafwing](img/leafwing.png){ .mc-icon .mc-inline }![Emberwing](img/emberwing.png){ .mc-icon .mc-inline }![Rimewing](img/rimewing.png){ .mc-icon .mc-inline } **Wings:** Leafwing, Emberwing and Rimewing, each flying further than the last.
+- ![Leafguard Plate](img/leafguard_plate.png){ .mc-icon .mc-inline }![Emberbark Plate](img/emberbark_plate.png){ .mc-icon .mc-inline }![Rimebark Plate](img/rimebark_plate.png){ .mc-icon .mc-inline } **Armour:** Leafguard, Emberbark and Rimebark. Each set has four helmets, one per damage type. Sets add no damage or
   critical chance: the helmet decides the set effect (twelve in all, each on its helmet's tooltip), and Rimebark adds a
   class perk: the melee helmet gives Speed and 20% faster swings and Cleaver slashes, the ranged one winds bows and
   crossbows 20% faster, the magic one makes sceptres and guns recover 20% faster, and the summon one strengthens your
   pets nearby.
-- **Charms:** a charm for each family, and one for each hunter's trophy. Each adds to its family's damage; the trophy
+- ![Pulse Charm](img/pulse_charm.png){ .mc-icon .mc-inline }![Dusk Charm](img/dusk_charm.png){ .mc-icon .mc-inline }![Moon Charm](img/moon_charm.png){ .mc-icon .mc-inline }![Mire Charm](img/mire_charm.png){ .mc-icon .mc-inline } **Charms:** a charm for each family, and one for each hunter's trophy. Each adds to its family's damage; the trophy
   charms add a small effect too. Worn in a Curios charm slot or carried.
-- **Peace Lily Charm:** every Flora Ferox creature leaves you alone until you strike it.
+- ![Peace Lily Charm](img/peace_lily_charm.png){ .mc-icon .mc-inline } **Peace Lily Charm:** every Flora Ferox creature leaves you alone until you strike it.
 
 ## Built on Fundamentum
 
@@ -82,26 +82,26 @@ Wings go in the wings slot and lift you for their flight time, then glide. Hooks
 **H**. Whips swing Fundamentum's cord, where the tip hits hardest and cracks for a crit. The guns and bows also use
 Fundamentum's poses for how they're held.
 
-| Wings | Flight time | Rise speed | Air speed | Glide fall |
-|---|---|---|---|---|
-| Leafwing | 1.5 s | 0.35 | x1.0 | 0.15 |
-| Emberwing | 2.25 s | 0.42 | x1.15 | 0.12 |
-| Rimewing | 3 s | 0.5 | x1.3 | 0.09 |
-
-| Hook | Family | Range | Pull | Out at once | Special |
+|  | Wings | Flight time | Rise speed | Air speed | Glide fall |
 |---|---|---|---|---|---|
-| Pulse Hook | Pulse | 26 | 0.9 | 1 | |
-| Scorch Hook | Pulse | 30 | 1.05 | 1 | |
-| Rime Hook | Pulse | 34 | 1.2 | 1 | |
-| Dusk Tendril | Dusk | 18 | 0.8 | 1 | hangs in the air 1.5 s on a miss |
-| Ember Tendril | Dusk | 22 | 0.95 | 1 | hangs 2 s |
-| Rime Tendril | Dusk | 26 | 1.1 | 1 | hangs 2.5 s |
-| Moonwisp Grapnel | Moon | 18 | 0.75 | 2 | holds you still |
-| Moonflare Grapnel | Moon | 22 | 0.9 | 2 | holds you still |
-| Moonrime Grapnel | Moon | 26 | 1.05 | 2 | holds you still |
-| Mirecap Grapple | Mire | 15 | 1.1 | 3 | |
-| Flare Grapple | Mire | 19 | 1.25 | 3 | |
-| Rime Grapple | Mire | 23 | 1.4 | 3 | |
+| ![Leafwing](img/leafwing.png){ .mc-icon } | Leafwing | 1.5 s | 0.35 | x1.0 | 0.15 |
+| ![Emberwing](img/emberwing.png){ .mc-icon } | Emberwing | 2.25 s | 0.42 | x1.15 | 0.12 |
+| ![Rimewing](img/rimewing.png){ .mc-icon } | Rimewing | 3 s | 0.5 | x1.3 | 0.09 |
+
+|  | Hook | Family | Range | Pull | Out at once | Special |
+|---|---|---|---|---|---|---|
+| ![Pulse Hook](img/pulse_hook.png){ .mc-icon } | Pulse Hook | Pulse | 26 | 0.9 | 1 | |
+| ![Scorch Hook](img/scorch_hook.png){ .mc-icon } | Scorch Hook | Pulse | 30 | 1.05 | 1 | |
+| ![Rime Hook](img/rime_hook.png){ .mc-icon } | Rime Hook | Pulse | 34 | 1.2 | 1 | |
+| ![Dusk Tendril](img/dusk_tendril.png){ .mc-icon } | Dusk Tendril | Dusk | 18 | 0.8 | 1 | hangs in the air 1.5 s on a miss |
+| ![Ember Tendril](img/ember_tendril.png){ .mc-icon } | Ember Tendril | Dusk | 22 | 0.95 | 1 | hangs 2 s |
+| ![Rime Tendril](img/rime_tendril.png){ .mc-icon } | Rime Tendril | Dusk | 26 | 1.1 | 1 | hangs 2.5 s |
+| ![Moonwisp Grapnel](img/moonwisp_grapnel.png){ .mc-icon } | Moonwisp Grapnel | Moon | 18 | 0.75 | 2 | holds you still |
+| ![Moonflare Grapnel](img/moonflare_grapnel.png){ .mc-icon } | Moonflare Grapnel | Moon | 22 | 0.9 | 2 | holds you still |
+| ![Moonrime Grapnel](img/moonrime_grapnel.png){ .mc-icon } | Moonrime Grapnel | Moon | 26 | 1.05 | 2 | holds you still |
+| ![Mirecap Grapple](img/mirecap_grapple.png){ .mc-icon } | Mirecap Grapple | Mire | 15 | 1.1 | 3 | |
+| ![Flare Grapple](img/flare_grapple.png){ .mc-icon } | Flare Grapple | Mire | 19 | 1.25 | 3 | |
+| ![Rime Grapple](img/rime_grapple.png){ .mc-icon } | Rime Grapple | Mire | 23 | 1.4 | 3 | |
 
 Fundamentum's `whips.flatHandles` option (`config/fundamentum-client.toml`) draws the whips in hand as flat icons.
 
