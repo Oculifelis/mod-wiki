@@ -26,4 +26,4 @@ Other authors' mods, ported to newer versions. Not made or supported by the orig
 
 </div>
 
-[Other mods](other/index.md): smaller ones, such as Spartan x Better Combat Unofficial.
+[Other mods](other/index.md): smaller ones, such as Spartan x Better Combat Unofficial, and the Complicated Bees addons Apiflux (Create rotation) and Manacomb (Botania mana).

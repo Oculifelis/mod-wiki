@@ -11,10 +11,10 @@ glass pipes that make compound aspects on their own, scythes, a tree boss and fo
 It has its own research tab, **Arcana Varia**, which opens with Thaumaturge's Metallurgy research.
 
 **Requires** Thaumaturge 1.1.0 or newer (not 1.0.2), on NeoForge 26.1.2. **Optional:** Fundamentum 1.22.1 or newer
-(the four whips), and about 50 mods whose blocks give towers new palettes, plus 7 dimension mods that get labs of their
+(the four whips), JEI (info pages for lab blocks, journals, blueprints and the Amber Heart), and about 50 mods whose blocks give towers new palettes, plus 7 dimension mods that get labs of their
 own ([Towers and labs](towers-and-labs.md#other-mods)).
 
-**Versions:** 0.7.3, for NeoForge 26.1.2. See [Versions](versions.md).
+**Versions:** 0.7.5, for NeoForge 26.1.2. See [Versions](versions.md).
 
 ## What's in it
 
@@ -29,9 +29,7 @@ own ([Towers and labs](towers-and-labs.md#other-mods)).
 | ![Elemental Whip](img/elemental_whip.png){ .mc-icon } | **[Whips](weapons.md#whips)** | four whips, with Fundamentum |
 | | **[For pack makers](towers-and-labs.md#for-pack-makers)** | lab bosses, traits and Thurible effects as datapack files |
 
-<!-- TODO: pictures of the Thurible, the Architect's Lens and Blueprint Scrolls, the Alembic Lattice blocks, the Vis
-Lift and Phase Stone go here once their redrawn textures are approved. Screenshots of a tower and a lab are still
-to be taken. -->
+![A Wizard Tower](img/shots/tower-outside.jpg)
 
 ## Credits
 

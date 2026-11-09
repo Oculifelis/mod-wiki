@@ -3,7 +3,15 @@
 Arcana Varia adds two kinds of structure to explore: sealed **Wizard Towers** and ruined **Forsaken Laboratories**.
 Both are rare. Towers are about 72 chunks apart (at least 28), labs about 44 (at least 14).
 
-<!-- TODO: in-game screenshots of a tower (outside and a floor) and of a lab. -->
+![A Wizard Tower from outside](img/shots/tower-outside.jpg)
+
+![A Wizard Tower seen from above](img/shots/tower-above.jpg)
+
+![A Forsaken Laboratory in the jungle](img/shots/lab-jungle.jpg)
+
+![A Forsaken Laboratory in the badlands](img/shots/lab-badlands.jpg)
+
+With JEI installed, every lab block, journal and Thurible blueprint has an info page saying what it does and where it is found.
 
 ## Wizard Towers
 
@@ -60,7 +68,7 @@ Every puzzle block gives a redstone signal when it is solved, so it can open a d
 A lab's lattice floors use the [Alembic Lattice](thaumaturgy.md#the-alembic-lattice): make the right compound and
 bring it to the lock.
 
-<!-- TODO: icons for the Vis Lift and Phase Stone once their redrawn textures are approved. -->
+
 
 ## Guardians
 

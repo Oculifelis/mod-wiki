@@ -43,3 +43,44 @@ It's data only, with no code. Damage, speed and reach stay as Spartan sets them.
 Every material is covered, and Ice and Fire weapons (dragon bone, flamed/iced/lightning dragon bone,
 fire/ice/lightning dragonsteel, desert/jungle myrmex chitin and stinger) get the same animation per type. Javelins, throwing knives, tomahawks and boomerangs are left alone so they can still be
 thrown.
+
+## Apiflux
+
+An addon for [Complicated Bees](https://modrinth.com/mod/complicated-bees) that lets its FE machines (the
+Centrifuge, the Gyrofuge controller and energy cell, and the Mellarium energy cell) run on **Create rotation**.
+Its sister mod is [Manacomb](#manacomb), for Botania mana; the two work side by side.
+
+- **Kinetic Dynamo:** put it against the machine and run a shaft into its collar. It gives FE out of its other
+  five sides: **0.5 FE per tick for each RPM**, up to 256 FE/t, and draws **2 stress units per RPM**. It stores
+  nothing, so a slow dynamo runs the machine part of the time: twice the speed is twice the work, up to the
+  machine's full rate. Goggles show its stress and FE output.
+- **Recipe:** shaft on top, copper ingot on each side of an andesite casing, redstone below.
+- **"Instead of RF" switch:** in `serverconfig/apiflux-server.toml`, `rfInputDisabled = true` makes the four
+  machines refuse FE from every other source (Complicated Bees' generators and cables too); only Kinetic Dynamos,
+  and Manacomb's mana if installed, get in. Off by default. `kineticEnabled` turns the dynamo on or off.
+- Every rate is in a data map, so a datapack can change it.
+- Jade shows a line on a machine when outside FE is off; JEI has an info page on the Kinetic Dynamo.
+
+**Requires** Complicated Bees 3.6 or later. **Optional:** Create 6.0.x (the dynamo; without Create, only the RF
+switch does anything).
+
+**Versions:** 0.1.0, NeoForge 1.21.1 (21.1.229 or later). [On CurseForge](https://www.curseforge.com/projects/1793756).
+
+## Manacomb
+
+An addon for [Complicated Bees](https://modrinth.com/mod/complicated-bees) that makes the same four FE machines
+Botania **mana** receivers. No new block. Its sister mod is [Apiflux](#apiflux), for Create rotation.
+
+- Aim a **Mana Spreader** at the machine, or put a **Mana Spark** on top to draw from pool sparks of the same
+  colour, like a Terrestrial Agglomeration Plate.
+- **10 FE per mana** by default: a full 160-mana burst is 1600 FE, which runs a Centrifuge (20 FE/t) for 80 ticks.
+  Mana turns into FE as it arrives; a spreader stops firing at a full machine.
+- **"Instead of RF" switch:** in `serverconfig/manacomb-server.toml`, `rfInputDisabled = true` lets only mana in.
+  Off by default. With Apiflux installed, use Apiflux's switch instead; it covers both. `manaEnabled` turns mana
+  input on or off.
+- The rate, and which machines take mana, are data maps a datapack can change.
+- Jade shows "Runs on mana: 1 mana = 10 FE" on a machine; JEI has an info page on the four machines.
+
+**Requires** Complicated Bees 3.6 or later and Botania.
+
+**Versions:** 0.1.0, NeoForge 1.21.1 (21.1.229 or later). [On CurseForge](https://www.curseforge.com/projects/1793766).

@@ -5,6 +5,15 @@ Arcana Varia is made for **NeoForge 26.1.2** with **Thaumaturge 1.1.0** or newer
 
 ## Changelog
 
+**0.7.5**
+
+- JEI support: info pages for the Forsaken Laboratory blocks, Laboratory Journals, Thurible blueprints and the
+  Warden's Amber Heart.
+
+**0.7.4**
+
+- New textures drawn on vanilla art, including a new side for the Vis Lift.
+
 **0.7.3**
 
 - Arcana Varia's code and Oculifelis's own art are now LGPL-3.0-or-later. Earlier versions were All Rights Reserved.
