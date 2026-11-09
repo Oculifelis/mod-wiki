@@ -91,10 +91,6 @@ nav:
       - Thurible, Lens and Lattice: arcanavaria/thaumaturgy.md
       - Weapons and the Warden: arcanavaria/weapons.md
       - Versions: arcanavaria/versions.md
-  - Nether Agriculture:
-      - netheragriculture/index.md
-      - Items: netheragriculture/items.md
-      - Config: netheragriculture/config.md
   - "Metallurgy: Recast":
       - metallurgy/index.md
       - Ores and alloys: metallurgy/metals.md
@@ -109,4 +105,10 @@ nav:
       - Versions: fieldframe/versions.md
   - Fieldframe Frameworks: fieldframe-frameworks/index.md
   - Fieldframe Transit: fieldframe-transit/index.md
+  - Ports:
+      - ports/index.md
+      - Nether Agriculture (Unofficial):
+          - netheragriculture/index.md
+          - Items: netheragriculture/items.md
+          - Config: netheragriculture/config.md
   - Other mods: other/index.md
