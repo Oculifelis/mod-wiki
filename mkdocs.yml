@@ -91,4 +91,8 @@ nav:
       - Thurible, Lens and Lattice: arcanavaria/thaumaturgy.md
       - Weapons and the Warden: arcanavaria/weapons.md
       - Versions: arcanavaria/versions.md
+  - Nether Agriculture:
+      - netheragriculture/index.md
+      - Items: netheragriculture/items.md
+      - Config: netheragriculture/config.md
   - Other mods: other/index.md
