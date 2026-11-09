@@ -29,6 +29,8 @@ the hammer, or in an ![Autohammer](img/autohammer.png){ .mc-icon .mc-inline } **
 
 ## Enchanting
 
+Rings, bracelets and necklaces are worn in [Curios](https://www.curseforge.com/projects/309927)' ring, bracelet and necklace slots. With extra slots, the strongest piece of each kind counts unless the config `jewelry.extra_slots_stack` is on. Jewelry stays on you when you die unless `jewelry.drops_on_death` is on.
+
 ![Magic Mirror](img/magic_mirror.png){ .mc-icon .mc-inline } Jewelry isn't enchanted at an enchanting table. Instead:
 
 1. Enchant **pearls**, best inside a mirror, which steers the roll.

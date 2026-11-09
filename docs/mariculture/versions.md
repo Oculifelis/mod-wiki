@@ -1,6 +1,6 @@
 # Versions
 
-Mariculture 0.4.1 comes in three editions with the same content. What differs is which other mods each can work with.
+Mariculture 0.5.0 comes in three editions with the same content. What differs is which other mods each can work with.
 
 | Minecraft | Loader | Patchouli | CraftTweaker | KubeJS | Datapack tweaks |
 |---|---|---|---|---|---|
@@ -29,3 +29,12 @@ three); a Jade fix.
 **0.3.0**: CraftTweaker; JEI pages for jewelry; Tinkers' Construct (1.20.1); fishing in lava.
 
 **0.2.0**: Thaumaturge aspects (26.1.2).
+
+## 0.5.0
+
+- Now requires Curios. Rings, bracelets and necklaces go in Curios' ring, bracelet and necklace slots; the [Mirror](jewelry.md#mirror) shows the first of each.
+- With extra slots from other mods, the strongest piece of each kind counts; the config `jewelry.extra_slots_stack` makes every slot count.
+- Jewelry worn in the old built-in slots of a 0.4.1 world is not carried over: take it off with the Mirror before updating.
+- New Mariculture advancement tab (16 goals), a grouped creative tab, and fluid tags `c:molten_<name>`, `c:fish_oil` and `c:experience`.
+- NeoForge 1.21.1 and 26.1.2: item data lives in named components such as `mariculture:fish`; old items move over on their own.
+- Fixed: Mariculture rods now take Lure, Luck of the Sea, Unbreaking and Mending.

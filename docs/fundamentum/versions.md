@@ -2,11 +2,11 @@
 
 | Minecraft | Loader | Fundamentum | Notes |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.26.1 | the main line: everything on this wiki; works under Iris shader packs |
-| 1.21.1 | NeoForge 21.1 | 1.26.1 | everything except a few parts that need newer Minecraft (below) |
-| 26.2 | NeoForge 26.2 | 1.26.1 | the same as 26.1.2 |
-| 26.3 | NeoForge 26.3 | 1.26.1 | the same as 26.1.2 |
-| 1.20.1 | Forge 47 | 1.25.2 | the same as 1.21.1 at 1.25.2, with the same parts left out |
+| 26.1.2 | NeoForge | 1.27.0 | the main line: everything on this wiki; works under Iris shader packs |
+| 1.21.1 | NeoForge 21.1 | 1.27.0 | everything except a few parts that need newer Minecraft (below) |
+| 26.2 | NeoForge 26.2 | 1.27.0 | the same as 26.1.2 |
+| 26.3 | NeoForge 26.3 | 1.27.0 | the same as 26.1.2 |
+| 1.20.1 | Forge 47 | 1.27.0 | the same as 1.21.1, with the same parts left out |
 
 ## What 1.21.1 leaves out
 
@@ -16,3 +16,20 @@
 - The `on_shelf` display context.
 - A recipe book category for portal crafting (JEI still shows the recipes).
 - Mounts saddle through `Saddleable`; mobs that only exist on 26.x (the happy ghast, the nautilus) aren't there.
+
+## New in 1.27.0
+
+Weapon systems for content mods to use; Fundamentum itself still adds no items.
+
+| System | What it does |
+|---|---|
+| Shields | parry at the right moment to stop the hit, knock back and reflect arrows; shield bash; on NeoForge 26.x some shields can be thrown and come back |
+| Flails | a real swinging chain: spin up, ground slam, rope-dart launch; set up in datapacks with materials and kinds |
+| Scythes | sweet spot at the end of reach, backswing, whirl, reaping pull, crescent wave, souls that heal and power up hits |
+| Gauntlets | combo punches with a finisher |
+| Sentries | placed turrets that aim at the nearest enemy, limited by sentry slots |
+| Spears | reach and charge damage attributes; on 26.x thrown and picked up again |
+| Thrown weapons (NeoForge 26.x) | knives, javelins, shuriken, bursting bottles, returning boomerangs; thrower damage class; Hurling, Farflight and Ricochet enchantments |
+| Boss relics | trophy blocks with a floating gold likeness; a redstone signal makes it face forward |
+| Biome slices (26.1.2) | add a biome to the Overworld or Nether from data, with or without TerraBlender |
+| Better Combat support | when installed it handles left-click swings; each weapon type keeps its own moves. Not required |
