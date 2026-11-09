@@ -11,30 +11,30 @@ Tartarite.
 
 ![A block of each of the 49 metals, with gold for scale](img/04-every-metal.jpg)
 
-**Requires** nothing but NeoForge. **Optional:** JEI, Patchouli, Silent Gear, and on 26.1.2 Hephaestus Tools and
-Thaumaturge ([Works with](#works-with)).
+**Requires** nothing but NeoForge. **Optional:** [JEI](https://www.curseforge.com/projects/238222), [Patchouli](https://www.curseforge.com/projects/306770), [Silent Gear](https://www.curseforge.com/projects/297039), and on 26.1.2 [Hephaestus Tools](https://www.curseforge.com/projects/1725286) and
+[Thaumaturge](https://www.curseforge.com/projects/1628024) ([Works with](#works-with)).
 
 **Versions:** 1.4.1-port.27, for NeoForge 26.1.2. See [Versions](versions.md).
 
 ## What's in it
 
-| | |
+| Section | What's in it |
 |---|---|
 | **[Ores and alloys](metals.md)** | 34 ores across three dimensions, tar lakes, and the 18 Alloyer recipes |
 | **[Metal effects](effects.md)** | what every metal's weapons, tools and armour do, 95 effects in all |
-| **[Machines and gear](machines.md)** | the Crusher, Alloyer and Sublimation Chamber, bucklers, the Rubracium Gauntlet, detectors, magnets and chests |
+| **[Machines and gear](machines.md)** | the [Crusher](machines.md#crusher), [Alloyer](machines.md#alloyer) and [Sublimation Chamber](machines.md#sublimation-chamber), [bucklers](machines.md#bucklers), the [Rubracium Gauntlet](machines.md#rubracium-gauntlet), [detectors](machines.md#metal-detector), [magnets](machines.md#electrum-magnet) and [chests](machines.md#metallurgy-chests) |
 
 ![Adamantine, Tartarite, Celenegil, Mithril, Ignatius, Orichalcum and Shadow Steel armour](img/01-armoury.jpg)
 
 ## Works with
 
-- **JEI** shows every machine recipe, detector programming and every form of Tartarite absorption.
-- **Patchouli** adds an in-game handbook covering all 49 metals, the machines, gear and fluids. Its chapters about other
-  mods only appear when those mods are installed.
-- **Silent Gear** gets the metals as gear materials.
-- **Hephaestus Tools** (26.1.2): the metals as tool materials, smeltery recipes, and the original Tinkers' Construct
-  traits on 12 materials.
-- **Thaumaturge** (26.1.2): a wand cap and rod for each metal.
+| Mod | How it works |
+|---|---|
+| [JEI](https://www.curseforge.com/projects/238222) | shows every machine recipe, detector programming and every form of Tartarite absorption |
+| [Patchouli](https://www.curseforge.com/projects/306770) | adds an in-game handbook covering all 49 metals, the machines, gear and fluids. Its chapters about other mods only appear when those mods are installed. |
+| [Silent Gear](https://www.curseforge.com/projects/297039) | gets the metals as gear materials |
+| [Hephaestus Tools](https://www.curseforge.com/projects/1725286) (26.1.2) | the metals as tool materials, smeltery recipes, and the original [Tinkers' Construct](https://www.curseforge.com/projects/74072) traits on 12 materials |
+| [Thaumaturge](https://www.curseforge.com/projects/1628024) (26.1.2) | a wand cap and rod for each metal |
 
 ## Credits
 

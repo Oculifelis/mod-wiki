@@ -24,24 +24,24 @@ All made in the Alloyer from ingots or dust.
 
 |  | Alloy | From | Makes |
 |---|---|---|---|
-| ![Amordrine](img/amordrine_ingot.png){ .mc-icon } | **Amordrine** | Kalendrite + Platinum | 2 |
-| ![Angmallen](img/angmallen_ingot.png){ .mc-icon } | **Angmallen** | Gold + Iron | 2 |
-| ![Black Steel](img/black_steel_ingot.png){ .mc-icon } | **Black Steel** | 3 Deep Iron + Infuscolium | 4 |
-| ![Brass](img/brass_ingot.png){ .mc-icon } | **Brass** | 3 Copper + Zinc | 4 |
-| ![Bronze](img/bronze_ingot.png){ .mc-icon } | **Bronze** | 3 Copper + Tin | 4 |
-| ![Celenegil](img/celenegil_ingot.png){ .mc-icon } | **Celenegil** | Orichalcum + Platinum | 2 |
-| ![Damascus Steel](img/damascus_steel_ingot.png){ .mc-icon } | **Damascus Steel** | Iron + 2 Bronze | 3 |
-| ![Desichalkos](img/desichalkos_ingot.png){ .mc-icon } | **Desichalkos** | Eximite + Meutoite | 2 |
-| ![Electrum](img/electrum_ingot.png){ .mc-icon } | **Electrum** | Silver + Gold | 2 |
-| ![Etherium](img/etherium_ingot.png){ .mc-icon } | **Etherium** | Sanguinite + Alduorite | 2 |
-| ![Haderoth](img/haderoth_ingot.png){ .mc-icon } | **Haderoth** | Mithril + 2 Rubracium | 3 |
-| ![Hepatizon](img/hepatizon_ingot.png){ .mc-icon } | **Hepatizon** | Infuscolium + Steel | 2 |
-| ![Inolashite](img/inolashite_ingot.png){ .mc-icon } | **Inolashite** | Alduorite + Ceruclase | 2 |
-| ![Krik](img/krik_ingot.png){ .mc-icon } | **Krik** | Lutetium + Osmium | 2 |
-| ![Quicksilver](img/quicksilver_ingot.png){ .mc-icon } | **Quicksilver** | Silver + Astral Silver | 2 |
-| ![Shadow Steel](img/shadow_steel_ingot.png){ .mc-icon } | **Shadow Steel** | 2 Shadow Iron + Lemurite | 3 |
-| ![Steel](img/steel_ingot.png){ .mc-icon } | **Steel** | Iron + 2 Manganese | 2 |
-| ![Tartarite](img/tartarite_ingot.png){ .mc-icon } | **Tartarite** | Adamantine + Atlarus | 1 |
+| ![Amordrine](img/amordrine_ingot.png){ .mc-icon } | **Amordrine**{ #amordrine } | Kalendrite + Platinum | 2 |
+| ![Angmallen](img/angmallen_ingot.png){ .mc-icon } | **Angmallen**{ #angmallen } | Gold + Iron | 2 |
+| ![Black Steel](img/black_steel_ingot.png){ .mc-icon } | **Black Steel**{ #black-steel } | 3 Deep Iron + Infuscolium | 4 |
+| ![Brass](img/brass_ingot.png){ .mc-icon } | **Brass**{ #brass } | 3 Copper + Zinc | 4 |
+| ![Bronze](img/bronze_ingot.png){ .mc-icon } | **Bronze**{ #bronze } | 3 Copper + Tin | 4 |
+| ![Celenegil](img/celenegil_ingot.png){ .mc-icon } | **Celenegil**{ #celenegil } | Orichalcum + Platinum | 2 |
+| ![Damascus Steel](img/damascus_steel_ingot.png){ .mc-icon } | **Damascus Steel**{ #damascus-steel } | Iron + 2 Bronze | 3 |
+| ![Desichalkos](img/desichalkos_ingot.png){ .mc-icon } | **Desichalkos**{ #desichalkos } | Eximite + Meutoite | 2 |
+| ![Electrum](img/electrum_ingot.png){ .mc-icon } | **Electrum**{ #electrum } | Silver + Gold | 2 |
+| ![Etherium](img/etherium_ingot.png){ .mc-icon } | **Etherium**{ #etherium } | Sanguinite + Alduorite | 2 |
+| ![Haderoth](img/haderoth_ingot.png){ .mc-icon } | **Haderoth**{ #haderoth } | Mithril + 2 Rubracium | 3 |
+| ![Hepatizon](img/hepatizon_ingot.png){ .mc-icon } | **Hepatizon**{ #hepatizon } | Infuscolium + Steel | 2 |
+| ![Inolashite](img/inolashite_ingot.png){ .mc-icon } | **Inolashite**{ #inolashite } | Alduorite + Ceruclase | 2 |
+| ![Krik](img/krik_ingot.png){ .mc-icon } | **Krik**{ #krik } | Lutetium + Osmium | 2 |
+| ![Quicksilver](img/quicksilver_ingot.png){ .mc-icon } | **Quicksilver**{ #quicksilver } | Silver + Astral Silver | 2 |
+| ![Shadow Steel](img/shadow_steel_ingot.png){ .mc-icon } | **Shadow Steel**{ #shadow-steel } | 2 Shadow Iron + Lemurite | 3 |
+| ![Steel](img/steel_ingot.png){ .mc-icon } | **Steel**{ #steel } | Iron + 2 Manganese | 2 |
+| ![Tartarite](img/tartarite_ingot.png){ .mc-icon } | **Tartarite**{ #tartarite } | Adamantine + Atlarus | 1 |
 
 **Tartarite**, made from Adamantine and Atlarus, is a living metal: it can absorb the powers of other metals. JEI lists
 every form of absorption.
