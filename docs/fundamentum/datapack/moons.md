@@ -3,6 +3,8 @@
 Special moons, like Terraria's Blood Moon: a night that tints the fog and sky and can bring its own spawns, effects
 and loot. Tonight's moon is rolled at dusk and kept with the world.
 
+Moons in Oculifelis mods ship their own music disc.
+
 **File:** `data/<ns>/fundamentum/moons/<name>.json`. The moon's id is `<ns>:<name>`. Every field is optional.
 
 ```json
