@@ -20,5 +20,10 @@ Each mod has its own folder under `docs/` and its own tab in `mkdocs.yml`. To ad
 
 5. Build it with `python -m mkdocs build --strict` and fix every warning before you commit.
 
+Every item, block and mob on a page gets a picture beside it. Items are their flat inventory sprite from the mod's own
+texture, scaled up nearest-neighbour; blocks and mobs are real in-game cut-outs made with the shared `mobshots` kit.
+Never use angled or isometric renders made outside the game. `python tools/entry_icons.py <mod> docs/<mod>/items.md --prose`
+adds the pictures to tables and bold names; picture whatever it reports as missing by hand.
+
 Field tables use the columns **Field | Default | Meaning**. Every JSON example should be one that loads; check it against
 the mod's code, not against memory.
