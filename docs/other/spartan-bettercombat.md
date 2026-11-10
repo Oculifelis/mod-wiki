@@ -16,7 +16,14 @@ It's data only, with no code. Damage, speed and reach stay as Spartan sets them.
 | [Better Combat](https://www.curseforge.com/projects/639842) | client and server |
 | [Spartan Weaponry: Ice and Fire Unofficial](https://www.curseforge.com/projects/1610003) | optional, for its 220 weapons |
 
-**Versions:** NeoForge 1.21.1. [On CurseForge](https://www.curseforge.com/projects/1786749).
+| Minecraft | Loader | Latest built |
+|---|---|---|
+| 1.21.1 | NeoForge | 0.2.0 |
+| 1.20.1 | Forge | 0.2.0 |
+
+On Forge 1.20.1, use Spartan Weaponry and Spartan Weaponry: Ice and Fire for that loader.
+
+**Licence:** MIT. [On CurseForge](https://www.curseforge.com/projects/1786749).
 
 | Picture | Spartan weapon | Better Combat animation | Hands | Combo hits |
 |---|---|---|---|---|

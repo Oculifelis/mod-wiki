@@ -93,7 +93,7 @@ Each has one trick of its own; the tooltip says what.
 | Picture | Weapon | Trick | How to get it |
 |---|---|---|---|
 | ![Weathervane Spear](img/weathervane_spear.png){ .mc-icon } | **Weathervane Spear**{ #weathervane-spear } | sprinting builds static that the next jab discharges; jabs power redstone | ordinary trial chamber vaults (5%) |
-| ![Pathfinder's Glaive](img/pathfinders_glaive.png){ .mc-icon } | **Pathfinder's Glaive**{ #pathfinders-glaive } | plant it as a waypoint: a gold beacon beam to the sky marks it from any distance; call it back | crafted |
+| ![Pathfinder's Glaive](img/pathfinders_glaive.png){ .mc-icon } | **Pathfinder's Glaive**{ #pathfinders-glaive } | plant it as a waypoint: a gold and orange light column marks it in 1.9.9; call it back | crafted |
 | ![Duelist's Saber](img/duelists_saber.png){ .mc-icon } | **Duelist's Saber**{ #duelists-saber } | hold use to guard (hits from the front are halved); the first half second is a perfect parry, and a riposte right after is a guaranteed crit; a guard that blocks nothing has a short cooldown | sold by master weaponsmiths |
 | ![Hearthblade](img/hearthblade.png){ .mc-icon } ![Soul Hearthblade](img/soul_hearthblade.png){ .mc-icon } | Hearthblade (and Soul Hearthblade) | kills cook their drops and store food to eat later | find a ![Cold Hearthblade](img/cold_hearthblade.png){ .mc-icon .mc-inline } Cold Hearthblade brushing trail ruins (8%), then set it on a lit campfire (a soul campfire makes the soul one) |
 | ![Echo Blade](img/echo_blade.png){ .mc-icon } | **Echo Blade**{ #echo-blade } | every hit echoes 1.5 s later for half | smithing: netherite sword, ![Resonant Hilt](img/resonant_hilt.png){ .mc-icon .mc-inline } Resonant Hilt (ancient city chests, 8%), echo shard |

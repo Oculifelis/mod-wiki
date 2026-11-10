@@ -4,13 +4,22 @@ Metallurgy: Recast is made for **NeoForge 26.1.2** (26.1.2.122). It needs no oth
 
 | Optional mod | Version |
 |---|---|
-| JEI | 29.47 or newer |
+| JEI | 29.47.0.111 to before 30 |
+| Silent Gems | 5.1.4 to before 6 |
 | Patchouli | any |
 | Silent Gear | 4.2.3 or newer |
 | Hephaestus Tools | 1.0.8 or newer |
 | Thaumaturge | 1.1.0 or newer |
 
 ## Changelog
+
+**1.4.3**
+
+- Molten metal bucket fills show under shaders. The Hephaestus compatibility code also handles the tier API in Hephaestus Tools 1.0.11.
+
+**1.4.2**
+
+- The jar now uses the Metallurgy: Recast name.
 
 **1.4.1-port.27**
 

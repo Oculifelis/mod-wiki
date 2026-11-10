@@ -14,7 +14,7 @@ Tartarite.
 **Requires** nothing but NeoForge. **Optional:** [JEI](https://www.curseforge.com/projects/238222), [Patchouli](https://www.curseforge.com/projects/306770), [Silent Gear](https://www.curseforge.com/projects/297039), and on 26.1.2 [Hephaestus Tools](https://www.curseforge.com/projects/1725286) and
 [Thaumaturge](https://www.curseforge.com/projects/1628024) ([Works with](#works-with)).
 
-**Versions:** 1.4.1-port.27, for NeoForge 26.1.2. See [Versions](versions.md).
+**Versions:** 1.4.3 for NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1793682).
 
 ## What's in it
 
@@ -42,4 +42,4 @@ Metallurgy 4: Reforged is by Davoleo, Matpac and contributors, based on Metallur
 Metallurgy Chests is by KreloX. This modern port is by **Oculifelis**. It is an unofficial continuation and not endorsed
 by the original authors.
 
-GPL-3.0, like the original. Source: [Oculifelis/Metallurgy-Recast-Source](https://github.com/Oculifelis/Metallurgy-Recast-Source).
+GPL-3.0-only. Source: [Oculifelis/Metallurgy-Recast-Source](https://github.com/Oculifelis/Metallurgy-Recast-Source).

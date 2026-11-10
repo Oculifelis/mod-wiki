@@ -17,11 +17,12 @@ datapack or a KubeJS script can add, change or remove any of it.
 Drop it into `data/<your pack>/recipe/` and every kiln can make it. `days` counts on the world's game time (24000
 ticks to a day), so a slept night doesn't cheat the wait, and nothing is lost while the chunk is unloaded.
 
-Two fields are optional:
+These fields are optional:
 
 | Field | What it does |
 |---|---|
 | `long_days` | the Long Kiln's own wait for a whole stack. Without it the Long Kiln takes `days` × 3. (The Ember Kiln always takes half of `days`.) |
+| `cellar_days` | Faster ageing time in a dark cellar, for recipes that specify it. |
 | `condition` | the days count only while it holds. Every part of it is optional, as below. |
 
 The parts of `condition`:
@@ -31,6 +32,9 @@ The parts of `condition`:
 | `sky` | `open`, `covered` | open sky above the kiln, or a roof over it |
 | `weather` | `clear`, `rain`, `thunder` | rain and thunder count only where rain actually falls on the kiln |
 | `time` | `day`, `night` | |
+| `moon` | full, new | Only counts at night under the specified phase. |
+| `climate` | cold | Requires a cold biome. |
+| `light` | dark | Requires a dark kiln location. |
 | `dimension` | a dimension id, such as `minecraft:the_nether` | see below |
 
 ```json

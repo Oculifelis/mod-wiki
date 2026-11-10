@@ -1,5 +1,7 @@
 # Fieldframe Frameworks
 
+![Fieldframe Frameworks logo](../assets/fieldframe_frameworks_logo.png){ width="128" align=right }
+
 ![Fieldframe Frameworks](img/banner.png)
 
 *Big multiblock machines for Fieldframe.*
@@ -13,7 +15,7 @@ and drive it, the same way they drive a single chassis. Still no pipes and no ca
 **Requires** [Fieldframe](../fieldframe/index.md) and [Metallurgy: Recast](../metallurgy/index.md). **Optional:** [JEI](https://www.curseforge.com/projects/238222),
 [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
-**Versions:** 0.1.3 for NeoForge 26.1.2; 0.1.2 for NeoForge 1.21.1 and Forge 1.20.1 ([Versions](../fieldframe/versions.md)).
+**Packages:** 0.1.5 for NeoForge 26.1.2, 0.1.4 for NeoForge 1.21.1 and Forge 1.20.1. See [Versions](../fieldframe/versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794653).
 
 ## The Grand Frame
 
@@ -77,3 +79,5 @@ KubeJS and Java addons can change the same values ([Fieldframe for pack makers](
 ## Credits
 
 By **Oculifelis**.
+
+**Licence:** LGPL-3.0-or-later.

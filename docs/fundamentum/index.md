@@ -16,6 +16,13 @@ stats and events work together instead of each mod rolling its own. Nearly every
     | [Ostentum](../ostentum/index.md) | Weapons, relics and summons built on Fundamentum's [wings](datapack/wings.md), [mounts](datapack/mounts.md), [hooks](datapack/hooks.md), [summons](datapack/summons.md) and [whips](datapack/whips.md). |
     | [Flora Ferox](../floraferox/index.md) | Plant monsters, with wings, grappling hooks and whips for each family built on Fundamentum's (see [Built on Fundamentum](../floraferox/index.md#built-on-fundamentum)). |
 
+??? note "Mods with optional Fundamentum support"
+
+    | Mod | What it uses |
+    |---|---|
+    | [Arcana Varia](../arcanavaria/index.md#built-on-fundamentum) | Four cord whips. |
+    | [Fieldframe](../fieldframe/index.md#built-on-fundamentum) | The Graviton Hook and powered whips on 26.1.2. |
+
 ## For players
 
 | Feature | What it does |

@@ -18,7 +18,7 @@ There's also **[Orbis Novus Lite](lite.md)**, six terrain world types as a plain
 
 ## Versions
 
-Both mods are at **1.0.0**, the same on every version.
+Both mods are at **1.0.0**, the same on every version. [Terrain on CurseForge](https://www.curseforge.com/projects/1786843) and [Dungeons on CurseForge](https://www.curseforge.com/projects/1786849).
 
 | Minecraft | Loader |
 |---|---|
@@ -27,7 +27,7 @@ Both mods are at **1.0.0**, the same on every version.
 | 26.2 | NeoForge 26.2.0.93 or newer |
 | 26.3 | NeoForge 26.3.0.101 or newer |
 
-No other mods needed. Install on the server and the client (in single player, just the client).
+No other mods are required. On a dedicated server, install Terrain on the server and Dungeons on both the server and the client. In single player, install them on the client.
 
 The one difference between versions: on **26.1.2, 26.2 and 26.3**, Terrain also adds natural features to the
 Overworld's biomes in every world, not only its own world types (procedural trees, rocks, fallen logs, standing

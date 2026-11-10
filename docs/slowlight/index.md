@@ -16,15 +16,16 @@ press than to play.
 weather), Jade (how long a kiln, Sandglass or Keepsake Urn has left), Patchouli (*A Slow Almanac*), KubeJS, Create,
 Chipped, Rechiseled, and the mods under [Other mods](items.md#other-mods).
 
-**Versions:** 1.21.1 NeoForge is the main version; there are ports for 1.20.1 Forge and NeoForge 26.1.2 (at 0.8.2, like 1.21.1),
-and NeoForge 26.2 and 26.3 (at 0.8.3, which adds sulfur cube types). See [Versions](versions.md) for what differs on each.
+**Latest built:** 0.9.1 for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 and 26.3. See [Versions](versions.md) for the differences between them.
+
+[Waystones and Nightfall](waystones.md) add paired stones that send stacks across dimensions, moon and cellar recipes, the Moondial, and the Letter to Later.
 
 ## What's in it
 
 | Picture | Section | What's in it |
 |---|---|---|
 | ![Patient Kiln](img/patient_kiln.png){ .mc-icon } | **[The kilns](kilns.md)** | the Patient, Long and Ember Kilns, and how the wait works |
-| ![Amber Draught](img/mead.png){ .mc-icon } | **[Kiln recipes](recipes.md)** | all 100 ageing recipes, with their days and weather |
+| ![Amber Draught](img/mead.png){ .mc-icon } | **[Kiln recipes](recipes.md)** | all 111 ageing recipes, with their days and weather |
 | ![Slowlight Lantern](img/slowlight_lantern.png){ .mc-icon } | **[Light and shards](items.md#light-that-keeps-its-own-hours)** | the Slowlight Lantern, Slowlight and Still Shards, the Patience trim |
 | ![Gloamwood Seedling](img/gloamwood_sapling.png){ .mc-icon } | **[Growing things](items.md#growing-things)** | Duskbloom, Gloamwood and Lanternfruit |
 | ![Sandglass](img/sandglass.png){ .mc-icon } | **[Measuring time](items.md#measuring-time)** | the Sandglass, the Sundial and the Keepsake Urn |

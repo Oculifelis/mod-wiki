@@ -105,7 +105,7 @@ the kind and every trait it has. Killing it drops the altar's reward and, in a t
 
 | Find | Where and what |
 |---|---|
-| **Journals**{ #journals } | Lab studies hold journals that unlock hidden research: *Locks of the Thaumaturges*, *Notes on the Failed Experiments* and *The Architect's Diary*. ![Laboratory Journal](img/lab_journal.png){ .mc-icon .mc-inline } |
+| **Journals**{ #journals } | Lab studies hold journals that reveal hidden research: *Locks of the Thaumaturges*, *Notes on the Failed Experiments* and *The Architect's Diary*. ![Laboratory Journal](img/lab_journal.png){ .mc-icon .mc-inline } |
 | **Chests**{ #chests } | Materials, [lattice](thaumaturgy.md#the-alembic-lattice) parts and [Thurible blueprints](thaumaturgy.md#blueprints). Studies sometimes hold a written Blueprint Scroll (a stair, an arch or a bench) for the [Architect's Lens](thaumaturgy.md#the-architects-lens). |
 | **Tower vaults**{ #tower-vaults } | One at the top of each tower: blueprints, scrolls, lattice parts and a journal. |
 

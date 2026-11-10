@@ -72,3 +72,5 @@ metallurgy/electrum_chest
 metallurgy/platinum_chest
 metallurgy/rubracium_chest
 metallurgy/silver_chest
+ports/genetic-industry/extractor
+ports/genetic-industry/imprinter

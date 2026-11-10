@@ -3,6 +3,10 @@
 Arcana Varia is made for **NeoForge 26.1.2** with **Thaumaturge 1.1.0** or newer. The whips also need
 **Fundamentum 1.22.1** or newer.
 
+| Minecraft | Loader | Latest release |
+|---|---|---|
+| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.7.5 |
+
 ## Changelog
 
 **0.7.5**

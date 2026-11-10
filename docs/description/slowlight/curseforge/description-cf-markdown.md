@@ -8,6 +8,12 @@ The fun part is coming home to it. Set up a row of kilns, go off mining for a fe
 
 The rest of the mod is built around the same idea: a lantern that's brighter at night, an hourglass that counts days, flowers you press over three days, wood that goes grey in the weather, three music discs, and a Potter villager with old ruined yards to find.
 
+## Waystones and Nightfall
+
+Pair two Waystones with a Twin Pearl and send a stack from one to the other. Each shipment uses a Chorus Pearl and takes days. Some shipments change on arrival: glass sent from the Overworld to the End becomes Starglass.
+
+Age milk in a dark kiln to make a Cheese Wheel. Some recipes call for a full moon, a new moon or a cold biome, and drinks age faster in a cellar. Read the moon phase with a Moondial, or seal a signed book for 1 to 365 days with a Letter to Later.
+
 ## Kilns
 
 ![The Patient Kiln, the Long Kiln and the Ember Kiln](https://raw.githubusercontent.com/Oculifelis/mod-wiki/main/docs/description/slowlight/curseforge/kilns.png)

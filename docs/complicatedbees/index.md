@@ -43,6 +43,7 @@ out of this build, because EMI has no 26.x release yet.
 | Mod | What it does |
 |---|---|
 | [Complicated Trees](../other/complicated-trees.md) | Breed trees with your bees: bees in a working housing pollinate nearby leaves. |
+| [Genetic Industry Unofficial](../ports/genetic-industry/index.md) | Extracts and imprints bee genes with two RF machines. |
 | [Apiflux](../other/apiflux.md) | Runs the FE machines on [Create](https://www.curseforge.com/projects/328085) rotation. |
 | [Manacomb](../other/manacomb.md) | Runs the FE machines on [Botania](https://www.curseforge.com/projects/225643) mana. |
 

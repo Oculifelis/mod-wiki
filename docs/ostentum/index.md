@@ -12,8 +12,30 @@ crafting all run on Fundamentum; Ostentum adds the items, creatures, art, music 
 **Requires** [Fundamentum](../fundamentum/index.md) and [Curios](https://www.curseforge.com/projects/309927). **Optional:** [Patchouli](https://www.curseforge.com/projects/306770), for a guide book (crafted from a book and a saddle), and
 [JEI](https://www.curseforge.com/projects/238222) to see the recipes.
 
-**Versions:** NeoForge 26.1.2 and 1.21.1. (The happy ghast harness and the nautilus saddle are 26.1.2 only, since
-those creatures don't exist on 1.21.1.)
+| Minecraft | Loader | Latest built |
+|---|---|---|
+| 26.1.2 | NeoForge | 1.9.9 |
+| 26.2 | NeoForge | 1.9.9 |
+| 26.3 | NeoForge | 1.9.9 |
+| 1.21.1 | NeoForge | 1.9.9 |
+
+The happy ghast harness and the nautilus saddle are on 26.x. The [Pathfinder's Glaive](items.md#pathfinders-glaive) waypoint uses a gold and orange light column in 1.9.9.
+
+[CurseForge project](https://www.curseforge.com/projects/1786639)
+
+## Built on Fundamentum
+
+The [items guide](items.md) has the stats for Ostentum's saddles, hooks, summons, whips and special weapons.
+
+| Override | Path under <code>data/ostentum/</code> | Format |
+|---|---|---|
+| Mounts | <code>fundamentum/mounts/</code> | [Mounts](../fundamentum/datapack/mounts.md) |
+| Hooks | <code>fundamentum/hooks/</code> | [Hooks](../fundamentum/datapack/hooks.md) |
+| Summons | <code>fundamentum/summons/</code> | [Summons](../fundamentum/datapack/summons.md) |
+| Whips | <code>fundamentum/whips/&lt;name&gt;.json</code> keyed by item ID | [Whips](../fundamentum/datapack/whips.md) |
+| Moons | <code>fundamentum/moons/</code> | [Moons](../fundamentum/datapack/moons.md) |
+| Pillager Siege | <code>fundamentum/night_events/</code> | [Night events](../fundamentum/datapack/night-events.md) |
+| Portal crafting | <code>recipe/</code> with type <code>fundamentum:portal_crafting</code> | [Portal crafting](../fundamentum/datapack/portal-crafting.md) |
 
 ## What's in it
 

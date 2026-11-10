@@ -1,15 +1,20 @@
 # Versions
 
-**1.21.1 NeoForge** is the main version: every feature is made there first. The others are ports: 1.20.1 and 26.1.2 at 0.8.2, 26.2 and 26.3 at 0.8.3. A few
-things are cut or work differently on some of them, and everything that is is listed here.
+**1.21.1 NeoForge** is the main version. The table gives the latest built jar for each target. See [CurseForge](https://www.curseforge.com/projects/1786927) for downloads.
 
-| Minecraft | Loader | KubeJS | Almanac (Patchouli) | Aerial Hell compat | What differs |
-|---|---|---|---|---|---|
-| **1.21.1** | NeoForge 21.1 | yes | yes | yes | nothing: the main version |
-| 1.20.1 | Forge 47.4 | `event.custom` only | yes | yes | [a few small cuts](#1201-forge) |
-| 26.1.2 | NeoForge 26.1.2 | yes | yes | yes | [the Ember Kiln's heat](#2612-neoforge) |
-| 26.2 | NeoForge 26.2 | no build exists | no | no Aerial Hell build | [no Patchouli](#262-and-263-neoforge) |
-| 26.3 | NeoForge 26.3 | no build exists | no | no Aerial Hell build | [no Patchouli](#262-and-263-neoforge) |
+| Minecraft | Loader | Slowlight | KubeJS | Almanac (Patchouli) | Aerial Hell compat | What differs |
+|---|---|---|---|---|---|---|
+| **1.21.1** | NeoForge 21.1 | 0.9.1 | yes | yes | yes | nothing: the main version |
+| 1.20.1 | Forge 47.4 | 0.9.1 | `event.custom` only | yes | yes | [a few small cuts](#1201-forge) |
+| 26.1.2 | NeoForge 26.1.2 | 0.9.1 | yes | yes | yes | [the Ember Kiln's heat](#2612-neoforge) |
+| 26.2 | NeoForge 26.2 | 0.9.1 | no build exists | no | no Aerial Hell build | [no Patchouli](#262-and-263-neoforge) |
+| 26.3 | NeoForge 26.3 | 0.9.1 | no build exists | no | no Aerial Hell build | [no Patchouli](#262-and-263-neoforge) |
+
+## Changes in 0.9
+
+**0.9.1** keeps the content of **0.9.0** across the five targets. **0.9.0** added [Waystones and Nightfall](waystones.md), capped preserve jars, a tumbling Sandglass and a one-tick Gloamwood button.
+
+**Jar licence:** All Rights Reserved in 0.9.0 and 0.9.1. The source tree switched to LGPL-3.0-or-later after these jars were built.
 
 ## 1.20.1 (Forge)
 
@@ -39,6 +44,7 @@ Everything under 26.1.2 applies, and:
 - **No Patchouli** exists for these versions, so there's no *A Slow Almanac* (its recipe doesn't show).
 - **No KubeJS** build exists yet.
 - **Aerial Hell** has no build for these versions, so its compat has nothing to load with (it's in the jar, ready for when it does).
+- **Starglass** uses a static texture on 26.2 and 26.3.
 - **Sulfur cube types** (0.8.3): these versions have the sulfur cube, and a cube that swallows a Slowlight Shard block
   drifts while one holding a Still Shard block hangs still. See [To build with](items.md#to-build-with).
 

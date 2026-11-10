@@ -73,6 +73,7 @@ nav:
       - slowlight/index.md
       - Kilns: slowlight/kilns.md
       - Kiln recipes: slowlight/recipes.md
+      - Waystones and Nightfall: slowlight/waystones.md
       - Items: slowlight/items.md
       - For pack makers: slowlight/packs.md
       - Versions: slowlight/versions.md
@@ -115,7 +116,7 @@ nav:
       - Complicated Bees Unofficial:
           - complicatedbees/index.md
           - Items and machines: complicatedbees/items.md
-      # More ports (such as the bee ports) go here as their own sections; they join the Ports dropdown by themselves.
+      - Genetic Industry Unofficial: ports/genetic-industry/index.md
   - Other mods:
       - other/index.md
       - Spartan x Better Combat: other/spartan-bettercombat.md

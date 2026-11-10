@@ -8,7 +8,19 @@ fight what they wake with bows, arbalests, seed guns, whips, sceptres and cleave
 **Requires** [Fundamentum](../fundamentum/index.md) and [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://www.curseforge.com/projects/238222), for the Grafting Bench splices, the
 brews and info pages.
 
-**Versions:** NeoForge 26.1.2.
+**Optional:** [Boss Checklist](https://www.curseforge.com/projects/1355708) for tracking bosses.
+
+| Minecraft | Loader | Flora Ferox | Fundamentum |
+|---|---|---|---|
+| 26.1.2 | NeoForge | 1.19.0 | 1.25.5 or newer |
+| 26.2 | NeoForge | 1.19.0 | 1.26.1 or newer |
+| 26.3 | NeoForge | 1.19.0 | 1.26.1 or newer |
+| 1.21.1 | NeoForge | 1.19.0 | 1.26.1 or newer |
+| 1.20.1 | Forge | 1.19.0 | 1.26.1 or newer |
+
+In 1.19.0, the Briar King and Crimson Behemoth take on different appearances by biome, and the Thorn Matriarch has a new body.
+
+[CurseForge project](https://www.curseforge.com/projects/1788773)
 
 ## The four families
 
@@ -117,3 +129,5 @@ By Oculifelis: code, design and art. Inspired by Violent Verdure, the Terraria m
 | Rhodox | Painterly Pack | used with permission | |
 | Malcolm Riley | [Unused Textures](https://github.com/malcolmriley/unused-textures) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | recoloured |
 | TriQue06 | Mythic Upgrades | MIT | the base of the armour |
+
+**Licence:** LGPL-3.0-or-later. Third-party art keeps the terms above.

@@ -14,7 +14,7 @@ It has its own research tab, **Arcana Varia**, which opens with Thaumaturge's Me
 (the four whips), [JEI](https://www.curseforge.com/projects/238222) (info pages for lab blocks, journals, blueprints and the Amber Heart), and about 50 mods whose blocks give towers new palettes, plus 7 dimension mods that get labs of their
 own ([Towers and labs](towers-and-labs.md#other-mods)).
 
-**Versions:** 0.7.5, for NeoForge 26.1.2. See [Versions](versions.md).
+**Versions:** 0.7.5 for NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1791046).
 
 ## What's in it
 
@@ -30,6 +30,14 @@ own ([Towers and labs](towers-and-labs.md#other-mods)).
 | | **[For pack makers](towers-and-labs.md#for-pack-makers)** | lab bosses, traits and Thurible effects as datapack files |
 
 ![A Wizard Tower](img/shots/tower-outside.jpg)
+
+## Built on Fundamentum
+
+The [four whips](weapons.md#whips) use Fundamentum's cord system. Their reach spans 5 to 6 blocks. Their recipes and research appear with Fundamentum installed.
+
+| Override | Path | Format |
+|---|---|---|
+| Whip tuning by item ID | <code>data/&lt;namespace&gt;/fundamentum/whips/&lt;name&gt;.json</code> | [Whips](../fundamentum/datapack/whips.md) |
 
 ## Credits
 

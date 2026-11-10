@@ -10,10 +10,10 @@ moves animals between pens.
 
 ![Two tube lines on pillars running between two stations at sunset](img/tube-lines.jpg)
 
-**Requires** [Fieldframe](../fieldframe/index.md) and [Fundamentum](https://www.curseforge.com/projects/1765941) 1.17.0
+**Requires** [Fieldframe](../fieldframe/index.md) and [Fundamentum](../fundamentum/index.md) 1.17.0
 or later (which needs [Curios](https://www.curseforge.com/projects/309927)).
 
-**Versions:** 0.2.0, for NeoForge 26.1.2 ([Versions](../fieldframe/versions.md)).
+**Local build:** 0.2.0, for NeoForge 26.1.2 ([Versions](../fieldframe/versions.md)).
 
 A ![Tube Drive](img/tube_drive.png){ .mc-icon .mc-inline } **Tube Drive** module on a chassis next to the entrance pays for each trip in RF: 200 RF plus 20 RF per block of tube.
 Tubes carry players and mobs only, never items, fluids or power.
@@ -50,6 +50,10 @@ each trip up front. Speed upgrades on the chassis make trips faster, and its sig
 start, the mouth tells you why: no drive, no power, a dead end, an unloaded area or a blocked exit. Logging out during a
 trip puts you at the exit.
 
+## Built on Fundamentum
+
+Transit uses Fundamentum's curve code for the shape of its tubes. Tube lengths and costs use Fieldframe's tuning data below.
+
 ## For pack makers
 
 Every number is a Tube Drive tunable, set with Fieldframe's tuning data (`data/<ns>/fieldframe/tuning/*.json`) or
@@ -70,3 +74,5 @@ Recipes are plain data under `data/fieldframe_transit/recipe/`.
 ## Credits
 
 By **Oculifelis**.
+
+**Licence:** All Rights Reserved.
