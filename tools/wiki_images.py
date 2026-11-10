@@ -15,7 +15,7 @@ import sys
 
 from PIL import Image
 
-MODDING = "H:/AI_MC_Modding"
+MODDING = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")).replace(os.sep, "/")
 sys.path.insert(0, MODDING + "/_toolkit/modelrender")
 import modelrender as mr  # noqa: E402
 

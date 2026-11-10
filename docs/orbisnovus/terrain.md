@@ -119,25 +119,3 @@ The Customize screen covers each world. Beyond that, everything is datapack JSON
 
 **Uninstalling:** a world made with an Orbis Novus world type needs the mod to generate new chunks. Normal worlds keep
 working without it.
-
-## Coming in 1.1
-
-Six new styles. Each is a world type of its own and a Custom Mix part, with weight 0 by default so that 1.0 worlds
-keep their regions:
-
-| Style | What it is |
-|---|---|
-| **Folded World** | Rock layers folded into S-curves, so cliffs show them as coloured bands. |
-| **Tidal Continents** | Continents joined by tide flats that flood and drain once an in-game hour. The tide moves real water, but only near players, and the cost is small: about 0.06 ms a tick on a test server. |
-| **Shattered Plates** | Flat slabs of land, each tilted its own way, with lava in the cracks. |
-| **Sinkhole Karst** | Flat land full of huge round sinkholes, 50 to 200 blocks deep, with jungle or lush caves at the bottom. |
-| **Ribbon Rivers** | Rivers raised 30 to 80 blocks on stone walls and arches across the lowland. |
-| **The Bowl** | A giant valley. Spawn is flat and round, and the land curves up towards the horizon all round. |
-
-And three options for every style:
-
-| Option | What it does |
-|---|---|
-| **Latitude Bands** | Biomes run in bands north and south of spawn, hot near spawn and cold further out. You set the band width, from 1000 to 16000 blocks. |
-| **Erosion Age** | From young and jagged to ancient and rolling. |
-| **Ruins** | Broken roads between regions, sunken walls, old foundations and pillars. |

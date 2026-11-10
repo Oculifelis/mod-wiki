@@ -18,8 +18,9 @@ crafting all run on Fundamentum; Ostentum adds the items, creatures, art, music 
 | 26.2 | NeoForge | 1.9.9 |
 | 26.3 | NeoForge | 1.9.9 |
 | 1.21.1 | NeoForge | 1.9.9 |
+| 1.20.1 | Forge | 1.9.8 |
 
-The happy ghast harness and the nautilus saddle are on 26.x. The [Pathfinder's Glaive](items.md#pathfinders-glaive) waypoint uses a gold and orange light column in 1.9.9.
+The happy ghast harness and the nautilus saddle are on 26.x. The Forge 1.20.1 build needs Fundamentum 1.25.8 or newer and Curios 5.14.1 or newer. The [Pathfinder's Glaive](items.md#pathfinders-glaive) waypoint uses a gold and orange light column in 1.9.9.
 
 [CurseForge project](https://www.curseforge.com/projects/1786639)
 
@@ -35,7 +36,7 @@ The [items guide](items.md) has the stats for Ostentum's saddles, hooks, summons
 | Whips | <code>fundamentum/whips/&lt;name&gt;.json</code> keyed by item ID | [Whips](../fundamentum/datapack/whips.md) |
 | Moons | <code>fundamentum/moons/</code> | [Moons](../fundamentum/datapack/moons.md) |
 | Pillager Siege | <code>fundamentum/night_events/</code> | [Night events](../fundamentum/datapack/night-events.md) |
-| Portal crafting | <code>recipe/</code> with type <code>fundamentum:portal_crafting</code> | [Portal crafting](../fundamentum/datapack/portal-crafting.md) |
+| Portal crafting | <code>recipe/</code> (<code>recipes/</code> on Forge 1.20.1) with type <code>fundamentum:portal_crafting</code> | [Portal crafting](../fundamentum/datapack/portal-crafting.md) |
 
 ## What's in it
 

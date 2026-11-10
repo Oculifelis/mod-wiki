@@ -11,7 +11,14 @@ mod's trees.
 
 **Requires** [Complicated Bees](https://www.curseforge.com/projects/1100137).
 
-**Versions:** 0.1.0, Forge 1.20.1 and NeoForge 1.21.1. [On CurseForge](https://www.curseforge.com/projects/1794603).
+| Minecraft | Loader | Version | Availability |
+|---|---|---|---|
+| 1.20.1 | Forge | 0.1.0 | CurseForge project |
+| 1.21.1 | NeoForge | 0.1.0 | CurseForge project |
+| 26.1.2 | NeoForge | 0.1.0 | Local build |
+| 26.2 | NeoForge | 0.1.0 | Local build |
+
+The 26.x builds use [Complicated Bees Unofficial](../complicatedbees/index.md). [CurseForge project](https://www.curseforge.com/projects/1794603)
 
 ## How it works
 

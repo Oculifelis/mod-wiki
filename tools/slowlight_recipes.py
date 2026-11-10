@@ -13,7 +13,7 @@ import zipfile
 
 from PIL import Image
 
-MODDING = "H:/AI_MC_Modding"
+MODDING = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.insert(0, MODDING + "/_toolkit/modelrender")
 import modelrender as mr  # noqa: E402
 import wiki_images as wi  # noqa: E402
@@ -103,6 +103,12 @@ def condition(c):
         parts.append("by " + c["time"])
     if "dimension" in c:
         parts.append(DIMENSIONS.get(c["dimension"], c["dimension"]))
+    if c.get("moon") in {"full", "new"}:
+        parts.append(c["moon"] + " moon")
+    if c.get("climate") == "cold":
+        parts.append("cold biome")
+    if c.get("light") == "dark":
+        parts.append("dark")
     return ", ".join(parts)
 
 
@@ -113,9 +119,13 @@ def row(names, d):
     ing_name, res_name = name(names, ing), name(names, res["id"])
     out = (str(count) + " × " if count > 1 else "") + res_name
     long_days = d.get("long_days", d["days"] * 3)
+    requirements = condition(d.get("condition"))
+    if "cellar_days" in d:
+        cellar = "%d days in a cellar" % d["cellar_days"]
+        requirements = ", ".join(filter(None, (requirements, cellar)))
     return res_name.lower(), "| %s %s | %s %s | %d | %d | %s |" % (
         icon(ing, ing_name), ing_name, icon(res["id"], res_name), out, d["days"], long_days,
-        condition(d.get("condition")))
+        requirements)
 
 
 def table(names, files):

@@ -33,15 +33,6 @@ The one difference between versions: on **26.1.2, 26.2 and 26.3**, Terrain also 
 Overworld's biomes in every world, not only its own world types (procedural trees, rocks, fallen logs, standing
 stones, sea stacks, hot springs, waterfalls). The 1.21.1 build doesn't have them yet.
 
-## Coming in 1.1
-
-| Mod | Coming |
-|---|---|
-| [Terrain](terrain.md) | Six new [styles](terrain.md#coming-in-11) (Folded World, Tidal Continents, Shattered Plates, Sinkhole Karst, Ribbon Rivers and The Bowl), and three new options for every style: Latitude Bands, Erosion Age and Ruins. |
-| [Dungeons](dungeons.md) | Seven [wonders](dungeons.md#coming-in-11), one-off structures such as a galleon in a glass bottle buried in the sand and a village hanging upside down from a cave roof. |
-
-See the [Terrain](terrain.md#coming-in-11) and [Dungeons](dungeons.md#coming-in-11) pages for more.
-
 ## Credits
 
 By **Oculifelis**. Code and data under the MIT licence. Every structure, piece, loot table and terrain setting was

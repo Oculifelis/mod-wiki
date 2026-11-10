@@ -163,17 +163,3 @@ structure sets (spacing), template pools, processor lists and biome tags.
 | Structure mods that change vanilla villages | May change how often the added houses appear. |
 
 **Multiplayer:** the structures are built on the server; install the mod on both sides.
-
-## Coming in 1.1
-
-Seven wonders, one-off structures you find with `/locate structure orbisnovus_wonders:<name>`:
-
-| Wonder | What it is |
-|---|---|
-| **Clockwork Labyrinth** | A buried maze whose ceiling and floor gates swap on a redstone clock, with a vault in the middle. |
-| **Inverted Spire** | A tower hanging point-down under a floating rock. The best loot is in the tip. |
-| **Living Barrow** | A mound of root tunnels, moss, mud and sculk round a heart room with a big slime. |
-| **Bottled Ship** | A galleon in a glass bottle, buried in desert or beach sand. |
-| **Hall of Echoes** | Seven deep-dark rooms, all alike but one. Only the odd room's door leads to the vault. |
-| **Giant's Desk** | A desk ruin at ten times scale, with book stacks, an ink pot, a quill bridge, a giant candle and a drawer full of spiders. |
-| **Upside-down Village** | Houses hanging from a cave roof over a lava lake, joined by chain walkways. |

@@ -9,9 +9,9 @@ import shutil
 
 from PIL import Image
 
-REL = "H:/AI_MC_Modding/_handoff/orbisnovus-release"
-SHOTS = REL + "/screenshots/page-candidates"
 WIKI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+REL = os.path.join(WIKI, "..", "_handoff", "orbisnovus-release")
+SHOTS = REL + "/screenshots/page-candidates"
 OUT = os.path.join(WIKI, "docs", "orbisnovus", "img")
 # Later folders win: retakes over first takes; for terrain the eye-level vista over the aerial
 # Nether shots that came out as a wall of lava

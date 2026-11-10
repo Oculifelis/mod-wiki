@@ -18,7 +18,7 @@ brews and info pages.
 | 1.21.1 | NeoForge | 1.19.0 | 1.26.1 or newer |
 | 1.20.1 | Forge | 1.19.0 | 1.26.1 or newer |
 
-In 1.19.0, the Briar King and Crimson Behemoth take on different appearances by biome, and the Thorn Matriarch has a new body.
+In 1.19.0, the Briar King and Crimson Behemoth take on different appearances by biome, and the Thorn Matriarch has a new body. See [Boss appearances](bestiary.md#boss-appearances).
 
 [CurseForge project](https://www.curseforge.com/projects/1788773)
 

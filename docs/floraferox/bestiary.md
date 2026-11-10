@@ -105,3 +105,11 @@ Every Nether creature is fireproof.
 
 Crafted from 4 family tokens, a lily of the valley and a gold ingot. Worn in a charm slot, carried or held, it makes
 every Flora Ferox creature leave you alone. A creature you strike fights back until 5 seconds after your last blow.
+
+## Boss appearances
+
+| Boss | Changes in 1.19.0 |
+|---|---|
+| Briar King | The crown flowers in phase 2 and the roses on its back open in phase 3. Hot biomes give it the ember appearance, snowy biomes give it the rime appearance, and the Pale Garden and Mangrove Swamp have their own appearances. Ember and Rime Grafts can also pick those two looks. |
+| Crimson Behemoth | The ember appearance grows molten basalt columns, the rime appearance grows ice shards, the Warped Forest appearance cracks open at the base and the Mushroom Fields appearance drips mycelium. |
+| Thorn Matriarch | The Spring Queen body has brood slits that open in phase 2. |
