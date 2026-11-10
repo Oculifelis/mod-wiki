@@ -60,4 +60,4 @@ Species, crosses, alleles and species tags are datapack files under
 `data/<namespace>/complicated_trees/species`, `breeding`, `alleles` and `species_tags`. Run `/reload` after changing
 them. Ids are `complicated_trees:<name>`.
 
-**Licence:** All Rights Reserved.
+**Licence:** All Rights Reserved in 0.1.0. GPL-3.0-or-later from the next build.

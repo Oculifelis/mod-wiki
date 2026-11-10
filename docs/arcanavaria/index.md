@@ -49,5 +49,5 @@ By **Oculifelis**.
 | Malcolm Riley | [unused-textures](https://github.com/malcolmriley/unused-textures) | CC BY 4.0 | the Warden's Amber Heart sprite |
 | Leclowndu93150 and contributors | [Thaumaturge](https://www.curseforge.com/projects/1628024) | its own | some of this mod's textures are drawn on Thaumaturge's own art |
 
-Arcana Varia's code and Oculifelis's own art are LGPL-3.0-or-later. The Scythes Vanilla parts, the Amber Heart sprite
+Arcana Varia's code and Oculifelis's own art are LGPL-3.0-or-later up to 0.7.5 and GPL-3.0-or-later from the next build. The Scythes Vanilla parts, the Amber Heart sprite
 and the textures drawn on Thaumaturge's art keep their own licences; `CREDITS.md` in the jar lists each of them.
