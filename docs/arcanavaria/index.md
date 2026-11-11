@@ -10,11 +10,11 @@ glass pipes that make compound aspects on their own, scythes, a tree boss and fo
 
 It has its own research tab, **Arcana Varia**, which opens with Thaumaturge's Metallurgy research.
 
-**Requires** [Thaumaturge](https://www.curseforge.com/projects/1628024) 1.1.0 or newer (not 1.0.2), on NeoForge 26.1.2. **Optional:** [Fundamentum](../fundamentum/index.md) 1.22.1 or newer
+**Requires** [Thaumaturge](https://www.curseforge.com/projects/1628024) 1.1.0 or newer (not 1.0.2), on NeoForge 26.1.2. **Optional:** [Fundamentum](../fundamentum/index.md) 1.27.2 or newer
 (the four whips), [JEI](https://www.curseforge.com/projects/238222) (info pages for lab blocks, journals, blueprints and the Amber Heart), and about 50 mods whose blocks give towers new palettes, plus 7 dimension mods that get labs of their
 own ([Towers and labs](towers-and-labs.md#other-mods)).
 
-**Versions:** 0.7.5 for NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1791046).
+**Versions:** 0.8.0 for NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1791046).
 
 ## What's in it
 
