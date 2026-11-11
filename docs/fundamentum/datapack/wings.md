@@ -19,6 +19,7 @@ for the flight time, then glides; landing refills it. No fall damage while flyin
 | Field | Default | Meaning |
 |---|---|---|
 | `item` | the file id | the wing item |
+| `texture` | absent | explicit wing texture, such as `mymod:textures/entity/wings/angel.png`; supported on all five targets from 1.28.0 |
 | `flight_ticks` | 40 | how long you can rise, in ticks; scaled by the `fundamentum:wing_flight_time` attribute and capped at 75 (a dedicated server kicks "flying" players after 80) |
 | `rise_speed` | 0.4 | top rising speed, blocks per tick |
 | `rise_acceleration` | 0.1 | how fast you reach it |
@@ -28,5 +29,4 @@ for the flight time, then glides; landing refills it. No fall damage while flyin
 A wing item that isn't in any file uses the defaults.
 
 !!! note "Drawing the wings"
-    On 26.1.2, a wing item with an `equippable` component naming an equipment asset is drawn on the player from that
-    asset's `wings` layer, like an elytra. Otherwise (and always on 1.21.1) the mod that adds the wings draws them.
+    An explicit `texture` path works on all five targets. On newer versions a wing item can also use an equipment asset's `wings` layer. From 1.28.0, nearby players see the wearer's folded, rising or gliding phase.

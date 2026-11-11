@@ -5,7 +5,7 @@ For mod makers building on Fundamentum.
 ## Depending on it
 
 Fundamentum publishes `com.fundamentum:fundamentum-neoforge:<version>+<minecraft>` (for example
-`1.25.1+26.1.2`; `fundamentum-forge` on 1.20.1). Add the Maven repository it's published to, depend on the artifact,
+`1.28.0+26.1.2`; `fundamentum-forge` on 1.20.1). Add the Maven repository it's published to, depend on the artifact,
 and list `fundamentum` as a required dependency in your `neoforge.mods.toml`. Curios is required, so your dev runs
 need Curios too.
 
@@ -13,7 +13,7 @@ need Curios too.
 [[dependencies.mymod]]
 modId = "fundamentum"
 type = "required"
-versionRange = "[1.25,)"
+versionRange = "[1.28.0,)"
 ordering = "NONE"
 side = "BOTH"
 ```

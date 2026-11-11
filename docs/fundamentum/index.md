@@ -5,6 +5,8 @@
 A library mod: it doesn't add much on its own. Mods built on it use it for the systems they share, so their items,
 stats and events work together instead of each mod rolling its own. Nearly everything is set up through datapacks.
 
+Current version: **1.28.0** for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.
+
 **Requires:** [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://modrinth.com/mod/jei) (shows [portal crafting](datapack/portal-crafting.md) recipes).
 
 ## Mods that use Fundamentum

@@ -1,6 +1,6 @@
 # Summons
 
-*NeoForge 26.1.2 and 1.21.1 (26.2 has an older version).*
+*Fundamentum 1.28.0: Forge 1.20.1; NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.*
 
 Summon items go in the Curios `summon` slot (item tag `#curios:summon`). Each calls minions that follow the player,
 attack whatever the player hits or is hit by (and hostile mobs near them), and never hurt the player or each other.

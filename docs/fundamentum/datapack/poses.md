@@ -1,6 +1,6 @@
 # Player poses
 
-*NeoForge 26.1.2, 1.21.1 and 26.2.* These are client resources, so they go in a resource pack, not a datapack.
+*Fundamentum 1.28.0: Forge 1.20.1; NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.* These are client resources, so they go in a resource pack, not a datapack.
 
 ## Item bindings
 

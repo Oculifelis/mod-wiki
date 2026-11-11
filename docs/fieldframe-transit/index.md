@@ -13,7 +13,7 @@ moves animals between pens.
 **Requires** [Fieldframe](../fieldframe/index.md) and [Fundamentum](../fundamentum/index.md) 1.17.0
 or later (which needs [Curios](https://www.curseforge.com/projects/309927)).
 
-**Local build:** 0.2.1, for NeoForge 26.1.2 ([Versions](../fieldframe/versions.md)).
+**Version:** 0.2.1, for NeoForge 26.1.2 ([Versions](../fieldframe/versions.md), [CurseForge](https://www.curseforge.com/projects/1796698)).
 
 A ![Tube Drive](img/tube_drive.png){ .mc-icon .mc-inline } **Tube Drive** module on a chassis next to the entrance pays for each trip in RF: 200 RF plus 20 RF per block of tube.
 Tubes carry players and mobs only, never items, fluids or power.

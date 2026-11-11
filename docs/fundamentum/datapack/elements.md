@@ -1,6 +1,6 @@
 # Elements
 
-*NeoForge 26.1.2, 26.2, 26.3 and 1.21.1.*
+*Fundamentum 1.28.0: Forge 1.20.1; NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.*
 
 An element **is a damage type or a damage type tag**. Wherever a field takes elements, it takes one string or a list:
 

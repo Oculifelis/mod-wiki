@@ -1,6 +1,6 @@
 # Fractal skies
 
-*NeoForge 26.1.2 and 1.21.1.*
+*Fundamentum 1.28.0: Forge 1.20.1; NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.*
 
 A sky drawn per pixel by Fundamentum's fractal shader in place of the vanilla one, while a moon, a night event or a
 dimension calls for it. Players can turn fractal skies and the melt effect off in `config/fundamentum-sky-client.toml`.

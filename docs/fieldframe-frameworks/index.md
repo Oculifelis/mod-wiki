@@ -15,7 +15,7 @@ and drive it, the same way they drive a single chassis. Still no pipes and no ca
 **Requires** [Fieldframe](../fieldframe/index.md) and [Metallurgy: Recast](../metallurgy/index.md). **Optional:** [JEI](https://www.curseforge.com/projects/238222),
 [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
-**Packages:** 0.1.5 for NeoForge 26.1.2, 0.1.4 for NeoForge 1.21.1 and Forge 1.20.1. See [Versions](../fieldframe/versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794653).
+**Packages:** 0.1.5 for NeoForge 26.1.2, NeoForge 1.21.1 and Forge 1.20.1. See [Versions](../fieldframe/versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794653).
 
 ## The Grand Frame
 
