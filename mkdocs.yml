@@ -98,10 +98,11 @@ nav:
           - Items and machines: complicatedbees/items.md
       - Genetic Industry Unofficial: ports/genetic-industry/index.md
       - Complicated Trees: other/complicated-trees.md
-      - Apiflux: other/apiflux.md
+      - Rotaflux: other/rotaflux.md
       - Manacomb: other/manacomb.md
   - Ports:
       - ports/index.md
+      - Blazing Bamboo (Unofficial): blazingbamboo/index.md
       - Nether Agriculture (Unofficial):
           - netheragriculture/index.md
           - Items: netheragriculture/items.md

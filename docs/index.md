@@ -23,7 +23,7 @@ ACCBDD's [Complicated Bees](https://www.curseforge.com/projects/1100137), our 26
 | ![Complicated Bees Unofficial logo](assets/complicatedbees_logo.png){ width="64" } | **[Complicated Bees Unofficial](complicatedbees/index.md)** | ACCBDD's Forestry-style bee breeding, ported to 26.1.2 and 26.2 on NeoForge. 59 species, 23 combs, frames, the Mellarium bee house and the Gyrofuge centrifuge. |
 | ![Genetic Industry logo](assets/geneticindustry_logo.png){ width="64" } | **[Genetic Industry Unofficial](ports/genetic-industry/index.md)** | Extract genes from bees, assemble a Genetic Template, and imprint it onto a princess or drone. |
 | ![Complicated Trees logo](assets/complicatedtrees_logo.png){ width="64" } | **[Complicated Trees](other/complicated-trees.md)** | Tree breeding. Your bees pollinate nearby leaves, you graft the kids. 1.20.1 to 26.2. |
-| ![Apiflux logo](assets/apiflux_logo.png){ width="64" } | **[Apiflux](other/apiflux.md)** | Runs Complicated Bees' FE machines on Create rotation. |
+| ![Rotaflux logo](assets/rotaflux_logo.png){ width="64" } | **[Rotaflux](other/rotaflux.md)** | Turns Create rotation into FE for any machine. |
 | ![Manacomb logo](assets/manacomb_logo.png){ width="64" } | **[Manacomb](other/manacomb.md)** | Runs Complicated Bees' FE machines on Botania mana. |
 
 ## Ports

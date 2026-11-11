@@ -4,7 +4,7 @@
 
 An addon for [Complicated Bees](https://www.curseforge.com/projects/1100137) that makes the same four FE machines
 [Botania](https://www.curseforge.com/projects/225643) **mana** receivers. No new block. Its sister mod is
-[Apiflux](apiflux.md), for Create rotation.
+[Rotaflux](rotaflux.md), for Create rotation.
 
 ## How mana gets in
 
@@ -22,7 +22,7 @@ Mana turns into FE as it arrives.
 
 | Key | Default | What it does |
 |---|---|---|
-| `rfInputDisabled` | `false` | The "Instead of RF" switch: `true` lets only mana in. With [Apiflux](apiflux.md) installed, use Apiflux's switch instead; it covers both. |
+| `rfInputDisabled` | `false` | The "Instead of RF" switch: `true` lets only mana in. With [Rotaflux](rotaflux.md) installed, use Rotaflux's switch instead; it covers both. |
 | `manaEnabled` | | Turns mana input on or off. |
 
 The rate, and which machines take mana, are data maps a datapack can change.
@@ -33,7 +33,7 @@ The rate, and which machines take mana, are data maps a datapack can change.
 |---|---|
 | [Complicated Bees](https://www.curseforge.com/projects/1100137) | Required, 3.6 or later. |
 | [Botania](https://www.curseforge.com/projects/225643) | Required. |
-| [Apiflux](apiflux.md) | Works side by side. |
+| [Rotaflux](rotaflux.md) | Works side by side. |
 | [Jade](https://www.curseforge.com/projects/324717) | Shows "Runs on mana: 1 mana = 10 FE" on a machine. |
 | [JEI](https://www.curseforge.com/projects/238222) | An info page on the four machines. |
 
