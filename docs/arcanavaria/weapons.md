@@ -45,7 +45,7 @@ Warden wakes from the ground. Only one Warden guards a grove at a time.
 ![Thaumium Whip](img/thaumium_whip.png){ .mc-icon } ![Void Whip](img/void_whip.png){ .mc-icon }
 ![Elemental Whip](img/elemental_whip.png){ .mc-icon } ![Amberbark Lash](img/amberbark_lash.png){ .mc-icon }
 
-Four whips on Fundamentum's whip system. They need **Fundamentum 1.22.1 or newer**. Without it, Arcana Varia loads as
+Four whips on Fundamentum's whip system. They need **Fundamentum 1.27.2 or newer**. Without it, Arcana Varia loads as
 normal and the whips, their recipes and their research stay hidden.
 
 | Picture | Whip | Reach | Tip damage | How you get it | Extra |
