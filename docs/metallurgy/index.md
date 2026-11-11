@@ -28,6 +28,9 @@ Tartarite.
 
 ## Works with
 
+Optional Ender IO recipes, Immersive Engineering heaters and ProjectE EMC, where those mods are available.
+Tetra materials and Spartan Weaponry weapons on 1.20.1. Silent's Gems has handbook notes; metal tool materials use Silent Gear.
+
 | Mod | How it works |
 |---|---|
 | [JEI](https://www.curseforge.com/projects/238222) | shows every machine recipe, detector programming and every form of Tartarite absorption |

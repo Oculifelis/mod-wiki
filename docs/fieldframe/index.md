@@ -46,6 +46,8 @@ On 26.1.2, optional [Fundamentum](../fundamentum/index.md) 1.22.3 or newer adds 
 
 ## The manual
 
+Optional Ponder support adds animated machine guides on 1.20.1, 1.21.1 and 26.1.2.
+
 The **Engineering Field Manual** is built in, so you don't need a guidebook mod. It shows each module's live numbers,
 its recipes and a checklist for your first machine.
 

@@ -69,6 +69,8 @@ Both are in the Fundamentum key category.
 
 ## Compatibility
 
+[Architect's Palette](https://www.curseforge.com/projects/433862) warping recipes keep priority over Fundamentum's portal crafting. Optional.
+
 | Mod | What Fundamentum adds | Needed? |
 |---|---|---|
 | [Jade](https://modrinth.com/mod/jade) | looking at a playing jukebox shows the disc, a progress bar and "1:12 / 3:05"; works for every disc, modded ones too; toggle it in Jade's plugin settings ("Jukebox song progress") | optional |
