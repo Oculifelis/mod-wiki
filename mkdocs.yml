@@ -91,6 +91,15 @@ nav:
       - Versions: fieldframe/versions.md
       - Fieldframe Frameworks: fieldframe-frameworks/index.md
       - Fieldframe Transit: fieldframe-transit/index.md
+  - Complicated Bees:
+      - bees/index.md
+      - Complicated Bees Unofficial:
+          - complicatedbees/index.md
+          - Items and machines: complicatedbees/items.md
+      - Genetic Industry Unofficial: ports/genetic-industry/index.md
+      - Complicated Trees: other/complicated-trees.md
+      - Apiflux: other/apiflux.md
+      - Manacomb: other/manacomb.md
   - Ports:
       - ports/index.md
       - Nether Agriculture (Unofficial):
@@ -113,13 +122,6 @@ nav:
           - For pack makers: mariculture/packs.md
           - Config: mariculture/config.md
           - Versions: mariculture/versions.md
-      - Complicated Bees Unofficial:
-          - complicatedbees/index.md
-          - Items and machines: complicatedbees/items.md
-      - Genetic Industry Unofficial: ports/genetic-industry/index.md
   - Other mods:
       - other/index.md
       - Spartan x Better Combat: other/spartan-bettercombat.md
-      - Apiflux: other/apiflux.md
-      - Manacomb: other/manacomb.md
-      - Complicated Trees: other/complicated-trees.md

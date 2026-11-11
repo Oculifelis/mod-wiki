@@ -2,7 +2,7 @@
 
 ![Apiflux logo](../assets/apiflux_logo.png){ width="128" align=right }
 
-An addon for [Complicated Bees](https://modrinth.com/mod/complicated-bees) that lets its FE machines (the
+An addon for [Complicated Bees](https://www.curseforge.com/projects/1100137) that lets its FE machines (the
 Centrifuge, the Gyrofuge controller and energy cell, and the Mellarium energy cell) run on **Create rotation**.
 Its sister mod is [Manacomb](manacomb.md), for Botania mana; the two work side by side.
 
@@ -27,7 +27,7 @@ Every rate is in a data map, so a datapack can change it.
 
 | Mod | What it does |
 |---|---|
-| [Complicated Bees](https://modrinth.com/mod/complicated-bees) | Required, 3.6 or later. |
+| [Complicated Bees](https://www.curseforge.com/projects/1100137) | Required, 3.6 or later. |
 | [Create](https://www.curseforge.com/projects/328085) | Optional, 6.0.x: the [Kinetic Dynamo](#kinetic-dynamo). Without Create, only the RF switch does anything. |
 | [Manacomb](manacomb.md) | Works side by side; Apiflux's switch covers both. |
 | [Jade](https://www.curseforge.com/projects/324717) | Shows a line on a machine when outside FE is off. |

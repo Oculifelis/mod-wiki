@@ -2,7 +2,7 @@
 
 ![Manacomb logo](../assets/manacomb_logo.png){ width="128" align=right }
 
-An addon for [Complicated Bees](https://modrinth.com/mod/complicated-bees) that makes the same four FE machines
+An addon for [Complicated Bees](https://www.curseforge.com/projects/1100137) that makes the same four FE machines
 [Botania](https://www.curseforge.com/projects/225643) **mana** receivers. No new block. Its sister mod is
 [Apiflux](apiflux.md), for Create rotation.
 
@@ -31,7 +31,7 @@ The rate, and which machines take mana, are data maps a datapack can change.
 
 | Mod | What it does |
 |---|---|
-| [Complicated Bees](https://modrinth.com/mod/complicated-bees) | Required, 3.6 or later. |
+| [Complicated Bees](https://www.curseforge.com/projects/1100137) | Required, 3.6 or later. |
 | [Botania](https://www.curseforge.com/projects/225643) | Required. |
 | [Apiflux](apiflux.md) | Works side by side. |
 | [Jade](https://www.curseforge.com/projects/324717) | Shows "Runs on mana: 1 mana = 10 FE" on a machine. |
