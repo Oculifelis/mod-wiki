@@ -1,6 +1,8 @@
 # Versions
 
-Metallurgy: Recast is made for **NeoForge 26.1.2** (26.1.2.122). It needs no other mod.
+Metallurgy: Recast **1.4.4** is built for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. It needs no other mod.
+
+The optional-mod versions below describe the 26.1.2 target.
 
 | Optional mod | Version |
 |---|---|
@@ -12,6 +14,10 @@ Metallurgy: Recast is made for **NeoForge 26.1.2** (26.1.2.122). It needs no oth
 | Thaumaturge | 1.1.0 or newer |
 
 ## Changelog
+
+**1.4.4**
+
+- Replaced the remaining textures based on the original Metallurgy art: Haderoth and Lutetium armour, molten metals and particles.
 
 **1.4.3**
 

@@ -16,7 +16,7 @@ factory is just machines standing next to each other.
 **Requires** [Metallurgy: Recast](../metallurgy/index.md), for its metals, ores and dusts. **Optional:** [JEI](https://www.curseforge.com/projects/238222),
 [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
-**Versions:** 0.3.5 for NeoForge 26.1.2, 0.1.3 for NeoForge 1.21.1 and Forge 1.20.1. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794634).
+**Versions:** 0.3.5 for NeoForge 26.1.2, NeoForge 1.21.1 and Forge 1.20.1. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794634).
 
 ## What's in it
 

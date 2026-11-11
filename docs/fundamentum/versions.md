@@ -2,20 +2,24 @@
 
 | Minecraft | Loader | Latest built | Notes |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.27.2 | the main line: everything on this wiki; works under Iris shader packs |
-| 1.21.1 | NeoForge 21.1 | 1.27.2 | everything except a few parts that need newer Minecraft (below) |
-| 26.2 | NeoForge 26.2 | 1.27.2 | the same as 26.1.2 |
-| 26.3 | NeoForge 26.3 | 1.27.2 | biome slices place biomes but do not supply surface rules |
-| 1.20.1 | Forge 47 | 1.27.2 | the same as 1.21.1, with the same parts left out |
+| 26.1.2 | NeoForge | 1.28.0 | the main line: everything on this wiki; works under Iris shader packs |
+| 1.21.1 | NeoForge 21.1 | 1.28.0 | everything except a few parts that need newer Minecraft (below) |
+| 26.2 | NeoForge 26.2 | 1.28.0 | the same as 26.1.2 |
+| 26.3 | NeoForge 26.3 | 1.28.0 | biome slices include surface rules |
+| 1.20.1 | Forge 47 | 1.28.0 | the same as 1.21.1, with the same parts left out |
 
 ## What 1.21.1 leaves out
 
-- Wings drawn from an equipment asset's `wings` layer (wings still work as a slot item; mods draw their own).
+- The newer equipment-asset `wings` layer is unavailable. Wings can use an explicit texture path instead.
 - Item model faces with `light_emission`: glowing faces use `neoforge_data` light in the model instead.
 - Whip item model conditions are `ItemProperties` overrides instead of item model definitions.
 - The `on_shelf` display context.
 - A recipe book category for portal crafting (JEI still shows the recipes).
 - Mounts saddle through `Saddleable`; mobs that only exist on 26.x (the happy ghast, the nautilus) aren't there.
+
+## New in 1.28.0
+
+Wing textures can use an explicit path, and other players see the wearer's flight phase. Thrown weapons and both boss-relic display modes work on 1.20.1 and 1.21.1 too. Biome slices supply surface rules on 26.3.
 
 ## New in 1.27.2
 

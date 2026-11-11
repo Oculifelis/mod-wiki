@@ -1,6 +1,6 @@
 # Night events
 
-*NeoForge 26.1.2 and 1.21.1.*
+*Fundamentum 1.28.0: Forge 1.20.1; NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.*
 
 Something that happens on a night, beside (or instead of) its moon: a feast, a raid, a siege. One runs at a time per
 world. They're rolled at dusk after the moon, or raised by code or command.

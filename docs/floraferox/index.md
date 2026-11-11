@@ -12,7 +12,7 @@ brews and info pages.
 
 | Minecraft | Loader | Flora Ferox | Fundamentum |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.19.0 | 1.25.5 or newer |
+| 26.1.2 | NeoForge | 1.20.0 (local build) | 1.28.0 or newer |
 | 26.2 | NeoForge | 1.19.0 | 1.26.1 or newer |
 | 26.3 | NeoForge | 1.19.0 | 1.26.1 or newer |
 | 1.21.1 | NeoForge | 1.19.0 | 1.26.1 or newer |

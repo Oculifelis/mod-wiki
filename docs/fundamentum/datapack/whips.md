@@ -1,6 +1,6 @@
 # Whips
 
-*NeoForge 26.1.2 and 1.21.1.*
+*Fundamentum 1.28.0: Forge 1.20.1; NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.*
 
 Fundamentum's whips have a simulated cord: hits are tested along its whole moving length, the tip hits hardest, and a
 tip hit at crack speed is a crit. Left click swings. A mod registers its whips in code (see [API](../api.md)); a data
@@ -99,4 +99,4 @@ The item model condition `fundamentum:whip_flat_handles` is true when the player
            "on_false": {"type": "minecraft:model", "model": "mymod:item/thorn_whip"}}}
 ```
 
-On 1.21.1 the same switches are `ItemProperties` overrides in the item model.
+On 1.20.1 and 1.21.1 the same switches are `ItemProperties` overrides in the item model.

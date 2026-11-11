@@ -11,10 +11,10 @@ Tartarite.
 
 ![A block of each of the 49 metals, with gold for scale](img/04-every-metal.jpg)
 
-**Requires** nothing but NeoForge. **Optional:** [JEI](https://www.curseforge.com/projects/238222), [Patchouli](https://www.curseforge.com/projects/306770), [Silent Gear](https://www.curseforge.com/projects/297039), and on 26.1.2 [Hephaestus Tools](https://www.curseforge.com/projects/1725286) and
+**Requires** Forge on 1.20.1 or NeoForge on 1.21.1 and 26.1.2. **Optional:** [JEI](https://www.curseforge.com/projects/238222), [Patchouli](https://www.curseforge.com/projects/306770), [Silent Gear](https://www.curseforge.com/projects/297039), and on 26.1.2 [Hephaestus Tools](https://www.curseforge.com/projects/1725286) and
 [Thaumaturge](https://www.curseforge.com/projects/1628024) ([Works with](#works-with)).
 
-**Versions:** 1.4.3 for NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1793682).
+**Versions:** 1.4.4 for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1793682).
 
 ## What's in it
 
