@@ -71,6 +71,8 @@ MODS = {
         "mirecap_cleaver", "flare_cleaver", "rime_cleaver", "dusk_sceptre", "ember_sceptre", "rime_sceptre",
         "moonwisp_whip", "moonflare_whip", "moonrime_whip",
         "heartstring_bow", "scorchstring_bow", "rimestring_bow", "pulse_arbalest", "scorch_arbalest", "rime_arbalest",
+        # throwables
+        "runed_seed", "spore_flask", "leafrang", "thorn_javelin",
     ]),
     "slowlight": (MODDING + "/Slowlight/src/main/resources/assets", "minecraft_1.21.1_client.jar", [
         # kilns, light and measuring
@@ -194,6 +196,7 @@ ENTITIES = {
         "pitcher_spitter", "carrion_bloom",
         "wartback", "nylium_lurker", "soulwick", "cinder_thistle", "warped_stilt", "lanternpuff", "crimson_behemoth",
         "pearl_pod", "void_jelly", "rift_narwhal",
+        "bloomsprout", "glowgill", "dripleaf_toad", "warped_wartback", "snarlstump", "blightcap", "glisterlure",
     ]),
 }
 
