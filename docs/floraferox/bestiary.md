@@ -1,6 +1,6 @@
 # Bestiary
 
-All 29 Flora Ferox creatures, grouped by where they live. Stats are ♥ health, ⚔ attack and ◈ armour. Each creature takes full
+All 36 Flora Ferox creatures, grouped by where they live. Stats are ♥ health, ⚔ attack and ◈ armour. Each creature takes full
 damage from its family's weakness and half from everything else:
 
 | Family | Weak to |
@@ -78,6 +78,9 @@ also gives its family +15% damage.
 | Picture | Name | Family | ♥ ⚔ ◈ | Spawns | What it does | Drops |
 |---|---|---|---|---|---|---|
 | ![Carrion Bloom](img/carrion_bloom.png){ .mc-icon .mc-mob loading=lazy } | **Carrion Bloom**{ #carrion-bloom } | [Mire](index.md#the-four-families), miniboss | ♥ 100 · ⚔ 7 · ◈ 6 | lush caves. | Rooted in place. Every 5 seconds it pulls you in from up to 10 blocks, and its spores poison. | spore blossom, glow berries, moss. |
+| ![Bloomsprout](img/bloomsprout.png){ .mc-icon .mc-mob loading=lazy } | **Bloomsprout**{ #bloomsprout } | [Dusk](index.md#the-four-families), neutral | ♥ 20 · ⚔ 3 · ◈ 2 | lush caves, in twos and threes. | Neutral, but only for a moment: hit it and it fights back for 10 seconds or two blows, then calms down. It walks to unripe herb crops within 6 blocks and dusts them so they grow faster. Breeds with glow berries. Its shell puff gives Weakness. Feed it a flare or rime herb and it keeps the ember or rime look for good. | moss carpet (50%), glow berries (35%), flowering azalea (10%). |
+| ![Glowgill](img/glowgill.png){ .mc-icon .mc-mob loading=lazy } | **Glowgill**{ #glowgill } | [Dusk](index.md#the-four-families), neutral | ♥ 20 · ⚔ 3 · ◈ 2 | lush caves, in twos and threes. | Neutral, but only for a moment: hit it and it fights back for 10 seconds or two blows, then calms down. It walks to unripe herb crops within 6 blocks and dusts them so they grow faster. Breeds with glow berries. Its gills squirt water from 4 blocks away and give Slowness. | moss carpet (50%), glow berries (35%), azalea (10%). |
+| ![Dripleaf Toad](img/dripleaf_toad.png){ .mc-icon .mc-mob loading=lazy } | **Dripleaf Toad**{ #dripleaf-toad } | [Dusk](index.md#the-four-families), neutral | ♥ 20 · ⚔ 3 · ◈ 2 | lush caves, in twos and threes. | Neutral, but only for a moment: hit it and it fights back for 10 seconds or two blows, then calms down. It walks to unripe herb crops within 6 blocks and dusts them so they grow faster. Breeds with glow berries. Its parasol dumps water on you, which puts out fire. | moss carpet (50%), glow berries (35%), big dripleaf (10%). |
 
 ## The Nether
 
@@ -86,12 +89,23 @@ Every Nether creature is fireproof.
 | Picture | Name | Family | ♥ ⚔ ◈ | Spawns | What it does | Drops |
 |---|---|---|---|---|---|---|
 | ![Wartback](img/wartback.png){ .mc-icon .mc-mob loading=lazy } | **Wartback**{ #wartback } | [Mire](index.md#the-four-families) | ♥ 26 · ⚔ 5 · ◈ 4 | crimson forest, nether wastes. | Lunges and tosses you on its tusks. | nether wart (50%). |
+| ![Warped Wartback](img/warped_wartback.png){ .mc-icon .mc-mob loading=lazy } | **Warped Wartback**{ #warped-wartback } | [Mire](index.md#the-four-families) | ♥ 26 · ⚔ 5 · ◈ 4 | warped forest. | The Wartback's warped cousin. Lunges and tosses you on its tusks. | nether wart (50%). |
 | ![Nylium Lurker](img/nylium_lurker.png){ .mc-icon .mc-mob loading=lazy } | **Nylium Lurker**{ #nylium-lurker } | [Mire](index.md#the-four-families) | ♥ 22 · ⚔ 5 · ◈ 4 | crimson forest, warped forest. | Waits in its lair. When you come within 6 blocks it lunges; its jaws give Slowness IV. Then it goes back to its lair. | crimson roots (50%). |
 | ![Soulwick](img/soulwick.png){ .mc-icon .mc-mob loading=lazy } | **Soulwick**{ #soulwick } | [Pulse](index.md#the-four-families) | ♥ 20 · ⚔ 4 · ◈ 2 | soul sand valley. | Leaps and burns. Near death it lets out one ring of soul fire. | soul torch (30%), bone meal (40%). |
 | ![Cinder Thistle](img/cinder_thistle.png){ .mc-icon .mc-mob loading=lazy } | **Cinder Thistle**{ #cinder-thistle } | [Pulse](index.md#the-four-families) | ♥ 18 · ⚔ 4 · ◈ 2 | basalt deltas, nether wastes. | Fires a fan of three burning spikes, then backs off. | blaze powder (25%), coal (40%). |
 | ![Warped Stilt](img/warped_stilt.png){ .mc-icon .mc-mob loading=lazy } | **Warped Stilt**{ #warped-stilt } | [Dusk](index.md#the-four-families), neutral | ♥ 22 · ⚔ 3 · ◈ 2 | warped forest. | Its spore burst gives Poison and Nausea. | warped fungus (40%). |
 | ![Lanternpuff](img/lanternpuff.png){ .mc-icon .mc-mob loading=lazy } | **Lanternpuff**{ #lanternpuff } | [Moon](index.md#the-four-families), neutral | ♥ 16 · ⚔ 3 · ◈ 0 | crimson forest, nether wastes, basalt deltas. | Shoots embers. When struck, it blinds you. | glowstone dust (50%). |
 | ![Crimson Behemoth](img/crimson_behemoth.png){ .mc-icon .mc-mob loading=lazy } | **Crimson Behemoth**{ #crimson-behemoth } | [Mire](index.md#the-four-families), miniboss | ♥ 160 · ⚔ 10 · ◈ 10 | crimson forest. | Stamps the ground in fire and charges. From more than 8 blocks away it throws 3 fireballs. | crimson stem, shroomlight, magma cream. |
+
+## Biomes O' Plenty and Regions Unexplored
+
+These three spawn only when that mod is installed, and only in their own biome. All three are fireproof.
+
+| Picture | Name | Family | ♥ ⚔ ◈ | Spawns | What it does | Drops |
+|---|---|---|---|---|---|---|
+| ![Snarlstump](img/snarlstump.png){ .mc-icon .mc-mob loading=lazy } | **Snarlstump**{ #snarlstump } | [Moon](index.md#the-four-families) | ♥ 22 · ⚔ 5 · ◈ 3 | Infernal Holt (Regions Unexplored), Undergrowth (Biomes O' Plenty). | Its hits slow you. | string (40%), amethyst shard (25%). |
+| ![Blightcap](img/blightcap.png){ .mc-icon .mc-mob loading=lazy } | **Blightcap**{ #blightcap } | [Dusk](index.md#the-four-families), neutral | ♥ 18 · ⚔ 3 · ◈ 2 | Mycotoxic Undergrowth (Regions Unexplored), in groups of up to 3. | Bursts out spores that poison. The Carrion Bloom calls two of them in its second phase and two more in its third. | warped fungus (40%). |
+| ![Glisterlure](img/glisterlure.png){ .mc-icon .mc-mob loading=lazy } | **Glisterlure**{ #glisterlure } | [Mire](index.md#the-four-families) | ♥ 20 · ⚔ 5 · ◈ 2 | Glistering Meadow (Regions Unexplored). | Lunges at you. | crimson roots (50%). |
 
 ## The End
 

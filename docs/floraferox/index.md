@@ -2,8 +2,8 @@
 
 ![Flora Ferox logo](../assets/floraferox_logo.png){ width="140" align=right }
 
-29 plant creatures across the Overworld, the Nether and the End. You grow and splice herbs and brew from them, then
-fight what they wake with bows, arbalests, seed guns, whips, sceptres and cleavers.
+36 plant creatures across the Overworld, the Nether and the End. You grow and splice herbs and brew from them, then
+fight what they wake with bows, arbalests, seed guns, throwables, whips, sceptres and cleavers.
 
 **Requires** [Fundamentum](../fundamentum/index.md) and [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://www.curseforge.com/projects/238222), for the Grafting Bench splices, the
 brews and info pages.
@@ -12,13 +12,13 @@ brews and info pages.
 
 | Minecraft | Loader | Flora Ferox | Fundamentum |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.20.0 (local build) | 1.28.0 or newer |
-| 26.2 | NeoForge | 1.19.0 | 1.26.1 or newer |
-| 26.3 | NeoForge | 1.19.0 | 1.26.1 or newer |
-| 1.21.1 | NeoForge | 1.19.0 | 1.26.1 or newer |
-| 1.20.1 | Forge | 1.19.0 | 1.26.1 or newer |
+| 26.1.2 | NeoForge | 1.20.0 | 1.28.0 or newer |
+| 26.2 | NeoForge | 1.20.0 | 1.28.0 or newer |
+| 26.3 | NeoForge | 1.20.0 | 1.28.0 or newer |
+| 1.21.1 | NeoForge | 1.20.0 | 1.28.0 or newer |
+| 1.20.1 | Forge | 1.20.0 | 1.28.0 or newer |
 
-In 1.19.0, the Briar King and Crimson Behemoth take on different appearances by biome, and the Thorn Matriarch has a new body. See [Boss appearances](bestiary.md#boss-appearances).
+In 1.20.0, the seed guns fire glowing seeds again, there are four throwables, and the wings leave a trail of leaves, embers or frost. In 1.19.0, the Briar King and Crimson Behemoth take on different appearances by biome, and the Thorn Matriarch has a new body. See [Boss appearances](bestiary.md#boss-appearances).
 
 [CurseForge project](https://www.curseforge.com/projects/1788773)
 
@@ -66,13 +66,13 @@ and chills them. Each later tier is crafted from the one before, with herbs, a g
 |---|---|---|
 | ![Mirecap Cleaver](img/mirecap_cleaver.png){ .mc-icon } ![Flare Cleaver](img/flare_cleaver.png){ .mc-icon } ![Rime Cleaver](img/rime_cleaver.png){ .mc-icon } | **Cleavers (melee)**{ #cleavers-melee } | Right click sends a slash flying a few blocks. |
 | ![Dusk Sceptre](img/dusk_sceptre.png){ .mc-icon } ![Ember Sceptre](img/ember_sceptre.png){ .mc-icon } ![Rime Sceptre](img/rime_sceptre.png){ .mc-icon } | **Sceptres (magic)**{ #sceptres-magic } | Left click casts petal bolts. Right click is the tier's support: Dusk Bloom heals you and allies within 4 blocks, Ember Ward rings you in fire and makes you fireproof, Rime Shell gives Resistance and Absorption and freezes hostiles near you. |
-| ![Pulse Pistol](img/pulse_pistol.png){ .mc-icon } ![Seed Pellet](img/seed_pellet.png){ .mc-icon } | **Seed guns (ranged)**{ #seed-guns-ranged } | One-handed pistols that fire glowing seeds, using Seed Pellets, on left click. They have their own enchantments: Heartsight, Seed Hopper, Weedkiller, Quickdraw, Bloom Shot, Heartmend and Infinity. |
-| | **Throwables**{ #throwables } | Runed Seed bursts into a rune ring that shoves and slows. Spore Flask sets things alight and leaves a poison cloud. The Leafrang hits again on the way back. The Thorn Javelin sticks and roots what it hits. |
+| ![Pulse Pistol](img/pulse_pistol.png){ .mc-icon } ![Seed Pellet](img/seed_pellet.png){ .mc-icon } | **Seed guns (ranged)**{ #seed-guns-ranged } | One-handed pistols that fire glowing seeds, using Seed Pellets, on left click. The Pulse Pistol fires a green seed, the Scorch Spitter a charred ember seed and the Rime Repeater a frosted one. They have their own enchantments: Heartsight, Seed Hopper, Weedkiller, Quickdraw, Bloom Shot, Heartmend and Infinity. |
+| ![Runed Seed](img/runed_seed.png){ .mc-icon } ![Spore Flask](img/spore_flask.png){ .mc-icon } ![Leafrang](img/leafrang.png){ .mc-icon } ![Thorn Javelin](img/thorn_javelin.png){ .mc-icon } | **Throwables**{ #throwables } | Runed Seed bursts into a rune ring that shoves and slows. Spore Flask sets things alight and leaves a poison cloud. The Leafrang hits again on the way back. The Thorn Javelin sticks and roots what it hits. |
 | ![Moonwisp Whip](img/moonwisp_whip.png){ .mc-icon } ![Moonflare Whip](img/moonflare_whip.png){ .mc-icon } ![Moonrime Whip](img/moonrime_whip.png){ .mc-icon } | **Whips (summon or melee)**{ #whips-summon-or-melee } | Fundamentum cord whips. Your pets attack whatever the whip hits. A whip hit counts as summon or melee, never both at once. |
 | ![Heartstring Bow](img/heartstring_bow.png){ .mc-icon } ![Scorchstring Bow](img/scorchstring_bow.png){ .mc-icon } ![Rimestring Bow](img/rimestring_bow.png){ .mc-icon } | **Bows (ranged)**{ #bows-ranged } | Heartstring, Scorchstring and Rimestring. A full draw leaves a heart seed in what it hits, which bursts 0.75 seconds later for 4, 5 or 6 damage within 2.5 blocks. The Scorchstring's burst sets things alight, the Rimestring's slows and chills them. |
 | ![Pulse Arbalest](img/pulse_arbalest.png){ .mc-icon } ![Scorch Arbalest](img/scorch_arbalest.png){ .mc-icon } ![Rime Arbalest](img/rime_arbalest.png){ .mc-icon } | **Arbalests (ranged)**{ #arbalests-ranged } | Crossbows whose bolt pierces one mob and roots the first it hits. The Scorch Arbalest sets the rooted mob alight, the Rime Arbalest slows and chills it. |
 | ![Mirecap Grapple](img/mirecap_grapple.png){ .mc-icon } ![Dusk Tendril](img/dusk_tendril.png){ .mc-icon } ![Pulse Hook](img/pulse_hook.png){ .mc-icon } ![Moonwisp Grapnel](img/moonwisp_grapnel.png){ .mc-icon } | **Grappling hooks**{ #grappling-hooks } | One for every weapon, worn in the hook slot and fired with H. Mire grapples pull hardest, Dusk tendrils hang in the air on a miss, Pulse hooks reach furthest, Moon grapnels hold you still. |
-| ![Leafwing](img/leafwing.png){ .mc-icon } ![Emberwing](img/emberwing.png){ .mc-icon } ![Rimewing](img/rimewing.png){ .mc-icon } | **Wings**{ #wings } | Leafwing, Emberwing and Rimewing, each flying further than the last. |
+| ![Leafwing](img/leafwing.png){ .mc-icon } ![Emberwing](img/emberwing.png){ .mc-icon } ![Rimewing](img/rimewing.png){ .mc-icon } | **Wings**{ #wings } | Leafwing, Emberwing and Rimewing, each flying further than the last. In flight they shed leaves, embers or frost and make their own sound. |
 | ![Leafguard Plate](img/leafguard_plate.png){ .mc-icon } ![Emberbark Plate](img/emberbark_plate.png){ .mc-icon } ![Rimebark Plate](img/rimebark_plate.png){ .mc-icon } | **Armour**{ #armour } | Leafguard, Emberbark and Rimebark. Each set has four helmets, one per damage type. Sets add no damage or critical chance: the helmet decides the set effect (twelve in all, each on its helmet's tooltip), and Rimebark adds a class perk: the melee helmet gives Speed and 20% faster swings and Cleaver slashes, the ranged one winds bows and crossbows 20% faster, the magic one makes sceptres and guns recover 20% faster, and the summon one strengthens your pets nearby. |
 | ![Pulse Charm](img/pulse_charm.png){ .mc-icon } ![Dusk Charm](img/dusk_charm.png){ .mc-icon } ![Moon Charm](img/moon_charm.png){ .mc-icon } ![Mire Charm](img/mire_charm.png){ .mc-icon } | **Charms**{ #charms } | A charm for each family, and one for each hunter's trophy. Each adds to its family's damage; the trophy charms add a small effect too. Worn in a Curios charm slot or carried. |
 | ![Peace Lily Charm](img/peace_lily_charm.png){ .mc-icon } | **Peace Lily Charm**{ #peace-lily-charm } | Every Flora Ferox creature leaves you alone until you strike it. |
