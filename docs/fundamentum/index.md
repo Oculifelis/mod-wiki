@@ -5,7 +5,7 @@
 A library mod: it doesn't add much on its own. Mods built on it use it for the systems they share, so their items,
 stats and events work together instead of each mod rolling its own. Nearly everything is set up through datapacks.
 
-Current version: **1.28.0** for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.
+Current version: **1.29.0** for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 and 26.3.
 
 **Requires:** [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://modrinth.com/mod/jei) (shows [portal crafting](datapack/portal-crafting.md) recipes).
 
@@ -43,6 +43,28 @@ Current version: **1.28.0** for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 a
 | **[Use sickness](datapack/sickness.md)** | For potions and other consumables. |
 | **Tooltips** | For whips and hooks; any item's `.desc` lang lines show under its name. |
 | **Max health** | Up to 1,000,000 instead of 1,024. |
+
+## Systems for mod and pack makers
+
+From 1.29.0 Fundamentum also carries the systems its mods share. Most are set up with datapack files.
+
+| System | What it does |
+|---|---|
+| [Unify](systems/unify.md) | When several mods add the same ingot, dust, ore or plate, one is kept and the rest point at it. |
+| [Multiblocks](systems/multiblocks.md) | Structures defined in datapacks, with a ghost-block preview while you build. |
+| [Transfer](systems/transfer.md) | Energy and fluid buffers over the loader's own capabilities, synced tanks and a tank widget. |
+| [Mob goals](systems/mob-goals.md) | Kite, strafe, leap, charge, flee, call allies, guard, follow a leader and factions, all in data. |
+| [Climate and seasons](systems/climate.md) | Temperature and humidity everywhere, seasons, crop growth, grass and leaf tint, Serene Seasons support. |
+| [Survival](systems/survival.md) and [food](systems/food.md) | Meters like thirst or warmth, and food groups. |
+| [Music](systems/music.md) | Rules for which music plays where and when. |
+| [Guide books](systems/guide.md) | Pages written as text files inside a mod or datapack. |
+| [Stats](systems/stats.md), [unlocks](systems/unlocks.md), [slots](systems/slots.md), [relics](systems/relics.md) | Shared player stats, unlocks, equipment slots and relic stands. |
+| [Recipe viewers](systems/recipe-viewers.md) | One declaration for JEI, REI and EMI. |
+| [Events](systems/events.md) | Shared events so mods can react to each other without depending on each other. |
+| [HUD](systems/hud.md) | A layout editor for every bar a Fundamentum mod draws. |
+| [Biome slices](systems/biome-slices.md) | Biomes placed from data files, with or without TerraBlender. |
+| [Config](systems/config.md) and [performance](systems/performance.md) | Per-world config files and the timing of the slow safety checks ([client side](systems/performance-client.md)). |
+| [Porting layer](systems/porting-api.md) | Calls that are the same on all five versions, for mods that ship on several. |
 
 ## Keys
 
@@ -98,6 +120,7 @@ it. Versions before 1.25.8 were All Rights Reserved. The cord whip system is ada
 | Page | What it covers |
 |---|---|
 | [Versions](versions.md) | What each Minecraft version has. |
+| [Systems](#systems-for-mod-and-pack-makers) | The shared systems added in 1.29.0. |
 | [Datapacks](datapack/index.md) | Every JSON format, with examples. |
 | [KubeJS](kubejs.md) | Scripting Fundamentum's data with KubeJS. |
 | [API](api.md) | For mod makers. |

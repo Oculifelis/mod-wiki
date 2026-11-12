@@ -2,11 +2,11 @@
 
 | Minecraft | Loader | Latest built | Notes |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.28.0 | the main line: everything on this wiki; works under Iris shader packs |
-| 1.21.1 | NeoForge 21.1 | 1.28.0 | everything except a few parts that need newer Minecraft (below) |
-| 26.2 | NeoForge 26.2 | 1.28.0 | the same as 26.1.2 |
-| 26.3 | NeoForge 26.3 | 1.28.0 | biome slices include surface rules |
-| 1.20.1 | Forge 47 | 1.28.0 | the same as 1.21.1, with the same parts left out |
+| 26.1.2 | NeoForge | 1.29.0 | the main line: everything on this wiki; works under Iris shader packs |
+| 1.21.1 | NeoForge 21.1 | 1.29.0 | everything except a few parts that need newer Minecraft (below) |
+| 26.2 | NeoForge 26.2 | 1.29.0 | the same as 26.1.2 |
+| 26.3 | NeoForge 26.3 | 1.29.0 | biome slices include surface rules |
+| 1.20.1 | Forge 47 | 1.29.0 | the same as 1.21.1, with the same parts left out |
 
 ## What 1.21.1 leaves out
 
@@ -16,6 +16,14 @@
 - The `on_shelf` display context.
 - A recipe book category for portal crafting (JEI still shows the recipes).
 - Mounts saddle through `Saddleable`; mobs that only exist on 26.x (the happy ghast, the nautilus) aren't there.
+
+## New in 1.29.0
+
+The biggest update so far. Fundamentum now carries the [systems](index.md#systems-for-mod-and-pack-makers) its mods share:
+unify, multiblocks, energy and fluid transfer, mob goals, climate and seasons, survival meters, food groups, music
+rules, guide books, bosses, loot helpers, material sets, stats, unlocks, slots, relic stands, one recipe viewer layer
+for JEI, REI and EMI, a HUD layout editor and shared events. They work on all five versions. Systems react to game
+events instead of checking every tick.
 
 ## New in 1.28.0
 
