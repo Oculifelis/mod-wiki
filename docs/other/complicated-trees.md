@@ -15,8 +15,8 @@ mod's trees.
 |---|---|---|---|
 | 1.20.1 | Forge | 0.1.0 | CurseForge project |
 | 1.21.1 | NeoForge | 0.1.0 | CurseForge project |
-| 26.1.2 | NeoForge | 0.1.0 | Local build |
-| 26.2 | NeoForge | 0.1.0 | Local build |
+| 26.1.2 | NeoForge | 0.1.0 | CurseForge project |
+| 26.2 | NeoForge | 0.1.0 | CurseForge project |
 
 The 26.x builds use [Complicated Bees Unofficial](../complicatedbees/index.md). [CurseForge project](https://www.curseforge.com/projects/1794603)
 
@@ -60,4 +60,4 @@ Species, crosses, alleles and species tags are datapack files under
 `data/<namespace>/complicated_trees/species`, `breeding`, `alleles` and `species_tags`. Run `/reload` after changing
 them. Ids are `complicated_trees:<name>`.
 
-**Licence:** All Rights Reserved in 0.1.0. GPL-3.0-or-later from the next build.
+**Licence:** All Rights Reserved in the released 0.1.0 jars.

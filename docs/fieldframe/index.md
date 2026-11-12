@@ -37,12 +37,14 @@ factory is just machines standing next to each other.
 
 ## Built on Fundamentum
 
-On 26.1.2, optional [Fundamentum](../fundamentum/index.md) 1.22.3 or newer adds the Arc Whip, Tesla Whip and Graviton Hook. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
+On NeoForge 26.1.2 and 1.21.1, optional [Fundamentum](../fundamentum/index.md) adds the Arc Whip, Tesla Whip and Graviton Hook. It needs Fundamentum 1.22.3 or newer on 26.1.2, and 1.25.8 or newer on 1.21.1. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
 
 | Override | Path | Format |
 |---|---|---|
 | Graviton Hook | <code>data/fieldframe/fundamentum/hooks/graviton_hook.json</code> | [Hooks](../fundamentum/datapack/hooks.md) |
 | Arc Whip and Tesla Whip | <code>data/fieldframe/fundamentum/whips/{arc_whip,tesla_whip}.json</code> | [Whips](../fundamentum/datapack/whips.md) |
+
+The Forge 1.20.1 jar declares optional Fundamentum 1.26.1 or newer but does not contain these per-item tuning JSON files.
 
 ## The manual
 
@@ -59,3 +61,8 @@ By **Oculifelis**. Inspired by Emasher's Engineer's Toolbox, with none of its co
 FLORA textures, the Painterly item templates and the NeoVitae armor art are credited in `CREDITS.md` in the jar.
 
 **Licence:** LGPL-3.0-or-later. Third-party art keeps the terms in the jar credits.
+
+
+## Compatibility
+
+A Field Kit can work from a [Curios API](https://www.curseforge.com/projects/309927) slot when Curios is installed.

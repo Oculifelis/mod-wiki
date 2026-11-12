@@ -33,10 +33,11 @@ own ([Towers and labs](towers-and-labs.md#other-mods)).
 
 ## Built on Fundamentum
 
-The [four whips](weapons.md#whips) use Fundamentum's cord system. Their reach spans 5 to 6 blocks. Their recipes and research appear with Fundamentum installed.
+The [four whips](weapons.md#whips) use Fundamentum's cord system. Their reach spans 5 to 6 blocks. Their recipes and research appear with Fundamentum installed. The released 0.8.0 jar also contains four scythe tuning files: Thaumium (7 damage), Void (8), Elemental (8.5) and Exanimator's Edge (5.5), all with reach 4.
 
 | Override | Path | Format |
 |---|---|---|
+| Four scythes | <code>data/arcanavaria/fundamentum/scythes/&lt;name&gt;.json</code> | [Weapon tuning](../fundamentum/datapack/weapon-tuning.md#scythes) |
 | Whip tuning by item ID | <code>data/&lt;namespace&gt;/fundamentum/whips/&lt;name&gt;.json</code> | [Whips](../fundamentum/datapack/whips.md) |
 
 ## Credits
@@ -49,5 +50,5 @@ By **Oculifelis**.
 | Malcolm Riley | [unused-textures](https://github.com/malcolmriley/unused-textures) | CC BY 4.0 | the Warden's Amber Heart sprite |
 | Leclowndu93150 and contributors | [Thaumaturge](https://www.curseforge.com/projects/1628024) | its own | some of this mod's textures are drawn on Thaumaturge's own art |
 
-Arcana Varia's code and Oculifelis's own art are LGPL-3.0-or-later up to 0.7.5 and GPL-3.0-or-later from the next build. The Scythes Vanilla parts, the Amber Heart sprite
+The released 0.8.0 jar lists Arcana Varia's code and Oculifelis's own art as LGPL-3.0-or-later. The Scythes Vanilla parts, the Amber Heart sprite
 and the textures drawn on Thaumaturge's art keep their own licences; `CREDITS.md` in the jar lists each of them.

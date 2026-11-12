@@ -45,6 +45,7 @@ nav:
           - Hooks: fundamentum/datapack/hooks.md
           - Summons: fundamentum/datapack/summons.md
           - Whips: fundamentum/datapack/whips.md
+          - Weapon tuning: fundamentum/datapack/weapon-tuning.md
           - Moons: fundamentum/datapack/moons.md
           - Night events: fundamentum/datapack/night-events.md
           - Fractal skies: fundamentum/datapack/fractal-skies.md
@@ -54,28 +55,6 @@ nav:
           - Portal crafting: fundamentum/datapack/portal-crafting.md
           - Tags and slots: fundamentum/datapack/tags.md
           - Player poses: fundamentum/datapack/poses.md
-      - Systems:
-          - Unify: fundamentum/systems/unify.md
-          - Multiblocks: fundamentum/systems/multiblocks.md
-          - Transfer: fundamentum/systems/transfer.md
-          - Mob goals: fundamentum/systems/mob-goals.md
-          - Climate and seasons: fundamentum/systems/climate.md
-          - Survival: fundamentum/systems/survival.md
-          - Food: fundamentum/systems/food.md
-          - Music: fundamentum/systems/music.md
-          - Guide books: fundamentum/systems/guide.md
-          - Stats: fundamentum/systems/stats.md
-          - Unlocks: fundamentum/systems/unlocks.md
-          - Slots: fundamentum/systems/slots.md
-          - Relics: fundamentum/systems/relics.md
-          - Recipe viewers: fundamentum/systems/recipe-viewers.md
-          - Events: fundamentum/systems/events.md
-          - HUD: fundamentum/systems/hud.md
-          - Biome slices: fundamentum/systems/biome-slices.md
-          - Config: fundamentum/systems/config.md
-          - Performance: fundamentum/systems/performance.md
-          - Client performance: fundamentum/systems/performance-client.md
-          - Porting layer: fundamentum/systems/porting-api.md
       - KubeJS: fundamentum/kubejs.md
       - API: fundamentum/api.md
       - Commands: fundamentum/commands.md
@@ -148,3 +127,7 @@ nav:
   - Other mods:
       - other/index.md
       - Spartan x Better Combat: other/spartan-bettercombat.md
+      - Node Atlas: other/node-atlas.md
+      - Classic Foci: other/classic-foci.md
+      - Automagia: automagy/index.md
+      - Fieldframe Arcana: fieldframe-arcana/index.md

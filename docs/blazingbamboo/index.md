@@ -23,6 +23,6 @@ and dead stalks drop gunpowder. Ice under a plant stops it growing.
 | [Fabric API](https://www.curseforge.com/projects/306612) | Required on Fabric. |
 | [Thaumaturge](https://www.curseforge.com/projects/1628024) | Optional, NeoForge 26.1.2 and 1.21.1: aspects for scanning and the crucible (Ignis and Herba; a bundle counts as nine pieces). A data pack can change them. |
 
-**Versions:** 1.0.2. NeoForge 1.21.1, 26.1.2, 26.2, 26.3; Fabric 26.1.2, 26.2, 26.3.
+**Public downloads:** 1.0.2 for NeoForge and Fabric on 26.1.2, 26.2 and 26.3. The NeoForge 1.21.1 jar is built locally.
 
 **Licence:** MIT, original copyright PaddedShaman.
