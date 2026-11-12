@@ -14,7 +14,9 @@
 
 **0.9.1** keeps the content of **0.9.0** across the five targets. **0.9.0** added [Waystones and Nightfall](waystones.md), capped preserve jars, a tumbling Sandglass and a one-tick Gloamwood button.
 
-**Jar licence:** All Rights Reserved in 0.9.0 and 0.9.1. The source tree switched to LGPL-3.0-or-later after these jars were built.
+**Also runs on** Forge 1.20 (the 1.20.1 jar) and NeoForge 26.1.0 / 26.1.1 (the 26.1.2 jar). Not 1.20.2 to 1.20.6, 1.21.0 or 1.21.3 and up.
+
+**Licence:** LGPL-3.0-or-later from 0.9.1, code and art; licence texts and credits are in the jar. 0.9.0 and older were All Rights Reserved.
 
 ## 1.20.1 (Forge)
 
