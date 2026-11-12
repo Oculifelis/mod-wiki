@@ -22,6 +22,8 @@ In 1.20.0, the seed guns fire glowing seeds again, there are four throwables, an
 
 [CurseForge project](https://www.curseforge.com/projects/1788773)
 
+This guide covers the built **1.20.0** jars submitted November 12. They are held for release; the current public downloads are **1.19.0**.
+
 ## The four families
 
 Every creature, herb, weapon and charm belongs to one of four herb families. Each family takes full damage from one
@@ -82,7 +84,7 @@ and chills them. Each later tier is crafted from the one before, with herbs, a g
 The wings, grappling hooks and whips are [Fundamentum](../fundamentum/index.md)'s, and so are the slots they go in.
 Wings go in the wings slot and lift you for their flight time, then glide. Hooks go in the hook slot and fire with
 **H**. Whips swing Fundamentum's cord, where the tip hits hardest and cracks for a crit. The guns and bows also use
-Fundamentum's poses for how they're held.
+Fundamentum's poses for how they're held. The submitted 1.20.0 jars contain three wing definitions, twelve hook definitions, four thrown-weapon definitions and one spore reaction.
 
 | Picture | Wings | Flight time | Rise speed | Air speed | Glide fall |
 |---|---|---|---|---|---|
@@ -119,6 +121,8 @@ merges files field by field, so a file needs only the fields it changes.
 |---|---|---|
 | Wings | `data/floraferox/fundamentum/wings/<name>.json` | [Wings](../fundamentum/datapack/wings.md) |
 | Hooks | `data/floraferox/fundamentum/hooks/<name>.json` | [Hooks](../fundamentum/datapack/hooks.md) |
+| Throwables | `data/floraferox/fundamentum/thrown/<name>.json` | [Thrown weapons](../fundamentum/datapack/weapon-tuning.md#thrown-weapons) |
+| Spore flash | `data/floraferox/fundamentum/element_reaction/spore_flash.json` | [Element reactions](../fundamentum/datapack/elements.md) |
 | Whips | `data/floraferox/fundamentum/whips/<name>.json` (none ship; a file keyed by `item` overrides a whip's tuning) | [Whips](../fundamentum/datapack/whips.md) |
 
 ## Credits

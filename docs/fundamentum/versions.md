@@ -1,33 +1,24 @@
 # Versions
 
-| Minecraft | Loader | Latest built | Notes |
+The public file list checked November 12 shows **1.27.2**. The upload log records **1.28.0** submissions for all five targets; their public availability is unverified.
+
+| Minecraft | Loader | Latest public | Recorded upload |
 |---|---|---|---|
-| 26.1.2 | NeoForge | 1.29.0 | the main line: everything on this wiki; works under Iris shader packs |
-| 1.21.1 | NeoForge 21.1 | 1.29.0 | everything except a few parts that need newer Minecraft (below) |
-| 26.2 | NeoForge 26.2 | 1.29.0 | the same as 26.1.2 |
-| 26.3 | NeoForge 26.3 | 1.29.0 | biome slices include surface rules |
-| 1.20.1 | Forge 47 | 1.29.0 | the same as 1.21.1, with the same parts left out |
+| 26.1.2 | NeoForge | 1.27.2 | 1.28.0 |
+| 26.2 | NeoForge | 1.27.2 | 1.28.0 |
+| 26.3 | NeoForge | 1.27.2 | 1.28.0 |
+| 1.21.1 | NeoForge | 1.27.2 | 1.28.0 |
+| 1.20.1 | Forge | 1.27.2 | 1.28.0 |
 
-## What 1.21.1 leaves out
+[Public downloads](https://www.curseforge.com/projects/1765941/files)
 
-- The newer equipment-asset `wings` layer is unavailable. Wings can use an explicit texture path instead.
-- Item model faces with `light_emission`: glowing faces use `neoforge_data` light in the model instead.
-- Whip item model conditions are `ItemProperties` overrides instead of item model definitions.
-- The `on_shelf` display context.
-- A recipe book category for portal crafting (JEI still shows the recipes).
-- Mounts saddle through `Saddleable`; mobs that only exist on 26.x (the happy ghast, the nautilus) aren't there.
+## Compatibility in the submitted jars
 
-## New in 1.29.0
+The submitted 1.28.0 jars include optional JEI and Jade integration. They do not include EMI, REI or Serene Seasons integration.
 
-The biggest update so far. Fundamentum now carries the [systems](index.md#systems-for-mod-and-pack-makers) its mods share:
-unify, multiblocks, energy and fluid transfer, mob goals, climate and seasons, survival meters, food groups, music
-rules, guide books, bosses, loot helpers, material sets, stats, unlocks, slots, relic stands, one recipe viewer layer
-for JEI, REI and EMI, a HUD layout editor and shared events. They work on all five versions. Systems react to game
-events instead of checking every tick.
+## Recorded 1.28.0 upload
 
-## New in 1.28.0
-
-Wing textures can use an explicit path, and other players see the wearer's flight phase. Thrown weapons and both boss-relic display modes work on 1.20.1 and 1.21.1 too. Biome slices supply surface rules on 26.3.
+The submitted jars include the wing flight-phase display and the older-version thrown-weapon ports. They are separate from the later systems work. These pages cover the submitted 1.28.0 jars where marked, rather than treating a newer source version as a public release.
 
 ## New in 1.27.2
 

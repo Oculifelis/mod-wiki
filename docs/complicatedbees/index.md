@@ -59,4 +59,4 @@ original mod's and are explained on its [GitHub wiki](https://github.com/ACCBDD/
 | By | Work | Licence |
 |---|---|---|
 | **ACCBDD** and contributors | Complicated Bees, its code and data ([GitHub](https://github.com/ACCBDD/complicated_bees)); the EMI plugin by Abbie5 | MIT |
-| **Oculifelis** | the port, a fork of that repository ([source](https://github.com/Oculifelis/complicated_bees)), and the new bee and comb art | MIT in port.5; GPL-3.0-or-later from the next build, with ACCBDD's MIT notice kept |
+| **Oculifelis** | the port, a fork of that repository ([source](https://github.com/Oculifelis/complicated_bees)), and the new bee and comb art | MIT in the released port.5 jars, with ACCBDD's MIT notice kept |

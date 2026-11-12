@@ -22,8 +22,8 @@ Mana turns into FE as it arrives.
 
 | Key | Default | What it does |
 |---|---|---|
-| `rfInputDisabled` | `false` | The "Instead of RF" switch: `true` lets only mana in. With [Rotaflux](rotaflux.md) installed, use Rotaflux's switch instead; it covers both. |
-| `manaEnabled` | | Turns mana input on or off. |
+| `rfInputDisabled` | `false` | The "Instead of RF" switch: `true` lets only mana in. With [Apiflux (now called Rotaflux)](rotaflux.md) installed, use its `apiflux-server.toml` switch instead; it covers both. |
+| `manaEnabled` | `true` | Turns mana input on or off. |
 
 The rate, and which machines take mana, are data maps a datapack can change.
 
