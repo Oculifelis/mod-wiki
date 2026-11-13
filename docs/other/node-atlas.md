@@ -20,3 +20,9 @@ Press **I** to open the list. Filter by primal aspect, sort by distance or an as
 The config controls the arrow's position, size and plain red appearance. The port does not include the original Navigator or map waypoint layer.
 
 **Licence:** CC BY-NC-SA 4.0. Original Thaumcraft Node Tracker by Dyonovan and GTNewHorizons; port by Oculifelis. The arrow is drawn in code and aspect icons come from Thaumaturge by Leclowndu93150 and contributors.
+
+## Compatibility
+
+Works with [Better Combat](https://www.curseforge.com/projects/639842) (optional) on 1.21.1.
+
+Works with [Jade](https://www.curseforge.com/projects/324717) (optional) on 1.21.1.

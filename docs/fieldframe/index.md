@@ -65,4 +65,6 @@ FLORA textures, the Painterly item templates and the NeoVitae armor art are cred
 
 ## Compatibility
 
+Works with [Better Combat](https://www.curseforge.com/projects/639842) (optional) on 1.21.1 and 26.1.2.
+
 A Field Kit can work from a [Curios API](https://www.curseforge.com/projects/309927) slot when Curios is installed.

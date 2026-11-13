@@ -74,3 +74,9 @@ From 1.9.8, Ostentum's code and Oculifelis's own art and music are open source u
 [GNU LGPL 3.0 or later](https://www.gnu.org/licenses/lgpl-3.0.html). Art from others keeps its own licence: the
 Unused Textures art stays CC BY 4.0, the Painterly art is used by permission and isn't covered, and Mojang keeps its
 rights to art reworked from Minecraft. Versions before 1.9.8 were All Rights Reserved.
+
+## Compatibility
+
+Works with [Better Combat](https://www.curseforge.com/projects/639842) (optional) on 1.20.1, 1.21.1, 26.1.2, 26.2 and 26.3.
+
+Works with [Jade](https://www.curseforge.com/projects/324717) (optional) on 1.20.1, 1.21.1, 26.1.2, 26.2 and 26.3.
