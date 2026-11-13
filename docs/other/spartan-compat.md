@@ -16,6 +16,30 @@ Craft most of them like their iron counterparts. Some late-game Cataclysm materi
 
 [CurseForge project](https://www.curseforge.com/projects/1802929)
 
+## Optional material mods
+
+Each of these mods supplies its listed materials. Install only the ones you want; Spartan Compat does not require all 17.
+
+| Mod | Materials |
+|---|---|
+| [The Twilight Forest](https://www.curseforge.com/projects/227639) | Ironwood, Steeleaf, Knightmetal, Fiery |
+| [Aquaculture 2](https://www.curseforge.com/projects/60028) | Neptunium |
+| [L_Ender's Cataclysm](https://www.curseforge.com/projects/551586) | Ignitium, Cursium, Witherite, Ancient Metal, Black Steel |
+| [Caverns & Chasms](https://www.curseforge.com/projects/438005) | Necromium |
+| [Thaumaturge](https://www.curseforge.com/projects/1628024) | Thaumium, Void Metal |
+| Ultima Ratio | Starsteel, Eclipse |
+| The Undergarden | Cloggrum, Froststeel, Utherium, Forgotten |
+| Deeper and Darker | Resonarium, Warden |
+| The Aether | Zanite, Gravitite |
+| Allthemodium | Allthemodium, Vibranium, Unobtainium |
+| Mekanism Tools | Osmium, Refined Obsidian, Refined Glowstone, Lapis Lazuli |
+| Malum | Soul Stained Steel, Hallowed Gold |
+| Forbidden Arcanus | Deorum, Draco Arcanus |
+| [Create](https://www.curseforge.com/projects/328085) | Brass, Zinc |
+| [Ars Nouveau](https://www.curseforge.com/projects/401955) | Source Gem |
+| [Occultism](https://www.curseforge.com/projects/361026) | Iesnium |
+| [Applied Energistics 2](https://www.curseforge.com/projects/223794) | Certus Quartz, Fluix |
+
 ## For pack makers
 
 The files config/spartan_compat/materials.json and config/spartan_compat/traits.json control enabled modules, material values and trait settings. Changes require a restart. Weapon-trait tags let datapacks assign traits too.
