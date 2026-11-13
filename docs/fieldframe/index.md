@@ -34,6 +34,7 @@ factory is just machines standing next to each other.
 |---|---|
 | **[Fieldframe Frameworks](../fieldframe-frameworks/index.md)** | big multiblock frames, a [Foundry](../fieldframe-frameworks/index.md#foundry), an [Arc Furnace](../fieldframe-frameworks/index.md#arc-furnace), a [Gantry](../fieldframe-frameworks/index.md#gantry) and the [Starcore](../fieldframe-frameworks/index.md#starcore) fusion reactor |
 | **[Fieldframe Transit](../fieldframe-transit/index.md)** | glass tubes you ride from one mouth to another |
+| **[Fieldframe Arcana](../fieldframe-arcana/index.md)** | essentia burned for RF, wands charged on a chassis and powered Thaumaturge gear |
 
 ## Built on Fundamentum
 

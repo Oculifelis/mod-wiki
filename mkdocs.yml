@@ -92,6 +92,7 @@ nav:
       - Versions: fieldframe/versions.md
       - Fieldframe Frameworks: fieldframe-frameworks/index.md
       - Fieldframe Transit: fieldframe-transit/index.md
+      - Fieldframe Arcana: fieldframe-arcana/index.md
   - Complicated Bees:
       - bees/index.md
       - Complicated Bees Unofficial:
@@ -130,4 +131,3 @@ nav:
       - Node Atlas: other/node-atlas.md
       - Classic Foci: other/classic-foci.md
       - Automagia: automagy/index.md
-      - Fieldframe Arcana: fieldframe-arcana/index.md
