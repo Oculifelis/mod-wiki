@@ -22,9 +22,21 @@ batch is rejected as a whole and the old values stay; errors name the file in th
 | Any machine recipe | `recipe/` (`recipes/` on 1.20.1), `"type": "fieldframe:process"` |
 | Galvanic Cell electrodes | `fieldframe/electrodes/*.json` |
 | Heat sources | `fieldframe/temperatures/*.json` |
-| Fluid Armor effects (26.1.2) | `fieldframe/fluid_armor_effects/*.json` |
+| Fluid Armor effects of a single fluid | `fieldframe/fluid_armor_effects/*.json` |
+| Fluid Armor pair effects, 0.3.7 and later (which two FLORA fluids give which effect, how strong) | `fieldframe/fluid_armor_pairs/*.json` |
 | Aura Chamber effects | `fieldframe/aura/*.json` |
 | Tree Tapper logs, Fisher bait, Enchanter fluids | tags `fieldframe:tappable_logs`, `fieldframe:fisher_bait`, `fieldframe:experience_fluids` |
+
+From 0.3.7 the Fluid Armor pair table ships as `fieldframe/fluid_armor_pairs/flora.json`, the 28 original FLORA effects. Your
+file can move an effect to another pair, weaken or strengthen it, or turn it off. This one moves Speed to Ender with
+Ender at half strength and turns off Redstone with Glowstone:
+
+```json
+{"pairs": [
+  {"fluids": ["fieldframe:resonant_ender", "fieldframe:resonant_ender"], "effect": "speed", "strength": 0.5},
+  {"fluids": ["fieldframe:liquid_redstone", "fieldframe:liquid_glowstone"], "remove": true}
+]}
+```
 
 Metallurgy's alloyer and crusher recipes come in as `fieldframe:alloying/metallurgy/<name>` and
 `fieldframe:crushing/metallurgy/<name>`; ship a recipe with that id to replace one.
