@@ -14,13 +14,15 @@ crafting all run on Fundamentum; Ostentum adds the items, creatures, art, music 
 
 | Minecraft | Loader | Latest built |
 |---|---|---|
-| 26.1.2 | NeoForge | 1.9.9 |
-| 26.2 | NeoForge | 1.9.9 |
-| 26.3 | NeoForge | 1.9.9 |
-| 1.21.1 | NeoForge | 1.9.9 |
-| 1.20.1 | Forge | 1.9.8 |
+| 26.1.2 | NeoForge | 1.9.10 |
+| 26.2 | NeoForge | 1.9.10 |
+| 26.3 | NeoForge | 1.9.10 |
+| 1.21.1 | NeoForge | 1.9.10 |
+| 1.20.1 | Forge | 1.9.10 |
 
 The happy ghast harness and the nautilus saddle are on 26.x. The Forge 1.20.1 build needs Fundamentum 1.25.8 or newer and Curios 5.14.1 or newer. The [Pathfinder's Glaive](items.md#pathfinders-glaive) waypoint uses a gold and orange light column in 1.9.9.
+
+In 1.9.10, the [Echo Blade](items.md#echo-blade) has an animated blade, the [Duelist’s Saber](items.md#duelists-saber) has its guard pose, and the Delver’s Shovel crafting recipes are included.
 
 [CurseForge project](https://www.curseforge.com/projects/1786639)
 

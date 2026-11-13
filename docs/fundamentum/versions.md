@@ -1,24 +1,26 @@
 # Versions
 
-The public file list checked November 12 shows **1.27.2**. The upload log records **1.28.0** submissions for all five targets; their public availability is unverified.
+These pages document the **1.30.0** builds submitted on November 13. Submission and public release are separate; the [CurseForge files page](https://www.curseforge.com/projects/1765941/files) has the downloads currently available.
 
-| Minecraft | Loader | Latest public | Recorded upload |
-|---|---|---|---|
-| 26.1.2 | NeoForge | 1.27.2 | 1.28.0 |
-| 26.2 | NeoForge | 1.27.2 | 1.28.0 |
-| 26.3 | NeoForge | 1.27.2 | 1.28.0 |
-| 1.21.1 | NeoForge | 1.27.2 | 1.28.0 |
-| 1.20.1 | Forge | 1.27.2 | 1.28.0 |
+| Minecraft | Loader | Documented build |
+|---|---|---|
+| 26.1.2 | NeoForge | 1.30.0 |
+| 26.2 | NeoForge | 1.30.0 |
+| 26.3 | NeoForge | 1.30.0 |
+| 1.21.1 | NeoForge | 1.30.0 |
+| 1.20.1 | Forge | 1.30.0 |
 
-[Public downloads](https://www.curseforge.com/projects/1765941/files)
+Curios is required. JEI and REI recipe-viewer support is available on 26.x; EMI support is on the older two targets. All three viewers remain optional.
 
-## Compatibility in the submitted jars
+## In 1.30.0
 
-The submitted 1.28.0 jars include optional JEI and Jade integration. They do not include EMI, REI or Serene Seasons integration.
+The [shared systems](systems.md) include named stats and startup attribute declarations, stat-change events, configurable survival meters and multiblock patterns. Addons can read pattern cells and world positions by key, with extra data attached to a key.
 
-## Recorded 1.28.0 upload
+The stat API supports base values and modifiers on living entities. The existing wing, thrown-weapon, moon, hook and summon systems remain part of the library.
 
-The submitted jars include the wing flight-phase display and the older-version thrown-weapon ports. They are separate from the later systems work. These pages cover the submitted 1.28.0 jars where marked, rather than treating a newer source version as a public release.
+## Wing display and older thrown weapons
+
+The 1.28.0 work added synchronized wing flight phases and the older-version thrown-weapon ports. Those systems are also covered on these pages.
 
 ## New in 1.27.2
 

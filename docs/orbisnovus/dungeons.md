@@ -163,3 +163,21 @@ structure sets (spacing), template pools, processor lists and biome tags.
 | Structure mods that change vanilla villages | May change how often the added houses appear. |
 
 **Multiplayer:** the structures are built on the server; install the mod on both sides.
+
+## Added in 1.1.0 { #added-in-110 }
+
+| Wonder | Command |
+|---|---|
+| Clockwork Labyrinth | <code>/locate structure orbisnovus_wonders:clockwork_labyrinth</code> |
+| Inverted Spire | <code>/locate structure orbisnovus_wonders:inverted_spire</code> |
+| Living Barrow | <code>/locate structure orbisnovus_wonders:living_barrow</code> |
+| Bottled Ship | <code>/locate structure orbisnovus_wonders:bottled_ship</code> |
+| Hall of Echoes | <code>/locate structure orbisnovus_wonders:hall_of_echoes</code> |
+| Giant’s Desk | <code>/locate structure orbisnovus_wonders:giants_desk</code> |
+| Upside-down Village | <code>/locate structure orbisnovus_wonders:upside_down_village</code> |
+
+The Clockwork Labyrinth’s gates change on a redstone clock started with a button. Giant’s Desk is disabled by default; the giants_desk config option enables it.
+
+The wonders have their own loot, spawners and structure locations. Six deep dungeons stack different kinds into separate levels. Buried dungeons get marked surface entrances in three designs, chosen by the world seed; gatehouses and shrines also get three designs.
+
+Trap corridors, ambush rooms and guard rooms add more encounters, with suitable modded monsters used when installed. Structure details include connected panes, bars, fences, walls and stairs, complete doors and beds, supported wall fixtures and foundations reaching solid ground. Citadel spacing is 72 with separation 30.
