@@ -115,7 +115,7 @@ nav:
       - Genetic Industry Unofficial: ports/genetic-industry/index.md
       - Complicated Trees: other/complicated-trees.md
       - Rotaflux: other/rotaflux.md
-      - Manacomb: other/manacomb.md
+      - Manaflux: other/manacomb.md
   - Ports:
       - ports/index.md
       - Blazing Bamboo (Unofficial): blazingbamboo/index.md
@@ -141,5 +141,6 @@ nav:
           - Versions: mariculture/versions.md
   - Other mods:
       - other/index.md
+      - Mana Gadgets: other/mana-gadgets.md
       - Spartan Compat: other/spartan-compat.md
       - Spartan x Better Combat: other/spartan-bettercombat.md

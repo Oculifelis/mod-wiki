@@ -38,7 +38,7 @@
     ]
   },
   "1793766": {
-    "name": "Manacomb",
+    "name": "Manaflux",
     "paths": [
       "docs/other/manacomb.md"
     ]
@@ -137,6 +137,12 @@
     "name": "Thaumaturgic Bases",
     "paths": [
       "docs/thaumaturge/thaumicbases.md"
+    ]
+  },
+  "1803149": {
+    "name": "Mana Gadgets",
+    "paths": [
+      "docs/other/mana-gadgets.md"
     ]
   }
 }
