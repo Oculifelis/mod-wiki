@@ -22,3 +22,9 @@ The crafting focus uses Thaumaturge spell parts. Golem work uses seals and links
 With [JEI](https://www.curseforge.com/projects/238222), Thaumaturge shows the ordinary arcane, crucible and infusion recipes.
 
 **Licence:** LGPL-3.0-or-later for this reimplementation. Automagy's original design is by Tuhljin; no original code or textures are used. Thaumaturge is by Leclowndu93150 and contributors.
+
+## Compatibility
+
+Works with [Better Combat](https://www.curseforge.com/projects/639842) (optional) on 1.21.1.
+
+Works with [Jade](https://www.curseforge.com/projects/324717) (optional) on 1.21.1.

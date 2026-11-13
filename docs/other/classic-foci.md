@@ -13,3 +13,9 @@ Three ready-made Thaumaturge foci bring back the Portable Hole, Excavation and E
 These are ordinary Thaumaturge foci, so the focal manipulator can still edit them. They do not have Thaumcraft 4's separate per-focus upgrade slots or its Dowsing upgrade.
 
 **Licence:** LGPL-3.0-or-later. The original focus designs are by Azanor. The addon uses Thaumaturge's spell parts and research icons, by Leclowndu93150 and contributors; it copies no Thaumcraft code or art.
+
+## Compatibility
+
+Works with [Better Combat](https://www.curseforge.com/projects/639842) (optional) on 1.21.1.
+
+Works with [Jade](https://www.curseforge.com/projects/324717) (optional) on 1.21.1.
