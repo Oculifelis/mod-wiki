@@ -78,12 +78,6 @@ nav:
       - Items: slowlight/items.md
       - For pack makers: slowlight/packs.md
       - Versions: slowlight/versions.md
-  - Arcana Varia:
-      - arcanavaria/index.md
-      - Towers and labs: arcanavaria/towers-and-labs.md
-      - Thurible, Lens and Lattice: arcanavaria/thaumaturgy.md
-      - Weapons and the Warden: arcanavaria/weapons.md
-      - Versions: arcanavaria/versions.md
   - Fieldframe:
       - fieldframe/index.md
       - Machines: fieldframe/machines.md
@@ -92,6 +86,18 @@ nav:
       - Versions: fieldframe/versions.md
       - Fieldframe Frameworks: fieldframe-frameworks/index.md
       - Fieldframe Transit: fieldframe-transit/index.md
+      - Fieldframe Arcana: fieldframe-arcana/index.md
+  - Thaumaturge Addons:
+      - thaumaturge/index.md
+      - Arcana Varia:
+          - arcanavaria/index.md
+          - Towers and labs: arcanavaria/towers-and-labs.md
+          - Thurible, Lens and Lattice: arcanavaria/thaumaturgy.md
+          - Weapons and the Warden: arcanavaria/weapons.md
+          - Versions: arcanavaria/versions.md
+      - Automagia: automagy/index.md
+      - Node Atlas: other/node-atlas.md
+      - Classic Foci: other/classic-foci.md
       - Fieldframe Arcana: fieldframe-arcana/index.md
   - Complicated Bees:
       - bees/index.md
@@ -128,6 +134,3 @@ nav:
   - Other mods:
       - other/index.md
       - Spartan x Better Combat: other/spartan-bettercombat.md
-      - Node Atlas: other/node-atlas.md
-      - Classic Foci: other/classic-foci.md
-      - Automagia: automagy/index.md
