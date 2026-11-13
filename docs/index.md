@@ -24,7 +24,7 @@ ACCBDD's [Complicated Bees](https://www.curseforge.com/projects/1100137), our 26
 | ![Genetic Industry logo](assets/geneticindustry_logo.png){ width="64" } | **[Genetic Industry Unofficial](ports/genetic-industry/index.md)** | Extract genes from bees, assemble a Genetic Template, and imprint it onto a princess or drone. |
 | ![Complicated Trees logo](assets/complicatedtrees_logo.png){ width="64" } | **[Complicated Trees](other/complicated-trees.md)** | Tree breeding. Your bees pollinate nearby leaves, you graft the kids. 1.20.1 to 26.2. |
 | ![Rotaflux logo](assets/rotaflux_logo.png){ width="64" } | **[Rotaflux](other/rotaflux.md)** | Turns Create rotation into FE for any machine. |
-| ![Manacomb logo](assets/manacomb_logo.png){ width="64" } | **[Manacomb](other/manacomb.md)** | Runs Complicated Bees' FE machines on Botania mana. |
+| ![Manaflux logo](assets/manaflux_logo.png){ width="64" } | **[Manaflux](other/manacomb.md)** | Runs any FE input block on Botania mana. |
 
 ## Ports
 
