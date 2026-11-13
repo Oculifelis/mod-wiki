@@ -3,7 +3,8 @@
 Every picture is flat and front-on, straight from the mod's texture files, scaled up nearest-neighbour to 128 px square
 on a transparent background: an item's own icon, or for a block or 3D model its item texture if it has one, else the
 block's front (or side, or only) face. No angled or isometric renders: anything 3D on the wiki is an in-game shot. The model shown is the one the item's assets/<ns>/items/<id>.json picks for the GUI.
-Pictures go to docs/<mod>/img/<id>.png. Re-run after textures change:  python tools/wiki_images.py
+Pictures go to docs/<mod>/img/<id>.png. Re-run after textures change:  python tools/wiki_images.py [mod ...]
+(_toolkit/pageart does that by itself after a texture or model commit.)
 
 The bestiary shows each creature's spawn egg icon until there are in-game shots of them.
 """
@@ -201,9 +202,11 @@ ENTITIES = {
 }
 
 
-def entities():
+def entities(only=()):
     """Each creature's spawn egg icon, as docs/<mod>/img/<id>.png, for creatures with no picture from the game yet."""
     for mod, (textures, mobs) in ENTITIES.items():
+        if only and mod not in only:
+            continue
         out = os.path.join(WIKI, "docs", mod, "img")
         for mob in mobs:
             if mod + "/" + mob in GAME_SHOTS:
@@ -213,8 +216,10 @@ def entities():
         print("%s: %d creatures" % (mod, len(mobs)))
 
 
-def main():
+def main(only=()):
     for mod, (assets, jar, items) in MODS.items():
+        if only and mod not in only:
+            continue
         mr.setup([assets], os.path.join(JARS, jar))
         out = os.path.join(WIKI, "docs", mod, "img")
         os.makedirs(out, exist_ok=True)
@@ -223,8 +228,8 @@ def main():
                 continue
             picture(assets, mod, item).save(os.path.join(out, item + ".png"), optimize=True)
         print("%s: %d pictures in %s" % (mod, len(items), os.path.relpath(out, WIKI)))
-    entities()
+    entities(only)
 
 
 if __name__ == "__main__":
-    main()
+    main(tuple(sys.argv[1:]))
