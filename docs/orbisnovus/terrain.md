@@ -19,7 +19,7 @@ On the Create World screen, use the **World Type** button to pick **Orbis Novus*
 
 | Page | Settings |
 |---|---|
-| **Style** | One of the ten [styles](#the-styles), or [Custom Mix](#custom-mix). |
+| **Style** | One of the sixteen [styles](#the-styles), or [Custom Mix](#custom-mix). |
 | **Basic** | Sea level, base height, height variation and hill size. |
 | **Mountains & Erosion** | Detail, peak sharpness, ridges, twist, erosion, slope limit, terraces and the snow line. |
 | **Water** | Rivers, how many lakes, and islands. |
@@ -119,3 +119,18 @@ The Customize screen covers each world. Beyond that, everything is datapack JSON
 
 **Uninstalling:** a world made with an Orbis Novus world type needs the mod to generate new chunks. Normal worlds keep
 working without it.
+
+## Added in 1.1.0 { #added-in-110 }
+
+| Style | What to select |
+|---|---|
+| Folded World | Folded World in the style selector or Custom Mix |
+| Tidal Continents | Tidal Continents in the style selector or Custom Mix |
+| Shattered Plates | Shattered Plates in the style selector or Custom Mix |
+| Sinkhole Karst | Sinkhole Karst in the style selector or Custom Mix |
+| Ribbon Rivers | Ribbon Rivers in the style selector or Custom Mix |
+| The Bowl | The Bowl in the style selector or Custom Mix |
+
+Latitude Bands makes the area around spawn hotter and the land farther north and south colder. Erosion Age ranges from young, rough terrain to older, worn terrain. Ruins adds old stonework to the land.
+
+Natural features get more placement variants and avoid structures. High ground can have deep dark beneath it, allowing ancient cities and the Hall of Echoes to appear in Orbis worlds. Humid low coasts can have rare mushroom fields.

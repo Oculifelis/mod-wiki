@@ -8,7 +8,7 @@ Orbis Novus is two mods that work alone or together:
 
 | Picture | Part | What it does |
 |---|---|---|
-| ![Orbis Novus: Terrain](img/terrain_logo.png){ width="96" } | **[Orbis Novus: Terrain](terrain.md)** | realistic mountains, eroded valleys and river networks. One new world type, Orbis Novus, with ten [terrain styles](terrain.md#the-styles), a [Custom Mix](terrain.md#custom-mix) of any of them, and a Customize screen. |
+| ![Orbis Novus: Terrain](img/terrain_logo.png){ width="96" } | **[Orbis Novus: Terrain](terrain.md)** | realistic mountains, eroded valleys and river networks. One new world type, Orbis Novus, with sixteen [terrain styles](terrain.md#the-styles), a [Custom Mix](terrain.md#custom-mix) of any of them, and a Customize screen. |
 | ![Orbis Novus: Dungeons](img/dungeons_logo.png){ width="96" } | **[Orbis Novus: Dungeons](dungeons.md)** | 23 dungeon kinds, 30 settlements and landmarks, extra village houses, castles in three styles and walled castle towns, built from the blocks of whatever building mods you have. |
 
 Together, Dungeons' structures generate in every Terrain world type. Apart, Terrain's worlds keep vanilla's and other
@@ -18,7 +18,7 @@ There's also **[Orbis Novus Lite](lite.md)**, six terrain world types as a plain
 
 ## Versions
 
-Both mods are at **1.0.0**, the same on every version. [Terrain on CurseForge](https://www.curseforge.com/projects/1786843) and [Dungeons on CurseForge](https://www.curseforge.com/projects/1786849).
+These pages cover the **1.1.0** release of both mods on the four targets below. [Terrain on CurseForge](https://www.curseforge.com/projects/1786843) and [Dungeons on CurseForge](https://www.curseforge.com/projects/1786849).
 
 | Minecraft | Loader |
 |---|---|
@@ -37,3 +37,7 @@ stones, sea stacks, hot springs, waterfalls). The 1.21.1 build doesn't have them
 
 By **Oculifelis**. Code and data under the MIT licence. Every structure, piece, loot table and terrain setting was
 made with Oculifelis's Worldforge tool; the mods contain no textures, models or sounds.
+
+## Added in 1.1.0
+
+Terrain adds six styles and more customization controls. Dungeons adds seven wonders, six stacked deep dungeons and marked surface entrances for buried dungeons. See [Terrain](terrain.md#added-in-110) and [Dungeons](dungeons.md#added-in-110).

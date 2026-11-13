@@ -5,11 +5,11 @@
 A library mod: it doesn't add much on its own. Mods built on it use it for the systems they share, so their items,
 stats and events work together instead of each mod rolling its own. Nearly everything is set up through datapacks.
 
-The latest public download is **1.27.2** on all five targets. Uploads of **1.28.0** are recorded, but they were not on the public file list checked November 12. The 1.28.0 features on these pages describe those submitted jars; see [Versions](versions.md).
+These pages cover **1.30.0**, submitted for all five targets on November 13. See [Versions](versions.md) for the documented builds and the download link. The [shared systems guide](systems.md) covers stats, survival meters, multiblocks and the other additions.
 
-**Requires:** [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://modrinth.com/mod/jei) (shows [portal crafting](datapack/portal-crafting.md) recipes).
+**Requires:** [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://modrinth.com/mod/jei), REI and EMI show shared recipe pages where a matching viewer build exists.
 
-Portal recipes show in JEI. The submitted 1.28.0 jars do not include REI integration.
+JEI and REI are supported on 26.x; EMI support is on 1.21.1 and 1.20.1. [Portal crafting](datapack/portal-crafting.md) uses the shared recipe pages.
 
 ## Mods that use Fundamentum
 

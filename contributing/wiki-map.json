@@ -1,0 +1,142 @@
+{
+  "1765941": {
+    "name": "Fundamentum",
+    "paths": [
+      "docs/fundamentum"
+    ]
+  },
+  "1786639": {
+    "name": "Ostentum",
+    "paths": [
+      "docs/ostentum"
+    ]
+  },
+  "1786749": {
+    "name": "Spartan x Better Combat",
+    "paths": [
+      "docs/other/spartan-bettercombat.md"
+    ]
+  },
+  "1786843": {
+    "name": "Orbis Novus Terrain",
+    "paths": [
+      "docs/orbisnovus/terrain.md",
+      "docs/orbisnovus/index.md"
+    ]
+  },
+  "1786849": {
+    "name": "Orbis Novus Dungeons",
+    "paths": [
+      "docs/orbisnovus/dungeons.md",
+      "docs/orbisnovus/index.md"
+    ]
+  },
+  "1793756": {
+    "name": "Rotaflux",
+    "paths": [
+      "docs/other/rotaflux.md"
+    ]
+  },
+  "1793766": {
+    "name": "Manacomb",
+    "paths": [
+      "docs/other/manacomb.md"
+    ]
+  },
+  "1794603": {
+    "name": "Complicated Trees",
+    "paths": [
+      "docs/other/complicated-trees.md"
+    ]
+  },
+  "1794903": {
+    "name": "Complicated Bees Unofficial",
+    "paths": [
+      "docs/complicatedbees"
+    ]
+  },
+  "1795173": {
+    "name": "Genetic Industry",
+    "paths": [
+      "docs/ports/genetic-industry/index.md"
+    ]
+  },
+  "1796713": {
+    "name": "Node Atlas",
+    "paths": [
+      "docs/other/node-atlas.md"
+    ]
+  },
+  "1796720": {
+    "name": "Classic Foci",
+    "paths": [
+      "docs/other/classic-foci.md"
+    ]
+  },
+  "1796732": {
+    "name": "Automagia",
+    "paths": [
+      "docs/automagy"
+    ]
+  },
+  "1796760": {
+    "name": "Fieldframe Arcana",
+    "paths": [
+      "docs/fieldframe-arcana"
+    ]
+  },
+  "1798270": {
+    "name": "Blazing Bamboo (Unofficial)",
+    "paths": [
+      "docs/blazingbamboo"
+    ]
+  },
+  "1798272": {
+    "name": "Thaumaturgic Brewing",
+    "paths": [
+      "docs/thaumaturge/brewing.md"
+    ]
+  },
+  "1798279": {
+    "name": "Thaumaturgic Infusion",
+    "paths": [
+      "docs/thaumaturge/infusion.md"
+    ]
+  },
+  "1802868": {
+    "name": "Thaumaturgic Tinkerer",
+    "paths": [
+      "docs/thaumaturge/tinkerer.md"
+    ]
+  },
+  "1802924": {
+    "name": "Planar Artifice",
+    "paths": [
+      "docs/thaumaturge/planarartifice.md"
+    ]
+  },
+  "1802929": {
+    "name": "Spartan Compat",
+    "paths": [
+      "docs/other/spartan-compat.md"
+    ]
+  },
+  "1802946": {
+    "name": "Gadomancy",
+    "paths": [
+      "docs/thaumaturge/gadomancy.md"
+    ]
+  },
+  "1802948": {
+    "name": "Magia Naturalis",
+    "paths": [
+      "docs/thaumaturge/magianaturalis.md"
+    ]
+  },
+  "1802953": {
+    "name": "Thaumaturgic Bases",
+    "paths": [
+      "docs/thaumaturge/thaumicbases.md"
+    ]
+  }
+}

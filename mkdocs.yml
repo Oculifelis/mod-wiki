@@ -38,6 +38,7 @@ nav:
   - Fundamentum:
       - fundamentum/index.md
       - Versions: fundamentum/versions.md
+      - Shared systems: fundamentum/systems.md
       - Datapacks:
           - fundamentum/datapack/index.md
           - Wings: fundamentum/datapack/wings.md
@@ -98,6 +99,13 @@ nav:
       - Automagia: automagy/index.md
       - Node Atlas: other/node-atlas.md
       - Classic Foci: other/classic-foci.md
+      - Gadomancy: thaumaturge/gadomancy.md
+      - Magia Naturalis: thaumaturge/magianaturalis.md
+      - Planar Artifice: thaumaturge/planarartifice.md
+      - Thaumaturgic Bases: thaumaturge/thaumicbases.md
+      - Thaumaturgic Tinkerer: thaumaturge/tinkerer.md
+      - Thaumaturgic Brewing: thaumaturge/brewing.md
+      - Thaumaturgic Infusion: thaumaturge/infusion.md
       - Fieldframe Arcana: fieldframe-arcana/index.md
   - Complicated Bees:
       - bees/index.md
@@ -133,4 +141,5 @@ nav:
           - Versions: mariculture/versions.md
   - Other mods:
       - other/index.md
+      - Spartan Compat: other/spartan-compat.md
       - Spartan x Better Combat: other/spartan-bettercombat.md

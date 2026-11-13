@@ -5,7 +5,7 @@ For mod makers building on Fundamentum.
 ## Depending on it
 
 Fundamentum publishes `com.fundamentum:fundamentum-neoforge:<version>+<minecraft>` (for example
-`1.28.0+26.1.2`; `fundamentum-forge` on 1.20.1). Add the Maven repository it's published to, depend on the artifact,
+`1.30.0+26.1.2`; `fundamentum-forge` on 1.20.1). Add the Maven repository it's published to, depend on the artifact,
 and list `fundamentum` as a required dependency in your `neoforge.mods.toml`. Curios is required, so your dev runs
 need Curios too.
 
@@ -13,7 +13,7 @@ need Curios too.
 [[dependencies.mymod]]
 modId = "fundamentum"
 type = "required"
-versionRange = "[1.28.0,)"
+versionRange = "[1.30.0,)"
 ordering = "NONE"
 side = "BOTH"
 ```
@@ -81,3 +81,15 @@ Everything is under `com.fundamentum`. Register things while your mod is constru
 
 `command.Tps` and `command.Showcase` are the [commands](commands.md). Not every package is on every version; see
 [Versions](versions.md).
+
+## Shared systems in 1.30.0
+
+| Public entry point | What it provides |
+|---|---|
+| <code>attribute.StartupStats</code> | Startup declarations, including the jar resource <code>META-INF/fundamentum/stats.json</code>. |
+| <code>stat.Stats</code> and <code>stat.StatDef</code> | Named definitions, entity and item values, base values, modifiers and synchronization. |
+| <code>survival.Survival</code> | Meter definitions, values, condition evaluation and updates. |
+| <code>multiblock.Multiblocks</code> | The shared pattern table, matches, missing parts, formed structures and previews. |
+| <code>multiblock.MultiblockPattern</code> | Cells and world positions by key, rotations, mirrors and per-key extra data. |
+
+The package prefix for each entry is <code>com.fundamentum</code>. The [systems guide](systems.md) explains how they fit together.
