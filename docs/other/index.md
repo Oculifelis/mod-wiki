@@ -8,11 +8,4 @@ Smaller mods by Oculifelis that don't need a whole section.
 
 The Complicated Bees addons (Complicated Trees, Rotaflux, Manacomb) are under [Complicated Bees](../bees/index.md).
 
-## Thaumaturge addons
-
-| Mod | What it does |
-|---|---|
-| [Node Atlas](node-atlas.md) | Log aura nodes and follow an arrow back to them. Client only. |
-| [Classic Foci](classic-foci.md) | Ready-made Portable Hole, Excavation and Equal Trade foci. |
-| [Automagia](../automagy/index.md) | Magical workshop devices and an Inventarium storage network. |
-| [Fieldframe Arcana](../fieldframe-arcana/index.md) | Connect essentia and vis to Fieldframe power and gear. |
+The Thaumaturge addons (Arcana Varia, Automagia, Node Atlas, Classic Foci, Fieldframe Arcana) are under [Thaumaturge addons](../thaumaturge/index.md).
