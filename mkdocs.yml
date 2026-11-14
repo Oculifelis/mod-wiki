@@ -146,3 +146,6 @@ nav:
       - GT Spartan Modern: other/gt-spartan.md
       - Mana Prospector: other/mana-prospector.md
       - Spartan x Better Combat: other/spartan-bettercombat.md
+
+exclude_docs: |
+  **/old/
