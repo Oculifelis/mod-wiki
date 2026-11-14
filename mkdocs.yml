@@ -84,6 +84,7 @@ nav:
       - Machines: fieldframe/machines.md
       - Modules: fieldframe/modules.md
       - For pack makers: fieldframe/pack-makers.md
+      - Tuning keys: fieldframe/tuning.md
       - Versions: fieldframe/versions.md
       - Fieldframe Frameworks: fieldframe-frameworks/index.md
       - Fieldframe Transit: fieldframe-transit/index.md

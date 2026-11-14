@@ -15,7 +15,7 @@ batch is rejected as a whole and the old values stay; errors name the file in th
 
 | To change | Where (`data/<pack>/...`) |
 |---|---|
-| Machine speed, RF, ranges, intervals | `fieldframe/tuning/*.json`, e.g. `{"module": "fieldframe:fisher", "tunables": {"interval": 300}}` |
+| Machine speed, RF, ranges, intervals | `fieldframe/tuning/*.json`, e.g. `{"module": "fieldframe:fisher", "tunables": {"interval": 300}}`; every key is listed on [Tuning keys](tuning.md) |
 | Switch a machine off | `fieldframe/tuning/*.json`, `{"module": "fieldframe:nullifier", "disabled": true}` |
 | Engine fuels | `fieldframe/fuels/*.json` |
 | Remove recipes | `fieldframe/recipe_filters/*.json`, by id or by whole family |
