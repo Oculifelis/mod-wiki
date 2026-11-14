@@ -38,7 +38,7 @@ factory is just machines standing next to each other.
 
 ## Built on Fundamentum
 
-Fundamentum is my core mod, and Fieldframe needs it. In the next release it is a required dependency on every version. Until then 26.1.2 and 1.21.1 treat it as optional. It adds the Arc Whip, Tesla Whip and Graviton Hook. It needs Fundamentum 1.22.3 or newer on 26.1.2, and 1.25.8 or newer on 1.21.1. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
+Fieldframe needs Fundamentum, a shared core library. In the next release it is a required dependency on every version. Until then 26.1.2 and 1.21.1 treat it as optional. It adds the Arc Whip, Tesla Whip and Graviton Hook. It needs Fundamentum 1.22.3 or newer on 26.1.2, and 1.25.8 or newer on 1.21.1. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
 
 | Override | Path | Format |
 |---|---|---|
