@@ -110,7 +110,7 @@
     ]
   },
   "1802924": {
-    "name": "Planar Artifice",
+    "name": "Cubic Artifice",
     "paths": [
       "docs/thaumaturge/planarartifice.md"
     ]
@@ -122,13 +122,13 @@
     ]
   },
   "1802946": {
-    "name": "Gadomancy",
+    "name": "Gadomancy Awakened",
     "paths": [
       "docs/thaumaturge/gadomancy.md"
     ]
   },
   "1802948": {
-    "name": "Magia Naturalis",
+    "name": "Arcana Naturae",
     "paths": [
       "docs/thaumaturge/magianaturalis.md"
     ]

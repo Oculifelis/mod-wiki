@@ -1,4 +1,4 @@
-# Gadomancy
+# Gadomancy Awakened
 
 Give golems more ways to work, automate item handling and essentia storage, and build around aura nodes. My port brings Gadomancy to Thaumaturge with its own research tab. It also adds a summoned familiar, wearable gear and potion research.
 
