@@ -10,6 +10,8 @@ Every metal GregTech makes swords from gets weapons. That's 23 metals in plain G
 
 ![Longswords in every GT metal](img/gtspartan_longswords.png)
 
+![All 24 weapon types in steel](img/gtspartan_steel_kinds.png)
+
 There's no fixed list. The mod reads GregTech's material registry when the game starts, so metals added by GT addons get weapons too. Durability, damage, speed and enchantability come from the GT material's tool stats, and each weapon is Spartan's own art recolored to its metal.
 
 You make them the GregTech way, on a crafting table from plates and rods with a hammer and a file. Bows also take string.
