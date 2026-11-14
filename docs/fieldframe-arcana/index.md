@@ -4,7 +4,7 @@
 
 Burn essentia for RF, charge wands on a chassis and take powered Thaumaturge gear into the field. Fieldframe Arcana connects [Fieldframe](../fieldframe/index.md) machines to [Thaumaturge](https://www.curseforge.com/projects/1628024).
 
-**Requires** Fieldframe 0.1 or newer and Thaumaturge 1.1.0 or newer. Fieldframe also needs [Metallurgy: Recast](../metallurgy/index.md). Version **0.6.6** is published for NeoForge 26.1.2. [Public downloads](https://www.curseforge.com/projects/1796760)
+**Requires** Fieldframe 0.1 or newer and Thaumaturge 1.1.0 or newer. Fieldframe also needs [Metallurgy: Recast](../metallurgy/index.md), and from Fieldframe 0.3.7 on, [Fundamentum](../fundamentum/index.md). Version **0.6.6** is published for NeoForge 26.1.2. [Public downloads](https://www.curseforge.com/projects/1796760)
 
 ## Machines and gear
 
