@@ -65,5 +65,6 @@ FieldframeEvents.tuning(e => e.tune('fieldframe:fuel_engine', 'rf_per_tick', 60)
 ```
 
 Other events: `operationStarting`, `operationCompleted`, `moduleInstalled`, `moduleRemoved`, `worldAction` (deny a
-world module's break, place or use), `fuels`, `auras`, `electrodes`, `temperatures`, `fluidArmor`. Startup scripts can
+world module's break, place or use), `fuels`, `auras`, `electrodes`, `temperatures`, `fluidArmor`, `treadmill`,
+`frameComponents` and `recipeFilter`, plus the client event `manual`. Startup scripts can
 also add chassis tiers above Resonant with `event.tier(...)`.
