@@ -4,6 +4,8 @@
 
 GT Spartan Modern adds 552 Spartan Weaponry weapons to GregTech CEu Modern, and they work as real GregTech tools. They show up in GT's Tools tab and use GT's durability bar.
 
+It is data-driven. Each weapon's stats come from GregTech's material data, so changing a metal in GregTech changes its weapons, and a datapack can give them all traits through the weapon-trait tag `gt_spartan:metals`.
+
 Every metal GregTech makes swords from gets weapons. That's 23 metals in plain GTCEu, from bronze and steel up through titanium, tungsten steel, HSS-E and neutronium. Each one gets all 24 Spartan weapon types: 18 melee weapons, 4 throwing weapons, the longbow and the heavy crossbow.
 
 ![Longswords in every GT metal](img/gtspartan_longswords.png)

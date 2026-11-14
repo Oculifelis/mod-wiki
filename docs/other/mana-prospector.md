@@ -4,6 +4,8 @@
 
 Mana Prospector adds two ore prospectors for packs that have both GregTech and Botania. They open GregTech's own prospecting map, the same screen as the GT prospector, but they run on Botania mana instead of EU. There are no batteries to charge, and a full mana tablet holds 250 manasteel scans.
 
+Recipes are datapack JSON, and the scan radius and mana cost of each prospector are in the server config.
+
 ![The manasteel and terrasteel prospectors](img/manaprospector_prospectors.png)
 
 ## The prospectors

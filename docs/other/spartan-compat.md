@@ -4,6 +4,8 @@
 
 Spartan Compat adds all 24 Spartan Weaponry weapon types in the metals and gems of other mods. Version 1.1.0 has 63 materials from 24 mods on NeoForge 1.21.1, and 51 materials from 21 mods on Forge 1.20.1.
 
+It is data-driven. Traits, repair items and recipes are datapack tags and JSON (`spartan_compat:materials/<name>` weapon-trait tags, `spartan_compat:repair/<name>` item tags), so a datapack can change any of them. Materials can be turned off or retuned in `config/spartan_compat/materials.json`.
+
 Each material has its own trait. Fiery weapons set things on fire, Knightmetal breaks armor, Neptunium hits anything in water 50% harder and Warden weapons blind what they hit. Botania weapons mend themselves from the mana in your inventory, Eternal Starlight ones freeze, poison or burn, and Psi weapons hold spell bullets and cast on hit. A few materials, like Amaramber and Sculkium, have no ability and just bring their own stats.
 
 You craft them like the iron versions. The late Cataclysm metals are the exception, and you smith those up from netherite weapons. Every material mod is optional, and a material only shows up when its mod is installed.
