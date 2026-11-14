@@ -19,7 +19,7 @@ You make them the GregTech way, on a crafting table from plates and rods with a 
 | 1.20.1 | Forge | 0.1.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.5, [Spartan Weaponry](https://www.curseforge.com/projects/278141) 3.2 |
 | 1.21.1 | NeoForge | 0.1.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.0.2 or later 7.x, [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) 1.2.3 or newer |
 
-GTCEu 8 isn't supported yet.
+GTCEu 8 isn't supported yet. [KubeJS](https://www.curseforge.com/projects/238086) is optional; the weapons work with it when it is installed.
 
 [CurseForge project](https://www.curseforge.com/projects/1804180)
 

@@ -13,7 +13,7 @@ factory is just machines standing next to each other.
 
 ![An ore line, a generator and a steam loop, three modules each](img/machines.png)
 
-**Requires** [Metallurgy: Recast](../metallurgy/index.md), for its metals, ores and dusts. **Optional:** [JEI](https://www.curseforge.com/projects/238222),
+**Requires** [Fundamentum](../fundamentum/index.md) and [Metallurgy: Recast](../metallurgy/index.md). Metallurgy supplies the ores and dusts, and the tin, silver, copper, steel, electrum and bronze that Fieldframe's recipes and machines use. **Optional:** [JEI](https://www.curseforge.com/projects/238222),
 [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
 **Versions:** 0.3.5 for NeoForge 26.1.2, NeoForge 1.21.1 and Forge 1.20.1. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794634).
@@ -38,14 +38,14 @@ factory is just machines standing next to each other.
 
 ## Built on Fundamentum
 
-On NeoForge 26.1.2 and 1.21.1, optional [Fundamentum](../fundamentum/index.md) adds the Arc Whip, Tesla Whip and Graviton Hook. It needs Fundamentum 1.22.3 or newer on 26.1.2, and 1.25.8 or newer on 1.21.1. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
+Fundamentum is my core mod, and Fieldframe needs it. In the next release it is a required dependency on every version. Until then 26.1.2 and 1.21.1 treat it as optional. It adds the Arc Whip, Tesla Whip and Graviton Hook. It needs Fundamentum 1.22.3 or newer on 26.1.2, and 1.25.8 or newer on 1.21.1. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
 
 | Override | Path | Format |
 |---|---|---|
 | Graviton Hook | <code>data/fieldframe/fundamentum/hooks/graviton_hook.json</code> | [Hooks](../fundamentum/datapack/hooks.md) |
 | Arc Whip and Tesla Whip | <code>data/fieldframe/fundamentum/whips/{arc_whip,tesla_whip}.json</code> | [Whips](../fundamentum/datapack/whips.md) |
 
-The Forge 1.20.1 jar declares optional Fundamentum 1.26.1 or newer but does not contain these per-item tuning JSON files.
+The 1.20.1 build needs Fundamentum 1.30.0 or newer.
 
 ## The manual
 
