@@ -29,7 +29,7 @@ GTCEu 8 isn't supported yet. [KubeJS](https://www.curseforge.com/projects/238086
 
 ## For pack makers
 
-The weapons are registered as GregTech tool types, so their ids are in GT's namespace, like gtceu:titanium_longsword. The scythe is gtceu:titanium_spartan_scythe, since GT has its own scythe. Recipes come from a built-in data pack with ids like gt_spartan:shaped/gtceu/titanium_longsword, so a datapack can replace them. Repair uses the material's ingot tag.
+The weapons are registered as GregTech tool types, so their ids are in GT's namespace, like gtceu:titanium_longsword. The scythe is gtceu:titanium_spartan_scythe, since GT has its own scythe. Recipes have ids like gt_spartan:shaped/gtceu/titanium_longsword and are added only where no datapack supplies that id, so a datapack recipe with the same id replaces the default. The file config/gt_spartan/weapons.json sets which metals get weapons and each kind's stats and pattern. Repair uses the material's ingot tag.
 
 ## Credits and license
 
