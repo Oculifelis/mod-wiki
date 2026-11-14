@@ -15,6 +15,10 @@ The optional-mod versions below describe the 26.1.2 target.
 
 ## Changelog
 
+**1.4.5**
+
+- Fixes a crash on Minecraft 26.3 when opening JEI. This version is for 26.3 only; the other loaders stay on 1.4.4.
+
 **1.4.4**
 
 - Replaced the remaining textures based on the original Metallurgy art: Haderoth and Lutetium armour, molten metals and particles.

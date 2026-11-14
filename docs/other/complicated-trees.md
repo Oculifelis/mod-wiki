@@ -9,7 +9,7 @@ up. Oak and birch can give Silver Birch, and Silver Birch and oak can give cherr
 It adds no new wood blocks: it breeds the trees you already have, and a datapack can add species and crosses for any
 mod's trees.
 
-**Requires** [Complicated Bees](https://www.curseforge.com/projects/1100137).
+**Requires** [Complicated Bees](https://www.curseforge.com/projects/1100137) (on 26.x, [Complicated Bees Unofficial](../complicatedbees/index.md)).
 
 | Minecraft | Loader | Version | Availability |
 |---|---|---|---|
