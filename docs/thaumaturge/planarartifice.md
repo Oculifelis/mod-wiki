@@ -1,6 +1,6 @@
-# Planar Artifice
+# Cubic Artifice
 
-Work glass into new building materials, use bismuth for transmutation, and move essentia through an alkimium workshop. Mirromirous research adds mirror-linked tools and storage. These branches share a Planar Artifice tab in Thaumaturge’s research book.
+Work glass into new building materials, use bismuth for transmutation, and move essentia through an alkimium workshop. Mirromirous research adds mirror-linked tools and storage. These branches share a Cubic Artifice tab in Thaumaturge’s research book.
 
 This is my reimplementation of the Elite Modding Team’s Planar Artifice for Thaumaturge. Its recipes and research explain how the materials lead into the later workshop equipment.
 

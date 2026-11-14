@@ -1,4 +1,4 @@
-# Magia Naturalis
+# Arcana Naturae
 
 Harvest with sickles, work with mutations and quicksilver, and keep supplies in magical storage. My port of Elenterius’s Magia Naturalis adds its research to Thaumaturge, alongside carved woods, revealing glasses and ways to manage research.
 
