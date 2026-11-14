@@ -25,7 +25,11 @@ batch is rejected as a whole and the old values stay; errors name the file in th
 | Fluid Armor effects of a single fluid | `fieldframe/fluid_armor_effects/*.json` |
 | Fluid Armor pair effects, 0.3.7 and later (which two FLORA fluids give which effect, how strong) | `fieldframe/fluid_armor_pairs/*.json` |
 | Aura Chamber effects | `fieldframe/aura/*.json` |
+| Treadmill animals, their food and RF | `fieldframe/treadmill/*.json` |
+| Blocks a frame accepts inside its walls, and the storage each adds | `fieldframe/frame_components/*.json` |
+| Graviton Hook range, shot and pull speed, hook count; where the Arc and Tesla Whip lash leaves the handle | `fundamentum/hooks/*.json`, `fundamentum/whips/*.json` (read by Fundamentum) |
 | Tree Tapper logs, Fisher bait, Enchanter fluids | tags `fieldframe:tappable_logs`, `fieldframe:fisher_bait`, `fieldframe:experience_fluids` |
+| Latex logs, lightning rods, electrolytes, turbine and excavator fluids, explosives | tags `fieldframe:latex_logs`, `fieldframe:lightning_rods`, `fieldframe:electrolytes`, `fieldframe:turbine_fluids`, `fieldframe:excavator_fluids`, `fieldframe:explosives` |
 
 From 0.3.7 the Fluid Armor pair table ships as `fieldframe/fluid_armor_pairs/flora.json`, the 28 original FLORA effects. Your
 file can move an effect to another pair, weaken or strengthen it, or turn it off. This one moves Speed to Ender with
