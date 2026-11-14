@@ -21,7 +21,7 @@ Turn one thing into another, using items, fluids and RF from the chassis. 24 mod
 | ![Enchanter](img/enchanter.png){ .mc-icon } | **Enchanter**{ #enchanter } | Enchants items like an enchanting table, paid in liquid experience and RF (Arcane Ensorcellator). |
 | ![Fluid Transposer](img/fluid_transposer.png){ .mc-icon } | **Fluid Transposer**{ #fluid-transposer } | Fills containers from a reservoir or empties them into one. |
 | ![Glacial Precipitator](img/glacial_precipitator.png){ .mc-icon } | **Glacial Precipitator**{ #glacial-precipitator } | Turns water into snow and ice with RF. |
-| ![Heater](img/heater.png){ .mc-icon } | **Heater**{ #heater } | Smelts using furnace recipes, paid for in RF. |
+| ![Heater](img/heater.png){ .mc-icon } | **Heater**{ #heater } | Smelts using furnace recipes, paid for in RF. From 0.3.7, ores and raw ores also give Slag 10% of the time. |
 | ![Insolator](img/insolator.png){ .mc-icon } | **Insolator**{ #insolator } | Grows crops and saplings from a catalyst seed with water and RF (Phytogenic Insolator). |
 | ![Item Charger](img/item_charger.png){ .mc-icon } | **Item Charger**{ #item-charger } | Charges RF-holding items; full items move to the output lane (Energetic Infuser). |
 | ![Magma Crucible](img/magma_crucible.png){ .mc-icon } | **Magma Crucible**{ #magma-crucible } | Melts items into fluids: stone into lava, redstone into redstone flux. |

@@ -12,6 +12,8 @@ Metallurgy's current version is 1.4.4 on these three targets. The 26.3 build of 
 
 The Frameworks filenames show the package versions above. The mod list reports 0.1.1 for all three of these packages. Transit 0.2.1 is on CurseForge; its mod list entry still reads 0.2.0.
 
+**Next release, Fieldframe 0.3.7 and Frameworks 0.1.6:** Fundamentum is required. Using a machine opens the Workshop, a smaller screen with tabs for each face and for routing. The full editor still opens from there. The Heater gives Slag (10%) when it smelts ores and raw ores. Fluid Armor pair effects can be changed with datapacks. Fluid buckets say in JEI which machines make their fluid. Frameworks adds a JEI page for the Arc Furnace's alloys.
+
 **Transit 0.2.1:** the round-3 look (gunmetal frame with cyan light lines), and the code is now LGPL-3.0-or-later.
 
 **Fieldframe 0.3.5 / 0.1.3 and Frameworks 0.1.5 / 0.1.4:** fixed the full-bright fluid layer on buckets so molten fluids show under shaders. Oculifelis's own artwork is LGPL-3.0-or-later.
