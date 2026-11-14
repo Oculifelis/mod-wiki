@@ -33,24 +33,24 @@ Install only the ones you want.
 | [Caverns & Chasms](https://www.curseforge.com/projects/438005) | Necromium |
 | [Thaumaturge](https://www.curseforge.com/projects/1628024) (1.21.1 only) | Thaumium, Void Metal |
 | Ultima Ratio | Starsteel, Eclipse |
-| The Undergarden | Cloggrum, Froststeel, Utherium, Forgotten |
-| Deeper and Darker | Resonarium, Warden |
-| The Aether | Zanite, Gravitite |
-| Allthemodium | Allthemodium, Vibranium, Unobtainium |
-| Mekanism Tools | Osmium, Refined Obsidian, Refined Glowstone, Lapis Lazuli |
-| Malum | Soul Stained Steel, Hallowed Gold |
-| Forbidden Arcanus | Deorum, Draco Arcanus |
+| [The Undergarden](https://www.curseforge.com/projects/379849) | Cloggrum, Froststeel, Utherium, Forgotten |
+| [Deeper and Darker](https://www.curseforge.com/projects/659011) | Resonarium, Warden |
+| [The Aether](https://www.curseforge.com/projects/255308) | Zanite, Gravitite |
+| [Allthemodium](https://www.curseforge.com/projects/364466) | Allthemodium, Vibranium, Unobtainium |
+| [Mekanism Tools](https://www.curseforge.com/projects/268567) | Osmium, Refined Obsidian, Refined Glowstone, Lapis Lazuli |
+| [Malum](https://www.curseforge.com/projects/484064) | Soul Stained Steel, Hallowed Gold |
+| [Forbidden Arcanus](https://www.curseforge.com/projects/309858) | Deorum, Draco Arcanus |
 | [Create](https://www.curseforge.com/projects/328085) | Brass, Zinc |
 | [Ars Nouveau](https://www.curseforge.com/projects/401955) | Source Gem |
 | [Occultism](https://www.curseforge.com/projects/361026) | Iesnium |
 | [Applied Energistics 2](https://www.curseforge.com/projects/223794) | Certus Quartz, Fluix |
 | [Botania](https://www.curseforge.com/projects/225643) | Manasteel, Elementium, Terrasteel |
-| Ender IO | Dark Steel, which beheads and holds its own energy |
-| Psi | Psimetal |
-| Eternal Starlight (1.21.1 only) | Amaramber, Deepsilver, Flowglaze, Glacite, Malarite, Starfire, Starlit Diamond, Thermal Springstone, Unrealium |
-| Nature's Aura | Infused Iron, Sky, Depth |
-| Eidolon Repraised (1.21.1 only) | Silver |
-| L2 Complements | Eternium, Poseidite, Sculkium, Shulkerate, Totemic Gold |
+| [Ender IO](https://www.curseforge.com/projects/64578) | Dark Steel, which beheads and holds its own energy |
+| [Psi](https://www.curseforge.com/projects/241665) | Psimetal |
+| [Eternal Starlight](https://www.curseforge.com/projects/1080592) (1.21.1 only) | Amaramber, Deepsilver, Flowglaze, Glacite, Malarite, Starfire, Starlit Diamond, Thermal Springstone, Unrealium |
+| [Nature's Aura](https://www.curseforge.com/projects/306626) | Infused Iron, Sky, Depth |
+| [Eidolon Repraised](https://www.curseforge.com/projects/870250) (1.21.1 only) | Silver |
+| [L2 Complements](https://www.curseforge.com/projects/758349) | Eternium, Poseidite, Sculkium, Shulkerate, Totemic Gold |
 
 ## For pack makers
 
