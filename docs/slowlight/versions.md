@@ -49,8 +49,3 @@ Everything under 26.1.2 applies, and:
 - **Starglass** uses a static texture on 26.2 and 26.3.
 - **Sulfur cube types** (0.8.3): these versions have the sulfur cube, and a cube that swallows a Slowlight Shard block
   drifts while one holding a Still Shard block hangs still. See [To build with](items.md#to-build-with).
-
-## Testing
-
-Every version's jar passes Slowlight's in-game self-test (a scripted week in a test world that checks every block,
-recipe and wait), and KubeJS was tested for real on 1.20.1, 1.21.1 and 26.1.2.

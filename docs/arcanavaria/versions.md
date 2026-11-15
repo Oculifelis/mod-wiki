@@ -21,7 +21,6 @@ Arcana Varia is made for **NeoForge 26.1.2** with **Thaumaturge 1.1.0** or newer
 **0.7.3**
 
 - Arcana Varia's code and Oculifelis's own art are now LGPL-3.0-or-later. Earlier versions were All Rights Reserved.
-- Tested: a full tower climb from the door to the vault, and all four whips.
 
 **0.7.2**
 
