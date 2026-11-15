@@ -32,6 +32,13 @@ You craft the manasteel one from manasteel ingots, a mana pearl, an LV circuit, 
 
 The scan radius and mana cost of both prospectors are in the server config, manaprospector-server.toml, and you can change them while the server runs. Recipes are plain crafting recipes at manaprospector:manasteel_prospector and manaprospector:terrasteel_prospector, so a datapack can replace them. KubeJS scripts can edit them too.
 
+| Key | Default | Range | What it changes |
+| --- | --- | --- | --- |
+| `manasteel.radius` | 2 | 1-8 | Chunks scanned out from the player's chunk (5x5 map). |
+| `manasteel.manaPerScan` | 2000 | 0-1,000,000 | Mana drawn each time the map opens. 0 makes it free. |
+| `terrasteel.radius` | 4 | 1-8 | Chunks scanned out from the player's chunk (9x9 map). |
+| `terrasteel.manaPerScan` | 8000 | 0-1,000,000 | Mana drawn each time the map opens. |
+
 ## Credits and license
 
 By Oculifelis, MIT. The item textures are GregTech's portable scanner recolored to Botania's metals (LGPL-3.0, from GregTech CEu Modern).
