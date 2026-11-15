@@ -23,7 +23,7 @@ You craft the manasteel one from manasteel ingots, a mana pearl, an LV circuit, 
 
 | Minecraft | Loader | Version | Needs |
 |---|---|---|---|
-| 1.20.1 | Forge | 0.1.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.5, [Botania](https://www.curseforge.com/projects/225643) |
+| 1.20.1 | Forge | 0.1.1 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.5.2 or newer 7.5 releases, [Botania](https://www.curseforge.com/projects/225643) |
 | 1.21.1 | NeoForge | 0.1.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.0.2 or newer, [Botania](https://www.curseforge.com/projects/225643) 1.21.1 |
 
 [CurseForge project](https://www.curseforge.com/projects/1804192)
