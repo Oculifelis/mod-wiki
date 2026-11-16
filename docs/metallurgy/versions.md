@@ -1,6 +1,6 @@
 # Versions
 
-Metallurgy: Recast **1.4.4** is built for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. It needs no other mod.
+Metallurgy: Recast **1.4.5** is built for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. It needs no other mod.
 
 The optional-mod versions below describe the 26.1.2 target.
 
@@ -17,7 +17,8 @@ The optional-mod versions below describe the 26.1.2 target.
 
 **1.4.5**
 
-- Fixes a crash on Minecraft 26.3 when opening JEI. This version is for 26.3 only; the other loaders stay on 1.4.4.
+- Armour effects run much faster on servers with many mobs. Mobs that wear no Metallurgy armour skip the armour check each tick, and each armour piece's metal is looked up once instead of every tick.
+- Armour effects work the same as before.
 
 **1.4.4**
 
@@ -35,13 +36,13 @@ The optional-mod versions below describe the 26.1.2 target.
 
 - First release as Metallurgy: Recast, with Metallurgy Chests merged in.
 - An optional Patchouli handbook replaces the old wiki item.
-- Hephaestus Tools: the metals as tool materials, smeltery recipes, and 14 of the original Tinkers' Construct traits
-  on 12 materials.
-- Thaumaturge: a wand cap and rod for each metal.
+- With Hephaestus Tools installed, the metals are tool materials with smeltery recipes, and 12 materials carry 14 of
+  the original Tinkers' Construct traits.
+- With Thaumaturge installed, each metal has a wand cap and rod.
 - The Rubracium Gauntlet mines like an iron pickaxe and shovel and takes tool enchantments. One craft makes one
   gauntlet.
 - JEI pages for every machine, detector programming and Tartarite absorption.
-- Etherium Goggles no longer lag the inventory screen. The Electrum Magnet shows its new mode when you switch it.
-  Detectors tell you what they are programmed to.
+- Etherium Goggles no longer lag the inventory screen. The Electrum Magnet shows its new mode when switched.
+  Detectors show what they are programmed to.
 - Ore mining tiers can be changed in the config.
 - Divine Grace only boosts direct melee hits from the weapon.

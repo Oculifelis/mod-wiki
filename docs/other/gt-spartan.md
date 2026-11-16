@@ -14,16 +14,18 @@ Every metal GregTech makes swords from gets weapons. That's 23 metals in plain G
 
 There's no fixed list. The mod reads GregTech's material registry when the game starts, so metals added by GT addons get weapons too. Durability, damage, speed and enchantability come from the GT material's tool stats, and each weapon is Spartan's own art recolored to its metal.
 
-You make them the GregTech way, on a crafting table from plates and rods with a hammer and a file. Bows also take string.
+Weapons are crafted on a crafting table from plates and rods with a GregTech hammer and file. Bows also take string.
 
 ## Versions and requirements
 
 | Minecraft | Loader | Version | Needs |
 |---|---|---|---|
-| 1.20.1 | Forge | 0.1.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.5, [Spartan Weaponry](https://www.curseforge.com/projects/278141) 3.2 |
-| 1.21.1 | NeoForge | 0.1.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.0.2 or later 7.x, [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) 1.2.3 or newer |
+| 1.20.1 | Forge | 0.2.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.5, [Spartan Weaponry](https://www.curseforge.com/projects/278141) 3.2 |
+| 1.21.1 | NeoForge | 0.2.0 | [GregTech CEu Modern](https://www.curseforge.com/projects/890405) 7.0.2 or later 7.x, [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) 1.2.3 or newer |
 
 GTCEu 8 isn't supported yet. [KubeJS](https://www.curseforge.com/projects/238086) is optional; the weapons work with it when it is installed.
+
+With [Better Combat](https://www.curseforge.com/projects/639842) installed, every weapon except the longbow and heavy crossbow gets Better Combat attacks. Those files load only when Better Combat is there.
 
 [CurseForge project](https://www.curseforge.com/projects/1804180)
 
@@ -41,7 +43,7 @@ The weapons are registered as GregTech tool types, so their ids are in GT's name
     | `kinds.<kind>.damage`, `damage_multiplier`, `attack_speed` | A melee kind's base damage, how strongly the metal's own damage bonus counts, and its attack speed. |
     | `kinds.<kind>.pattern` | The crafting pattern for that kind on every metal, 1 to 3 rows of up to 3 characters. `P` plate (required), `R` rod, `S` string, `h` hammer, `f` file, space for empty. The plate and rod count also sets how much metal the weapon recycles into. |
 
-Ranges: `damage` 0 to 1000, `damage_multiplier` 0 to 100, `attack_speed` 0 to 100. A pattern has 1 to 3 rows, every row the same length, and at least one `P`. Ranged and thrown kinds take their stats from Spartan and the metal, so those three numbers do nothing for them.
+`damage` goes from 0 to 1000, `damage_multiplier` 0 to 100, `attack_speed` 0 to 100. A pattern has 1 to 3 rows, every row the same length, and at least one `P`. Ranged and thrown kinds take their stats from Spartan and the metal, so those three numbers do nothing for them.
 
 ??? note "Default stats and patterns for each kind (· is an empty slot)"
 
