@@ -120,6 +120,7 @@ nav:
   - Ports:
       - ports/index.md
       - Blazing Bamboo (Unofficial): blazingbamboo/index.md
+      - Boss Checklist (Unofficial): ports/boss-checklist.md
       - Nether Agriculture (Unofficial):
           - netheragriculture/index.md
           - Items: netheragriculture/items.md
