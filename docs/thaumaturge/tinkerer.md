@@ -1,8 +1,8 @@
 # Thaumaturgic Tinkerer
 
-Add magical workshop gadgets, foci, controlled enchanting and transvector tools to Thaumaturge. Later KAMI research leads into ichor equipment and dimensional exploration. My port follows the Thaumic Tinkerer work from Vazkii and the GTNH fork.
+Add magical workshop gadgets, foci, controlled enchanting and transvector tools to Thaumaturge. Later KAMI research leads into ichor equipment and dimensional exploration. The port follows the Thaumic Tinkerer work from Vazkii and the GTNH fork.
 
-Open its research tab in the Thaumonomicon for the recipes and prerequisites. Version 1.0.0 uses the mod id thaumaturgictinkerer; the earlier thaumictinkerer ids are aliased so existing worlds can keep loading.
+Open its research tab in the Thaumonomicon for the recipes and prerequisites. Version 1.0.0 uses the mod id thaumaturgictinkerer. The earlier thaumictinkerer ids are aliased so existing worlds can keep loading.
 
 ## Versions and requirements
 

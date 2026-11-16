@@ -1,6 +1,6 @@
 # Thaumaturge addons
 
-Thaumaturge brings Thaumcraft-style magic to 26.x. These are my addons for it. Each one has its own pages.
+Thaumaturge brings Thaumcraft-style magic to 26.x. These addons build on it. Each one has its own pages.
 
 | Mod | What it does |
 |---|---|
@@ -15,4 +15,9 @@ Thaumaturge brings Thaumcraft-style magic to 26.x. These are my addons for it. E
 | [Thaumaturgic Bases](thaumicbases.md) | Grow magical plants, make new wand parts and wearable gear, and extend the alchemical workshop. |
 | [Thaumaturgic Tinkerer](tinkerer.md) | Add magical workshop gadgets, foci, controlled enchanting and transvector tools to Thaumaturge. |
 | [Thaumaturgic Brewing](brewing.md) | Make potions in the crucible from essentia, then strengthen or extend them, or turn them into splash and lingering potions. |
-| [Thaumaturgic Infusion](infusion.md) | Give an ordinary block an aspect effect on the infusion altar, then place it where you want that effect. |
+| [Thaumaturgic Infusion](infusion.md) | The infusion altar gives an ordinary block an aspect effect, and the block keeps it wherever it is placed. |
+| [Forsaken Magic](forsakenmagic.md) | Vice aspects and shards, dark enchantments, the Wrath Cage and morphic tools. |
+| [Thaumaturgic Concilium](concilium.md) | 13 spell effects, crimson cultists, flux rifts and flesh alchemy. |
+| [Arcane Accretions](arcaneaccretions.md) | Nine aspects, three new metals, big jars and void tools. |
+| [Electro Magic Contraptions](electromagiccontraptions.md) | Electric tools and armour, essentia generators and solar panels on Forge Energy. |
+| [Arcane Locomotion](arcanelocomotion.md) | Magic crowbars, an essentia-fired steam locomotive, essentia freight carts and eldritch rails for Railcraft Reborn. |

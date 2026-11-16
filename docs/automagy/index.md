@@ -4,10 +4,12 @@ Build a magical workshop with redstone devices, sorting chests, mirrors, essenti
 
 **Requires** Thaumaturge 1.1.0 or newer. [Public downloads](https://www.curseforge.com/projects/1796732)
 
+Datapacks can change recipes, research, glyphs, runes, workbench upgrades, archive shelf sizes, ring values and the crafting spell's costs.
+
 | Minecraft | Loader | Automagia |
 |---|---|---|
-| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.8.6 |
-| 1.21.1 | NeoForge 21.1.259 or newer | 0.8.7 |
+| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.8.8 |
+| 1.21.1 | NeoForge 21.1.259 or newer | 0.8.8 |
 
 ## In the workshop
 

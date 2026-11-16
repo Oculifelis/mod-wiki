@@ -1,6 +1,6 @@
 # Thaumaturgic Infusion
 
-Give an ordinary block an aspect effect on the infusion altar, then place it where you want that effect. My port brings Thaumic Infusion to Thaumaturge with effects for light, redstone, movement, protection and other block behavior.
+The infusion altar gives an ordinary block an aspect effect, and the block keeps it wherever it is placed. This port brings Thaumic Infusion to Thaumaturge with effects for light, redstone, movement, protection and other block behavior.
 
 An infused item carries its effects into the placed block. Breaking the block drops the infused item again. The Thaumonomicon explains the effects and recipes.
 

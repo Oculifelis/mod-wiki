@@ -1,6 +1,6 @@
 # Thaumaturgic Brewing
 
-Make potions in the crucible from essentia, then strengthen or extend them, or turn them into splash and lingering potions. My port brings Michael Bunting’s Thaumic Brewing to Thaumaturge on both supported Minecraft versions.
+Make potions in the crucible from essentia, then strengthen or extend them, or turn them into splash and lingering potions. This port brings Michael Bunting’s Thaumic Brewing to Thaumaturge on both supported Minecraft versions.
 
 The original 31 potions keep their hand-made recipes. In 0.2.0, every other brewable potion can get a crucible recipe from the brewing registry when a world loads and on /reload. That includes potions added by other mods. A hand-made recipe takes precedence.
 
