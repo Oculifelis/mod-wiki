@@ -6,9 +6,9 @@ Spartan Compat adds all 24 Spartan Weaponry weapon types in the metals and gems 
 
 It is data-driven. Traits, repair items and recipes are datapack tags and JSON (`spartan_compat:materials/<name>` weapon-trait tags, `spartan_compat:repair/<name>` item tags), so a datapack can change any of them. Trait numbers (chances, damage, effect lengths) can also be set by datapack files in `data/<namespace>/spartan_compat/traits/`. Every key is listed under For pack makers below. Materials can be turned off or retuned in `config/spartan_compat/materials.json`.
 
-Each material has its own trait. Fiery weapons set things on fire, Knightmetal breaks armor, Neptunium hits anything in water 50% harder and Warden weapons blind what they hit. Botania weapons mend themselves from the mana in your inventory, Eternal Starlight ones freeze, poison or burn, and Psi weapons hold spell bullets and cast on hit. A few materials, like Amaramber and Sculkium, have no ability and just bring their own stats.
+Each material has its own trait. Fiery weapons set things on fire, Knightmetal breaks armor, Neptunium hits anything in water 50% harder and Warden weapons blind what they hit. Botania weapons mend themselves from mana in the inventory, Eternal Starlight ones freeze, poison or burn, and Psi weapons hold spell bullets and cast on hit. A few materials, like Amaramber and Sculkium, have no ability and just bring their own stats.
 
-You craft them like the iron versions. The late Cataclysm metals are the exception, and you smith those up from netherite weapons. Every material mod is optional, and a material only shows up when its mod is installed.
+Most are crafted like the iron versions. The late Cataclysm metals are smithed up from netherite weapons, Ignitium and Cursium with Cataclysm's own upgrade templates. Cataclysm weapons use Cataclysm's sounds and particles, Ignitium, Cursium and Witherite ones survive explosions, and Witherite, Ancient Metal and Black Steel weapons smelt back down in a furnace. Every material mod is optional, and a material only shows up when its mod is installed.
 
 ![Longswords in all 63 materials](img/spartancompat_longswords.png)
 
@@ -25,7 +25,7 @@ The 1.20.1 file has no Thaumaturge, Eternal Starlight or Eidolon materials.
 
 ## Material mods
 
-Install only the ones you want.
+Any of them can be left out.
 
 | Mod | Materials |
 |---|---|
@@ -56,11 +56,11 @@ Install only the ones you want.
 
 ## For pack makers
 
-The config file is written on first start at config/spartan_compat/materials.json. You can turn any mod's weapons off, or force them on without the mod, and change each material's durability, damage, speed, enchantability and traits. Changes need a restart. Traits come from item tags, so a datapack can move them around too. KubeJS can edit the recipes like any others.
+The config file is written on first start at config/spartan_compat/materials.json. It turns any mod's weapons off, or forces them on without the mod, and sets each material's durability, damage, speed, enchantability, rarity and unbreakable flag. Changes need a restart. Traits come from item tags, so a datapack can move them around too. KubeJS can edit the recipes like any others.
 
 Trait numbers can be changed with a datapack file in `data/<namespace>/spartan_compat/traits/` or in config/spartan_compat/traits.json, for example `{"numbing_ticks": 60, "numbing_chance": 0.5}`. Chances and fractions run 0 to 1, amplifiers and levels 0 to 255, and everything else 0 to 1,000,000.
 
-??? note "Trait keys and defaults (48)"
+??? note "Trait keys and defaults (52)"
 
     | Key | Default | Range |
     |---|---|---|
@@ -88,6 +88,8 @@ Trait numbers can be changed with a datapack file in `data/<namespace>/spartan_c
     | `mecha_smite_fire_seconds` | 5 | 0 to 1,000,000 |
     | `mecha_smite_regen_chance` | 0.5 | 0 to 1 |
     | `mecha_smite_regen_health_fraction` | 0.5 | 0 to 1 |
+    | `mecha_smite_regen_uses_fraction` | 1 | 0 to 1 |
+    | `mecha_smite_regen_health` | 10 | 0 to 1,000,000 |
     | `mecha_smite_regen_ticks` | 100 | 0 to 1,000,000 |
     | `mecha_smite_regen_amplifier` | 1 | 0 to 255 |
     | `mecha_pulse_charge_chance` | 0.75 | 0 to 1 |
@@ -96,6 +98,8 @@ Trait numbers can be changed with a datapack file in `data/<namespace>/spartan_c
     | `mecha_pulse_cooldown_ticks` | 800 | 0 to 1,000,000 |
     | `mecha_pulse_stun_ticks` | 200 | 0 to 1,000,000 |
     | `mecha_pulse_damage` | 4 | 0 to 1,000,000 |
+    | `cataclysm_sounds_enabled` | 1 | 0 or 1 |
+    | `cataclysm_sound_pitch_variation` | 0.1 | 0 to 1,000,000 |
     | `ironwood_knockback_level` | 1 | 0 to 255 |
     | `ironwood_fortune_level` | 1 | 0 to 255 |
     | `ironwood_propel_level` | 1 | 0 to 255 |
@@ -115,4 +119,4 @@ Trait numbers can be changed with a datapack file in `data/<namespace>/spartan_c
 
 ## Credits and license
 
-By Oculifelis. The code is MIT. The Twilight Forest, Cataclysm, Aquaculture and Caverns & Chasms textures come from the earlier Spartan add-ons by KreloX, Cephelo and denispionicul (MIT). The rest are Spartan Weaponry's own sprites by ObliviousSpartan, recolored (Apache-2.0).
+By Oculifelis. The code is MIT. The Twilight Forest, Cataclysm, Aquaculture and Caverns & Chasms textures and the Cataclysm effect icons come from the earlier Spartan add-ons by KreloX, Cephelo and denispionicul (MIT). The rest are Spartan Weaponry's own sprites by ObliviousSpartan, recolored (Apache-2.0).
