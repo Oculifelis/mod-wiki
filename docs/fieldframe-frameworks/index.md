@@ -12,7 +12,7 @@ and drive it, the same way they drive a single chassis. Still no pipes and no ca
 
 ![Frame Casing, Frame Core, Vault, Tank, Cell, Crucible, Arc Electrode and Cooling Fin; Gantry Controller, Head and Rail, Containment Coil, Field Magnet, Plasma Injector and Plasma Probe](img/blocks.png)
 
-**Requires** [Fieldframe](../fieldframe/index.md) and [Metallurgy: Recast](../metallurgy/index.md). **Optional:** [JEI](https://www.curseforge.com/projects/238222),
+**Requires** [Fieldframe](../fieldframe/index.md), [Fundamentum](https://www.curseforge.com/projects/1765941) and [Metallurgy: Recast](../metallurgy/index.md). **Optional:** [JEI](https://www.curseforge.com/projects/238222),
 [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
 Frameworks is data-driven. Frame sizes, power costs, alloy recipes and reactor values are datapack files; see the table further down.

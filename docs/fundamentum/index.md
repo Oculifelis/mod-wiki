@@ -27,7 +27,7 @@ JEI and REI are supported on 26.x; EMI support is on 1.21.1 and 1.20.1. [Portal 
     | Mod | What it uses |
     |---|---|
     | [Arcana Varia](../arcanavaria/index.md#built-on-fundamentum) | Four cord whips and four scythe tuning files. |
-    | [Fieldframe](../fieldframe/index.md#built-on-fundamentum) | The Graviton Hook and powered whips on NeoForge 26.1.2 and 1.21.1. |
+    | [Fieldframe](../fieldframe/index.md#built-on-fundamentum) | The Graviton Hook and powered whips on every version. Fieldframe requires Fundamentum. |
 
 ## For players
 

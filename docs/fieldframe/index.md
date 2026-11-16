@@ -40,14 +40,13 @@ Fieldframe is data-driven. Engine fuels, heat sources, electrode metals, treadmi
 
 ## Built on Fundamentum
 
-Fieldframe needs Fundamentum, a shared core library. In the next release it is a required dependency on every version. Until then 26.1.2 and 1.21.1 treat it as optional. It adds the Arc Whip, Tesla Whip and Graviton Hook. It needs Fundamentum 1.22.3 or newer on 26.1.2, and 1.25.8 or newer on 1.21.1. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
+Fieldframe requires [Fundamentum](https://www.curseforge.com/projects/1765941) 1.30.0 or newer, a shared core library, on every version. It adds the Arc Whip, Tesla Whip and Graviton Hook. The hook has a range of 30 blocks, a shoot speed of 2.4 and pull speed of 1.1, with up to three hooks out at once.
 
 | Override | Path | Format |
 |---|---|---|
 | Graviton Hook | <code>data/fieldframe/fundamentum/hooks/graviton_hook.json</code> | [Hooks](../fundamentum/datapack/hooks.md) |
 | Arc Whip and Tesla Whip | <code>data/fieldframe/fundamentum/whips/{arc_whip,tesla_whip}.json</code> | [Whips](../fundamentum/datapack/whips.md) |
 
-The 1.20.1 build needs Fundamentum 1.30.0 or newer.
 
 ## The manual
 
