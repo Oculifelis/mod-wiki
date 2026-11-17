@@ -1,16 +1,41 @@
 # Versions
 
-These pages document the **1.30.0** builds submitted on November 13. Submission and public release are separate; the [CurseForge files page](https://www.curseforge.com/projects/1765941/files) has the downloads currently available.
+These pages document the **1.36.0** builds, released on CurseForge on November 17. The [CurseForge files page](https://www.curseforge.com/projects/1765941/files) has the downloads.
 
 | Minecraft | Loader | Documented build |
 |---|---|---|
-| 26.1.2 | NeoForge | 1.30.0 |
-| 26.2 | NeoForge | 1.30.0 |
-| 26.3 | NeoForge | 1.30.0 |
-| 1.21.1 | NeoForge | 1.30.0 |
-| 1.20.1 | Forge | 1.30.0 |
+| 26.1.2 | NeoForge | 1.36.0 |
+| 26.2 | NeoForge | 1.36.0 |
+| 26.3 | NeoForge | 1.36.0 |
+| 1.21.1 | NeoForge | 1.36.0 |
+| 1.20.1 | Forge | 1.36.0 |
 
 Curios is required. JEI and REI recipe-viewer support is available on 26.x; EMI support is on the older two targets. All three viewers remain optional.
+
+## In 1.36.0
+
+1.36.0 is the first release after 1.30.0, so it also carries 1.31.0 to 1.35.0.
+
+- A shared [bestiary](systems.md#guides-and-books) lists every mob from mods that turn it on. Each mob gets a stat sheet page, locked until the mob has been seen.
+- Guide books are an item with seven book styles, page turns and stamps. Guide screens have 50 themes, picked from inside the guide, with a separate choice per book.
+
+## In 1.34.0
+
+- [Weight](systems.md#combat-and-movement) gives items a weight set in datapacks. Carry capacity and load capacity are attributes. Equipment load and inventory weight are separate config switches, both off by default. The weight meter shows as a bar or as icons.
+
+## In 1.33.0
+
+- [Dodge](systems.md#combat-and-movement) adds a dash and a roll on the Dodge key. Charges, distance, speed, invulnerability and hunger cost come from attributes on worn gear. Dodge styles are datapack files.
+- Boss Bags drop from bosses and open into loot. Datapacks choose which bosses drop one, what it holds and who counts as a fighter.
+
+## In 1.31.1
+
+- Dedicated servers with Jade installed start again.
+- Joining a world no longer crashes on NeoForge when material unification hides replaced items from the creative tabs.
+- The Forge 1.20.1 jar starts outside a dev setup again.
+- With Apothic Attributes installed, crit chance, crit damage, armour pierce, projectile speed and ranged damage use its attributes instead of a second copy. 1.20.1 has no ranged damage there.
+- Survival meters can require a mod, or turn off when one is installed.
+- Whips hit small and thin mobs like baby zombies reliably.
 
 ## In 1.30.0
 

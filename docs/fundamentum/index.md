@@ -2,12 +2,12 @@
 
 ![Fundamentum logo](../assets/fundamentum_logo.png){ width="128" align=right }
 
-A library mod: it doesn't add much on its own. Mods built on it use it for the systems they share, so their items,
+Fundamentum is a library mod and adds little on its own. Mods built on it use it for the systems they share, so their items,
 stats and events work together instead of each mod rolling its own. Nearly everything is set up through datapacks.
 
-These pages cover **1.30.0**, submitted for all five targets on November 13. See [Versions](versions.md) for the documented builds and the download link. The [shared systems guide](systems.md) covers stats, survival meters, multiblocks and the other additions.
+These pages cover **1.36.0**, released for all five targets on November 17. See [Versions](versions.md) for the documented builds and the download link. The [shared systems guide](systems.md) covers stats, survival meters, multiblocks and the other additions.
 
-**Requires:** [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://modrinth.com/mod/jei), REI and EMI show shared recipe pages where a matching viewer build exists.
+Fundamentum requires [Curios](https://www.curseforge.com/projects/309927). [JEI](https://modrinth.com/mod/jei), REI and EMI are optional and show shared recipe pages where a matching viewer build exists.
 
 JEI and REI are supported on 26.x; EMI support is on 1.21.1 and 1.20.1. [Portal crafting](datapack/portal-crafting.md) uses the shared recipe pages.
 
@@ -35,8 +35,8 @@ JEI and REI are supported on 26.x; EMI support is on 1.21.1 and 1.20.1. [Portal 
 |---|---|
 | **[Wings](datapack/wings.md)** | In their own Curios slot (with a cosmetic twin). Hold jump to fly, then glide. No fall damage while flying. |
 | **[Mounts](datapack/mounts.md)** | A mount item in the `mount` slot plus **V** calls a creature to ride. V again, getting off, unequipping, dying or changing dimension puts it away. |
-| **[Grappling hooks](datapack/hooks.md)** | A hook in the `hook` slot plus **H** fires it. It latches onto a block and pulls you there; jump to let go. A latched player takes no fall damage. |
-| **[Summons](datapack/summons.md)** | Items in the `summon` slot call minions that follow you and fight what you fight. |
+| **[Grappling hooks](datapack/hooks.md)** | A hook in the `hook` slot plus **H** fires it. It latches onto a block and pulls the player there; jumping lets go. A latched player takes no fall damage. |
+| **[Summons](datapack/summons.md)** | Items in the `summon` slot call minions that follow the player and fight what the player fights. |
 | **[Whips](datapack/whips.md)** | A simulated cord: the whole cord hits, the tip hits hardest, and a crack at the tip is a crit. |
 | **Cosmetic armour** | Four slots in their own screen (the button at the top right of the inventory's player preview). |
 | **3D arrows** | In place of the flat vanilla ones. |
@@ -46,6 +46,10 @@ JEI and REI are supported on 26.x; EMI support is on 1.21.1 and 1.20.1. [Portal 
 | **[Portal crafting](datapack/portal-crafting.md)** | Some items change when thrown through a portal. |
 | **[Use sickness](datapack/sickness.md)** | For potions and other consumables. |
 | **Tooltips** | For whips and hooks; any item's `.desc` lang lines show under its name. |
+| **[Dodge](systems.md#combat-and-movement)** | A dash or a roll on the Dodge key. Charges, distance and invulnerability come from worn gear; charge bars sit beside the hotbar. |
+| **[Boss Bags](systems.md#combat-and-movement)** | Drop from bosses and open into loot with a right click. Datapacks pick the bosses, the loot and who counts as a fighter. |
+| **[Weight](systems.md#combat-and-movement)** | Every item can have a weight. Equipment load and inventory weight are each off until turned on in the config. |
+| **[Guide books and bestiary](systems.md#guides-and-books)** | Guide books in seven book styles with 50 screen themes, and a shared bestiary that unlocks a mob's page once it has been seen. |
 | **Max health** | Up to 1,000,000 instead of 1,024. |
 
 ## Keys
@@ -54,8 +58,9 @@ JEI and REI are supported on 26.x; EMI support is on 1.21.1 and 1.20.1. [Portal 
 |---|---|---|
 | Mount | V | calls or dismisses the [mount](datapack/mounts.md) in the `mount` slot |
 | Hook | H | fires a [hook](datapack/hooks.md) from the `hook` slot |
+| Dodge | Left Alt | dashes or rolls, using one dodge charge |
 
-Both are in the Fundamentum key category.
+All three are in the Fundamentum key category.
 
 ## Config
 
@@ -82,7 +87,7 @@ Both are in the Fundamentum key category.
 | [Jade](https://modrinth.com/mod/jade) | looking at a playing jukebox shows the disc, a progress bar and "1:12 / 3:05"; works for every disc, modded ones too; toggle it in Jade's plugin settings ("Jukebox song progress") | optional |
 | [JEI](https://modrinth.com/mod/jei) | [portal crafting](datapack/portal-crafting.md) recipes | optional |
 
-Item tooltips: other mods' lines added through Fundamentum fold behind Shift too. Tag items `#fundamentum:tooltip_always`
+Lines that other mods add to item tooltips through Fundamentum fold behind Shift too. Tag items `#fundamentum:tooltip_always`
 to keep their text open, or `#fundamentum:tooltip_fold` to fold a short one.
 
 ## Shaders

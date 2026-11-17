@@ -1,6 +1,6 @@
 # Shared systems
 
-These systems are in the documented Fundamentum 1.30.0 builds. They let a pack or an addon supply the content while the library handles the shared behavior.
+These systems are in the documented Fundamentum 1.36.0 builds. They let a pack or an addon supply the content while the library handles the shared behavior.
 
 ## Stats and survival
 
@@ -8,15 +8,32 @@ These systems are in the documented Fundamentum 1.30.0 builds. They let a pack o
 |---|---|
 | Stats | Declare named numbers for players, mobs and item stacks under <code>data/&lt;namespace&gt;/fundamentum/stats/</code>. A value can be stored or read from an attribute, mana, an unlock, a vanilla statistic or a scoreboard score. It can appear in the HUD, the stats screen and item tooltips. |
 | Startup attributes | A mod can include declarations at <code>META-INF/fundamentum/stats.json</code>. These are handled at startup, separately from reloadable world stat definitions. The public entry point is <code>attribute.StartupStats</code>. |
-| Survival meters | Define thirst, temperature or another meter with rules for filling, draining and effects at its limits. Meters use the stat system and can have HUD bars. A pack or addon supplies the definitions; the library does not add thirst by itself. |
+| Survival meters | Define thirst, temperature or another meter with rules for filling, draining and effects at its limits. A meter can require a mod, or turn off when one is installed. Meters use the stat system and can have HUD bars. A pack or addon supplies the definitions; the library does not add thirst by itself. |
 | Stat changes | Addons can respond to <code>Events.StatChanged</code>. The <code>Stats</code> API reads and changes base values and modifiers. <code>/fundamentum stat</code> provides the player-facing commands. |
+
+## Combat and movement
+
+| System | What a pack or addon can do |
+|---|---|
+| Dodge | A dash and a roll on the Dodge key (Left Alt). Charges, distance, speed, invulnerability and hunger cost are attributes on worn gear. Styles live under <code>data/&lt;namespace&gt;/fundamentum/dodge_style/</code> and gear values under <code>data/&lt;namespace&gt;/fundamentum/dodge_gear/</code>. Charge bars sit beside the hotbar and move in the HUD editor. |
+| Weight | Item weights come from <code>data/&lt;namespace&gt;/fundamentum/weight_rules/</code>. Carry capacity and load capacity are attributes. Equipment load and inventory weight each have a config switch and are off by default. The meter shows as a bar or as icons. |
+| Boss Bags | <code>data/&lt;namespace&gt;/fundamentum/boss_bags/</code> sets which bosses drop a bag, what it holds and who counts as a fighter. A right click opens the bag. |
+| Apothic Attributes | When it is installed, crit chance, crit damage, armour pierce, projectile speed and ranged damage use its attributes instead of a second copy. 1.20.1 has no ranged damage there. |
+
+## Guides and books
+
+| System | What it provides |
+|---|---|
+| Guide books | An item with seven book styles, page turns and stamps. Resource packs define books under <code>assets/&lt;namespace&gt;/fundamentum/books/</code> and styles under <code>fundamentum/book_styles/</code>. |
+| Guide themes | 50 built-in themes for guide screens, picked from inside the guide, with tags, search and a separate choice per book. Packs add more under <code>fundamentum/guide_themes/</code>. |
+| Bestiary | One shared book for every mob from mods that turn it on, under <code>fundamentum/bestiary/</code>. Each mob gets a stat sheet page, locked until the mob has been seen. |
 
 ## Structures and shared content
 
 | System | What it provides |
 |---|---|
 | Multiblocks | Layered patterns under <code>data/&lt;namespace&gt;/fundamentum/multiblocks/</code>, with block, tag and state keys. A pattern can allow rotation and mirroring. Matching, formed/unformed events, missing-block previews and recipe-viewer pages share one definition. |
-| Pattern parts | In 1.30.0, an addon can read cells and world positions by key and attach extra data to a key. That lets a machine find the parts of its formed pattern. |
+| Pattern parts | From 1.30.0, an addon can read cells and world positions by key and attach extra data to a key. That lets a machine find the parts of its formed pattern. |
 | Unlocks | Track a player or team’s progress by id, with levels, prerequisites, grant sources and conditions. |
 | Shared events | A common event vocabulary for spells, bosses, quests, reputation and the library’s own systems. Listeners can use the code event type or its id. |
 | Energy and fluids | Helpers for buffers, tanks, neighboring transfers and screen synchronization over the loader’s handlers. |
