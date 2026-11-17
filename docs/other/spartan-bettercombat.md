@@ -1,29 +1,38 @@
-# Spartan x Better Combat Unofficial
+# Spartan x Better Combat
 
-Gives all 364 [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) melee weapons their own
-[Better Combat](https://www.curseforge.com/projects/639842) attack animation: katanas combo, halberds sweep, warhammers
+Gives every [Spartan Weaponry](https://www.curseforge.com/projects/278141) melee weapon its own
+[Better Combat](https://www.curseforge.com/projects/639842) attack animation. Katanas combo, halberds sweep, warhammers
 slam. Without it, they all swing like a sword.
 
-Since 0.2.0 it also animates the 220 dragon bone, dragonsteel and myrmex weapons of
-[Spartan Weaponry: Ice and Fire Unofficial](https://www.curseforge.com/projects/1610003), when that addon is installed.
-It's optional; nothing changes without it.
+Since 0.3.0 it works with whichever Spartan Weaponry port is installed:
+[Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963), the
+[Vladeezy port](https://www.curseforge.com/projects/1750947), the
+[sanufsoii Fabric port](https://www.curseforge.com/projects/1684730), or the original
+[Spartan Weaponry](https://www.curseforge.com/projects/278141) on Forge 1.20.1. The dragon bone, dragonsteel and myrmex
+weapons of the Ice and Fire addon for Spartan Weaponry are covered too. Any Better Combat build works, Rekindled Combat
+included.
 
-It's data only, with no code. Damage, speed and reach stay as Spartan sets them.
+The mod is pure datapack data. Each weapon has its own file at `data/<namespace>/weapon_attributes/<item>.json`, so a
+datapack can give any weapon a different Better Combat preset. Damage, speed and reach stay as Spartan sets them.
 
 | Needs | Where |
 |---|---|
-| [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) | client and server |
-| [Better Combat](https://www.curseforge.com/projects/639842) | client and server |
-| [Spartan Weaponry: Ice and Fire Unofficial](https://www.curseforge.com/projects/1610003) | optional, for its 220 weapons |
+| [Better Combat](https://www.curseforge.com/projects/639842) (or Rekindled Combat) | client and server |
+| One Spartan Weaponry port | client and server |
+| Spartan Weaponry: Ice and Fire ([1.21.1](https://www.curseforge.com/projects/1610003), [1.20.1](https://www.curseforge.com/projects/606315)) | optional, for its weapons |
 
 | Minecraft | Loader | Latest built |
 |---|---|---|
-| 1.21.1 | NeoForge | 0.2.0 |
-| 1.20.1 | Forge | 0.2.0 |
+| 26.3 | NeoForge, Fabric | 0.3.0 |
+| 26.2 | NeoForge, Fabric | 0.3.0 |
+| 26.1 | NeoForge, Fabric | 0.3.0 |
+| 1.21.11 | NeoForge, Fabric | 0.3.0 |
+| 1.21.1 | NeoForge, Fabric | 0.3.0 |
+| 1.20.1 | Forge | 0.3.0 |
 
-On Forge 1.20.1, use Spartan Weaponry and Spartan Weaponry: Ice and Fire for that loader.
+One file runs on both NeoForge and Fabric for each version from 1.21.1 up.
 
-**Licence:** MIT. [On CurseForge](https://www.curseforge.com/projects/1786749).
+The licence is MIT. [On CurseForge](https://www.curseforge.com/projects/1786749).
 
 | Picture | Spartan weapon | Better Combat animation | Hands | Combo hits |
 |---|---|---|---|---|
@@ -46,6 +55,5 @@ On Forge 1.20.1, use Spartan Weaponry and Spartan Weaponry: Ice and Fire for tha
 | ![Longbow](img/spartan_longbow.png){ .mc-icon .mc-inline } | Longbow | Heavy bow (hold pose) | Two | - |
 | ![Heavy Crossbow](img/spartan_heavy_crossbow.png){ .mc-icon .mc-inline } | Heavy Crossbow | Heavy crossbow (hold pose) | Two | - |
 
-Every material is covered, and Ice and Fire weapons (dragon bone, flamed/iced/lightning dragon bone,
-fire/ice/lightning dragonsteel, desert/jungle myrmex chitin and stinger) get the same animation per type. Javelins, throwing knives, tomahawks and boomerangs are left alone so they can still be
-thrown.
+Every material of every port is covered, and Ice and Fire weapons get the same animation per type. Javelins, throwing
+knives, tomahawks and boomerangs are left alone so they can still be thrown.
