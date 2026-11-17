@@ -120,8 +120,6 @@ nav:
           - Items and machines: complicatedbees/items.md
       - Genetic Industry Unofficial: ports/genetic-industry/index.md
       - Complicated Trees: other/complicated-trees.md
-      - Rotaflux: other/rotaflux.md
-      - Manaflux: other/manacomb.md
   - Ports:
       - ports/index.md
       - Blazing Bamboo (Unofficial): blazingbamboo/index.md
@@ -148,6 +146,8 @@ nav:
           - Versions: mariculture/versions.md
   - Other mods:
       - other/index.md
+      - Rotaflux: other/rotaflux.md
+      - Manaflux: other/manacomb.md
       - Mana Gadgets: other/mana-gadgets.md
       - Spartan Compat: other/spartan-compat.md
       - GT Spartan Modern: other/gt-spartan.md

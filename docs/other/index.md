@@ -8,8 +8,10 @@ Smaller mods by Oculifelis that don't need a whole section.
 | ![Spartan Compat logo](../assets/spartancompat_logo.png){ .mc-icon } | [Spartan Compat](spartan-compat.md) | Spartan weapon families in other mods’ materials. | Forge 1.20.1, NeoForge 1.21.1 |
 | ![GT Spartan Modern logo](../assets/gtspartan_logo.png){ .mc-icon } | [GT Spartan Modern](gt-spartan.md) | Spartan Weaponry weapons in every GregTech CEu Modern sword metal, as real GT tools. | Forge 1.20.1, NeoForge 1.21.1 |
 | ![Mana Prospector logo](../assets/manaprospector_logo.png){ .mc-icon } | [Mana Prospector](mana-prospector.md) | GregTech's prospector map running on Botania mana. | Forge 1.20.1, NeoForge 1.21.1 |
+| ![Rotaflux logo](../assets/rotaflux_logo.png){ .mc-icon } | [Rotaflux](rotaflux.md) | Turns [Create](https://www.curseforge.com/projects/328085) rotation into FE for any machine. | NeoForge 1.21.1 |
+| ![Manaflux logo](../assets/manaflux_logo.png){ .mc-icon } | [Manaflux](manacomb.md) | Runs any FE input block on [Botania](https://www.curseforge.com/projects/225643) mana. | NeoForge 1.21.1 |
 | ![Mana Gadgets logo](../assets/managadgets_logo.png){ .mc-icon } | [Mana Gadgets](mana-gadgets.md) | Building Gadgets 2 powered by Botania mana. | Forge 1.20.1, NeoForge 1.21.1 |
 
-The Complicated Bees addons (Complicated Trees, Rotaflux, Manaflux) are under [Complicated Bees](../bees/index.md).
+Complicated Trees is under [Complicated Bees](../bees/index.md).
 
-The Thaumaturge addons (Arcana Varia, Automagia, Node Atlas, Classic Foci, Fieldframe Arcana) are under [Thaumaturge addons](../thaumaturge/index.md).
+The Thaumaturge addons (Arcana Varia, Automagia, Node Atlas, Classic Foci, Fieldframe Arcana and more) are under [Thaumaturge addons](../thaumaturge/index.md).

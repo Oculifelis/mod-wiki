@@ -10,21 +10,42 @@ Guides for the Minecraft mods by Oculifelis. Pick a mod from the tabs at the top
 | ![Flora Ferox logo](assets/floraferox_logo.png){ width="64" } | **[Flora Ferox](floraferox/index.md)** | 36 plant monsters across the Overworld, Nether and End. Grow and splice herbs, brew from them, and fight back with bows, arbalests, seed guns, whips, sceptres and cleavers. Built on Fundamentum. With a full [bestiary](floraferox/bestiary.md). |
 | ![Slowlight logo](assets/slowlight_logo.png){ width="64" } | **[Slowlight](slowlight/index.md)** | Kilns that burn no fuel and count in days on the world clock. Age honey into draught, press flowers, weather wood and grow a lantern that keeps the opposite hours. With paired [Waystones](slowlight/waystones.md) and [moon and cellar recipes](slowlight/recipes.md). |
 | ![Mariculture logo](assets/mariculture_logo.png){ width="64" } | **[Mariculture](mariculture/index.md)** | Joshiejack's 1.7.10 sea mod, brought back. Catch and breed more than 60 kinds of fish, grow pearls for magic jewelry, dive in scuba gear and run a workshop of crucibles, vats and machines. For Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. |
-| ![Arcana Varia logo](assets/arcanavaria_logo.png){ width="64" } | **[Arcana Varia](arcanavaria/index.md)** | A Thaumaturge addon. Climb sealed wizard towers and break into 40 kinds of ruined lab, then bring home a censer of essentia clouds, a mirroring building lens, glass essentia pipes, scythes, whips and a tree boss. |
 | ![Metallurgy: Recast logo](assets/metallurgy_logo.png){ width="64" } | **[Metallurgy: Recast](metallurgy/index.md)** | Metallurgy 4: Reforged on modern Minecraft, with Metallurgy Chests built in. 49 metals with their own powers: new ores, alloys, tools, armour, machines and fluids. |
-| ![Fieldframe logo](assets/fieldframe_logo.png){ width="64" } | **[Fieldframe](fieldframe/index.md)** | Build each machine from parts, a chassis with a module on every side. 77 modules, a programmable controller, no pipes or cables. With the addons [Frameworks](fieldframe-frameworks/index.md) (big multiblock machines and a fusion reactor) and [Transit](fieldframe-transit/index.md) (glass tubes you ride). |
+| ![Fieldframe logo](assets/fieldframe_logo.png){ width="64" } | **[Fieldframe](fieldframe/index.md)** | Build each machine from parts, a chassis with a module on every side. 77 modules, a programmable controller, no pipes or cables. With the addons [Frameworks](fieldframe-frameworks/index.md) (big multiblock machines and a fusion reactor) and [Transit](fieldframe-transit/index.md) (glass tubes to ride in). |
+
+## Thaumaturge
+
+[Thaumaturge](thaumaturge/index.md) brings Thaumcraft-style magic to 26.x. These are the addons for it. All on one page: [Thaumaturge addons](thaumaturge/index.md).
+
+| Mod | What it does |
+|---|---|
+| **[Arcana Varia](arcanavaria/index.md)** | Climb sealed wizard towers and break into 40 kinds of ruined lab, then bring home a censer of essentia clouds, a mirroring building lens, glass essentia pipes, scythes, whips and a tree boss. |
+| **[Automagia](automagy/index.md)** | Magical workshop devices and an Inventarium storage network. |
+| **[Gadomancy Awakened](thaumaturge/gadomancy.md)** | Give golems more ways to work, automate item handling and essentia storage, and build around aura nodes. |
+| **[Arcana Naturae](thaumaturge/magianaturalis.md)** | Harvest with sickles, work with mutations and quicksilver, and keep supplies in magical storage. |
+| **[Primal Artifice](thaumaturge/planarartifice.md)** | Work glass into new building materials, use bismuth for transmutation, and move essentia through an alkimium workshop. |
+| **[Thaumaturgic Bases](thaumaturge/thaumicbases.md)** | Grow magical plants, make new wand parts and wearable gear, and extend the alchemical workshop. |
+| **[Thaumaturgic Tinkerer](thaumaturge/tinkerer.md)** | Magical workshop gadgets, foci, controlled enchanting and transvector tools. |
+| **[Thaumaturgic Brewing](thaumaturge/brewing.md)** | Make potions in the crucible from essentia, then strengthen or extend them, or turn them into splash and lingering potions. |
+| **[Thaumaturgic Infusion](thaumaturge/infusion.md)** | The infusion altar gives an ordinary block an aspect effect, and the block keeps it wherever it is placed. |
+| **[Forsaken Magic](thaumaturge/forsakenmagic.md)** | Vice aspects and shards, dark enchantments, the Wrath Cage and morphic tools. |
+| **[Thaumaturgic Concilium](thaumaturge/concilium.md)** | 13 spell effects, crimson cultists, flux rifts and flesh alchemy. |
+| **[Arcane Accretions](thaumaturge/arcaneaccretions.md)** | Nine aspects, three new metals, big jars and void tools. |
+| **[Electro Magic Contraptions](thaumaturge/electromagiccontraptions.md)** | Electric tools and armour, essentia generators and solar panels on Forge Energy. |
+| **[Arcane Locomotion](thaumaturge/arcanelocomotion.md)** | Magic crowbars, an essentia-fired steam locomotive, essentia freight carts and eldritch rails for Railcraft Reborn. |
+| **[Node Atlas](other/node-atlas.md)** | Log aura nodes and follow an arrow back to them. Client only. |
+| **[Classic Foci](other/classic-foci.md)** | Ready-made Portable Hole, Excavation and Equal Trade foci. |
+| **[Fieldframe Arcana](fieldframe-arcana/index.md)** | Connect essentia and vis to Fieldframe power and gear. |
 
 ## Complicated Bees
 
-ACCBDD's [Complicated Bees](https://www.curseforge.com/projects/1100137), our 26.x port of it, and the addons. All on one page: [Complicated Bees](bees/index.md).
+ACCBDD's [Complicated Bees](https://www.curseforge.com/projects/1100137), the 26.x port of it, and its addons. All on one page: [Complicated Bees](bees/index.md).
 
 | Picture | Mod | What it does |
 |---|---|---|
 | ![Complicated Bees Unofficial logo](assets/complicatedbees_logo.png){ width="64" } | **[Complicated Bees Unofficial](complicatedbees/index.md)** | ACCBDD's Forestry-style bee breeding, ported to 26.1.2 and 26.2 on NeoForge. 59 species, 23 combs, frames, the Mellarium bee house and the Gyrofuge centrifuge. |
 | ![Genetic Industry logo](assets/geneticindustry_logo.png){ width="64" } | **[Genetic Industry Unofficial](ports/genetic-industry/index.md)** | Extract genes from bees, assemble a Genetic Template, and imprint it onto a princess or drone. |
-| ![Complicated Trees logo](assets/complicatedtrees_logo.png){ width="64" } | **[Complicated Trees](other/complicated-trees.md)** | Tree breeding. Your bees pollinate nearby leaves, you graft the kids. 1.20.1 to 26.2. |
-| ![Rotaflux logo](assets/rotaflux_logo.png){ width="64" } | **[Rotaflux](other/rotaflux.md)** | Turns Create rotation into FE for any machine. |
-| ![Manaflux logo](assets/manaflux_logo.png){ width="64" } | **[Manaflux](other/manacomb.md)** | Runs any FE input block on Botania mana. |
+| ![Complicated Trees logo](assets/complicatedtrees_logo.png){ width="64" } | **[Complicated Trees](other/complicated-trees.md)** | Tree breeding. Bees pollinate nearby leaves, and the seedlings are grafted. 1.20.1 to 26.2. |
 
 ## Ports
 
@@ -40,4 +61,6 @@ Smaller ones; the full list is on [Other mods](other/index.md).
 
 | Mod | What it does |
 |---|---|
+| [Rotaflux](other/rotaflux.md) | turns [Create](https://www.curseforge.com/projects/328085) rotation into FE for any machine |
+| [Manaflux](other/manacomb.md) | runs any FE input block on [Botania](https://www.curseforge.com/projects/225643) mana |
 | [Spartan x Better Combat Unofficial](other/spartan-bettercombat.md) | gives every [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) melee weapon its own [Better Combat](https://www.curseforge.com/projects/639842) attack animation |
