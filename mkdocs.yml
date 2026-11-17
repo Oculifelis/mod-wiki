@@ -152,6 +152,7 @@ nav:
       - Spartan Compat: other/spartan-compat.md
       - GT Spartan Modern: other/gt-spartan.md
       - Mana Prospector: other/mana-prospector.md
+      - ThaumJS: other/thaumjs.md
       - Spartan x Better Combat: other/spartan-bettercombat.md
 
 exclude_docs: |

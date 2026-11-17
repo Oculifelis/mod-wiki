@@ -8,8 +8,8 @@ Datapacks can change recipes, research, glyphs, runes, workbench upgrades, archi
 
 | Minecraft | Loader | Automagia |
 |---|---|---|
-| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.8.8 |
-| 1.21.1 | NeoForge 21.1.259 or newer | 0.8.8 |
+| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.8.9 |
+| 1.21.1 | NeoForge 21.1.259 or newer | 0.8.9 |
 
 ## In the workshop
 
@@ -21,9 +21,11 @@ Datapacks can change recipes, research, glyphs, runes, workbench upgrades, archi
 
 The crafting focus uses Thaumaturge spell parts. Golem work uses seals and links, and wand settings replace the original device screens. The original amplified redcrystal signal behavior, Avarice Pearl enderman spawn boost and staff page are not reproduced.
 
+The mod id is `automagia`, so data maps, tags and recipes in packs go under `automagia:`. Worlds saved under the old `automagy` id load with their blocks, items and research.
+
 With [JEI](https://www.curseforge.com/projects/238222), Thaumaturge shows the ordinary arcane, crucible and infusion recipes.
 
-**Licence:** LGPL-3.0-or-later for this reimplementation. Automagy's original design is by Tuhljin; no original code or textures are used. Thaumaturge is by Leclowndu93150 and contributors.
+This reimplementation is LGPL-3.0-or-later. Automagy's original design is by Tuhljin, and no original code or textures are used. Thaumaturge is by Leclowndu93150 and contributors.
 
 ## Compatibility
 

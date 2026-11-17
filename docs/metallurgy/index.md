@@ -4,17 +4,17 @@
 
 *49 metals, and nearly every one does something.*
 
-Metallurgy: Recast brings Metallurgy 4: Reforged back on modern Minecraft, with Metallurgy Chests built in. Mine new
-ores in the Overworld, the Nether and the End, smelt and alloy them, and wear or wield the results. The metals steal
-life, see in the dark, shrug off fire and poison, keep your gear when you die, or fuse other metals' powers into
+Metallurgy: Recast brings Metallurgy 4: Reforged back on modern Minecraft, with Metallurgy Chests built in. New
+ores in the Overworld, the Nether and the End, smelt and alloy them, and the results are worn or wielded. The metals steal
+life, give night vision, resist fire and poison, keep gear on death, or fuse other metals' powers into
 Tartarite.
 
 ![A block of each of the 49 metals, with gold for scale](img/04-every-metal.jpg)
 
-**Requires** Forge on 1.20.1 or NeoForge on 1.21.1 and 26.1.2. **Optional:** [JEI](https://www.curseforge.com/projects/238222), [Patchouli](https://www.curseforge.com/projects/306770), [Silent Gear](https://www.curseforge.com/projects/297039), and on 26.1.2 [Hephaestus Tools](https://www.curseforge.com/projects/1725286) and
+**Requires** Forge on 1.20.1 or NeoForge on 1.21.1 and 26.1.2. Optional: [JEI](https://www.curseforge.com/projects/238222), [Patchouli](https://www.curseforge.com/projects/306770), [Silent Gear](https://www.curseforge.com/projects/297039), and on 26.1.2 [Hephaestus Tools](https://www.curseforge.com/projects/1725286) and
 [Thaumaturge](https://www.curseforge.com/projects/1628024) ([Works with](#works-with)).
 
-**Versions:** 1.4.4 for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1793682).
+The current version is 1.4.8 for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1793682).
 
 ## What's in it
 
@@ -29,7 +29,7 @@ Tartarite.
 ## Works with
 
 Optional Ender IO recipes, Immersive Engineering heaters and ProjectE EMC, where those mods are available.
-Tetra materials and Spartan Weaponry weapons on 1.20.1. Silent's Gems has handbook notes; metal tool materials use Silent Gear.
+Tetra materials and Spartan Weaponry weapons on 1.20.1 and 1.21.1. Silent's Gems has handbook notes; metal tool materials use Silent Gear.
 
 | Mod | How it works |
 |---|---|

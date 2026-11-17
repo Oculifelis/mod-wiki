@@ -5,18 +5,18 @@
 *Some things are better left to take their time.*
 
 Slowlight is a small mod about waiting. Its kilns burn no fuel and have no screen and no progress bar: put something
-in, shut the lid and walk away, and when you come back a day or a week later it's done. The wait runs on the world's
+in, shut the lid and walk away, and a day or a week later it's done when the player returns. The wait runs on the world's
 own clock, so sleeping through the night won't hurry it, and leaving the chunk won't lose it.
 
-Everything else follows from that: a lantern that keeps the opposite hours to everyone else, a sandglass that measures
+The rest follows from that, including a lantern that keeps the opposite hours to everyone else, a sandglass that measures
 days, flowers pressed over three of them, wood that silvers in the weather, and three records that take longer to
 press than to play.
 
-**Requires** nothing but NeoForge (Forge on 1.20.1). **Optional:** JEI (every kiln recipe, with its days and
+**Requires** nothing but NeoForge (Forge on 1.20.1). Optional: JEI (every kiln recipe, with its days and
 weather), Jade (how long a kiln, Sandglass or Keepsake Urn has left), Patchouli (*A Slow Almanac*), KubeJS, Create,
 Chipped, Rechiseled, and the mods under [Other mods](items.md#other-mods).
 
-**Latest built:** 0.9.1 for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 and 26.3. See [Versions](versions.md) for the differences between them.
+The latest build is 0.9.2 for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 and 26.3. See [Versions](versions.md) for the differences between them.
 
 [Waystones and Nightfall](waystones.md) add paired stones that send stacks across dimensions, moon and cellar recipes, the Moondial, and the Letter to Later.
 

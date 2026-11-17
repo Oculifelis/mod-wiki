@@ -1,19 +1,18 @@
 # Versions
 
-Metallurgy: Recast **1.4.5** is built for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. It needs no other mod.
+Metallurgy: Recast **1.4.8**
 
-The optional-mod versions below describe the 26.1.2 target.
+- Metallurgy loads on any stable NeoForge build for its game version. Before, 1.21.1 asked for one exact build and 26.1.2 for a recent one.
 
-| Optional mod | Version |
-|---|---|
-| JEI | 29.47.0.111 to before 30 |
-| Silent Gems | 5.1.4 to before 6 |
-| Patchouli | any |
-| Silent Gear | 4.2.3 or newer |
-| Hephaestus Tools | 1.0.8 or newer |
-| Thaumaturge | 1.1.0 or newer |
+**1.4.7**
 
-## Changelog
+- With Spartan Weaponry Unofficial installed, every Metallurgy tool metal has Spartan Weaponry weapons on 1.21.1, as on 1.20.1. There are 23 weapon types for each of the 39 metals, with the original recipes, the metal's own tool stats and art drawn from Spartan's.
+- With Better Combat installed, the Spartan melee weapons swing with the attack set of their Spartan type on 1.20.1 and 1.21.1. The attacks are datapack files, so packs can change them.
+- The handbook recipe no longer logs an error on 1.20.1 when Patchouli is missing.
+
+**1.4.6**
+
+- The welcome message in chat when joining a world is gone, along with its config option.
 
 **1.4.5**
 

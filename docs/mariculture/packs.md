@@ -80,7 +80,7 @@ off its wait for a bite every tick, in water and in Nether lava. A datapack can 
 {"speed_multiplier": 20, "rods": {"mariculture:titanium_fishing_rod": 10}}
 ```
 
-Files are read in id order: the last `speed_multiplier` wins, rod bonuses add up, and the result never goes below 0.
+Files are read in id order. The last `speed_multiplier` wins, rod bonuses add up, and the result never goes below 0.
 
 ## Other mods
 
@@ -98,7 +98,10 @@ Each of these can be turned off under `plugins` in the [config](config.md#plugin
 | Complicated Bees | its drones, princesses and queens craft into bee bait |
 | Botania | the living rod, petal bait, the Manafish, Botania loot on the living rod, and mana pearls from oysters |
 | Blood Magic (1.20.1) / Neo Vitae (1.21.1, 26.1.2) | the bound fishing rod, its bait and loot, and blood-shard mass fishing |
+| Alex's Caves, Upgrade Aquatic, Starcatcher, Tide | their fish are in the `mariculture:foreign_fish` tag and make fish meal and sushi; Starcatcher and Tide list Mariculture fish; Upgrade Aquatic kelps go in kelp wraps and Alex's Caves pearls count as pearls |
 | Redstone Arsenal | its flux-infused fishing rod catches Mariculture fish and loot; flux dust is bait |
 | Thaumaturge (26.1.2) | aspects on Mariculture's items |
+
+Packs can also edit `mariculture/biome_environment` (salinity and temperature per biome, so modded oceans and beaches count) and `mariculture/rod_tiers` (the tier at which another mod's rod fishes Mariculture's catch).
 
 Which mod versions each edition supports is on [Versions](versions.md).

@@ -12,8 +12,8 @@ Requires [Thaumaturge](https://www.curseforge.com/projects/1628024) 1.1.0 or new
 
 | Minecraft | Loader | Documented build |
 |---|---|---|
-| 1.21.1 | NeoForge 21.1.259 or newer | 0.2.0 |
-| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.2.0 |
+| 1.21.1 | NeoForge 21.1.259 or newer | 0.2.1 |
+| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.2.1 |
 
 [CurseForge project](https://www.curseforge.com/projects/1798272) · [Other Thaumaturge addons](index.md)
 

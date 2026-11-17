@@ -2,7 +2,7 @@
 
 ![Spartan Compat logo](../assets/spartancompat_logo.png){ width="128" align=right }
 
-Spartan Compat adds all 24 Spartan Weaponry weapon types in the metals and gems of other mods. Version 1.1.0 has 63 materials from 24 mods on NeoForge 1.21.1, and 51 materials from 21 mods on Forge 1.20.1.
+Spartan Compat adds all 24 Spartan Weaponry weapon types in the metals and gems of other mods. Version 1.3.0 has 63 materials from 24 mods on NeoForge 1.21.1, and 51 materials from 21 mods on Forge 1.20.1.
 
 It is data-driven. Traits, repair items and recipes are datapack tags and JSON (`spartan_compat:materials/<name>` weapon-trait tags, `spartan_compat:repair/<name>` item tags), so a datapack can change any of them. Trait numbers (chances, damage, effect lengths) can also be set by datapack files in `data/<namespace>/spartan_compat/traits/`. Every key is listed under For pack makers below. Materials can be turned off or retuned in `config/spartan_compat/materials.json`.
 
@@ -16,12 +16,21 @@ Most are crafted like the iron versions. The late Cataclysm metals are smithed u
 
 | Minecraft | Loader | Version | Materials | Required weapon mod |
 |---|---|---|---|---|
-| 1.21.1 | NeoForge | 1.1.0 | 63 from 24 mods | [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) 1.2.3 or newer |
-| 1.20.1 | Forge | 1.1.0 | 51 from 21 mods | [Spartan Weaponry](https://www.curseforge.com/projects/278141) 3.2.1 |
+| 1.21.1 | NeoForge | 1.3.0 | 63 from 24 mods | [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) 1.2.3 or newer |
+| 1.20.1 | Forge | 1.3.0 | 51 from 21 mods | [Spartan Weaponry](https://www.curseforge.com/projects/278141) 3.2.1 |
 
 The 1.20.1 file has no Thaumaturge, Eternal Starlight or Eidolon materials.
 
 [CurseForge project](https://www.curseforge.com/projects/1802929)
+
+## Changes in 1.3.0
+
+- Ignitium and Cursium weapons are smithed with Cataclysm's own upgrade templates.
+- Ignitium, Cursium and Witherite weapons are Epic rarity and survive explosions. Witherite, Ancient Metal and Black Steel weapons smelt back into ingots or nuggets.
+- Cataclysm traits use Cataclysm's own effects and particles. The trait key `cataclysm_sounds_enabled` turns the audio off.
+- Mecha Smite can heal below a fixed health value instead of a fraction, and a wither or fire length of zero switches that part off.
+- Each material's rarity is set in `materials.json`.
+- Trait effects have descriptions and the original Spartan Cataclysm icons.
 
 ## Material mods
 

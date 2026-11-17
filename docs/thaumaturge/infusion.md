@@ -2,7 +2,7 @@
 
 The infusion altar gives an ordinary block an aspect effect, and the block keeps it wherever it is placed. This port brings Thaumic Infusion to Thaumaturge with effects for light, redstone, movement, protection and other block behavior.
 
-An infused item carries its effects into the placed block. Breaking the block drops the infused item again. The Thaumonomicon explains the effects and recipes.
+An infused item carries its effects into the placed block. Breaking the block drops the infused item again. Blocks from the old thaumicinfusion ids still load in older worlds. The Thaumonomicon explains the effects and recipes.
 
 For pack makers, the effects are entries in the thaumaturgicinfusion:aspect_effect datapack registry. Each entry chooses an aspect, a cost and behavior types. Effects that reuse an existing behavior type can be added with data.
 
@@ -12,8 +12,8 @@ Requires [Thaumaturge](https://www.curseforge.com/projects/1628024) 1.1.0 or new
 
 | Minecraft | Loader | Documented build |
 |---|---|---|
-| 1.21.1 | NeoForge 21.1.259 or newer | 0.8.3 |
-| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.8.3 |
+| 1.21.1 | NeoForge 21.1.259 or newer | 0.8.4 |
+| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.8.4 |
 
 [CurseForge project](https://www.curseforge.com/projects/1798279) · [Other Thaumaturge addons](index.md)
 
