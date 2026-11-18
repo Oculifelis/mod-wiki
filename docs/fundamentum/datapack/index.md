@@ -1,7 +1,7 @@
 # Datapacks
 
 Almost everything in Fundamentum is data. Every format here is read from `data/<namespace>/fundamentum/<folder>/`,
-where `<namespace>` is any namespace (your pack's or mod's own), and loads on world load and on `/reload`.
+where `<namespace>` is any namespace (usually the pack's or mod's own), and loads on world load and on `/reload`.
 
 | Folder | What it defines | Keyed by |
 |---|---|---|
@@ -16,10 +16,14 @@ where `<namespace>` is any namespace (your pack's or mod's own), and loads on wo
 | `fundamentum/element_reaction/` | [element reactions](elements.md) | file id |
 | `fundamentum/creature_damage/` | [creature damage rules](creatures.md) | file id |
 | `fundamentum/sickness/` | [use sickness rules](sickness.md) | file id |
+| `fundamentum/dodge_style/` | [dodge styles](dodge.md) | file id |
+| `fundamentum/dodge_gear/` | [dodge gear](dodge.md#dodge-gear) | `item` |
+| `fundamentum/item_weights/`, `fundamentum/weight_rules/` | [weight](weight.md) | file id |
+| `fundamentum/boss_bags/` | [boss bags](boss-bags.md) | file id |
 | `recipe/` | [portal crafting recipes](portal-crafting.md) | recipe id |
 
 Data maps (`data/<ns>/data_maps/...`) hold [element auras and affinities](elements.md); tags hold
-[creature types, elements, damage classes and slot items](tags.md). [Player poses](poses.md) are resource pack files.
+[creature types, elements, damage classes and slot items](tags.md). [Player poses](poses.md) and [guide books, book styles, guide themes and the bestiary](books.md) are resource pack files.
 
 ## How files merge
 
@@ -28,9 +32,12 @@ changes, and a field set to `null` is removed. For the formats keyed by `item`, 
 it is for; without one, the file's id is used (so `data/mymod/fundamentum/wings/angel_wings.json` is for
 `mymod:angel_wings`).
 
-So to retune something another mod ships, write a file with the same key and only the fields you change. For example,
-Ostentum's pig saddle is `data/ostentum/fundamentum/mounts/pig.json`; a pack can slow it further with:
+So a pack retunes something another mod ships with a file of the same key that holds only the changed fields. For
+example, Ostentum's pig saddle is `data/ostentum/fundamentum/mounts/pig.json`, and a pack can slow it further with:
 
 ```json
 {"item": "ostentum:pig_saddle", "speed": 0.1}
 ```
+
+Dodge styles, dodge gear and weight rules are the exception. A later file with the same id replaces the earlier one
+whole, so it holds every field it keeps.

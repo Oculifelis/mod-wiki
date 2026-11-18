@@ -53,9 +53,13 @@ nav:
           - Elements: fundamentum/datapack/elements.md
           - Creature types: fundamentum/datapack/creatures.md
           - Use sickness: fundamentum/datapack/sickness.md
+          - Dodge: fundamentum/datapack/dodge.md
+          - Weight: fundamentum/datapack/weight.md
+          - Boss Bags: fundamentum/datapack/boss-bags.md
           - Portal crafting: fundamentum/datapack/portal-crafting.md
           - Tags and slots: fundamentum/datapack/tags.md
           - Player poses: fundamentum/datapack/poses.md
+          - Books and themes: fundamentum/datapack/books.md
       - KubeJS: fundamentum/kubejs.md
       - API: fundamentum/api.md
       - Commands: fundamentum/commands.md

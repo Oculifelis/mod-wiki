@@ -15,18 +15,18 @@ These systems are in the documented Fundamentum 1.36.0 builds. They let a pack o
 
 | System | What a pack or addon can do |
 |---|---|
-| Dodge | A dash and a roll on the Dodge key (Left Alt). Charges, distance, speed, invulnerability and hunger cost are attributes on worn gear. Styles live under <code>data/&lt;namespace&gt;/fundamentum/dodge_style/</code> and gear values under <code>data/&lt;namespace&gt;/fundamentum/dodge_gear/</code>. Charge bars sit beside the hotbar and move in the HUD editor. |
-| Weight | Item weights come from <code>data/&lt;namespace&gt;/fundamentum/weight_rules/</code>. Carry capacity and load capacity are attributes. Equipment load and inventory weight each have a config switch and are off by default. The meter shows as a bar or as icons. |
-| Boss Bags | <code>data/&lt;namespace&gt;/fundamentum/boss_bags/</code> sets which bosses drop a bag, what it holds and who counts as a fighter. A right click opens the bag. |
+| Dodge | A dash and a roll on the Dodge key (Left Alt). Charges, distance, speed, invulnerability and hunger cost are attributes on worn gear. Styles live under <code>data/&lt;namespace&gt;/fundamentum/dodge_style/</code> and gear values under <code>data/&lt;namespace&gt;/fundamentum/dodge_gear/</code>. Charge bars sit beside the hotbar and move in the HUD editor. [File format](datapack/dodge.md). |
+| Weight | Item weights come from <code>data/&lt;namespace&gt;/fundamentum/weight_rules/</code>. Carry capacity and load capacity are attributes. Equipment load and inventory weight each have a config switch and are off by default. The meter shows as a bar or as icons. [File format](datapack/weight.md). |
+| Boss Bags | <code>data/&lt;namespace&gt;/fundamentum/boss_bags/</code> sets which bosses drop a bag, what it holds and who counts as a fighter. A right click opens the bag. [File format](datapack/boss-bags.md). |
 | Apothic Attributes | When it is installed, crit chance, crit damage, armour pierce, projectile speed and ranged damage use its attributes instead of a second copy. 1.20.1 has no ranged damage there. |
 
 ## Guides and books
 
 | System | What it provides |
 |---|---|
-| Guide books | An item with seven book styles, page turns and stamps. Resource packs define books under <code>assets/&lt;namespace&gt;/fundamentum/books/</code> and styles under <code>fundamentum/book_styles/</code>. |
+| Guide books | An item with ten book styles, page turns and stamps. Resource packs define books under <code>assets/&lt;namespace&gt;/fundamentum/books/</code> and styles under <code>fundamentum/book_styles/</code>. |
 | Guide themes | 50 built-in themes for guide screens, picked from inside the guide, with tags, search and a separate choice per book. Packs add more under <code>fundamentum/guide_themes/</code>. |
-| Bestiary | One shared book for every mob from mods that turn it on, under <code>fundamentum/bestiary/</code>. Each mob gets a stat sheet page, locked until the mob has been seen. |
+| Bestiary | One shared book for every mob from mods that turn it on, under <code>fundamentum/bestiary/</code>. Each mob gets a stat sheet page, locked until the mob has been seen. [File formats for books, styles, themes and the bestiary](datapack/books.md). |
 
 ## Structures and shared content
 
