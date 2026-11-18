@@ -4,6 +4,8 @@
 
 Extract individual genes from bees, collect them on a Genetic Template, and imprint the finished genome onto a princess or drone. This is a port of TheSmartNoob880's Genetic Industry for [Complicated Bees Unofficial](../../complicatedbees/index.md).
 
+The source code is on GitHub at [Complicated-Bees-Genetic-Industry](https://github.com/Oculifelis/Complicated-Bees-Genetic-Industry). Original mod source: [TheSmartNoob880/Complicated-Bees-Genetic-Industry](https://github.com/TheSmartNoob880/Complicated-Bees-Genetic-Industry).
+
 **Requires** [Complicated Bees Unofficial](../../complicatedbees/index.md) 3.6.2 for your Minecraft version. The port was built against port.5. **Optional:** [JEI](https://www.curseforge.com/projects/238222) shows the machine recipes and template crafting. [Jade](https://www.curseforge.com/projects/324717) is also optional. Neither is bundled.
 
 | Minecraft | Loader | Genetic Industry |

@@ -5,6 +5,8 @@
 36 plant creatures across the Overworld, the Nether and the End. You grow and splice herbs and brew from them, then
 fight what they wake with bows, arbalests, seed guns, throwables, whips, sceptres and cleavers.
 
+The source code is on GitHub at [FloraFerox-Source](https://github.com/Oculifelis/FloraFerox-Source).
+
 **Requires** [Fundamentum](../fundamentum/index.md) and [Curios](https://www.curseforge.com/projects/309927). **Optional:** [JEI](https://www.curseforge.com/projects/238222), for the Grafting Bench splices, the
 brews and info pages.
 

@@ -12,6 +12,8 @@ The rest follows from that, including a lantern that keeps the opposite hours to
 days, flowers pressed over three of them, wood that silvers in the weather, and three records that take longer to
 press than to play.
 
+The source code is on GitHub at [Slowlight-Source](https://github.com/Oculifelis/Slowlight-Source).
+
 **Requires** nothing but NeoForge (Forge on 1.20.1). Optional: JEI (every kiln recipe, with its days and
 weather), Jade (how long a kiln, Sandglass or Keepsake Urn has left), Patchouli (*A Slow Almanac*), KubeJS, Create,
 Chipped, Rechiseled, and the mods under [Other mods](items.md#other-mods).

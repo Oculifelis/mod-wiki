@@ -9,6 +9,8 @@ relics.
 Most of Ostentum is Fundamentum data. The mounts, hooks, summons, whips, moons, siege, elemental damage and portal
 crafting all run on Fundamentum; Ostentum adds the items, creatures, art, music and recipes that use them.
 
+The source code is on GitHub at [Ostentum-Source](https://github.com/Oculifelis/Ostentum-Source).
+
 **Requires** [Fundamentum](../fundamentum/index.md) and [Curios](https://www.curseforge.com/projects/309927). **Optional:** [Patchouli](https://www.curseforge.com/projects/306770), for a guide book (crafted from a book and a saddle), and
 [JEI](https://www.curseforge.com/projects/238222) to see the recipes.
 

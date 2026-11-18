@@ -2,6 +2,8 @@
 
 ![Fundamentum logo](../assets/fundamentum_logo.png){ width="128" align=right }
 
+The source code is on GitHub at [Fundamentum-Source](https://github.com/Oculifelis/Fundamentum-Source).
+
 Fundamentum is a library mod and adds little on its own. Mods built on it use it for the systems they share, so their items,
 stats and events work together instead of each mod rolling its own. Nearly everything is set up through datapacks.
 

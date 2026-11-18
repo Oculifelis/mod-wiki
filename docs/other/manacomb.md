@@ -2,6 +2,8 @@
 
 ![Manaflux logo](../assets/manaflux_logo.png){ width="128" align=right }
 
+The source code is on GitHub at [Manacomb-Source](https://github.com/Oculifelis/Manacomb-Source).
+
 Run any FE machine on [Botania](https://www.curseforge.com/projects/225643) mana. Aim a spreader at the machine, or put a spark on it, and the mana arrives as FE. There is no separate converter block. This 0.2.0 release was previously called Manacomb.
 
 Real Botania blocks keep their own behavior. Blocks that only produce FE are left alone.
