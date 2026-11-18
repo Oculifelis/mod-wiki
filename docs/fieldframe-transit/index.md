@@ -62,11 +62,13 @@ Every number is a Tube Drive tunable, set with Fieldframe's tuning data (`data/<
 | Tunable | Default |
 |---|---|
 | `charge_capacity` | 20,000 RF |
+| `capacity_per_tier` | 20,000 RF more for each chassis tier above Basic |
 | `charge_rf_per_tick` | 200 |
 | `rf_per_trip` | 200 |
 | `rf_per_block` | 20 |
 | `speed` | 0.8 blocks per tick, times the chassis speed |
 | `max_length` | 256 blocks for a whole line |
+| `length_per_tier` | 128 blocks more for each chassis tier above Basic |
 | `cooldown` | 40 ticks before a traveller can ride again |
 
 Entity types in the tag `fieldframe_transit:no_tube_travel` never ride. The tag ships empty.
