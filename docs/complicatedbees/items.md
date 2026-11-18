@@ -21,10 +21,10 @@ its princess out safely.
 | Ender | end highlands |
 
 With [Biomes O' Plenty](https://www.curseforge.com/projects/220318), [Terralith](https://www.curseforge.com/projects/513688)
-or [Oh The Biomes We've Gone](https://www.curseforge.com/projects/1070751) installed, nests also generate in their
+or [OTBWG](https://www.curseforge.com/projects/1070751) installed, nests also generate in their
 biomes.
 
-A bee is a **Princess**, a **Drone** or a **Queen**. Put a princess and a drone in an [Apiary](#apiary) and she becomes
+A bee is a **Princess**, a **Drone** or a **Queen**. Put a princess and a drone in an [Apiary](#apiary) and she turns into
 a queen carrying both parents' genes. While she lives she makes combs; when she dies she leaves a new princess and
 drones, some of them a new species if the parents can mutate. Mutations can need a block under the housing, a biome,
 rain or night. The [Apid Library](#apid-library) lists what each species can turn into.
@@ -35,8 +35,8 @@ rain or night. The [Apid Library](#apid-library) lists what each species can tur
 
 |  | Name | What it does | How to get it |
 |---|---|---|---|
-| ![Scoop](img/scoop.png){ .mc-icon } | **Scoop**{ #scoop } | Breaks a Bee Nest and gives you the bees inside. | Crafted: 6 sticks and 1 wool. |
-| ![Meter](img/meter.png){ .mc-icon } | **Meter**{ #meter } | Reads the temperature and humidity where you stand. | Crafted: iron ingots, redstone, a redstone torch, a glass pane and a tripwire hook. |
+| ![Scoop](img/scoop.png){ .mc-icon } | **Scoop**{ #scoop } | Breaks a Bee Nest and drops the bees inside. | Crafted: 6 sticks and 1 wool. |
+| ![Meter](img/meter.png){ .mc-icon } | **Meter**{ #meter } | Reads the temperature and humidity at the player's spot. | Crafted: iron ingots, redstone, a redstone torch, a glass pane and a tripwire hook. |
 | ![Analyzer](img/analyzer.png){ .mc-icon } | **Analyzer**{ #analyzer } | Fed with Honey Droplets, shows a bee's genes: dominant values in red, recessive ones in blue. | Crafted: gold ingots, redstone, a diamond, a glass pane and a tripwire hook. |
 | ![Bee Staff](img/bee_staff.png){ .mc-icon } | **Bee Staff**{ #bee-staff } | Fires a bee. 100 uses, mended with Royal Jelly. | Crafted: 2 Pollen, 2 Propolis, 2 blaze rods and Royal Jelly. |
 | ![Apiarist's Helmet](img/apiarist_helmet.png){ .mc-icon } | **Apiarist's Helmet**{ #apiarist-suit } | One piece of the Apiarist's suit; the Chestplate, Leggings and Boots go with it. | Crafted from Woven Mesh, shaped like vanilla armour. |
@@ -46,23 +46,24 @@ rain or night. The [Apid Library](#apid-library) lists what each species can tur
 
 |  | Name | What it does | How to get it |
 |---|---|---|---|
-| ![Apiary](img/apiary.png){ .mc-icon } | **Apiary**{ #apiary } | The bee house. Takes a princess and a drone, or a queen, plus up to three [Frames](#frames). It tells you why a bee isn't working: wrong temperature, no flowers, can't see the sky, bad weather or asleep. | Crafted: 6 planks, 2 iron ingots and any comb. |
+| ![Apiary](img/apiary.png){ .mc-icon } | **Apiary**{ #apiary } | The bee house. Takes a princess and a drone, or a queen, plus up to three [Frames](#frames). It shows why a bee isn't working: wrong temperature, no flowers, can't see the sky, bad weather or asleep. | Crafted: 6 planks, 2 iron ingots and any comb. |
 | ![Centrifuge](img/centrifuge.png){ .mc-icon } | **Centrifuge**{ #centrifuge } | Spins combs into their [products](#combs-and-products). Runs on FE and takes [Upgrades](#upgrades). | Crafted: 5 iron ingots, a chest, 2 smooth stone and redstone. |
 | ![Furnace Generator](img/furnace_generator.png){ .mc-icon } | **Furnace Generator**{ #furnace-generator } | Makes FE from furnace fuel. | Crafted: a blast furnace, iron and copper ingots, smooth stone and redstone. |
 | ![Honey Generator](img/honey_generator.png){ .mc-icon } | **Honey Generator**{ #honey-generator } | Makes FE from honey products. | Crafted: a Furnace Generator, iron ingots, glass, Propolis and Smooth Wax. |
-| ![Apid Library](img/apid_library.png){ .mc-icon } | **Apid Library**{ #apid-library } | Put a bee in to see every species it can become, and with what. | Crafted: iron ingots, a glass pane, Propolis and a Wax Block. |
+| ![Apid Library](img/apid_library.png){ .mc-icon } | **Apid Library**{ #apid-library } | Put a bee in to see every species it can mutate into, and with what. | Crafted: iron ingots, a glass pane, Propolis and a Wax Block. |
 | ![Microscope](img/microscope.png){ .mc-icon } | **Microscope**{ #microscope } | A short sequencing game that makes a bee's mutation more likely. | Crafted: a spyglass, a glass pane, iron ingots and 3 iron blocks. |
 | ![Bee Sorter](img/bee_sorter.png){ .mc-icon } | **Bee Sorter**{ #bee-sorter } | Splits bees by filter. | Crafted: Honeyed Planks, a hopper, Propolis, a comparator and a diamond. |
-| ![Autolyzer](img/autolyzer.png){ .mc-icon } | **Autolyzer**{ #autolyzer } | Analyzes bees for you. | Crafted: an Analyzer, iron ingots and smooth stone. |
+| ![Autolyzer](img/autolyzer.png){ .mc-icon } | **Autolyzer**{ #autolyzer } | Analyzes bees on its own. | Crafted: an Analyzer, iron ingots and smooth stone. |
 
 ![Machines](img/sheet_machines.png)
 
 ## Frames
 
 Frames go in an [Apiary](#apiary) or a [Mellarium Frame Housing](#the-mellarium) and wear out as the bees work.
-Numbers multiply the bee's own: productivity is how fast it makes combs, lifespan how long the queen lives, mutation
+Numbers multiply the bee's own. Productivity is how fast it makes combs, lifespan how long the queen lives, mutation
 how likely her offspring mutate. A temperature or humidity step moves the housing one step warmer, colder, wetter or
-drier. Each frame can be switched off in the config.
+drier. Each frame can be switched off in the config, and a datapack can change these numbers through the
+`frame_modifier` data map ([For pack makers](index.md#for-pack-makers)).
 
 |  | Name | Effect | Uses | How to get it |
 |---|---|---|---|---|
@@ -78,11 +79,12 @@ drier. Each frame can be switched off in the config.
 | ![Deadly Frame](img/deadly_frame.png){ .mc-icon } | **Deadly Frame** | lifespan x0.1 | 80 | Crafted: 7 obsidian, crying obsidian and a skeleton skull. |
 | ![Restrictive Frame](img/restrictive_frame.png){ .mc-icon } | **Restrictive Frame** | territory x0.5, lifespan x0.75, productivity x0.75 | 80 | Crafted: 8 Waxed Sticks and a chain. |
 
-**Waxed Stick:** a stick and 2 Beeswax. **Honeyed Stick:** a stick and 4 Honey Droplets.
+A Waxed Stick is crafted from a stick and 2 Beeswax, and a Honeyed Stick from a stick and 4 Honey Droplets.
 
 ## Upgrades
 
 Upgrades go in the [Centrifuge](#centrifuge). Speed is how fast it works; efficiency is how far its FE goes.
+A datapack can change these numbers through the `upgrade_modifier` data map.
 
 |  | Name | Speed | Efficiency | How to get it |
 |---|---|---|---|---|
@@ -121,7 +123,7 @@ netherite.
 
 ## The Mellarium
 
-A big bee house: a 3x3x3 cube built from Mellarium parts around a queen. Swap parts in to change what it does.
+The Mellarium is a big bee house, a 3x3x3 cube built from Mellarium parts around a queen. Swap parts in to change what it does.
 Every part is crafted around a **Mellarium Block** (8 Mellarium Panels around a log); a **Mellarium Panel** is Honeyed
 Planks, Beeswax, Royal Jelly and Pollen.
 
@@ -142,7 +144,7 @@ Planks, Beeswax, Royal Jelly and Pollen.
 
 ## The Gyrofuge
 
-A big centrifuge: a 3x3x3 cube built from Gyrofuge parts. Every part is crafted around a **Gyrofuge Block** (8 Gyrofuge
+The Gyrofuge is a big centrifuge, a 3x3x3 cube built from Gyrofuge parts. Every part is crafted around a **Gyrofuge Block** (8 Gyrofuge
 Panels around an iron block). Each unit has a basic, normal and advanced tier; each tier is crafted from the one before.
 
 |  | Name | What it does | How to get it |
