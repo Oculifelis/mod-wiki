@@ -67,6 +67,9 @@ Every number is a Tube Drive tunable, set with Fieldframe's tuning data (`data/<
 | `rf_per_block` | 20 |
 | `speed` | 0.8 blocks per tick, times the chassis speed |
 | `max_length` | 256 blocks for a whole line |
+| `cooldown` | 40 ticks before a traveller can ride again |
+
+Entity types in the tag `fieldframe_transit:no_tube_travel` never ride. The tag ships empty.
 
 The longest curve (32) and the tightest bend (1 block) are in the server config `fieldframe_transit-server.toml`.
 Recipes are plain data under `data/fieldframe_transit/recipe/`.

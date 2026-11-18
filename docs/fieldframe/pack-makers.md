@@ -21,7 +21,8 @@ batch is rejected as a whole and the old values stay; errors name the file in th
 | Remove recipes | `fieldframe/recipe_filters/*.json`, by id or by whole family |
 | Any machine recipe | `recipe/` (`recipes/` on 1.20.1), `"type": "fieldframe:process"` |
 | Galvanic Cell electrodes | `fieldframe/electrodes/*.json` |
-| Heat sources | `fieldframe/temperatures/*.json` |
+| Heat sources, and the waste heat a working Heater, Magma Crucible, Pyrolyzer, Alloy Smelter or Boiler gives a Hot Junction | `fieldframe/temperatures/*.json` |
+| How cold a Condenser or Steam Turbine water face must be to return most of the steam | `fieldframe/tuning/*.json`, module `fieldframe:steam_turbine`, tunable `cold_kelvin` |
 | Fluid Armor effects of a single fluid | `fieldframe/fluid_armor_effects/*.json` |
 | Fluid Armor pair effects, 0.3.7 and later (which two FLORA fluids give which effect, how strong) | `fieldframe/fluid_armor_pairs/*.json` |
 | Exchanger ring speed, Fuzzy defaults, and each tier's largest size, starting size and modes, 0.3.9 and later | `fieldframe/exchanger/*.json` |

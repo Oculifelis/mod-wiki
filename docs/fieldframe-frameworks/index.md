@@ -75,6 +75,8 @@ Frameworks is built only on Fieldframe's public API. Every number is data:
 | Frame components | `fieldframe/frame_components/*.json` |
 | Foundry alloys | `fieldframe_frameworks/alloys/*.json` |
 | Arc Furnace alloys | `fieldframe_frameworks/arc_alloys/*.json` |
+| Starcore fuel (fluids a Plasma Injector burns, default deuterium) | fluid tag `fieldframe_frameworks:starcore_fuel` |
+| Starcore dust (used up with the fuel, default Ender Alloy dust) | item tag `fieldframe_frameworks:starcore_fuel_dust` |
 
 KubeJS and Java addons can change the same values ([Fieldframe for pack makers](../fieldframe/pack-makers.md)).
 
