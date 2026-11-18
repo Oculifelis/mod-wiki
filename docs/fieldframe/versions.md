@@ -2,22 +2,40 @@
 
 | Minecraft | Loader | Fieldframe | Frameworks package | Transit |
 |---|---|---|---|---|
-| 26.1.2 | NeoForge 26.1.2.108 or newer | 0.3.5 | 0.1.5 | 0.2.1 |
-| 1.21.1 | NeoForge 21.1.262 or newer | 0.3.5 | 0.1.5 | |
-| 1.20.1 | Forge 47 or newer | 0.3.5 | 0.1.5 | |
+| 26.3 | NeoForge 26.3.0.76 or newer | 0.3.9 | | |
+| 26.2 | NeoForge 26.2.0.57 or newer | 0.3.9 | | |
+| 26.1.2 | NeoForge 26.1.2.71 or newer | 0.3.9 | 0.1.6 | 0.2.1 |
+| 1.21.1 | NeoForge 21.1.262 or newer | 0.3.9 | 0.1.6 | 0.2.1 |
+| 1.20.1 | Forge 47 or newer | 0.3.9 | 0.1.6 | 0.2.1 |
 
-All of them need [Metallurgy: Recast](../metallurgy/index.md), and the next release also needs [Fundamentum](../fundamentum/index.md). Fluid Armor effects as data are 26.1.2 only.
+Fieldframe needs [Metallurgy: Recast](../metallurgy/index.md) 1.4.4 or newer (1.4.5 or newer on 26.3) and [Fundamentum](../fundamentum/index.md) 1.30.0 or newer. Transit on 1.21.1 and 1.20.1 needs Fieldframe 0.3.5 or newer.
 
-Metallurgy's current version is 1.4.4 on these three targets. The 26.3 build of Fieldframe needs Metallurgy 1.4.5. Fieldframe's declared minimums remain 1.4.3 on 1.20.1, 1.4.1-port.8 on 1.21.1 and 1.4.1-port.15 on 26.1.2.
+The Frameworks filenames show the package versions above. The mod list reports 0.1.1 for all three of these packages. Transit 0.2.1 on 26.1.2 still reads 0.2.0 in the mod list.
 
-The Frameworks filenames show the package versions above. The mod list reports 0.1.1 for all three of these packages. Transit 0.2.1 is on CurseForge; its mod list entry still reads 0.2.0.
+### Fieldframe 0.3.9
 
-**Next release, Fieldframe 0.3.7 and Frameworks 0.1.6:** Fundamentum is required. Using a machine opens the Workshop, a smaller screen with tabs for each face and for routing. The full editor still opens from there. The Heater gives Slag (10%) when it smelts ores and raw ores. Fluid Armor pair effects can be changed with datapacks. Fluid buckets say in JEI which machines make their fluid. Frameworks adds a JEI page for the Arc Furnace's alloys.
+Adds builds for 26.2 and 26.3. Modules, the Configurator and Frame Bolts reach a chassis face that touches another chassis: click near the edge of the visible face beside the join. The Exchanger has a settings screen, keybinds, a size display and a block outline. Ender Tank contents show in Jade. Machine recipes use more Metallurgy metals. Exchanger ranges and modes and the Tag Unifier's mod order can be changed with datapacks ([For pack makers](pack-makers.md)). Large factories run faster.
 
-**Transit 0.2.1:** the round-3 look (gunmetal frame with cyan light lines), and the code is now LGPL-3.0-or-later.
+### Transit 0.2.1 for 1.21.1 and 1.20.1
 
-**Fieldframe 0.3.5 / 0.1.3 and Frameworks 0.1.5 / 0.1.4:** fixed the full-bright fluid layer on buckets so molten fluids show under shaders. Oculifelis's own artwork is LGPL-3.0-or-later.
+Adds the same tubes, stations, curves and Tube Drive as on 26.1.2.
 
-**Fieldframe 0.3.4 / 0.1.2 and Frameworks 0.1.4 / 0.1.3:** fluids can be placed in the world.
+### Fieldframe 0.3.7 and Frameworks 0.1.6
 
-**0.3.3 (26.1.2)**, **0.1.1 (1.21.1, 1.20.1):** new looks for the molten fluids.
+Fundamentum is required. Using a machine opens the Workshop, a smaller screen with tabs for each face and for routing. The full editor still opens from there. The Heater gives Slag (10%) when it smelts ores and raw ores. Fluid Armor pair effects can be changed with datapacks on every edition. Each fluid bucket shows in JEI which machines make its fluid. Frameworks adds a JEI page for the Arc Furnace's alloys.
+
+### Transit 0.2.1 on 26.1.2
+
+Adds the round-3 look, a gunmetal frame with cyan light lines. The code is now LGPL-3.0-or-later.
+
+### Fieldframe 0.3.5 and 0.1.3, Frameworks 0.1.5 and 0.1.4
+
+Fixes the full-bright fluid layer on buckets so molten fluids show under shaders. Oculifelis's own artwork is LGPL-3.0-or-later.
+
+### Fieldframe 0.3.4 and 0.1.2, Frameworks 0.1.4 and 0.1.3
+
+Fluids can be placed in the world.
+
+### 0.3.3 on 26.1.2, 0.1.1 on 1.21.1 and 1.20.1
+
+New looks for the molten fluids.

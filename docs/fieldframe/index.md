@@ -16,9 +16,9 @@ factory is just machines standing next to each other.
 **Requires** [Fundamentum](../fundamentum/index.md) and [Metallurgy: Recast](../metallurgy/index.md). Metallurgy supplies the ores and dusts, and the tin, silver, copper, steel, electrum and bronze that Fieldframe's recipes and machines use. **Optional:** [JEI](https://www.curseforge.com/projects/238222),
 [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
 
-Fieldframe is data-driven. Engine fuels, heat sources, electrode metals, treadmill mobs, fluid armor effects and every recipe are datapack files; see [For pack makers](pack-makers.md).
+Fieldframe is data-driven. Engine fuels, heat sources, electrode metals, treadmill mobs, fluid armor effects, Exchanger ranges, the Tag Unifier's mod order and every recipe are datapack files. [For pack makers](pack-makers.md) lists them.
 
-**Versions:** 0.3.5 for NeoForge 26.1.2, NeoForge 1.21.1 and Forge 1.20.1. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794634).
+Version 0.3.9 is out for NeoForge 26.3, 26.2, 26.1.2 and 1.21.1, and Forge 1.20.1. See [Versions](versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794634).
 
 ## What's in it
 

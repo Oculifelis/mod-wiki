@@ -4,7 +4,7 @@ Every number is data. Modules, upgrades, tiers, fuels and recipes can be added o
 script or a Java addon. The mod's own content registers through the same public API, so an addon can do anything the
 base mod does.
 
-Precedence: built-in defaults, then datapacks (in pack order), then Java addons, then KubeJS scripts. A broken tuning
+Built-in defaults apply first, then datapacks (in pack order), then Java addons, then KubeJS scripts. A broken tuning
 batch is rejected as a whole and the old values stay; errors name the file in the server log.
 
 ## Config
@@ -24,6 +24,8 @@ batch is rejected as a whole and the old values stay; errors name the file in th
 | Heat sources | `fieldframe/temperatures/*.json` |
 | Fluid Armor effects of a single fluid | `fieldframe/fluid_armor_effects/*.json` |
 | Fluid Armor pair effects, 0.3.7 and later (which two FLORA fluids give which effect, how strong) | `fieldframe/fluid_armor_pairs/*.json` |
+| Exchanger ring speed, Fuzzy defaults, and each tier's largest size, starting size and modes, 0.3.9 and later | `fieldframe/exchanger/*.json` |
+| Tag Unifier mod order (whose ingots, nuggets, dusts, plates and gears win), 0.3.9 and later | `fieldframe/unification/*.json` |
 | Aura Chamber effects | `fieldframe/aura/*.json` |
 | Treadmill animals, their food and RF | `fieldframe/treadmill/*.json` |
 | Blocks a frame accepts inside its walls, and the storage each adds | `fieldframe/frame_components/*.json` |
@@ -31,8 +33,8 @@ batch is rejected as a whole and the old values stay; errors name the file in th
 | Tree Tapper logs, Fisher bait, Enchanter fluids | tags `fieldframe:tappable_logs`, `fieldframe:fisher_bait`, `fieldframe:experience_fluids` |
 | Latex logs, lightning rods, electrolytes, turbine and excavator fluids, explosives | tags `fieldframe:latex_logs`, `fieldframe:lightning_rods`, `fieldframe:electrolytes`, `fieldframe:turbine_fluids`, `fieldframe:excavator_fluids`, `fieldframe:explosives` |
 
-From 0.3.7 the Fluid Armor pair table ships as `fieldframe/fluid_armor_pairs/flora.json`, the 28 original FLORA effects. Your
-file can move an effect to another pair, weaken or strengthen it, or turn it off. This one moves Speed to Ender with
+From 0.3.7 the Fluid Armor pair table ships as `fieldframe/fluid_armor_pairs/flora.json`, the 28 original FLORA effects. A
+pack's file can move an effect to another pair, weaken or strengthen it, or turn it off. This one moves Speed to Ender with
 Ender at half strength and turns off Redstone with Glowstone:
 
 ```json
@@ -41,6 +43,9 @@ Ender at half strength and turns off Redstone with Glowstone:
   {"fluids": ["fieldframe:liquid_redstone", "fieldframe:liquid_glowstone"], "remove": true}
 ]}
 ```
+
+The Tag Unifier ships `fieldframe/unification/default.json`, `{"replace": true, "prefer": ["metallurgy", "minecraft", "fieldframe"]}`.
+A file with `{"prefer": ["create"]}` puts Create first and keeps the rest in order. `"replace": true` sets the whole list.
 
 Metallurgy's alloyer and crusher recipes come in as `fieldframe:alloying/metallurgy/<name>` and
 `fieldframe:crushing/metallurgy/<name>`; ship a recipe with that id to replace one.
@@ -64,7 +69,7 @@ ServerEvents.recipes(event => {
 FieldframeEvents.tuning(e => e.tune('fieldframe:fuel_engine', 'rf_per_tick', 60))
 ```
 
-Other events: `operationStarting`, `operationCompleted`, `moduleInstalled`, `moduleRemoved`, `worldAction` (deny a
+The other events are `operationStarting`, `operationCompleted`, `moduleInstalled`, `moduleRemoved`, `worldAction` (deny a
 world module's break, place or use), `fuels`, `auras`, `electrodes`, `temperatures`, `fluidArmor`, `treadmill`,
 `frameComponents` and `recipeFilter`, plus the client event `manual`. Startup scripts can
 also add chassis tiers above Resonant with `event.tier(...)`.

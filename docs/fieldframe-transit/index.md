@@ -10,10 +10,10 @@ moves animals between pens.
 
 ![Two tube lines on pillars running between two stations at sunset](img/tube-lines.jpg)
 
-**Requires** [Fieldframe](../fieldframe/index.md) and [Fundamentum](../fundamentum/index.md) 1.17.0
-or later (which needs [Curios](https://www.curseforge.com/projects/309927)).
+**Requires** [Fieldframe](../fieldframe/index.md) and [Fundamentum](../fundamentum/index.md), which needs
+[Curios](https://www.curseforge.com/projects/309927). On 1.21.1 and 1.20.1 these are Fieldframe 0.3.5 and Fundamentum 1.30.0 or later.
 
-**Version:** 0.2.1, for NeoForge 26.1.2 ([Versions](../fieldframe/versions.md), [CurseForge](https://www.curseforge.com/projects/1796698)).
+Version 0.2.1 is out for NeoForge 26.1.2 and 1.21.1, and Forge 1.20.1 ([Versions](../fieldframe/versions.md), [CurseForge](https://www.curseforge.com/projects/1796698)).
 
 A ![Tube Drive](img/tube_drive.png){ .mc-icon .mc-inline } **Tube Drive** module on a chassis next to the entrance pays for each trip in RF: 200 RF plus 20 RF per block of tube.
 Tubes carry players and mobs only, never items, fluids or power.
