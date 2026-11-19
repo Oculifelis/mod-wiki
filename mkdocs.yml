@@ -161,3 +161,9 @@ nav:
 
 exclude_docs: |
   **/old/
+
+      - Crimson Revelations: thaumaturge/crimsonrevelations.md
+      - Thaumic Augmentation: thaumaturge/thaumicaugmentation.md
+      - Thaumic Boots: thaumaturge/thaumicboots.md
+      - Thaumic Exploration: thaumaturge/thaumicexploration.md
+      - Thaumic Wonders: thaumaturge/thaumicwonders.md
