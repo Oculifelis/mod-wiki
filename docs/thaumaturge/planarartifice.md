@@ -6,7 +6,7 @@ Primal Artifice is a Thaumaturge port of [Planar Artifice](https://www.curseforg
 
 | Minecraft | Loader | Documented build |
 |---|---|---|
-| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.4.1 |
+| 26.1.2 | NeoForge 26.1.2.122 or newer | 0.4.2 |
 
 [CurseForge project](https://www.curseforge.com/projects/1802924) · [Other Thaumaturge addons](index.md)
 
