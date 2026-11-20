@@ -10,9 +10,19 @@ Requires [Thaumaturge](https://www.curseforge.com/projects/1628024) 1.1.0 or new
 
 | Minecraft | Loader | Documented build |
 |---|---|---|
-| 26.1.2 | NeoForge 26.1.2.122 or newer | 1.0.0 |
+| 26.1.2 | NeoForge 26.1.2.122 or newer | 1.1.0 |
+| 1.21.1 | NeoForge 21.1.259 or newer | 1.1.0 |
 
 [CurseForge project](https://www.curseforge.com/projects/1802868) · [Other Thaumaturge addons](index.md)
+
+## Spell parts
+
+Version 1.1.0 adds four spell parts beside the ten foci. Their numbers are datapack JSON, and a block tag sets what Vein can break.
+
+- Dispel lifts harmful effects from the caster or an ally, and strips good ones from anyone else.
+- Vein breaks an ore or log and every touching block of the same kind, up to 64.
+- Glyph is a delivery that draws a rune on the floor. The rest of the spell fires at whatever steps on it.
+- Totem is a delivery that raises a point of magic, which pulses the rest of the spell at everything nearby, the caster included.
 
 ## Credits and license
 
