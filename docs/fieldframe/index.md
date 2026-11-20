@@ -25,7 +25,7 @@ Version 0.3.9 is out for NeoForge 26.3, 26.2, 26.1.2 and 1.21.1, and Forge 1.20.
 | Section | What's in it |
 |---|---|
 | **[Machines](machines.md)** | how a chassis works, tiers, upgrades, overclocking, Bolted Chassis and Blueprints |
-| **[Modules](modules.md)** | all 77 modules, by kind |
+| **[Modules](modules.md)** | all 79 modules, by kind |
 | **[The Controller Plate](machines.md#the-controller-plate)** | small state programs, and Program Cards to copy them |
 | **[Gear](machines.md#gear)** | [Fluid Armor](machines.md#fluid-armor), the [Arc](machines.md#arc-whip) and [Tesla Whips](machines.md#tesla-whip) and the [Graviton Hook](machines.md#graviton-hook) |
 | **[For pack makers](pack-makers.md)** | datapacks, KubeJS and the Java API |

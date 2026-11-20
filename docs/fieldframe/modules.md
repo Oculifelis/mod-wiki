@@ -3,7 +3,7 @@
 A module goes on one side of a chassis. All the modules on a chassis share its item stores, tanks, RF buffer and signal
 channels. Names and descriptions are the in-game ones; the manual has each module's live numbers and recipes.
 
-![All 77 modules](img/modules.png)
+![The modules](img/modules.png)
 
 ## Processing
 
@@ -38,7 +38,7 @@ Turn one thing into another, using items, fluids and RF from the chassis. 24 mod
 
 ## Power
 
-Make RF into the chassis buffer. 22 modules.
+Make RF into the chassis buffer. 23 modules.
 
 | Picture | Module | What it does |
 |---|---|---|
@@ -47,6 +47,7 @@ Make RF into the chassis buffer. 22 modules.
 | ![Boiler](img/boiler.png){ .mc-icon } | **Boiler**{ #boiler } | Turns water from a tank into steam. Burns furnace fuel, or runs on heat alone when lava or magma touches it. |
 | ![Cold Junction](img/cold_junction.png){ .mc-icon } | **Cold Junction**{ #cold-junction } | The cold side for a Hot Junction on the same machine: put it against water, ice or snow. |
 | ![Condenser](img/condenser.png){ .mc-icon } | **Condenser**{ #condenser } | Lets a Steam Turbine on the same machine return its steam as water: most of it when this side touches water, ice or snow, half in open air. |
+| ![Field Receiver](img/field_receiver.png){ .mc-icon } | **Field Receiver**{ #field-receiver } | Pulls up to 1,024 RF/t from a Field Coil field into its machine, when the machine stands inside the field. Added in 0.4.0. |
 | ![Fluid Engine](img/fluid_engine.png){ .mc-icon } | **Fluid Engine**{ #fluid-engine } | Burns fluid fuels listed in the fuels data into RF (Magmatic/Compression Dynamo). |
 | ![Food Engine](img/food_engine.png){ .mc-icon } | **Food Engine**{ #food-engine } | Turns food into RF by its hunger value (Gourmand Dynamo). |
 | ![Fuel Engine](img/fuel_engine.png){ .mc-icon } | **Fuel Engine**{ #fuel-engine } | Burns furnace fuel into the RF buffer. |
@@ -86,12 +87,13 @@ Work on the blocks and mobs in front of them. 12 modules.
 
 ## Handling
 
-Move items, fluids and power in and out of the chassis. 11 modules.
+Move items, fluids and power in and out of the chassis. 12 modules.
 
 | Picture | Module | What it does |
 |---|---|---|
 | ![Combined Service Port](img/combined_service_port.png){ .mc-icon } | **Combined Service Port**{ #combined-service-port } | Item, fluid and RF access through one face, each with its own per-tick limit. |
 | ![Drop Collector](img/drop_collector.png){ .mc-icon } | **Drop Collector**{ #drop-collector } | Picks up dropped items from a small area in front of the face. |
+| ![Field Coil](img/field_coil.png){ .mc-icon } | **Field Coil**{ #field-coil } | Sends power without cables. Opens a field 9 blocks wide around its machine and fills it with up to 4,096 RF/t from the machine's buffer. Each more coil on the same machine makes the field 8 blocks wider. Hold the Configurator to see the field's edges. Added in 0.4.0. |
 | ![Fluid Port](img/fluid_port.png){ .mc-icon } | **Fluid Port**{ #fluid-port } | Connects one fluid reservoir to the neighbouring tank; never mixes fluids. |
 | ![Inventory Access Panel](img/inventory_access_panel.png){ .mc-icon } | **Inventory Access Panel**{ #inventory-access-panel } | Lets players open the item lanes this panel permits. |
 | ![Item Ejector](img/item_ejector.png){ .mc-icon } | **Item Ejector**{ #item-ejector } | Drops items into the world in front of the face, with delay and quantity limits. |

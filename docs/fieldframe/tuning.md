@@ -84,6 +84,7 @@ Most processing machines take `speed` (a multiplier on how fast an operation run
 |  | `burn_divisor` | 4x | 0.25 to 64 |
 |  | `heat_kelvin` | 600K | 300 to 10000 |
 |  | `heat_factor` | 0.25x | 0 to 1 |
+| Field Receiver (`fieldframe:field_receiver`) | `rf_per_tick` | 1024RF/t | 0 to 1000000 |
 | Fluid Engine (`fieldframe:fluid_engine`) | `rf_per_tick` | 80RF/t | 1 to 100000 |
 |  | `mb_per_batch` | 10mB | 1 to 1000 |
 | Food Engine (`fieldframe:food_engine`) | `rf_per_tick` | 40RF/t | 1 to 100000 |
@@ -195,6 +196,8 @@ Most processing machines take `speed` (a multiplier on how fast an operation run
 |---|---|---|---|
 | Drop Collector (`fieldframe:drop_collector`) | `items_per_pickup` | 16items | 1 to 256 |
 |  | `interval` | 5ticks | 1 to 200 |
+| Field Coil (`fieldframe:field_coil`) | `rf_per_tick` | 4096RF/t | 0 to 1000000 |
+|  | `radius_per_coil` | 4blocks | 1 to 16 |
 | Nullifier (`fieldframe:nullifier`) | `items_per_tick` | 16 | 1 to 4096 |
 |  | `mb_per_tick` | 1000mB | 1 to 64000 |
 | Power Terminal (`fieldframe:power_terminal`) | `push_rf_per_tick` | 256RF/t | 1 to 100000 |
