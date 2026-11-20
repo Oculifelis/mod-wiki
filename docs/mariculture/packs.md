@@ -45,6 +45,17 @@ fluids are full fluid ids and amounts are in mB.
 
 A broken file is skipped, with a log line naming the file and the field.
 
+A tweak file can list mod ids in `"requires": ["metallurgy"]`. Without all of them loaded, the whole file is skipped.
+Mariculture's own Metallurgy: Recast melting and casting tables are such a file, `mariculture/tweaks/metallurgy.json`.
+
+## Fish species
+
+Each fish is a file in `data/<namespace>/mariculture/fish_species/<id>.json`. A datapack file with the same id
+replaces Mariculture's. The file sets the fish's temperature and salinity, lifespan, fertility, what it makes in a Fish
+Feeder (`products`), its `abilities` and its `breeding` needs. `catch` sets the rod, dimension and chance, and
+optionally `biomes` and a `fluid` tag it bites in instead of water. With `requires_item_tag`, the fish exists only while
+that item tag has items, which is how the Metallurgy and Alex's Caves fish turn off without those mods.
+
 ## KubeJS
 
 In `kubejs/server_scripts/*.js`, pass a change as an object, as `{changes: [...]}`, or as a JSON string:

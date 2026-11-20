@@ -104,6 +104,16 @@ Ironfish, Copperfish, Goldeneye, Aluminiumfish, Magnesiumfish, Rutilefish and th
 molten metal instead. They are never wild and can't be eaten. Some, such as Tinfish, Leadfish, Zincfish, Osmiumfish,
 Cobaltfish and Arditefish, belong to metals other mods add.
 
+With [Metallurgy: Recast](https://www.curseforge.com/projects/1793682) installed, each of its ores has a metal fish too,
+such as the Adamantinefish. Each one has an effect that matches its metal, like a longer life, and odd breeding needs
+like certain foods, light, depth or tank size. A Fish Feeder shows "Breeding needs not met" in Jade until they are met.
+A metal fish only exists while some mod adds that metal's ingot.
+
+### Alex's Caves fish
+
+With Alex's Caves installed, 14 more fish bite in its cave biomes, such as
+the Acid Lamprey in the Toxic Caves. Some bite only in acid or purple soda instead of water.
+
 ## Fish as food and fuel
 
 ![Sushi](img/sushi.png){ .mc-icon .mc-inline } Fish can be eaten raw, cooked, made into sushi and calamari, or ground

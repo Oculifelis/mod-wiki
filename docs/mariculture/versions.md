@@ -1,6 +1,6 @@
 # Versions
 
-Mariculture 0.6.0 comes in three editions with the same content. What differs is which other mods each can work with.
+Mariculture 0.7.0 comes in three editions with the same content. What differs is which other mods each can work with.
 
 | Minecraft | Loader | Patchouli | CraftTweaker | KubeJS | Datapack tweaks |
 |---|---|---|---|---|---|
@@ -19,6 +19,16 @@ Mariculture 0.6.0 comes in three editions with the same content. What differs is
 | Thaumaturge aspects | no | no | yes |
 
 ## Changes
+
+**0.7.0**: Alex's Caves fish, Metallurgy: Recast metals and metal fish, and species files.
+
+- 14 fish bite in Alex's Caves' cave biomes, some of them in acid and purple soda.
+- Each fish is a species file in `mariculture/fish_species` that sets its biomes, the fluid it bites in, what it makes and its breeding needs.
+- Metallurgy metals melt in the Crucible Furnace and cast back into nuggets, ingots and blocks.
+- Each Metallurgy ore has a metal fish with an effect that matches its metal and odd breeding needs like certain foods, light, depth or tank size.
+- Datapack tweak files can name the mods they need with `requires`.
+- Fundamentum is now required.
+- The limestone sea bed also forms under dirt and mud floors, set by the `mariculture:seabed_floor` block tag.
 
 **0.6.0**: compatibility with other fishing and ocean mods, all of it in data files.
 
