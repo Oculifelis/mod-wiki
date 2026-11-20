@@ -1,16 +1,22 @@
 # Versions
 
-These pages document the **1.36.0** builds, released on CurseForge on November 17. The [CurseForge files page](https://www.curseforge.com/projects/1765941/files) has the downloads.
+These pages document the **1.37.0** builds, released on CurseForge on November 20. The [CurseForge files page](https://www.curseforge.com/projects/1765941/files) has the downloads.
 
 | Minecraft | Loader | Documented build |
 |---|---|---|
-| 26.1.2 | NeoForge | 1.36.0 |
-| 26.2 | NeoForge | 1.36.0 |
-| 26.3 | NeoForge | 1.36.0 |
-| 1.21.1 | NeoForge | 1.36.0 |
-| 1.20.1 | Forge | 1.36.0 |
+| 26.1.2 | NeoForge | 1.37.0 |
+| 26.2 | NeoForge | 1.37.0 |
+| 26.3 | NeoForge | 1.37.0 |
+| 1.21.1 | NeoForge | 1.37.0 |
+| 1.20.1 | Forge | 1.37.0 |
 
 Curios is required. JEI and REI recipe-viewer support is available on 26.x; EMI support is on the older two targets. All three viewers remain optional.
+
+## In 1.37.0
+
+- A Toggle Summons key (K by default) switches minions and sentries off and on.
+- The Infernal codex book style is now called Infernal grimoire.
+- Fundamentum loads on older stable NeoForge builds again.
 
 ## In 1.36.0
 
