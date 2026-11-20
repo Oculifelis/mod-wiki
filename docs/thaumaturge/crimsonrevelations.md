@@ -1,12 +1,12 @@
-# Crimson Revelations
+# Sanguine Revelations
 
-Crimson Revelations is a Thaumaturge port of [New Crimson Revelations](https://github.com/Thaumic-Modding-Team/NewCrimsonRevelations) by IcarussOne and the Thaumic Modding Team, a continuation of MobiusFlip's Crimson Revelations. It adds crimson cult gear, archers, new spell parts and a research tab about the Crimson Cult.
+Sanguine Revelations is a Thaumaturge port of [New Crimson Revelations](https://github.com/Thaumic-Modding-Team/NewCrimsonRevelations) by IcarussOne and the Thaumic Modding Team, a continuation of MobiusFlip's Crimson Revelations. It adds crimson cult gear, archers, new spell parts and a research tab about the Crimson Cult.
 
 **Requires [Thaumaturge](https://www.curseforge.com/projects/1628024) 1.1.0 or newer.**
 
 | Minecraft | Loader | Documented build |
 |---|---|---|
-| 26.1.2 | NeoForge 26.1.2.71 or newer | 0.7.3 |
+| 26.1.2 | NeoForge 26.1.2.71 or newer | 0.8.0 |
 
 [CurseForge project](https://www.curseforge.com/projects/1806416) · [Other Thaumaturge addons](index.md)
 
@@ -24,7 +24,7 @@ Beheading, Chameleon and Vis Attunement are infusion enchantments. Blinding Flas
 
 A Thaumaturge villager with its own tower trades for the new materials.
 
-With [Thaumic Augmentation](thaumicaugmentation.md) installed, the Ancient Crimson, Crimson Paladin and Crimson Ranger armour sets appear, along with extra Tainted Lands spawns, the Overgrown Taintacle and the Taint Poison spell part.
+Cultist leaders and ranger captains drop Ancient Crimson, Crimson Paladin and Crimson Ranger armour, which also turns up in Outer Lands crates. Loot urns hold cult fabric and plate. Taint seeds, swarms and the Overgrown Taintacle spawn in every tainted biome.
 
 ## Changed from the original
 
@@ -37,7 +37,7 @@ With [Thaumic Augmentation](thaumicaugmentation.md) installed, the Ancient Crims
 <details>
 <summary>Optional mods and limits</summary>
 
-[JEI](https://www.curseforge.com/projects/238222) adds info pages.
+[JEI](https://www.curseforge.com/projects/238222) adds info pages. Thaumaturgic Concilium adds armour drops to its crimson knights and outpost chests.
 
 ## Credits and licence
 
