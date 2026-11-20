@@ -2,13 +2,13 @@
 
 ![Spartan Compat logo](../assets/spartancompat_logo.png){ width="128" align=right }
 
-Spartan Compat adds all 24 Spartan Weaponry weapon types in the metals and gems of other mods. Version 1.4.0 has 67 materials from 28 mods on NeoForge 1.21.1, and 51 materials from 21 mods on Forge 1.20.1.
+Spartan Compat adds all 24 Spartan Weaponry weapon types in the metals and gems of other mods. Version 1.5.0 has 71 materials from 30 mods on NeoForge 1.21.1, and 53 materials from 22 mods on Forge 1.20.1.
 
 It is data-driven. Traits, repair items and recipes are datapack tags and JSON (`spartan_compat:materials/<name>` weapon-trait tags, `spartan_compat:repair/<name>` item tags), so a datapack can change any of them. Trait numbers (chances, damage, effect lengths) can also be set by datapack files in `data/<namespace>/spartan_compat/traits/`. Every key is listed under For pack makers below. Materials can be turned off or retuned in `config/spartan_compat/materials.json`.
 
-Each material has its own trait. Fiery weapons set things on fire, Knightmetal breaks armor, Neptunium hits anything in water 50% harder and Warden weapons blind what they hit. Botania weapons mend themselves from mana in the inventory, Eternal Starlight ones freeze, poison or burn, and Psi weapons hold spell bullets and cast on hit. Accelerite weapons speed up with each hit, Dawnstone ones burn on every fifth hit, Echo ones strike twice from behind and Enderitium ones hit End mobs harder. A few materials, like Amaramber and Sculkium, have no ability and just bring their own stats.
+Each material has its own trait. Fiery weapons set things on fire, Knightmetal breaks armor, Neptunium hits anything in water 50% harder and Warden weapons blind what they hit. Botania weapons mend themselves from mana in the inventory, Eternal Starlight ones freeze, poison or burn, and Psi weapons hold spell bullets and cast on hit. Accelerite weapons speed up with each hit, Dawnstone ones burn on every fifth hit, Echo ones strike twice from behind and Enderitium ones hit End mobs harder. Pyrium weapons set things on fire, Mithril ones pierce armor and Shimmersteel ones repair themselves. A few materials, like Amaramber and Sculkium, have no ability and just bring their own stats.
 
-Most are crafted like the iron versions. The late Cataclysm metals are smithed up from netherite weapons, Ignitium and Cursium with Cataclysm's own upgrade templates. Cataclysm weapons use Cataclysm's sounds and particles, Ignitium, Cursium and Witherite ones survive explosions, and Witherite, Ancient Metal and Black Steel weapons smelt back down in a furnace. Every material mod is optional, and a material only shows up when its mod is installed.
+Most are crafted like the iron versions. The late Cataclysm metals are smithed up from netherite weapons, Ignitium and Cursium with Cataclysm's own upgrade templates. On 1.20.1, Anthektite and Diarkrite are smithed up from netherite with Elementus's Atelis upgrade template. Cataclysm weapons use Cataclysm's sounds and particles, Ignitium, Cursium and Witherite ones survive explosions, and Witherite, Ancient Metal and Black Steel weapons smelt back down in a furnace. Every material mod is optional, and a material only shows up when its mod is installed.
 
 ![Longswords in the first 63 materials](img/spartancompat_longswords.png)
 
@@ -16,12 +16,18 @@ Most are crafted like the iron versions. The late Cataclysm metals are smithed u
 
 | Minecraft | Loader | Version | Materials | Required weapon mod |
 |---|---|---|---|---|
-| 1.21.1 | NeoForge | 1.4.0 | 67 from 28 mods | [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) 1.2.3 or newer |
-| 1.20.1 | Forge | 1.3.0 | 51 from 21 mods | [Spartan Weaponry](https://www.curseforge.com/projects/278141) 3.2.1 |
+| 1.21.1 | NeoForge | 1.5.0 | 71 from 30 mods | [Spartan Weaponry Unofficial](https://www.curseforge.com/projects/1450963) 1.2.3 or newer |
+| 1.20.1 | Forge | 1.5.0 | 53 from 22 mods | [Spartan Weaponry](https://www.curseforge.com/projects/278141) 3.2.1 |
 
-The 1.20.1 file has no Thaumaturge, Eternal Starlight, Eidolon, Nexus, Embers, Create: Deep Dark or Legendary Monsters materials.
+The 1.20.1 file has no Thaumaturge, Eternal Starlight, Eidolon, Nexus, Embers, Create: Deep Dark, Legendary Monsters, Iron's Spells 'n Spellbooks or Auroral materials. Elementus materials are 1.20.1 only.
 
 [CurseForge project](https://www.curseforge.com/projects/1802929)
+
+## Changes in 1.5.0
+
+- Arcane, Mithril and Pyrium weapons come from Iron's Spells 'n Spellbooks, and Shimmersteel from Auroral. All four are 1.21.1 only.
+- Arcane weapons are lightweight, Mithril ones pierce armor, Pyrium ones are fireproof and set targets on fire, and Shimmersteel ones repair themselves.
+- Anthektite and Diarkrite weapons come from Elementus on 1.20.1. Both are fireproof and smithed from netherite with the Atelis upgrade template. Anthektite weapons are fast and Diarkrite ones are heavy.
 
 ## Changes in 1.4.0
 
@@ -74,6 +80,9 @@ Any of them can be left out.
 | [Embers Re-Ignited](https://www.curseforge.com/projects/1579725) (1.21.1 only) | Dawnstone |
 | [Create: Deep Dark](https://www.curseforge.com/projects/1020173) (1.21.1 only) | Echo |
 | [Legendary Monsters](https://www.curseforge.com/projects/944035) (1.21.1 only) | Enderitium |
+| [Iron's Spells 'n Spellbooks](https://www.curseforge.com/projects/855414) (1.21.1 only) | Arcane, Mithril, Pyrium |
+| Auroral (1.21.1 only) | Shimmersteel |
+| Elementus (1.20.1 only) | Anthektite, Diarkrite |
 
 ## For pack makers
 
