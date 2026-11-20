@@ -6,18 +6,18 @@
 
 *Big multiblock machines for Fieldframe.*
 
-Frameworks is an addon for [Fieldframe](../fieldframe/index.md) that adds big multiblock machines. You build a frame out
-of casing blocks, put a core in its wall, and the whole frame turns into one machine. Fieldframe modules go on its walls
+Frameworks is an addon for [Fieldframe](../fieldframe/index.md) that adds big multiblock machines. A frame built out
+of casing blocks, with a core in its wall, runs as one machine. Fieldframe modules go on its walls
 and drive it, the same way they drive a single chassis. Still no pipes and no cables.
 
 ![Frame Casing, Frame Core, Vault, Tank, Cell, Crucible, Arc Electrode and Cooling Fin; Gantry Controller, Head and Rail, Containment Coil, Field Magnet, Plasma Injector and Plasma Probe](img/blocks.png)
 
-**Requires** [Fieldframe](../fieldframe/index.md), [Fundamentum](https://www.curseforge.com/projects/1765941) and [Metallurgy: Recast](../metallurgy/index.md). **Optional:** [JEI](https://www.curseforge.com/projects/238222),
-[Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086).
+Frameworks requires [Fieldframe](../fieldframe/index.md) 0.3.7 or newer, [Fundamentum](https://www.curseforge.com/projects/1765941) and [Metallurgy: Recast](../metallurgy/index.md). It works with [JEI](https://www.curseforge.com/projects/238222),
+[Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086) when they are installed.
 
 Frameworks is data-driven. Frame sizes, power costs, alloy recipes and reactor values are datapack files; see the table further down.
 
-**Packages:** 0.1.5 for NeoForge 26.1.2, NeoForge 1.21.1 and Forge 1.20.1. See [Versions](../fieldframe/versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794653).
+Frameworks 0.1.7 runs on NeoForge 26.3, 26.2, 26.1.2 and 1.21.1 and on Forge 1.20.1. See [Versions](../fieldframe/versions.md) and the [CurseForge project](https://www.curseforge.com/projects/1794653).
 
 ## The Grand Frame
 
@@ -30,7 +30,7 @@ Manual has pages for all of them.
 
 ## Foundry
 
-Put ![Frame Crucibles](img/frame_crucible.png){ .mc-icon .mc-inline } **Frame Crucibles** inside a frame and it becomes a Foundry. They melt metals into one pool, mix them into alloys
+Put ![Frame Crucibles](img/frame_crucible.png){ .mc-icon .mc-inline } **Frame Crucibles** inside a frame and it turns into a Foundry. They melt metals into one pool, mix them into alloys
 and pour the result into a tank.
 
 ![JEI's Foundry alloys page](img/03-jei-foundry-alloys.png)
@@ -53,8 +53,8 @@ Fluid Pump pumps.
 
 ## Starcore
 
-The Starcore is a fusion reactor inside ![Containment Coils](img/starcore_coil.png){ .mc-icon .mc-inline } **Containment Coils**. Its plasma never settles on its own. You build a control
-circuit to hold it, and if your program lets it drift, it goes out. Lighting it takes 5,000,000 RF.
+The Starcore is a fusion reactor inside ![Containment Coils](img/starcore_coil.png){ .mc-icon .mc-inline } **Containment Coils**. Its plasma never settles on its own. A control
+circuit has to hold it, and if the program lets it drift, it goes out. Lighting it takes 5,000,000 RF.
 
 | Picture | Part | What it does |
 |---|---|---|
@@ -84,4 +84,4 @@ KubeJS and Java addons can change the same values ([Fieldframe for pack makers](
 
 By **Oculifelis**.
 
-**Licence:** LGPL-3.0-or-later.
+The licence is LGPL-3.0-or-later.

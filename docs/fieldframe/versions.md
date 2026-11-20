@@ -2,15 +2,21 @@
 
 | Minecraft | Loader | Fieldframe | Frameworks package | Transit |
 |---|---|---|---|---|
-| 26.3 | NeoForge 26.3.0.76 or newer | 0.4.0 | | |
-| 26.2 | NeoForge 26.2.0.57 or newer | 0.4.0 | | |
-| 26.1.2 | NeoForge 26.1.2.71 or newer | 0.4.0 | 0.1.6 | 0.2.1 |
-| 1.21.1 | NeoForge 21.1.262 or newer | 0.4.0 | 0.1.6 | 0.2.1 |
-| 1.20.1 | Forge 47 or newer | 0.4.0 | 0.1.6 | 0.2.1 |
+| 26.3 | NeoForge 26.3.0.76 or newer | 0.4.0 | 0.1.7 | |
+| 26.2 | NeoForge 26.2.0.57 or newer | 0.4.0 | 0.1.7 | |
+| 26.1.2 | NeoForge 26.1.2.71 or newer | 0.4.0 | 0.1.7 | 0.2.1 |
+| 1.21.1 | NeoForge 21.1.262 or newer | 0.4.0 | 0.1.7 | 0.2.1 |
+| 1.20.1 | Forge 47 or newer | 0.4.0 | 0.1.7 | 0.2.1 |
 
-Fieldframe needs [Metallurgy: Recast](../metallurgy/index.md) 1.4.4 or newer (1.4.5 or newer on 26.3) and [Fundamentum](../fundamentum/index.md) 1.30.0 or newer. Transit on 1.21.1 and 1.20.1 needs Fieldframe 0.3.5 or newer.
+Fieldframe needs [Metallurgy: Recast](../metallurgy/index.md) 1.4.4 or newer (1.4.5 or newer on 26.3) and [Fundamentum](../fundamentum/index.md) 1.30.0 or newer. Transit on 1.21.1 and 1.20.1 needs Fieldframe 0.3.5 or newer. Frameworks 0.1.7 needs Fieldframe 0.3.7 or newer.
 
 The Frameworks filenames show the package versions above. The mod list reports 0.1.1 for all three of these packages. Transit 0.2.1 on 26.1.2 still reads 0.2.0 in the mod list.
+
+### Frameworks 0.1.7
+
+Adds builds for 26.2 and 26.3. Pattern Controllers run multiblock machines that a datapack or KubeJS script defines.
+Plasma Injectors take their fuel from tags, deuterium and Ender Alloy dust by default. JEI shows which machine makes
+the Deuterium bucket.
 
 ### Fieldframe 0.4.0
 
