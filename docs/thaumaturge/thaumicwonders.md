@@ -39,7 +39,7 @@ Gear covers the Primal Destroyer, the Flying Carpet, Void Fortress armour, Night
 
 ## Credits and licence
 
-Made by Oculifelis. Original Thaumic Wonders by daedalus4096, with art by Loreli. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission.
+Made by Oculifelis. Original Thaumic Wonders by daedalus4096, with art by Loreli. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150.
 
 The licence is MIT.
 

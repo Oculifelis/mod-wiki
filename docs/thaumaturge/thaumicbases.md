@@ -32,6 +32,6 @@ The research tab has 112 entries. Thauminite tools and armour, new wand rods, cr
 
 ## Credits and licence
 
-Made by Oculifelis. Original [Thaumic Bases](https://www.curseforge.com/projects/232192) by Modbder, kept going on 1.7.10 by the GTNH team. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission.
+Made by Oculifelis. Original [Thaumic Bases](https://www.curseforge.com/projects/232192) by Modbder, kept going on 1.7.10 by the GTNH team. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150.
 
 The licence is CC0-1.0, like the original.

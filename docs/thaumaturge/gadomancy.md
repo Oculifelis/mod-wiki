@@ -32,6 +32,6 @@ The research tab has 28 entries. Silverwood golems, a Tooled Breaking seal, gole
 
 ## Credits and licence
 
-Made by Oculifelis. Original [Gadomancy](https://www.curseforge.com/projects/237271) by makeo and HellFirePvP, kept going by GT New Horizons. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission.
+Made by Oculifelis. Original [Gadomancy](https://www.curseforge.com/projects/237271) by makeo and HellFirePvP, kept going by GT New Horizons. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150.
 
 The licence is LGPL-3.0-or-later, as the original.

@@ -40,7 +40,7 @@ Machines include the Thaumic Replicator, the Soul Brazier, the Crucible of Souls
 
 ## Credits and licence
 
-Made by Oculifelis. Original mod and textures by Flaxbeard and contributors, with the GTNewHorizons maintainers. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission.
+Made by Oculifelis. Original mod and textures by Flaxbeard and contributors, with the GTNewHorizons maintainers. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150.
 
 The licence is CC BY-NC-SA 4.0, the same as the original.
 

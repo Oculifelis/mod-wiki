@@ -26,4 +26,4 @@ Version 1.1.0 adds four spell parts beside the ten foci. Their numbers are datap
 
 ## Credits and license
 
-Thaumic Tinkerer is by Vazkii and its contributors. Port by Oculifelis, under CC BY-NC-SA 3.0. Original textures and permitted Thaumaturge artwork retain their credits.
+Thaumic Tinkerer is by Vazkii and its contributors. Port by Oculifelis, under CC BY-NC-SA 3.0. Original textures and Thaumaturge-based artwork retain their credits.

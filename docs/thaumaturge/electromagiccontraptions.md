@@ -33,4 +33,4 @@ With [FTB Industrial Contraptions](https://www.curseforge.com/projects/539097) i
 
 Made by Oculifelis. Electro-Magic Tools by Tombenpotter and TehNut. This port follows the GTNH version by fewizz, TheSilentium, bartimaeusnek and the GTNH Team. Thaumaturge by Leclowndu93150 and contributors.
 
-Textures come from the original, with essentia generator textures by LogicFalls. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission. Licence GPL-3.0-or-later.
+Textures come from the original, with essentia generator textures by LogicFalls. Some textures are based on Thaumaturge's art by Leclowndu93150. Licence GPL-3.0-or-later.

@@ -41,7 +41,7 @@ Cultist leaders and ranger captains drop Ancient Crimson, Crimson Paladin and Cr
 
 ## Credits and licence
 
-Made by Oculifelis. Original New Crimson Revelations by IcarussOne, ACGaming, PessiMysterio, fakeginkgo and John_Carver, continuing Crimson Revelations by MobiusFlip. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission.
+Made by Oculifelis. Original New Crimson Revelations by IcarussOne, ACGaming, PessiMysterio, fakeginkgo and John_Carver, continuing Crimson Revelations by MobiusFlip. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150.
 
 The licence is CC BY-NC-SA 4.0, the same as the original code. It is non-commercial.
 

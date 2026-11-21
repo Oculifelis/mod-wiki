@@ -35,4 +35,4 @@ Parts that Thaumaturge or other ports already cover are cut, such as the Tome of
 
 Made by Oculifelis. Thaumic Additions: Reconstructed by Zeitheron and contributors. Thaumaturge by Leclowndu93150 and contributors.
 
-Textures, models, sounds and text come from the original. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission. Licence GPL-3.0-or-later.
+Textures, models, sounds and text come from the original. Some textures are based on Thaumaturge's art by Leclowndu93150. Licence GPL-3.0-or-later.

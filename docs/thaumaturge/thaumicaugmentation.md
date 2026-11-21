@@ -38,7 +38,7 @@ Gear includes Thaumium and Voidseer Caster's Gauntlets with augments, the Elytra
 
 ## Credits and licence
 
-Made by Oculifelis. Original Thaumic Augmentation by TheCodex6824. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission. Icons derived from game-icons.net by Lorc and Delapouite, CC BY 3.0.
+Made by Oculifelis. Original Thaumic Augmentation by TheCodex6824. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150. Icons derived from game-icons.net by Lorc and Delapouite, CC BY 3.0.
 
 The licence is LGPL-3.0-or-later, the same as the original.
 

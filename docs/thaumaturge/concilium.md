@@ -31,6 +31,6 @@ Witchery, Ars Magica Legacy, Neo Vitae, Gadomancy Awakened, Thaumic Horizons, Th
 
 ## Credits and licence
 
-Made by Oculifelis. Original Thaumic Concilium by Ilya3000 and BreadX22, released as CC0. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art, used with permission. Terra-Cast Gem textures are recoloured from Malcolm Riley's unused-textures, under CC BY 4.0.
+Made by Oculifelis. Original Thaumic Concilium by Ilya3000 and BreadX22, released as CC0. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art. Terra-Cast Gem textures are recoloured from Malcolm Riley's unused-textures, under CC BY 4.0.
 
 The licence is CC0-1.0, the same as the original.

@@ -32,6 +32,6 @@ The research tab has 27 entries. Alkimium and bismuth come from the crucible, an
 
 ## Credits and licence
 
-Made by Oculifelis. Original [Planar Artifice](https://www.curseforge.com/projects/409849) by Leppaisawesome, continued by prodzpod and then as Planar Artifice: Reflected by the Elite Modding Team. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission. The Aura Meter is built on unused-textures by Malcolm C. Riley, CC BY 4.0, and modified. The alkimium and bismuth plates are built on Painterly Pack art by Rhodox, used with permission, no profit or donations.
+Made by Oculifelis. Original [Planar Artifice](https://www.curseforge.com/projects/409849) by Leppaisawesome, continued by prodzpod and then as Planar Artifice: Reflected by the Elite Modding Team. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150. The Aura Meter is built on unused-textures by Malcolm C. Riley, CC BY 4.0, and modified. The alkimium and bismuth plates are built on Painterly Pack art by Rhodox, used with permission, no profit or donations.
 
 The licence is MIT for the code, data and original art. The Aura Meter is CC BY 4.0, and the plates keep Rhodox's terms.

@@ -45,7 +45,7 @@ Electro Magic Contraptions, Tainted Magic and Thaumic Exploration add input boot
 
 ## Credits and licence
 
-Made by Oculifelis. Original Thaumic Boots by Alastors. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission.
+Made by Oculifelis. Original Thaumic Boots by Alastors. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150.
 
 The licence is MIT.
 

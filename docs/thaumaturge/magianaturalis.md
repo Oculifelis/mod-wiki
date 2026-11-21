@@ -32,6 +32,6 @@ The research tab has 20 entries. Thaumium and Void Sickles reap crops in an area
 
 ## Credits and licence
 
-Made by Oculifelis. Original [Magia Naturalis](https://www.curseforge.com/projects/1365176) by Elenterius. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150, used with permission. Sickle textures are recoloured from Silent Gear by SilentChaos512 (MIT). The Quicksilver Stone is based on unused-textures by Malcolm C. Riley, CC BY 4.0.
+Made by Oculifelis. Original [Magia Naturalis](https://www.curseforge.com/projects/1365176) by Elenterius. Thaumaturge by Leclowndu93150 and contributors. Some textures are based on Thaumaturge's art by Leclowndu93150. Sickle textures are recoloured from Silent Gear by SilentChaos512 (MIT). The Quicksilver Stone is based on unused-textures by Malcolm C. Riley, CC BY 4.0.
 
 The licence is MIT, as the original code.

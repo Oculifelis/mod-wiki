@@ -52,6 +52,6 @@ Neo Vitae adds Bloody Scrivener's Tools, the Rapier of the Strix, the Eldritch B
 
 ## Credits and licence
 
-Made by Oculifelis. Original Forbidden Magic by Spiteful_Fox, with the GTNH team's 1.7.10 updates. Thaumaturge by Leclowndu93150 and contributors. Most textures are the original's, remastered or redrawn, and some are based on Thaumaturge's art, used with permission.
+Made by Oculifelis. Original Forbidden Magic by Spiteful_Fox, with the GTNH team's 1.7.10 updates. Thaumaturge by Leclowndu93150 and contributors. Most textures are the original's, remastered or redrawn, and some are based on Thaumaturge's art.
 
 The licence is WTFPL, the same as the original.
