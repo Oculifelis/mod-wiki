@@ -24,7 +24,7 @@ Mariculture 0.7.0.2 comes in three editions with the same content. What differs 
 
 **0.7.0.1**: machine menus, the Compendium and fishing rods.
 
-- Wooden and Titanium fishing rods have recipes.
+- Wooden and Titanium fishing rods can be crafted.
 - Machine menus have colored slot borders, faint item hints and tooltips. Shift-click puts items in the slot made for them.
 - The Compendium has a page on how Mariculture differs from the original. It shows in the creative tab and is given once on first join.
 - Keybinds are in their own Controls category.
