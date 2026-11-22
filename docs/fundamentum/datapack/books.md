@@ -143,6 +143,27 @@ container look. A bad colour shows as magenta, and the log names the field.
 
 Colours are `#RRGGBB` or `#AARRGGBB`.
 
+### Installing a theme
+
+A theme is one `.json` file. Put it in `config/fundamentum/guide_themes/` inside the game folder (make the folder if
+it is missing), then reload resources with F3+T or restart the game. The theme shows in the picker under its `name`, or
+under the file name when it has none. A resource pack carries themes at `assets/<ns>/fundamentum/guide_themes/`, and a
+pack theme with the same id as a built-in one replaces it.
+
+### Making a theme
+
+The quickest start is a copy of a built-in theme from the Fundamentum jar, at
+`assets/fundamentum/fundamentum/guide_themes/`. Copy one into the theme folder, rename the file, then change its `name`
+and colours. Anything a theme leaves out comes from the vanilla container look, so a single line is a whole theme:
+
+```json
+{"name": "Plum", "style": "flat", "colors": {"fill": "#3A2040"}}
+```
+
+A `textured` theme needs `texture.background`, a block texture such as
+`minecraft:textures/block/deepslate_tiles.png`. The `rainbow`, `beads`, `ribbon` and `gradient` extras stack on any
+style.
+
 ## Bestiary
 
 The bestiary is one shared book, `fundamentum:bestiary`, with a stat sheet page for every mob of each mod that turns it
