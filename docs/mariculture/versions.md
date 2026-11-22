@@ -1,6 +1,6 @@
 # Versions
 
-Mariculture 0.7.0 comes in three editions with the same content. What differs is which other mods each can work with.
+Mariculture 0.7.0.2 comes in three editions with the same content. What differs is which other mods each can work with.
 
 | Minecraft | Loader | Patchouli | CraftTweaker | KubeJS | Datapack tweaks |
 |---|---|---|---|---|---|
@@ -19,6 +19,17 @@ Mariculture 0.7.0 comes in three editions with the same content. What differs is
 | Thaumaturge aspects | no | no | yes |
 
 ## Changes
+
+**0.7.0.2**: Fundamentum 1.37.0 or newer is required.
+
+**0.7.0.1**: machine menus, the Compendium and fishing rods.
+
+- Wooden and Titanium fishing rods have recipes.
+- Machine menus have colored slot borders, faint item hints and tooltips. Shift-click puts items in the slot made for them.
+- The Compendium has a page on how Mariculture differs from the original. It shows in the creative tab and is given once on first join.
+- Keybinds are in their own Controls category.
+- Fixed the bobber never dipping on Mariculture rods and rod catches sinking in water.
+- Fixed the Metal Fish page in the Compendium, DNA machines losing progress without power or when a new battery goes in, water flowing into machines, and rods from other mods showing up when that mod is missing.
 
 **0.7.0**: Alex's Caves fish, Metallurgy: Recast metals and metal fish, and species files.
 

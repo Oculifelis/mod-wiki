@@ -18,7 +18,7 @@ There's also **[Orbis Novus Lite](lite.md)**, six terrain world types as a plain
 
 ## Versions
 
-These pages cover the **1.1.0** release of both mods on the four targets below. [Terrain on CurseForge](https://www.curseforge.com/projects/1786843) and [Dungeons on CurseForge](https://www.curseforge.com/projects/1786849).
+These pages cover Terrain 1.1.0 and Dungeons 1.1.1 on the targets below. Dungeons 1.1.1 also has a Forge 1.20.1 version. [Terrain on CurseForge](https://www.curseforge.com/projects/1786843) and [Dungeons on CurseForge](https://www.curseforge.com/projects/1786849).
 
 | Minecraft | Loader |
 |---|---|
@@ -37,6 +37,10 @@ stones, sea stacks, hot springs, waterfalls). The 1.21.1 build doesn't have them
 
 By **Oculifelis**. Code and data under the MIT licence. Every structure, piece, loot table and terrain setting was
 made with Oculifelis's Worldforge tool; the mods contain no textures, models or sounds.
+
+## Added in Dungeons 1.1.1
+
+Citadel keeps and town houses have furnishings that leave doors, ladders and stairs clear, and desert citadels have potted cacti and more decorated pots. Desert domed houses have a smooth round dome, the heavy stone course along the bottom of house walls is gone, and the Inverted Spire's tip is a slim needle over a stepped base. Alien Temples generate in crimson and warped forests of Orbis Novus terrain worlds. The Forge 1.20.1 version leaves out the six deep dungeons and the Clockwork Labyrinth.
 
 ## Added in 1.1.0
 
