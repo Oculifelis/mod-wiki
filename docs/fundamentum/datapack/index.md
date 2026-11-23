@@ -20,10 +20,14 @@ where `<namespace>` is any namespace (usually the pack's or mod's own), and load
 | `fundamentum/dodge_gear/` | [dodge gear](dodge.md#dodge-gear) | `item` |
 | `fundamentum/item_weights/`, `fundamentum/weight_rules/` | [weight](weight.md) | file id |
 | `fundamentum/boss_bags/` | [boss bags](boss-bags.md) | file id |
+| `fundamentum/factions/`, `fundamentum/alignments/` | [factions and gods](factions.md) | file id |
+| `fundamentum/quests/`, `fundamentum/npcs/` | [quests and quest NPCs](quests.md) | file id |
+| `fundamentum/pantheons/`, `fundamentum/shrines/`, `fundamentum/rituals/` | [pantheons, shrines and rituals](gods.md) | file id |
 | `recipe/` | [portal crafting recipes](portal-crafting.md) | recipe id |
 
 Data maps (`data/<ns>/data_maps/...`) hold [element auras and affinities](elements.md); tags hold
-[creature types, elements, damage classes and slot items](tags.md). [Player poses](poses.md) and [guide books, book styles, guide themes and the bestiary](books.md) are resource pack files.
+[creature types, elements, damage classes and slot items](tags.md). Resource packs hold [quest screens](quests.md#quest-screens), [player poses](poses.md) and
+[guide books, book styles, guide themes and the bestiary](books.md).
 
 ## How files merge
 
@@ -33,7 +37,7 @@ it is for; without one, the file's id is used (so `data/mymod/fundamentum/wings/
 `mymod:angel_wings`).
 
 So a pack retunes something another mod ships with a file of the same key that holds only the changed fields. For
-example, Ostentum's pig saddle is `data/ostentum/fundamentum/mounts/pig.json`, and a pack can slow it further with:
+example, Ostentum's pig saddle is `data/ostentum/fundamentum/mounts/pig.json`. This file slows it further:
 
 ```json
 {"item": "ostentum:pig_saddle", "speed": 0.1}

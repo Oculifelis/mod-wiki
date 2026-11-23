@@ -41,6 +41,16 @@ These systems are in the documented Fundamentum 1.36.0 builds. They let a pack o
 | Item unification | Choose a preferred material item and use that choice in recipes, drops and inventories, with separate switches for the affected systems. |
 | Shared guides | Searchable books and chapters from resource packs, with item, recipe, multiblock, mob and picture embeds and unlock conditions. |
 
+## Factions, quests and gods
+
+From 2.0.0, on every version.
+
+| System | What a pack or addon can do |
+|---|---|
+| Factions | Give groups of mobs and villagers a reputation with each player, with ranks that set how members treat the player and what villagers charge. Acts such as kills and trades raise or lower rep. Factions can be allies or enemies, and enemy mobs fight each other. [File format](datapack/factions.md). |
+| Quests | Write quests with kill, collect, craft, trade, visit and other objectives, offered by giver mobs or quest NPCs with their own names and skins. A Quest Journal, quest screens styled by resource packs and a HUD tracker show them. [File format](datapack/quests.md). |
+| Gods | Make gods as factions whose rep is devotion. Players pray at shrines, make offerings, perform rituals and spend favour on boons such as healing, clear weather or a second life. Pantheons can limit a player to one god. [File format](datapack/gods.md). |
+
 ## World and presentation
 
 | System | What it provides |

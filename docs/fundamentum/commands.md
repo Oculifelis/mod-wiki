@@ -19,8 +19,12 @@ All under `/fundamentum`, for operators (level 2), except `/fundamentum_sky`, wh
 | `/fundamentum element hit <targets> <damage type> <amount> [attacker]` | a test hit (resets the hurt cooldown, so several in a row all land); prints the health taken and the auras left |
 | `/fundamentum tps [dimension]` | TPS and ms per tick, per dimension with entity and chunk counts; one dimension lists its ten most common entity types |
 | `/fundamentum showcase <mod>` | builds a gallery in the sky: a lit glass case per mob from that mod (or `minecraft`) |
-| `/fundamentum showcase return` / `clear` | takes you back / removes the gallery |
-| `/fundamentum_sky preview <id>` / `off` | shows a [fractal sky](datapack/fractal-skies.md) now, on your client only |
+| `/fundamentum showcase return` / `clear` | returns the player / removes the gallery |
+| `/fundamentum_sky preview <id>` / `off` | shows a [fractal sky](datapack/fractal-skies.md) now, on that player's client only |
 
-Elements, `tps`, night events and the fractal sky command are NeoForge 26.1.2 and 1.21.1 (`tps` and night events are
-also on 26.2).
+Faction, quest and god commands, and the `/quests` and `/gods` commands for every player, are on the
+[factions](datapack/factions.md#commands), [quests](datapack/quests.md#commands) and
+[gods](datapack/gods.md#commands) pages.
+
+The element commands and the fractal sky command run on NeoForge 26.1.2 and 1.21.1. The `tps` and night event commands
+run on those two and on 26.2.

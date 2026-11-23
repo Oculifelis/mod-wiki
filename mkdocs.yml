@@ -60,6 +60,9 @@ nav:
           - Tags and slots: fundamentum/datapack/tags.md
           - Player poses: fundamentum/datapack/poses.md
           - Books and themes: fundamentum/datapack/books.md
+          - Factions: fundamentum/datapack/factions.md
+          - Quests: fundamentum/datapack/quests.md
+          - Gods: fundamentum/datapack/gods.md
       - KubeJS: fundamentum/kubejs.md
       - API: fundamentum/api.md
       - Commands: fundamentum/commands.md
