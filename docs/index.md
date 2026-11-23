@@ -12,6 +12,10 @@ Guides for the Minecraft mods by Oculifelis. Pick a mod from the tabs at the top
 | ![Mariculture logo](assets/mariculture_logo.png){ width="64" } | **[Mariculture](mariculture/index.md)** | Joshiejack's 1.7.10 sea mod, brought back. Catch and breed more than 60 kinds of fish, grow pearls for magic jewelry, dive in scuba gear and run a workshop of crucibles, vats and machines. For Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. |
 | ![Metallurgy: Recast logo](assets/metallurgy_logo.png){ width="64" } | **[Metallurgy: Recast](metallurgy/index.md)** | Metallurgy 4: Reforged on modern Minecraft, with Metallurgy Chests built in. 49 metals with their own powers: new ores, alloys, tools, armour, machines and fluids. |
 | ![Fieldframe logo](assets/fieldframe_logo.png){ width="64" } | **[Fieldframe](fieldframe/index.md)** | Build each machine from parts, a chassis with a module on every side. 77 modules, a programmable controller, no pipes or cables. With the addons [Frameworks](fieldframe-frameworks/index.md) (big multiblock machines and a fusion reactor) and [Transit](fieldframe-transit/index.md) (glass tubes to ride in). |
+| ![Atramentum logo](assets/atramentum_logo.png){ width="64" } | **[Atramentum](atramentum/index.md)** | A magic mod where the world remembers what happens in it. Copy the words blocks remember onto pages and pair them in the Codex to make spells. |
+| ![Tempestas logo](assets/tempestas_logo.png){ width="64" } | **[Tempestas](tempestas/index.md)** | Catch 24 kinds of weather in jars and let them out somewhere else. With a Storm Glass forecast, a Weather Condenser and four weather charms. |
+| ![Lacuna logo](assets/lacuna_logo.png){ width="64" } | **[Lacuna](lacuna/index.md)** | Rooms that work like machines. The shape of a room decides whether it stores drops, lifts players, repeats redstone or slows arrows. |
+| | **[Procella](procella/index.md)** | Storm fronts that move across the world, rain curtains on the horizon and auroras over cold biomes. |
 
 ## Thaumaturge
 
