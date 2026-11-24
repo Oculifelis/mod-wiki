@@ -37,6 +37,7 @@ nav:
   - Home: index.md
   - Weekly Updates:
       - weekly/index.md
+      - 24 November 2026: weekly/2026-11-24.md
       - 23 November 2026: weekly/2026-11-23.md
   - Fundamentum:
       - fundamentum/index.md
