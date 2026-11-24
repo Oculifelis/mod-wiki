@@ -64,9 +64,9 @@ page speeds up crops. A Strike page hurts hostile mobs that come close, and a Wa
 
 ![A page pinned to a block with the Quill](img/place.jpg)
 
-## Lacuna homes
+## Lararium homes
 
-With [Lacuna](../lacuna/index.md) installed, Lacuna rooms that are lived in write words at their center. A Keeper room
+With [Lararium](../lararium/index.md) installed, Lararium rooms that are lived in write words at their center. A Keeper room
 writes Keep, a Shelter writes Ward, a Breather writes Lift and a Listener writes Echo. A room also writes Wake once,
 the first time it wakes up.
 

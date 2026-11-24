@@ -98,7 +98,7 @@ nav:
       - Fieldframe Arcana: fieldframe-arcana/index.md
   - Atramentum: atramentum/index.md
   - Tempestas: tempestas/index.md
-  - Lacuna: lacuna/index.md
+  - Lararium: lararium/index.md
   - Procella: procella/index.md
   - Thaumaturge Addons:
       - thaumaturge/index.md
@@ -123,6 +123,11 @@ nav:
       - Arcane Accretions: thaumaturge/arcaneaccretions.md
       - Electro Magic Contraptions: thaumaturge/electromagiccontraptions.md
       - Arcane Locomotion: thaumaturge/arcanelocomotion.md
+      - Sanguine Revelations: thaumaturge/crimsonrevelations.md
+      - Thaumic Augmentation: thaumaturge/thaumicaugmentation.md
+      - Thaumic Boots: thaumaturge/thaumicboots.md
+      - Thaumic Exploration: thaumaturge/thaumicexploration.md
+      - Thaumic Wonders: thaumaturge/thaumicwonders.md
       - Fieldframe Arcana: fieldframe-arcana/index.md
   - Complicated Bees:
       - bees/index.md
@@ -164,13 +169,8 @@ nav:
       - GT Spartan Modern: other/gt-spartan.md
       - Mana Prospector: other/mana-prospector.md
       - ThaumJS: other/thaumjs.md
+      - Slimy Circuits: other/slimy-circuits.md
       - Spartan x Better Combat: other/spartan-bettercombat.md
 
 exclude_docs: |
   **/old/
-
-      - Crimson Revelations: thaumaturge/crimsonrevelations.md
-      - Thaumic Augmentation: thaumaturge/thaumicaugmentation.md
-      - Thaumic Boots: thaumaturge/thaumicboots.md
-      - Thaumic Exploration: thaumaturge/thaumicexploration.md
-      - Thaumic Wonders: thaumaturge/thaumicwonders.md

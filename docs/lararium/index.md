@@ -1,15 +1,15 @@
-# Lacuna
+# Lararium
 
-![Lacuna logo](../assets/lacuna_logo.png){ width="140" align=right }
+![Lararium logo](../assets/lararium_logo.png){ width="140" align=right }
 
-Lacuna adds rooms that work like machines. A small room catches and stores every item thrown into it. A tall shaft
+Lararium adds rooms that work like machines. A small room catches and stores every item thrown into it. A tall shaft
 lifts players up like an elevator. A hallway looped around a pillar is a redstone clock, and a long, low hall is a
 safe room where arrows slow to a crawl.
 
 **Requires** [Fundamentum](../fundamentum/index.md), [Ostentum](../ostentum/index.md) and
 [Curios](https://www.curseforge.com/projects/309927). [Jade](https://www.curseforge.com/projects/324717) is optional.
 
-| Minecraft | Loader | Lacuna | Fundamentum | Ostentum |
+| Minecraft | Loader | Lararium | Fundamentum | Ostentum |
 |---|---|---|---|---|
 | 26.1.2 | NeoForge | 0.2.0 | 2.0.0 or newer | 1.9.10 or newer |
 
@@ -19,7 +19,7 @@ Each room runs on a Hollow Heart, a block that sits on the room's floor. The sha
 so it can be built from any blocks and fit any base. A Tuning Fork shows where the walls have gaps, and amethyst
 shards keep the heart running.
 
-![Lacuna items](img/items.png)
+![Lararium items](img/items.png)
 
 ## Getting started
 
@@ -80,19 +80,19 @@ minute, so a full one tops up an empty one.
 | Mod | What it does |
 |---|---|
 | [Jade](https://www.curseforge.com/projects/324717) | Shows the owner how much fuel a heart has and how full its storage is. |
-| [Atramentum](../atramentum/index.md) | Lived-in rooms write words at their heart. See [Lacuna homes](../atramentum/index.md#lacuna-homes). |
+| [Atramentum](../atramentum/index.md) | Lived-in rooms write words at their heart. See [Lararium homes](../atramentum/index.md#lararium-homes). |
 
 ## For pack makers
 
 Everything above is datapack JSON, including what shape each room needs and what it does. Packs can change every
-number without code. The tables live under `data/<namespace>/lacuna/`.
+number without code. The tables live under `data/<namespace>/lararium/`.
 
 | Path | What it sets |
 |---|---|
 | `rules/` | The heart's fuel capacity, fuel per amethyst shard, room size limits, the shape each room needs, the elevator speed, how much the Shelter slows projectiles, and the Draft Brooch's fall distance, uses and cooldown. |
 | `weaving/` | More things a heart can spin, with the input, output, time and fuel cost of each. |
-| `data/lacuna/fundamentum/hooks/bobbin.json` | The Bobbin Hook's reach, hook count and look. |
-| `data/lacuna/fundamentum/unlocks/` | The five unlocks, one for each room plus the House Bell. |
-| `lacuna:ward_immune` entity tag | Projectiles the Shelter never slows. |
+| `data/lararium/fundamentum/hooks/bobbin.json` | The Bobbin Hook's reach, hook count and look. |
+| `data/lararium/fundamentum/unlocks/` | The five unlocks, one for each room plus the House Bell. |
+| `lararium:ward_immune` entity tag | Projectiles the Shelter never slows. |
 
-Lacuna is licensed under LGPL-3.0.
+Lararium is licensed under LGPL-3.0.
