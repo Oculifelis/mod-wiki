@@ -35,6 +35,9 @@ markdown_extensions:
   - pymdownx.details
 nav:
   - Home: index.md
+  - Weekly Updates:
+      - weekly/index.md
+      - 23 November 2026: weekly/2026-11-23.md
   - Fundamentum:
       - fundamentum/index.md
       - Versions: fundamentum/versions.md
