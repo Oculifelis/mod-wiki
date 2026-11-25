@@ -59,6 +59,22 @@ happens.
 Reaching a rank grants the unlock `<ns>:rank/<faction>/<rank>` and gives its rewards once. Joining grants
 `<ns>:member/<faction>`.
 
+## One faction from several packs
+
+Several mods and datapacks can ship a file with the same faction id. The copies are combined the way tags are:
+
+- `members` and `professions` from every copy are added together.
+- `relations` and `actions` combine entry by entry, and a higher pack wins an entry both set.
+- `ranks` combine by rank `id`, and a higher pack's rank replaces a lower one with the same id.
+- `drift` and `membership` combine field by field. Every other field comes from the highest pack that sets it.
+- A copy with `"replace": true` drops every copy below it.
+
+A mod that wants its mobs in another mod's faction ships a file that lists only `members`:
+
+```json
+{"members": ["mymod:ghoul", "#mymod:restless"]}
+```
+
 ## Rewards
 
 Ranks, [quests](quests.md) and [boons](gods.md) share one rewards shape:
@@ -94,3 +110,23 @@ For operators:
 | `/fundamentum faction join <player> <faction>` | adds a membership |
 | `/fundamentum faction leave <player> <faction>` | removes one |
 | `/fundamentum faction align <player> <axis> [set <n>]` | reads or sets an alignment |
+
+## Known factions
+
+Factions shipped by mods. Packs can add members to any of them by id.
+
+| Faction | Mod |
+|---|---|
+| `arsmoriendi:dying_god` | Ars Moriendi |
+| `arsmoriendi:host` | Ars Moriendi |
+| `arsmoriendi:tempters` | Ars Moriendi |
+| `arsmoriendi:undead` | Ars Moriendi |
+| `ultimaratio:arcanum` | Ultima Ratio |
+| `ultimaratio:celestine` | Ultima Ratio |
+| `ultimaratio:emberhell` | Ultima Ratio |
+| `ultimaratio:fluix` | Ultima Ratio |
+| `ultimaratio:narian_fleet` | Ultima Ratio |
+| `ultimaratio:raidbanner` | Ultima Ratio |
+| `ultimaratio:voidmaw` | Ultima Ratio |
+| `ultimaratio:voltforge` | Ultima Ratio |
+| `ultimaratio:wildwood` | Ultima Ratio |
