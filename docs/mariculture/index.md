@@ -13,7 +13,7 @@ Everything is explained in the Mariculture Compendium, the in-game book.
 **Requires** [Fundamentum](https://www.curseforge.com/projects/1765941), [Curios](https://www.curseforge.com/projects/309927) and [Patchouli](https://www.curseforge.com/projects/306770). Optional: [JEI](https://www.curseforge.com/projects/238222) (every machine recipe, fishing loot and jewelry), [Jade](https://www.curseforge.com/projects/324717), [KubeJS](https://www.curseforge.com/projects/238086), [CraftTweaker](https://www.curseforge.com/projects/239197),
 and the mods listed under [For pack makers](packs.md#other-mods).
 
-The current version is 0.7.0.2, for Forge 1.20.1, NeoForge 1.21.1 and NeoForge 26.1.2. See [Versions](versions.md) for what
+The current version is 0.8.0, for Forge 1.20.1 and NeoForge 1.21.1, 26.1.2, 26.2 and 26.3. See [Versions](versions.md) for what
 differs on each.
 
 ## What's in it

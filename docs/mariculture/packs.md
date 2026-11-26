@@ -111,7 +111,7 @@ Each of these can be turned off under `plugins` in the [config](config.md#plugin
 | Blood Magic (1.20.1) / Neo Vitae (1.21.1, 26.1.2) | the bound fishing rod, its bait and loot, and blood-shard mass fishing |
 | Alex's Caves, Upgrade Aquatic, Starcatcher, Tide | their fish are in the `mariculture:foreign_fish` tag and make fish meal and sushi; Starcatcher and Tide list Mariculture fish; Upgrade Aquatic kelps go in kelp wraps and Alex's Caves pearls count as pearls |
 | Redstone Arsenal | its flux-infused fishing rod catches Mariculture fish and loot; flux dust is bait |
-| Thaumaturge (26.1.2) | aspects on Mariculture's items |
+| Thaumaturge (1.21.1, 26.1.2) | aspects on every item and block; six magic fish bred in Brine of Order; the Aquamancy research tab; recipes for Mariculture's machines |
 
 Packs can also edit `mariculture/biome_environment` (salinity and temperature per biome, so modded oceans and beaches count) and `mariculture/rod_tiers` (the tier at which another mod's rod fishes Mariculture's catch).
 

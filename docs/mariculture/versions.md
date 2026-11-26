@@ -1,12 +1,16 @@
 # Versions
 
-Mariculture 0.7.0.2 comes in three editions with the same content. What differs is which other mods each can work with.
+Mariculture 0.8.0 comes in five editions with the same content. What differs is which other mods each can work with.
 
 | Minecraft | Loader | Patchouli | CraftTweaker | KubeJS | Datapack tweaks |
 |---|---|---|---|---|---|
 | 1.20.1 | Forge 47.4 | yes | yes | yes | yes |
 | 1.21.1 | NeoForge 21.1 | yes | yes | yes | yes |
 | 26.1.2 | NeoForge 26.1.2 | yes | no (no CraftTweaker for 26.1) | yes | yes |
+| 26.2 | NeoForge 26.2 | optional | no | no | yes |
+| 26.3 | NeoForge 26.3 | optional | no | no | yes |
+
+On 26.2 and 26.3 Patchouli is optional. The Compendium needs it installed.
 
 ## Other mods by edition
 
@@ -16,9 +20,19 @@ Mariculture 0.7.0.2 comes in three editions with the same content. What differs 
 | Blood Magic / Neo Vitae | Blood Magic 3 | Neo Vitae | Neo Vitae |
 | Forestry | Forestry Community Edition 2.x | Forestry Community Edition 3.0 | none |
 | Bee bait | Forestry and Complicated Bees 3.4 | Forestry and Complicated Bees 3.6 | Complicated Bees |
-| Thaumaturge aspects | no | no | yes |
+| Thaumaturge content | no | yes | yes |
 
 ## Changes
+
+**0.8.0**: Thaumaturge compat and Minecraft 26.2 and 26.3.
+
+- With Thaumaturge on 1.21.1 or 26.1.2, every Mariculture item and block has aspects.
+- Six magic fish breed in a tank of Brine of Order. Breeding them needs the tank owner's research.
+- Molten thaumium, molten void and Brine of Order are new fluids, with crucible and infusion recipes.
+- The Aquamancy research tab adds the warded diving set and the revealing scuba mask.
+- Auramfin puts vis into the aura and Flux Lamprey eats flux.
+- The vat, sifter, crucible furnace, casters and fish feeder have Thaumaturge recipes.
+- The copper ingot to copper nugget recipe is gone on 26.1.2 and newer, where vanilla has its own.
 
 **0.7.0.2**: Fundamentum 1.37.0 or newer is required.
 
@@ -49,7 +63,8 @@ Mariculture 0.7.0.2 comes in three editions with the same content. What differs 
 - Mariculture fish show up in Starcatcher's pools and guide.
 - On 1.20.1 and 1.21.1, Mariculture fish bite on Tide rods and fill pages in Tide's journal. Mariculture rods keep Mariculture fishing.
 - The Stardew Fishing minigame plays for the Mariculture fish on the hook.
-- Upgrade Aquatic kelps work in kelp wraps, and Alex's Caves pearls count as pearls.
+- Upgrade Aquatic kelps work in kelp wraps.
+- Alex's Caves pearls count as pearls.
 - Fixed a crash when reeling in a Tide rod with Mariculture installed.
 
 **0.4.1**: the first public release, with all 340 textures redrawn.
